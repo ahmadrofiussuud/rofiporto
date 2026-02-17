@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# MARS Portfolio
+
+A modern, editorial-style portfolio built with Next.js 14+ (App Router), Tailwind CSS, and MDX.
 
 ## Getting Started
 
-First, run the development server:
+1.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+2.  **Run development server:**
+    ```bash
+    npm run dev
+    ```
+    Open [http://localhost:3000](http://localhost:3000).
+
+3.  **Build for production:**
+    ```bash
+    npm run build
+    ```
+
+## Content Management
+
+### 1. Adding a Project / Competition
+Create a `.mdx` file in `content/projects/`.
+
+**Template (Web Project):**
+```yaml
+---
+title: "Project Name"
+date: "2025-12-01"
+tags: ["React", "Next.js"]
+role: "Lead Developer"
+stack: ["Next.js", "Supabase"]
+summary: "Short description for the card."
+heroImage: "https://..."
+demoUrl: "https://..."
+repoUrl: "https://..."
+type: "project"
+---
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Template (Competition):**
+```yaml
+---
+title: "Competition Name"
+date: "2025-08-15"
+tags: ["Business Plan"]
+role: "Team Lead"
+deliverables: ["Pitch Deck", "Prototype"]
+summary: "Short description."
+type: "competition"
+result: "1st Place"
+---
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 2. Adding a Journey Milestone
+Create a `.mdx` file in `content/journey/`.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```yaml
+---
+title: "Milestone Title"
+year: "2024"
+description: "Description of the event."
+icon: "Trophy" # Matches Lucide icon name
+color: "bg-blue-500"
+relatedProjects: ["project-slug-1"] # Optional linkage
+---
+```
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Tech Stack
+-   **Framework:** Next.js 14 (App Router)
+-   **Styling:** Tailwind CSS + `lucide-react` icons
+-   **Content:** MDX (via `next-mdx-remote`)
+-   **Typography:** Geist Sans / Mono
