@@ -27,10 +27,11 @@ export interface ProjectMetadata extends BaseMetadata {
 
 export interface JourneyMetadata extends BaseMetadata {
     year: string;
-    category: "kerja" | "lomba" | "organisasi" | "skill" | "hobi";
+    category?: "kerja" | "lomba" | "organisasi" | "skill" | "hobi";
     icon?: string; // Icon name from lucide-react
     color?: string; // Tailwind color class
     relatedProjects?: string[];
+    order?: number;
 }
 
 // Generic function to get all slugs for a collection
@@ -90,10 +91,7 @@ export function getProjectBySlug(slug: string) {
 // Specific Helpers for Journey
 export function getAllJourneyItems() {
     const items = getAllItems<JourneyMetadata>("journey");
-    // Journey usually sorted by year/time descending. 
-    // Since year might be "2025 (Semester 2)", string sort might work roughly, but index based or frontmatter date is better.
-    // For now, let's trust the alphabetical or maybe add a 'order' field later.
-    return items.reverse(); // Assuming alphabetical usually puts older years first? Or maybe not. Let's fix this later.
+    return items.sort((a, b) => a.slug.localeCompare(b.slug));
 }
 
 export function getProjectsBySlugs(slugs: string[] = []) {

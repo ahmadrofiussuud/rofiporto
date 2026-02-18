@@ -1,5 +1,5 @@
 import { getAllJourneyItems, getProjectsBySlugs } from "@/lib/content";
-import { Calendar, MapPin, Briefcase, GraduationCap, Star, Trophy, LucideIcon } from "lucide-react";
+import { Calendar, MapPin, Briefcase, GraduationCap, Star, Trophy, School, AlertTriangle, Users, LucideIcon } from "lucide-react";
 import { ProjectCard } from "@/components/ui/project-card";
 import { Badge } from "@/components/ui/badge";
 
@@ -10,6 +10,9 @@ const ICON_MAP: Record<string, LucideIcon> = {
     Trophy,
     MapPin,
     Calendar,
+    School,
+    AlertTriangle,
+    Users,
 };
 
 export const metadata = {
@@ -23,7 +26,7 @@ export default function JourneyPage() {
     return (
         <div className="container mx-auto px-4 pt-24 pb-12 lg:pt-40 md:pb-24 max-w-4xl">
             <div className="text-center mb-16 space-y-4">
-                <h1 className="text-4xl md:text-5xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600">
+                <h1 className="text-4xl md:text-5xl font-bold tracking-tight">
                     Perjalanan Saya
                 </h1>
                 <p className="text-muted-foreground text-lg max-w-2xl mx-auto">

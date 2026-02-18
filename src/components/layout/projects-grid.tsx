@@ -56,7 +56,7 @@ export function ProjectsGrid({ projects }: ProjectsGridProps) {
                             className={cn(
                                 "px-6 py-2 rounded-xl text-sm font-semibold transition-all duration-300",
                                 selectedCategory === cat.id
-                                    ? "bg-background text-foreground shadow-md"
+                                    ? "bg-primary text-primary-foreground shadow-md"
                                     : "text-muted-foreground hover:text-foreground"
                             )}
                         >
