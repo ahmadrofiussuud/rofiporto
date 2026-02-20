@@ -60,7 +60,7 @@ const SOCIAL_LINKS = [
     },
 ];
 
-const PROFILE_IMAGE = "/images/profile/profile.png";
+const PROFILE_IMAGE = "/images/profile/mars-profile.png";
 
 export function HeroProfile() {
     return (

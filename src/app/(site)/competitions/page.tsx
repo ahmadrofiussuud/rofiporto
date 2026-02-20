@@ -80,6 +80,14 @@ const COMPETITIONS = [
                 image: "/images/competitions/sertif manex.jpg"
             },
             {
+                title: "Bronze Medal - 2nd International Student Summit",
+                result: "Bronze Medal",
+                award: "bronze",
+                description: "Recognized for excellence in international student research and innovation.",
+                date: "Feb 2026",
+                image: "/images/competitions/Bronze Medal 2nd ISS.png"
+            },
+            {
                 title: "The Most Marketable - INDIGO Bandung 2025",
                 result: "Recognition",
                 award: "gold",
