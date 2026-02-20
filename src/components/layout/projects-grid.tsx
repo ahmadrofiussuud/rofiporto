@@ -7,6 +7,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { X } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { motion, AnimatePresence } from "framer-motion";
 
 interface ProjectsGridProps {
     projects: {
@@ -54,13 +55,20 @@ export function ProjectsGrid({ projects }: ProjectsGridProps) {
                                 setSelectedCategory(cat.id);
                             }}
                             className={cn(
-                                "px-6 py-2 rounded-xl text-sm font-semibold transition-all duration-300",
+                                "relative px-6 py-2 rounded-xl text-sm font-semibold transition-all duration-300 isolate",
                                 selectedCategory === cat.id
-                                    ? "bg-primary text-primary-foreground shadow-md"
+                                    ? "text-white"
                                     : "text-muted-foreground hover:text-foreground"
                             )}
                         >
-                            {cat.name}
+                            {selectedCategory === cat.id && (
+                                <motion.div
+                                    layoutId="active-category"
+                                    className="absolute inset-0 bg-gradient-to-r from-blue-600 to-cyan-500 dark:from-blue-500 dark:to-cyan-400 rounded-xl -z-10 shadow-[0_0_20px_rgba(59,130,246,0.3)]"
+                                    transition={{ type: "spring", bounce: 0.25, duration: 0.5 }}
+                                />
+                            )}
+                            <span className="relative z-10">{cat.name}</span>
                         </button>
                     ))}
                 </div>

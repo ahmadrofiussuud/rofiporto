@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Download, Mail } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata = {
     title: "Tentang | MARS",
@@ -13,8 +14,14 @@ export default function AboutPage() {
             <div className="flex flex-col md:flex-row gap-8 md:gap-16 items-start">
                 {/* Profile Image / Avatar Placeholder */}
                 <div className="w-full md:w-1/3 flex-shrink-0">
-                    <div className="aspect-square bg-muted rounded-2xl overflow-hidden flex items-center justify-center text-muted-foreground border border-border">
-                        <span className="text-4xl font-bold">MARS</span>
+                    <div className="aspect-square bg-muted rounded-2xl overflow-hidden relative border border-border">
+                        <Image
+                            src="/images/profile/profile.png"
+                            alt="MARS"
+                            fill
+                            className="object-cover"
+                            priority
+                        />
                     </div>
                     <div className="mt-6 flex flex-col gap-4">
                         <Button className="w-full" asChild>
