@@ -4,7 +4,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 
-const HERO_IMAGE = "/images/hero/hero.jpg";
+const HERO_IMAGE = "/images/hero.jpg";
 
 export function Hero() {
     return (

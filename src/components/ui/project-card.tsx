@@ -27,7 +27,8 @@ export function ProjectCard({ project }: ProjectCardProps) {
                         alt={meta.title}
                         fill
                         className="object-cover grayscale-[0.2] group-hover:grayscale-0 transition-all duration-700"
-                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 60vw, 40vw"
+                        quality={100}
                     />
                 ) : (
                     <div className="absolute inset-0 flex items-center justify-center">
