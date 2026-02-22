@@ -8,6 +8,10 @@ import { Menu, X, Sun, Moon } from "lucide-react";
 import { useTheme } from "next-themes";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
+import { useRef } from "react";
+import { useGSAP } from "@gsap/react";
+import { gsap } from "gsap";
+import "./navbar-animations.css";
 
 const NAV_ITEMS = [
     { name: "Home", href: "/" },
@@ -24,6 +28,13 @@ export function Navbar() {
     const { theme, setTheme, resolvedTheme } = useTheme();
     const [mounted, setMounted] = useState(false);
 
+    // GSAP Refs
+    const itemsRef = useRef<(HTMLAnchorElement | null)[]>([]);
+    const circleRefs = useRef<(HTMLSpanElement | null)[]>([]);
+    const tlRefs = useRef<(gsap.core.Timeline | null)[]>([]);
+    const activeTweenRefs = useRef<(gsap.core.Tween | null)[]>([]);
+    const containerRef = useRef<HTMLDivElement>(null);
+
     // Handle scroll detection
     useEffect(() => {
         const handleScroll = () => {
@@ -38,11 +49,109 @@ export function Navbar() {
         setMounted(true);
     }, []);
 
+    // Initialize GSAP Animations
+    useGSAP(() => {
+        const layout = () => {
+            circleRefs.current.forEach((circle, index) => {
+                if (!circle || !itemsRef.current[index]) return;
+
+                const pill = itemsRef.current[index]!;
+                const rect = pill.getBoundingClientRect();
+                const { width: w, height: h } = rect;
+
+                // Geometry from user-provided reference
+                const R = ((w * w) / 4 + h * h) / (2 * h);
+                const D = Math.ceil(2 * R) + 2;
+                const delta = Math.ceil(R - Math.sqrt(Math.max(0, R * R - (w * w) / 4))) + 1;
+                const originY = D - delta;
+
+                circle.style.width = `${D}px`;
+                circle.style.height = `${D}px`;
+                circle.style.bottom = `-${delta}px`;
+
+                gsap.set(circle, {
+                    xPercent: -50,
+                    scale: 0,
+                    transformOrigin: `50% ${originY}px`
+                });
+
+                const label = pill.querySelector('.pill-label');
+                const hoverLabel = pill.querySelector('.pill-label-hover');
+
+                if (label) gsap.set(label, { y: 0 });
+                if (hoverLabel) gsap.set(hoverLabel, { y: h + 12, opacity: 0 });
+
+                tlRefs.current[index]?.kill();
+                const tl = gsap.timeline({ paused: true });
+
+                tl.to(circle, {
+                    scale: 1.25,
+                    xPercent: -50,
+                    duration: 0.4, // Sped up from 0.8s
+                    ease: "power2.out",
+                    force3D: true
+                }, 0);
+
+                if (label) {
+                    tl.to(label, {
+                        y: -(h + 10),
+                        duration: 0.4, // Sped up from 0.8s
+                        ease: "power2.out",
+                        force3D: true
+                    }, 0);
+                }
+
+                if (hoverLabel) {
+                    gsap.set(hoverLabel, { y: Math.ceil(h + 20), opacity: 0 });
+                    tl.to(hoverLabel, {
+                        y: 0,
+                        opacity: 1,
+                        duration: 0.4, // Sped up from 0.8s
+                        ease: "power2.out",
+                        force3D: true
+                    }, 0);
+                }
+
+                tlRefs.current[index] = tl;
+
+                // Automatically trigger for active item
+                if (NAV_ITEMS[index].href === pathname) {
+                    tl.play();
+                }
+            });
+        };
+
+        layout();
+        window.addEventListener('resize', layout);
+        return () => window.removeEventListener('resize', layout);
+    }, { scope: containerRef, dependencies: [mounted, pathname] });
+
+    const handleEnter = (i: number) => {
+        const tl = tlRefs.current[i];
+        if (!tl || NAV_ITEMS[i].href === pathname) return;
+        activeTweenRefs.current[i]?.kill();
+        activeTweenRefs.current[i] = tl.tweenTo(tl.duration(), {
+            duration: 0.3, // Sped up from 0.5s
+            ease: "power2.out",
+            overwrite: 'auto'
+        });
+    };
+
+    const handleLeave = (i: number) => {
+        const tl = tlRefs.current[i];
+        if (!tl || NAV_ITEMS[i].href === pathname) return;
+        activeTweenRefs.current[i]?.kill();
+        activeTweenRefs.current[i] = tl.tweenTo(0, {
+            duration: 0.3, // Sped up from 0.4s
+            ease: "power2.inOut",
+            overwrite: 'auto'
+        });
+    };
+
     const toggleTheme = () => {
         setTheme(resolvedTheme === "dark" ? "light" : "dark");
     };
 
-    // Determine if we should force a dark background/light text (e.g., when on Home page hero)
     const isTranslucentHeader = pathname === "/" && !isScrolled;
 
     return (
@@ -54,78 +163,84 @@ export function Navbar() {
         >
             <nav
                 className={cn(
-                    "w-full max-w-5xl transition-all duration-300 ease-in-out px-6 py-2.5 rounded-2xl border relative overflow-hidden",
-                    isScrolled
-                        ? "bg-background/95 dark:bg-black/90 backdrop-blur-2xl border-border shadow-2xl"
-                        : isTranslucentHeader
-                            ? "bg-black/20 backdrop-blur-md border-white/10 shadow-none"
-                            : "bg-background/40 dark:bg-black/40 backdrop-blur-xl border-border/30 shadow-md"
+                    "w-full max-w-5xl mx-auto px-6 border transition-all duration-300 rounded-2xl",
+                    isTranslucentHeader
+                        ? "bg-transparent border-transparent shadow-none"
+                        : resolvedTheme === 'dark'
+                            ? "bg-neutral-900/65 backdrop-blur-xl border-white/[0.08] shadow-none"
+                            : "bg-white/70 backdrop-blur-xl border-gray-200/80 shadow-sm"
                 )}
             >
-                {/* Desktop Grid Layout */}
-                <div className="hidden md:grid grid-cols-[1fr_auto_1fr] items-center">
+                <div className="flex items-center justify-between h-14">
                     {/* Left: Logo */}
-                    <div className="justify-self-start">
+                    <div className="flex-shrink-0">
                         <Link
                             href="/"
                             className={cn(
-                                "text-xl font-extrabold tracking-tighter transition-colors duration-300",
-                                isTranslucentHeader ? "text-white hover:text-white/80" : "text-foreground hover:text-primary"
+                                "text-xl font-extrabold tracking-tighter transition-all duration-300",
+                                isTranslucentHeader
+                                    ? resolvedTheme === 'dark' ? "text-white" : "text-black"
+                                    : resolvedTheme === 'dark' ? "text-white" : "text-gray-900"
                             )}
                         >
                             MARS
                         </Link>
                     </div>
 
-                    {/* Middle: Nav Links */}
-                    <div className="justify-self-center">
-                        <div className="flex items-center gap-8">
-                            {NAV_ITEMS.map((item) => {
-                                const isActive = pathname === item.href;
-                                return (
-                                    <Link
-                                        key={item.href}
-                                        href={item.href}
+                    {/* Middle: Desktop Nav Links */}
+                    <div ref={containerRef} className="hidden md:flex items-center gap-8 h-full py-2.5">
+                        {NAV_ITEMS.map((item, index) => {
+                            const isActive = pathname === item.href;
+                            return (
+                                <Link
+                                    key={item.href}
+                                    href={item.href}
+                                    ref={(el) => { itemsRef.current[index] = el; }}
+                                    onMouseEnter={() => handleEnter(index)}
+                                    onMouseLeave={() => handleLeave(index)}
+                                    className={cn(
+                                        "pill group relative h-9 rounded-xl transition-all duration-300 text-sm",
+                                        isTranslucentHeader
+                                            ? resolvedTheme === 'dark' ? "text-white/80" : "text-black/70"
+                                            : resolvedTheme === 'dark' ? "text-gray-200" : "text-gray-700"
+                                    )}
+                                >
+                                    <span
                                         className={cn(
-                                            "relative text-sm font-semibold transition-colors py-1 group",
-                                            isActive
-                                                ? isTranslucentHeader ? "text-white" : "text-foreground"
-                                                : isTranslucentHeader ? "text-white/60 hover:text-white" : "text-muted-foreground hover:text-foreground"
+                                            "hover-circle",
+                                            resolvedTheme === 'dark' ? 'bg-white' : 'bg-black'
                                         )}
-                                    >
-                                        {item.name}
-                                        {isActive && (
-                                            <motion.div
-                                                layoutId="nav-active"
-                                                className={cn(
-                                                    "absolute -bottom-1 left-0 right-0 h-0.5 rounded-full",
-                                                    isTranslucentHeader ? "bg-white" : "bg-primary"
-                                                )}
-                                                transition={{ type: "spring", stiffness: 380, damping: 30 }}
-                                            />
-                                        )}
-                                        {!isActive && (
-                                            <span className={cn(
-                                                "absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 group-hover:w-full rounded-full",
-                                                isTranslucentHeader ? "bg-white/50" : "bg-primary/50"
-                                            )} />
-                                        )}
-                                    </Link>
-                                );
-                            })}
-                        </div>
+                                        ref={(el) => { circleRefs.current[index] = el; }}
+                                    />
+                                    <span className="label-stack relative z-10">
+                                        <span className="pill-label">{item.name}</span>
+                                        <span
+                                            className={cn(
+                                                "pill-label-hover",
+                                                resolvedTheme === 'dark' ? 'text-black' : 'text-white'
+                                            )}
+                                        >
+                                            {item.name}
+                                        </span>
+                                    </span>
+                                </Link>
+                            );
+                        })}
                     </div>
 
                     {/* Right: Actions */}
-                    <div className="justify-self-end flex items-center gap-3">
-                        {/* Theme Toggle */}
+                    <div className="flex items-center gap-3">
                         <button
                             onClick={toggleTheme}
                             className={cn(
-                                "p-2 rounded-xl border transition-all duration-200",
+                                "p-2 rounded-xl border transition-all duration-300 flex items-center justify-center",
                                 isTranslucentHeader
-                                    ? "border-white/20 bg-white/10 hover:bg-white/20 text-white"
-                                    : "border-border/40 bg-background/50 hover:bg-accent"
+                                    ? resolvedTheme === 'dark'
+                                        ? "border-white/20 text-white/70 hover:bg-white/10"
+                                        : "border-black/15 text-black/70 hover:bg-black/5"
+                                    : resolvedTheme === 'dark'
+                                        ? "border-white/10 text-gray-300 hover:bg-white/10"
+                                        : "border-gray-200 text-gray-500 hover:bg-gray-100"
                             )}
                             aria-label="Toggle theme"
                         >
@@ -135,57 +250,35 @@ export function Navbar() {
                             )}
                         </button>
 
-                        {/* Contact Button */}
                         <Button
                             asChild
-                            variant={isTranslucentHeader ? "secondary" : "outline"}
+                            variant="outline"
+                            size="sm"
                             className={cn(
-                                "rounded-full px-6 transition-all duration-300",
+                                "hidden md:flex rounded-full px-6 transition-all duration-300 text-sm",
                                 isTranslucentHeader
-                                    ? "bg-white text-black hover:bg-gray-200 border-none"
-                                    : "border-primary/20 hover:bg-primary/5"
+                                    ? resolvedTheme === 'dark'
+                                        ? "bg-white text-black hover:bg-gray-100 border-none"
+                                        : "bg-black text-white hover:bg-gray-900 border-none"
+                                    : resolvedTheme === 'dark'
+                                        ? "border-white/15 text-gray-100 hover:bg-white/10 bg-transparent"
+                                        : "border-gray-300 text-gray-800 hover:bg-gray-100 bg-transparent"
                             )}
                         >
                             <Link href="/contact">Contact</Link>
                         </Button>
-                    </div>
-                </div>
 
-                {/* Mobile View Layout (Flexbox) */}
-                <div className="flex md:hidden items-center justify-between">
-                    {/* Logo */}
-                    <Link
-                        href="/"
-                        className={cn(
-                            "text-xl font-extrabold tracking-tighter",
-                            isTranslucentHeader ? "text-white" : "text-foreground"
-                        )}
-                    >
-                        MARS
-                    </Link>
-
-                    <div className="flex items-center gap-3">
                         <button
-                            onClick={toggleTheme}
                             className={cn(
-                                "p-2 rounded-lg border",
+                                "p-1.5 md:hidden",
                                 isTranslucentHeader
-                                    ? "border-white/20 bg-white/10 text-white"
-                                    : "border-border/40 bg-background/50"
-                            )}
-                            aria-label="Toggle theme"
-                        >
-                            {mounted && (resolvedTheme === "dark" ? <Sun size={18} /> : <Moon size={18} />)}
-                        </button>
-                        <button
-                            className={cn(
-                                "p-2",
-                                isTranslucentHeader ? "text-white" : "text-foreground"
+                                    ? "text-black dark:text-white"
+                                    : "text-black dark:text-white"
                             )}
                             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
                             aria-label="Open menu"
                         >
-                            {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+                            {isMobileMenuOpen ? <X size={22} /> : <Menu size={22} />}
                         </button>
                     </div>
                 </div>
@@ -195,7 +288,6 @@ export function Navbar() {
             <AnimatePresence>
                 {isMobileMenuOpen && (
                     <>
-                        {/* Backdrop */}
                         <motion.div
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
@@ -204,7 +296,6 @@ export function Navbar() {
                             className="fixed inset-0 bg-background/60 backdrop-blur-sm z-40 md:hidden"
                         />
 
-                        {/* Drawer */}
                         <motion.div
                             initial={{ x: "100%" }}
                             animate={{ x: 0 }}

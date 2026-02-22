@@ -21,6 +21,7 @@ export const metadata: Metadata = {
 
 import { ThemeProvider } from "@/components/theme-provider";
 import { ThemeDebug } from "@/components/ThemeDebug";
+import { PlasmaBackground } from "@/components/ui/plasma-background";
 
 export default function RootLayout({
   children,
@@ -38,6 +39,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
+          <PlasmaBackground />
           <Navbar />
           <main className="flex-1">
             {children}

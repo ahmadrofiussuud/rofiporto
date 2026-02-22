@@ -3,6 +3,8 @@
 import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import TextType from "@/components/ui/TextType";
+import SplitText from "@/components/ui/SplitText";
 import {
     ArrowRight,
     Github,
@@ -64,7 +66,7 @@ const PROFILE_IMAGE = "/images/profile/profile.png";
 
 export function HeroProfile() {
     return (
-        <section className="relative min-h-[95vh] lg:min-h-screen flex flex-col items-center justify-center overflow-hidden bg-background pt-20 lg:pt-0">
+        <section className="relative min-h-[95vh] lg:min-h-screen flex flex-col items-center justify-center overflow-hidden bg-background pt-16 lg:pt-0">
             {/* Premium Background Elements */}
             <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
                 {/* Subtle Gradient Base */}
@@ -78,32 +80,59 @@ export function HeroProfile() {
                 <div className="absolute inset-0 bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:32px_32px] dark:bg-[radial-gradient(#1f2937_1px,transparent_1px)] opacity-[0.15]" />
             </div>
 
-            <div className="container mx-auto px-5 sm:px-8 z-10 relative max-w-6xl flex-1 flex flex-col justify-center py-12 lg:py-0">
+            <div className="container mx-auto px-5 sm:px-8 z-10 relative max-w-6xl flex-1 flex flex-col justify-center py-4 lg:py-0">
                 {/* DESKTOP LAYOUT (Hidden on Mobile) */}
                 <div className="hidden lg:flex flex-row items-center justify-between gap-16">
                     {/* Left Column: Full Text Content */}
                     <div className="w-[55%] space-y-8 text-left">
-                        <motion.div
-                            initial={{ opacity: 0, y: 20 }}
-                            animate={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.6 }}
-                            className="space-y-4"
-                        >
-                            <span className="inline-block px-4 py-1.5 rounded-full bg-primary/10 text-primary text-sm font-medium tracking-wide uppercase">
-                                Hi, I&apos;m
-                            </span>
-                            <h1 className="text-8xl font-black tracking-tighter text-foreground leading-[0.9]">
-                                MARS
-                            </h1>
+                        <div className="space-y-4">
+                            <div>
+                                <SplitText
+                                    text="Hi, I'm"
+                                    tag="span"
+                                    className="inline-block px-4 py-1.5 rounded-full bg-primary/10 text-primary text-sm font-medium tracking-wide uppercase"
+                                    splitType="chars"
+                                    delay={40}
+                                    duration={0.6}
+                                    ease="power2.out"
+                                    from={{ opacity: 0, y: -15 }}
+                                    to={{ opacity: 1, y: 0 }}
+                                    textAlign="left"
+                                    autoplay
+                                />
+                            </div>
+                            <div>
+                                <SplitText
+                                    text="MARS"
+                                    tag="h1"
+                                    className="text-8xl font-black tracking-tighter text-foreground leading-[0.9]"
+                                    splitType="chars"
+                                    delay={60}
+                                    duration={1.25}
+                                    ease="power3.out"
+                                    from={{ opacity: 0, y: 40 }}
+                                    to={{ opacity: 1, y: 0 }}
+                                    textAlign="left"
+                                    autoplay
+                                />
+                            </div>
                             <div className="flex flex-col gap-2">
                                 <h2 className="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-cyan-400">
                                     Product Manager
                                 </h2>
-                                <p className="text-xl text-muted-foreground max-w-xl leading-relaxed">
-                                    Berfokus pada pembangunan produk digital yang relevan, perancangan solusi yang strategis, dan manajemen eksekusi yang presisi.
-                                </p>
+                                <TextType
+                                    text="Berfokus pada pembangunan produk digital yang relevan, perancangan solusi yang strategis, dan manajemen eksekusi yang presisi."
+                                    as="p"
+                                    typingSpeed={40}
+                                    deletingSpeed={25}
+                                    pauseDuration={3000}
+                                    showCursor
+                                    cursorCharacter="_"
+                                    loop
+                                    className="text-xl text-muted-foreground max-w-xl leading-relaxed"
+                                />
                             </div>
-                        </motion.div>
+                        </div>
 
                         {/* Social Icons */}
                         <motion.div
@@ -182,12 +211,36 @@ export function HeroProfile() {
                 <div className="flex lg:hidden flex-col items-center gap-5 py-8">
                     {/* 1. Intro */}
                     <div className="flex flex-col items-center text-center gap-2">
-                        <span className="inline-block px-4 py-1.5 rounded-full bg-primary/10 text-primary text-xs font-medium tracking-wide uppercase">
-                            Hi, I&apos;m
-                        </span>
-                        <h1 className="text-5xl sm:text-6xl font-black tracking-tighter text-foreground leading-[0.9]">
-                            MARS
-                        </h1>
+                        <div>
+                            <SplitText
+                                text="Hi, I'm"
+                                tag="span"
+                                className="inline-block px-4 py-1.5 rounded-full bg-primary/10 text-primary text-xs font-medium tracking-wide uppercase"
+                                splitType="chars"
+                                delay={40}
+                                duration={0.6}
+                                ease="power2.out"
+                                from={{ opacity: 0, y: -15 }}
+                                to={{ opacity: 1, y: 0 }}
+                                textAlign="center"
+                                autoplay
+                            />
+                        </div>
+                        <div>
+                            <SplitText
+                                text="MARS"
+                                tag="h1"
+                                className="text-5xl sm:text-6xl font-black tracking-tighter text-foreground leading-[0.9]"
+                                splitType="chars"
+                                delay={60}
+                                duration={1.25}
+                                ease="power3.out"
+                                from={{ opacity: 0, y: 40 }}
+                                to={{ opacity: 1, y: 0 }}
+                                textAlign="center"
+                                autoplay
+                            />
+                        </div>
                         <h2 className="text-xl sm:text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-cyan-400">
                             Product Manager
                         </h2>
@@ -209,9 +262,17 @@ export function HeroProfile() {
 
                     {/* 3. Details */}
                     <div className="flex flex-col items-center text-center gap-5">
-                        <p className="text-base sm:text-lg text-muted-foreground max-w-sm leading-relaxed px-4">
-                            Berfokus pada pembangunan produk digital yang relevan, perancangan solusi yang strategis, dan manajemen eksekusi yang presisi.
-                        </p>
+                        <TextType
+                            text="Berfokus pada pembangunan produk digital yang relevan, perancangan solusi yang strategis, dan manajemen eksekusi yang presisi."
+                            as="p"
+                            typingSpeed={40}
+                            deletingSpeed={25}
+                            pauseDuration={3000}
+                            showCursor
+                            cursorCharacter="_"
+                            loop
+                            className="text-base sm:text-lg text-muted-foreground max-w-sm leading-relaxed px-4"
+                        />
 
                         {/* Socials */}
                         <div className="flex flex-wrap justify-center gap-3">
