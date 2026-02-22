@@ -24,7 +24,7 @@ export function PlasmaBackground() {
                     speed={0.5}
                     scale={1.5}
                     opacity={0.4}
-                    mouseInteractive={true}
+                    mouseInteractive={false}
                 />
             </div>
         );

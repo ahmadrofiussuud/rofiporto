@@ -166,7 +166,7 @@ export function Navbar() {
                     "w-full max-w-5xl mx-auto px-6 border transition-all duration-300 rounded-2xl",
                     isTranslucentHeader
                         ? "bg-transparent border-transparent shadow-none"
-                        : resolvedTheme === 'dark'
+                        : mounted && resolvedTheme === 'dark'
                             ? "bg-neutral-900/65 backdrop-blur-xl border-white/[0.08] shadow-none"
                             : "bg-white/70 backdrop-blur-xl border-gray-200/80 shadow-sm"
                 )}
@@ -178,9 +178,9 @@ export function Navbar() {
                             href="/"
                             className={cn(
                                 "text-xl font-extrabold tracking-tighter transition-all duration-300",
-                                isTranslucentHeader
-                                    ? resolvedTheme === 'dark' ? "text-white" : "text-black"
-                                    : resolvedTheme === 'dark' ? "text-white" : "text-gray-900"
+                                mounted && isTranslucentHeader
+                                    ? mounted && resolvedTheme === 'dark' ? "text-white" : "text-black"
+                                    : mounted && resolvedTheme === 'dark' ? "text-white" : "text-gray-900"
                             )}
                         >
                             MARS
@@ -200,15 +200,15 @@ export function Navbar() {
                                     onMouseLeave={() => handleLeave(index)}
                                     className={cn(
                                         "pill group relative h-9 rounded-xl transition-all duration-300 text-sm",
-                                        isTranslucentHeader
-                                            ? resolvedTheme === 'dark' ? "text-white/80" : "text-black/70"
-                                            : resolvedTheme === 'dark' ? "text-gray-200" : "text-gray-700"
+                                        mounted && isTranslucentHeader
+                                            ? mounted && resolvedTheme === 'dark' ? "text-white/80" : "text-black/70"
+                                            : mounted && resolvedTheme === 'dark' ? "text-gray-200" : "text-gray-700"
                                     )}
                                 >
                                     <span
                                         className={cn(
                                             "hover-circle",
-                                            resolvedTheme === 'dark' ? 'bg-white' : 'bg-black'
+                                            mounted && resolvedTheme === 'dark' ? 'bg-white' : 'bg-black'
                                         )}
                                         ref={(el) => { circleRefs.current[index] = el; }}
                                     />
@@ -217,7 +217,7 @@ export function Navbar() {
                                         <span
                                             className={cn(
                                                 "pill-label-hover",
-                                                resolvedTheme === 'dark' ? 'text-black' : 'text-white'
+                                                mounted && resolvedTheme === 'dark' ? 'text-black' : 'text-white'
                                             )}
                                         >
                                             {item.name}
@@ -234,11 +234,11 @@ export function Navbar() {
                             onClick={toggleTheme}
                             className={cn(
                                 "p-2 rounded-xl border transition-all duration-300 flex items-center justify-center",
-                                isTranslucentHeader
-                                    ? resolvedTheme === 'dark'
+                                mounted && isTranslucentHeader
+                                    ? mounted && resolvedTheme === 'dark'
                                         ? "border-white/20 text-white/70 hover:bg-white/10"
                                         : "border-black/15 text-black/70 hover:bg-black/5"
-                                    : resolvedTheme === 'dark'
+                                    : mounted && resolvedTheme === 'dark'
                                         ? "border-white/10 text-gray-300 hover:bg-white/10"
                                         : "border-gray-200 text-gray-500 hover:bg-gray-100"
                             )}
@@ -256,11 +256,11 @@ export function Navbar() {
                             size="sm"
                             className={cn(
                                 "hidden md:flex rounded-full px-6 transition-all duration-300 text-sm",
-                                isTranslucentHeader
-                                    ? resolvedTheme === 'dark'
+                                mounted && isTranslucentHeader
+                                    ? mounted && resolvedTheme === 'dark'
                                         ? "bg-white text-black hover:bg-gray-100 border-none"
                                         : "bg-black text-white hover:bg-gray-900 border-none"
-                                    : resolvedTheme === 'dark'
+                                    : mounted && resolvedTheme === 'dark'
                                         ? "border-white/15 text-gray-100 hover:bg-white/10 bg-transparent"
                                         : "border-gray-300 text-gray-800 hover:bg-gray-100 bg-transparent"
                             )}
