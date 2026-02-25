@@ -200,6 +200,7 @@ export function HeroProfile() {
                                     priority
                                     className="object-contain drop-shadow-[0_20px_50px_rgba(0,0,0,0.5)] transition-transform duration-700 group-hover:scale-[1.02]"
                                     sizes="440px"
+                                    quality={100}
                                 />
                             </div>
                         </div>
@@ -256,6 +257,7 @@ export function HeroProfile() {
                                 priority
                                 className="object-contain drop-shadow-[0_15px_25px_rgba(0,0,0,0.3)]"
                                 sizes="(max-width: 768px) 220px, 280px"
+                                quality={100}
                             />
                         </div>
                     </div>

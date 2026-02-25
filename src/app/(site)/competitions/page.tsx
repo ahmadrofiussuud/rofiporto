@@ -85,7 +85,7 @@ const COMPETITIONS = [
                 award: "bronze",
                 description: "Recognized for excellence in international student research and innovation.",
                 date: "Feb 2026",
-                image: "/images/competitions/Bronze Medal 2nd ISS.png"
+                image: "/images/competitions/bronze-medal-iss.png"
             },
             {
                 title: "The Most Marketable - INDIGO Bandung 2025",
@@ -114,7 +114,7 @@ const COMPETITIONS = [
                 award: "gold",
                 description: "Recognized as the Best Product Manager in the Raion Academy 2025 program.",
                 date: "Jan 2026",
-                image: "/images/competitions/Muhammad Ahmad Rofi'us Su'ud.png"
+                image: "/images/competitions/best-pm-raion.png"
             },
             {
                 title: "Finalist Business Model Canvas - ULM",
@@ -169,6 +169,8 @@ export default function CompetitionsPage() {
                                             alt={item.title}
                                             fill
                                             className="object-cover grayscale-[0.2] group-hover:grayscale-0 transition-all duration-700"
+                                            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                                            quality={90}
                                         />
                                     </div>
 
