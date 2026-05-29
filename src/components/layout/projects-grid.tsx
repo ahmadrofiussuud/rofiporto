@@ -23,7 +23,7 @@ export function ProjectsGrid({ projects }: ProjectsGridProps) {
     const CATEGORIES = [
         { id: null, name: "Semua Karya" },
         { id: "kerja", name: "Kerja" },
-        { id: "lomba", name: "Lomba" },
+        { id: "lomba", name: "Proyek" },
         { id: "organisasi", name: "Organisasi" },
         { id: "skill", name: "Skill" },
         { id: "hobi", name: "Hobi" },

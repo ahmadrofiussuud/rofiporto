@@ -54,7 +54,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
                 {/* Header */}
                 <div className="space-y-4">
                     <div className="flex flex-wrap gap-2 items-center">
-                        <Badge variant="default" className="bg-primary uppercase text-[10px] font-bold tracking-widest">{meta.category}</Badge>
+                        <Badge variant="default" className="bg-primary uppercase text-[10px] font-bold tracking-widest">{meta.category === "lomba" ? "proyek" : meta.category}</Badge>
                         <div className="h-1 w-1 rounded-full bg-border" />
                         <Badge variant="outline" className="w-fit text-xs">{meta.date}</Badge>
                         {isCompetition && <Badge variant="default" className="bg-yellow-500/10 text-yellow-500 hover:bg-yellow-500/20 border-yellow-500/20 text-[10px] uppercase font-bold">Kompetisi</Badge>}

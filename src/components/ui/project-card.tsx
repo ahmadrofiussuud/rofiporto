@@ -45,7 +45,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
                 <div className="flex items-center justify-between">
                     <div className="flex items-center gap-2">
                         <span className="inline-flex items-center rounded-full border border-primary/20 bg-primary/5 px-2.5 py-0.5 text-[9px] font-bold uppercase tracking-wider text-primary">
-                            {meta.category}
+                            {meta.category === "lomba" ? "proyek" : meta.category}
                         </span>
                         {meta.tags && meta.tags.slice(0, 1).map((tag) => (
                             <span key={tag} className="inline-flex items-center rounded-full border border-border/60 bg-muted/30 px-2.5 py-0.5 text-[9px] font-bold uppercase tracking-wider text-muted-foreground/60">
