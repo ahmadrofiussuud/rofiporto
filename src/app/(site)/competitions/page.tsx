@@ -8,52 +8,36 @@ const COMPETITIONS = [
         category: "Major Achievements",
         items: [
             {
-                title: "Silver Medal - NEIRA 2025",
-                result: "Silver Medal",
-                award: "silver",
-                description: "National Environmental and Innovation Research Award for sustainable technology innovation.",
-                date: "Dec 2025",
-                image: "/images/competitions/Silver Medal NEIRA.jpg"
+                title: "Bronze Medal - 2nd International Student Summit",
+                result: "Bronze Medal",
+                award: "bronze",
+                description: "Recognized for excellence in international student research and innovation.",
+                date: "Feb 2026",
+                image: "/images/competitions/bronze-medal-iss.png"
             },
             {
-                title: "Gold Medal Essay - CNF 2025",
-                result: "Gold Medal",
+                title: "Juara 1 Business Plan - Universitas Atma Jaya Jakarta",
+                result: "Recognition",
                 award: "gold",
-                description: "Recognized for the best essay in the National Student Innovation Competition.",
-                date: "Nov 2025",
-                image: "/images/competitions/gold medal essay cnf.jpg"
+                description: "Awarded First Place on Strategic Pitching and Revolutionary Knowledge (SPARKS) during MANEX 2025.",
+                date: "Feb 2026",
+                image: "/images/competitions/sertif manex.jpg"
             },
             {
-                title: "Silver Medal Business Plan - CNF",
-                result: "Silver Medal",
-                award: "silver",
-                description: "Awarded for exceptional business planning and presentation.",
-                date: "Nov 2025",
-                image: "/images/competitions/silver medal bp cnf.jpg"
-            },
-            {
-                title: "National Student Poster Competition",
-                result: "Favorite Poster",
+                title: "Juara 1 Web Dev WCC - Univ Islam Nahdlatul Ulama Kediri",
+                result: "Juara 1",
                 award: "gold",
-                description: "Voted as Favorite Poster at the National Tech Innovation Summit in Bali.",
-                date: "Nov 2025",
-                image: "/images/competitions/sertif fav poster bali.jpg"
+                description: "First place winner in the Web Development competition at Universitas Islam Nahdlatul Ulama Kediri.",
+                date: "Jun 2026",
+                image: ""
             },
             {
-                title: "Favorite Poster - NEIRA 2025",
-                result: "Favorite Poster",
-                award: "gold",
-                description: "Recognized for the most impactful visual communication in environmental innovation.",
-                date: "Nov 2025",
-                image: "/images/competitions/fav poster neira 2.jpg"
-            },
-            {
-                title: "Bali Innovation Award",
-                result: "Silver Medal",
+                title: "Juara 2 Essay IPB",
+                result: "Juara 2",
                 award: "silver",
-                description: "Recognized for outstanding contribution to regional technology education.",
-                date: "Nov 2025",
-                image: "/images/competitions/sertif silver bali.jpg"
+                description: "Second place winner in the National Essay Competition at IPB University.",
+                date: "Jun 2026",
+                image: ""
             },
             {
                 title: "Juara 3 - Business Plan UMSIDA",
@@ -64,7 +48,55 @@ const COMPETITIONS = [
                 image: "/images/competitions/juara 3 umsida.jpg"
             },
             {
-                title: "Bronze Medal - NEIRA 2025",
+                title: "The Most Marketable Business Plan - INDIGO Bandung 2025",
+                result: "Recognition",
+                award: "gold",
+                description: "Awarded 'The Most Marketable' for exceptional business planning in the Indigo program.",
+                date: "Oct 2025",
+                image: "/images/competitions/indigo sertif.jpg"
+            },
+            {
+                title: "Gold Medal Essay UNY - CNF 2025",
+                result: "Gold Medal",
+                award: "gold",
+                description: "Recognized for the best essay in the National Student Innovation Competition.",
+                date: "Nov 2025",
+                image: "/images/competitions/gold medal essay cnf.jpg"
+            },
+            {
+                title: "Gold Medal Essay IPB",
+                result: "Gold Medal",
+                award: "gold",
+                description: "Gold medal recipient for the National Essay Competition at IPB University.",
+                date: "Jun 2026",
+                image: ""
+            },
+            {
+                title: "Silver Medal Business Plan - CNF",
+                result: "Silver Medal",
+                award: "silver",
+                description: "Awarded for exceptional business planning and presentation.",
+                date: "Nov 2025",
+                image: "/images/competitions/silver medal bp cnf.jpg"
+            },
+            {
+                title: "Silver Medal - NEIRA 2025",
+                result: "Silver Medal",
+                award: "silver",
+                description: "National Environmental and Innovation Research Award for sustainable technology innovation.",
+                date: "Dec 2025",
+                image: "/images/competitions/Silver Medal NEIRA.jpg"
+            },
+            {
+                title: "Bali Innovation Award - Silver Medal",
+                result: "Silver Medal",
+                award: "silver",
+                description: "Recognized for outstanding contribution to regional technology education.",
+                date: "Nov 2025",
+                image: "/images/competitions/sertif silver bali.jpg"
+            },
+            {
+                title: "Bronze Medal Essay Capai Cita - NEIRA 2025",
                 result: "Bronze Medal",
                 award: "bronze",
                 description: "Achieved excellence in environmental research and development.",
@@ -72,28 +104,28 @@ const COMPETITIONS = [
                 image: "/images/competitions/bronze medal neira.jpg"
             },
             {
-                title: "First Place Business Plan - Universitas Atma Jaya Jakarta",
-                result: "Recognition",
+                title: "Best Paper Essay IPB",
+                result: "Best Paper",
                 award: "gold",
-                description: "Awarded First Place on Strategic Pitching and Revolutionary Knowledge (SPARKS) during MANEX 2025.",
-                date: "Feb 2026",
-                image: "/images/competitions/sertif manex.jpg"
+                description: "Awarded Best Paper for exceptional writing and research in the IPB Essay Competition.",
+                date: "Jun 2026",
+                image: ""
             },
             {
-                title: "Bronze Medal - 2nd International Student Summit",
-                result: "Bronze Medal",
-                award: "bronze",
-                description: "Recognized for excellence in international student research and innovation.",
-                date: "Feb 2026",
-                image: "/images/competitions/bronze-medal-iss.png"
+                title: "Favorite Poster Dhyana Pura - National Student Poster Competition",
+                result: "Favorite Poster",
+                award: "gold",
+                description: "Voted as Favorite Poster at the National Tech Innovation Summit in Bali.",
+                date: "Nov 2025",
+                image: "/images/competitions/sertif fav poster bali.jpg"
             },
             {
-                title: "The Most Marketable - INDIGO Bandung 2025",
-                result: "Recognition",
+                title: "Favorite Poster Capai Cita - NEIRA 2025",
+                result: "Favorite Poster",
                 award: "gold",
-                description: "Awarded 'The Most Marketable' for exceptional business planning in the Indigo program.",
-                date: "Oct 2025",
-                image: "/images/competitions/indigo sertif.jpg"
+                description: "Recognized for the most impactful visual communication in environmental innovation.",
+                date: "Nov 2025",
+                image: "/images/competitions/fav poster neira 2.jpg"
             }
         ]
     },
@@ -164,20 +196,27 @@ export default function CompetitionsPage() {
                                 >
                                     {/* Editorial Image Container */}
                                     <div className="relative aspect-[16/10] overflow-hidden rounded-2xl bg-muted/20 border border-border/40 shadow-sm transition-all duration-500 group-hover:border-primary/20 group-hover:-translate-y-1">
-                                        <Image
-                                            src={item.image}
-                                            alt={item.title}
-                                            fill
-                                            className="object-cover grayscale-[0.2] group-hover:grayscale-0 transition-all duration-700"
-                                            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                                            quality={90}
-                                        />
+                                        {item.image ? (
+                                            <Image
+                                                src={item.image}
+                                                alt={item.title}
+                                                fill
+                                                className="object-cover grayscale-[0.2] group-hover:grayscale-0 transition-all duration-700"
+                                                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                                                quality={90}
+                                            />
+                                        ) : (
+                                            <div className="absolute inset-0 flex flex-col items-center justify-center bg-muted/30 text-muted-foreground/60 gap-2">
+                                                <Trophy className="h-8 w-8 stroke-[1.5] text-muted-foreground/40" />
+                                                <span className="text-[10px] uppercase tracking-wider font-bold text-muted-foreground/50">Coming Soon</span>
+                                            </div>
+                                        )}
                                     </div>
 
                                     {/* Content Area */}
                                     <div className="flex flex-col space-y-3 px-1">
                                         <div className="flex items-center justify-between">
-                                            <SimpleBadge variant={item.award as any}>
+                                            <SimpleBadge variant={item.award as "default" | "gold" | "silver" | "bronze" | "outline"}>
                                                 {item.result}
                                             </SimpleBadge>
                                             <span className="text-[10px] font-bold tracking-[0.2em] uppercase text-muted-foreground/40">
