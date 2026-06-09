@@ -270,15 +270,19 @@ export function Navbar() {
 
                         <button
                             className={cn(
-                                "p-1.5 md:hidden",
-                                isTranslucentHeader
-                                    ? "text-black dark:text-white"
-                                    : "text-black dark:text-white"
+                                "p-2 rounded-xl border transition-all duration-300 flex items-center justify-center md:hidden",
+                                mounted && isTranslucentHeader
+                                    ? mounted && resolvedTheme === 'dark'
+                                        ? "border-white/20 text-white/70 hover:bg-white/10"
+                                        : "border-black/15 text-black/70 hover:bg-black/5"
+                                    : mounted && resolvedTheme === 'dark'
+                                        ? "border-white/10 text-gray-300 hover:bg-white/10"
+                                        : "border-gray-200 text-gray-500 hover:bg-gray-100"
                             )}
                             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
                             aria-label="Open menu"
                         >
-                            {isMobileMenuOpen ? <X size={22} /> : <Menu size={22} />}
+                            {isMobileMenuOpen ? <X size={18} /> : <Menu size={18} />}
                         </button>
                     </div>
                 </div>
