@@ -8,6 +8,14 @@ const COMPETITIONS = [
         category: "Major Achievements",
         items: [
             {
+                title: "Juara Umum Essay IPB - Universitas Brawijaya",
+                result: "Juara Umum",
+                award: "gold",
+                description: "Awarded General Champion representing Universitas Brawijaya in the LDC 6 National Essay Competition.",
+                date: "Jun 2026",
+                image: "/images/competitions/Sertif Juara Umum.jpeg"
+            },
+            {
                 title: "Bronze Medal - 2nd International Student Summit",
                 result: "Bronze Medal",
                 award: "bronze",
@@ -37,7 +45,7 @@ const COMPETITIONS = [
                 award: "silver",
                 description: "Second place winner in the National Essay Competition at IPB University.",
                 date: "Jun 2026",
-                image: ""
+                image: "/images/competitions/Sertif Juara 2.jpeg"
             },
             {
                 title: "Juara 3 - Business Plan UMSIDA",
@@ -69,7 +77,7 @@ const COMPETITIONS = [
                 award: "gold",
                 description: "Gold medal recipient for the National Essay Competition at IPB University.",
                 date: "Jun 2026",
-                image: ""
+                image: "/images/competitions/Sertif Gold Medal.jpeg"
             },
             {
                 title: "Silver Medal Business Plan - CNF",
@@ -109,7 +117,7 @@ const COMPETITIONS = [
                 award: "gold",
                 description: "Awarded Best Paper for exceptional writing and research in the IPB Essay Competition.",
                 date: "Jun 2026",
-                image: ""
+                image: "/images/competitions/Sertif Best Paper.jpeg"
             },
             {
                 title: "Favorite Poster Dhyana Pura - National Student Poster Competition",
