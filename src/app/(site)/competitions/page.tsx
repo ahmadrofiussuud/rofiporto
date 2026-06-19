@@ -32,12 +32,12 @@ const COMPETITIONS = [
                 image: "/images/competitions/sertif manex.jpg"
             },
             {
-                title: "Juara 1 Web Dev WCC - Univ Islam Nahdlatul Ulama Kediri",
+                title: "Juara 1 Web Dev WCC - Univ Islam Nahdlatul Ulama Jepara",
                 result: "Juara 1",
                 award: "gold",
-                description: "First place winner in the Web Development competition at Universitas Islam Nahdlatul Ulama Kediri.",
-                date: "Jun 2026",
-                image: ""
+                description: "First place winner in the Web Creation Competition (WCC) organized by Universitas Islam Nahdlatul Ulama Jepara.",
+                date: "Apr 2026",
+                image: "/images/competitions/sertif finalis web dev'.jpeg"
             },
             {
                 title: "Juara 2 Essay IPB",
@@ -140,6 +140,14 @@ const COMPETITIONS = [
     {
         category: "Finalists & Participations",
         items: [
+            {
+                title: "Business Model Canvas - Finalist PHENTUSIAS UNAIR",
+                result: "Finalist",
+                award: "outline",
+                description: "National finalist in the Business Model Canvas competition PHENTUSIAS 2026 organized by Universitas Airlangga.",
+                date: "Jun 2026",
+                image: "/images/competitions/sertif finalis unair.png"
+            },
             {
                 title: "Business Plan - Finalist",
                 result: "Finalist",
