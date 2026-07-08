@@ -8,6 +8,14 @@ const COMPETITIONS = [
         category: "Major Achievements",
         items: [
             {
+                title: "Juara 1 Business Plan Competition - UIN Madura",
+                result: "Juara 1",
+                award: "gold",
+                description: "First place winner in the National Business Plan Competition (BPC) organized by Universitas Islam Negeri Madura.",
+                date: "Jul 2026",
+                image: "/images/competitions/JUARA 1 BPC UIN MADURA.png"
+            },
+            {
                 title: "Juara Umum Essay IPB - Universitas Brawijaya",
                 result: "Juara Umum",
                 award: "gold",
