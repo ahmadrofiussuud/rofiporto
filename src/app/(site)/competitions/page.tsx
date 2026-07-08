@@ -8,14 +8,6 @@ const COMPETITIONS = [
         category: "Major Achievements",
         items: [
             {
-                title: "Juara 1 Business Plan Competition - UIN Madura",
-                result: "Juara 1",
-                award: "gold",
-                description: "First place winner in the National Business Plan Competition (BPC) organized by Universitas Islam Negeri Madura.",
-                date: "Jul 2026",
-                image: "/images/competitions/JUARA 1 BPC UIN MADURA.png"
-            },
-            {
                 title: "Juara Umum Essay IPB - Universitas Brawijaya",
                 result: "Juara Umum",
                 award: "gold",
@@ -32,11 +24,19 @@ const COMPETITIONS = [
                 image: "/images/competitions/bronze-medal-iss.png"
             },
             {
+                title: "Juara 1 Business Plan Competition - UIN Madura",
+                result: "Juara 1",
+                award: "gold",
+                description: "First place winner in the National Business Plan Competition (BPC) organized by Universitas Islam Negeri Madura.",
+                date: "Jul 2026",
+                image: "/images/competitions/JUARA 1 BPC UIN MADURA.png"
+            },
+            {
                 title: "Juara 1 Business Plan - Universitas Atma Jaya Jakarta",
                 result: "Recognition",
                 award: "gold",
                 description: "Awarded First Place on Strategic Pitching and Revolutionary Knowledge (SPARKS) during MANEX 2025.",
-                date: "Feb 2026",
+                date: "Oct 2025",
                 image: "/images/competitions/sertif manex.jpg"
             },
             {
@@ -68,7 +68,7 @@ const COMPETITIONS = [
                 result: "Recognition",
                 award: "gold",
                 description: "Awarded 'The Most Marketable' for exceptional business planning in the Indigo program.",
-                date: "Oct 2025",
+                date: "Apr 2025",
                 image: "/images/competitions/indigo sertif.jpg"
             },
             {
