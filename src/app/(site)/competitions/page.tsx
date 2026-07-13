@@ -8,6 +8,30 @@ const COMPETITIONS = [
         category: "Major Achievements",
         items: [
             {
+                title: "Juara 2 Mathematics Essay Contest (MEC) - UNESA",
+                result: "Juara 2",
+                award: "silver",
+                description: "Second place winner in the Mathematics Essay Contest (MEC) 2026 organized by HMP Pendidikan Matematika FMIPA Universitas Negeri Surabaya.",
+                date: "Jun 2026",
+                image: "/images/competitions/_Juara II UNESA.jpg"
+            },
+            {
+                title: "Best Essay Pendidikan - Mathematics Essay Contest (MEC) UNESA",
+                result: "Best Essay",
+                award: "gold",
+                description: "Awarded Best Essay in the Education category at the Mathematics Essay Contest (MEC) 2026 organized by Universitas Negeri Surabaya.",
+                date: "Jun 2026",
+                image: "/images/competitions/BEST ESSAY Pendidikan.jpg"
+            },
+            {
+                title: "Best Essay Lingkungan - Mathematics Essay Contest (MEC) UNESA",
+                result: "Best Essay",
+                award: "gold",
+                description: "Awarded Best Essay in the Environment category at the Mathematics Essay Contest (MEC) 2026 organized by Universitas Negeri Surabaya.",
+                date: "Jun 2026",
+                image: "/images/competitions/BEST ESSAY Lingkungan.jpg"
+            },
+            {
                 title: "Juara Umum Essay IPB - Universitas Brawijaya",
                 result: "Juara Umum",
                 award: "gold",
