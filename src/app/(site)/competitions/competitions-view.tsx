@@ -139,6 +139,22 @@ export const COMPETITION_SECTIONS: CompetitionSection[] = [
                 date: "Jun 2026",
                 image: "/images/competitions/Sertif Best Paper.jpeg"
             },
+            {
+                title: "Best Essay Pendidikan - Mathematics Essay Contest (MEC) UNESA",
+                result: "Best Essay",
+                award: "gold",
+                description: "Awarded Best Essay in the Education category at the Mathematics Essay Contest (MEC) 2026 organized by Universitas Negeri Surabaya.",
+                date: "Jun 2026",
+                image: "/images/competitions/BEST ESSAY Pendidikan.jpg"
+            },
+            {
+                title: "Best Essay Lingkungan - Mathematics Essay Contest (MEC) UNESA",
+                result: "Best Essay",
+                award: "gold",
+                description: "Awarded Best Essay in the Environment category at the Mathematics Essay Contest (MEC) 2026 organized by Universitas Negeri Surabaya.",
+                date: "Jun 2026",
+                image: "/images/competitions/BEST ESSAY Lingkungan.jpg"
+            },
 
             // 7. Medal-Medalan: Gold Medal
             {
@@ -208,24 +224,6 @@ export const COMPETITION_SECTIONS: CompetitionSection[] = [
                 description: "Achieved excellence in environmental research and development.",
                 date: "Nov 2025",
                 image: "/images/competitions/bronze medal neira.jpg"
-            },
-
-            // 10. Best Essay
-            {
-                title: "Best Essay Pendidikan - Mathematics Essay Contest (MEC) UNESA",
-                result: "Best Essay",
-                award: "gold",
-                description: "Awarded Best Essay in the Education category at the Mathematics Essay Contest (MEC) 2026 organized by Universitas Negeri Surabaya.",
-                date: "Jun 2026",
-                image: "/images/competitions/BEST ESSAY Pendidikan.jpg"
-            },
-            {
-                title: "Best Essay Lingkungan - Mathematics Essay Contest (MEC) UNESA",
-                result: "Best Essay",
-                award: "gold",
-                description: "Awarded Best Essay in the Environment category at the Mathematics Essay Contest (MEC) 2026 organized by Universitas Negeri Surabaya.",
-                date: "Jun 2026",
-                image: "/images/competitions/BEST ESSAY Lingkungan.jpg"
             },
 
             // 10. Fav-an (Favorite Poster)
