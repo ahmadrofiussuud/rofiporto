@@ -41,7 +41,7 @@ export default function RootLayout({
         >
           <PlasmaBackground />
           <Navbar />
-          <main className="flex-1">
+          <main className="flex-1 w-full max-w-full overflow-x-clip">
             {children}
           </main>
           <Footer />

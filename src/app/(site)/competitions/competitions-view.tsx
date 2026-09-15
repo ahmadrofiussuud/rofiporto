@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Image from "next/image";
-import { Trophy, Mic, Briefcase, Award, ZoomIn, X, Calendar, Sparkles } from "lucide-react";
+import { ZoomIn, X, Calendar } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { AnimatePresence, motion } from "framer-motion";
 
@@ -20,7 +20,6 @@ export interface CompetitionSection {
     category: string;
     label: string;
     description: string;
-    iconType: "trophy" | "mic" | "briefcase" | "award";
     items: CompetitionItem[];
 }
 
@@ -30,7 +29,6 @@ export const COMPETITION_SECTIONS: CompetitionSection[] = [
         category: "Major Achievements",
         label: "Pencapaian Utama",
         description: "Prestasi puncak, gelar juara, dan medali emas dalam kompetisi bergengsi tingkat nasional & internasional.",
-        iconType: "trophy",
         items: [
             // 1. Juara Umum (Inter dulu, baru IPB)
             {
@@ -258,7 +256,6 @@ export const COMPETITION_SECTIONS: CompetitionSection[] = [
         category: "Speaking & Mentoring",
         label: "Pembicara & Pemateri",
         description: "Berbagi wawasan, memandu workshop teknologi, dan mentoring seputar product management serta pengembangan diri.",
-        iconType: "mic",
         items: [
             {
                 title: "Pemateri Workshop #5: Product Management - BCC FILKOM UB",
@@ -283,7 +280,6 @@ export const COMPETITION_SECTIONS: CompetitionSection[] = [
         category: "Professional & Experience",
         label: "Pengalaman & Magang",
         description: "Kontribusi langsung dalam lingkungan profesional nyata dan inkubasi kepemimpinan produk.",
-        iconType: "briefcase",
         items: [
             {
                 title: "Video Operations Intern - StudiLanjut",
@@ -308,7 +304,6 @@ export const COMPETITION_SECTIONS: CompetitionSection[] = [
         category: "Finalists & Participations",
         label: "Finalis & Partisipasi",
         description: "Apresiasi atas validasi ide bisnis, perancangan proposal, dan partisipasi pada tahap final nasional.",
-        iconType: "award",
         items: [
             {
                 title: "Business Model Canvas - Finalist PHENTUSIAS UNAIR",
@@ -359,132 +354,117 @@ export function CompetitionsView() {
         ? COMPETITION_SECTIONS
         : COMPETITION_SECTIONS.filter((sec) => sec.id === activeFilter);
 
-    const getIcon = (type: string) => {
-        switch (type) {
-            case "trophy":
-                return <Trophy className="h-4 w-4 text-amber-500" />;
-            case "mic":
-                return <Mic className="h-4 w-4 text-purple-500" />;
-            case "briefcase":
-                return <Briefcase className="h-4 w-4 text-emerald-500" />;
-            case "award":
-            default:
-                return <Award className="h-4 w-4 text-primary" />;
-        }
-    };
-
     return (
-        <div className="space-y-12">
+        <div className="space-y-10 sm:space-y-14 md:space-y-20">
             {/* Filter Pills */}
-            <div className="flex flex-wrap items-center justify-center gap-2 md:gap-3 py-2">
-                <button
-                    onClick={() => setActiveFilter("all")}
-                    className={cn(
-                        "px-4 py-2 rounded-full text-xs font-semibold tracking-wide transition-all duration-300 border flex items-center gap-2",
-                        activeFilter === "all"
-                            ? "bg-foreground text-background border-foreground shadow-sm"
-                            : "bg-muted/40 text-muted-foreground border-border/40 hover:bg-muted/80 hover:text-foreground"
-                    )}
-                >
-                    <span>Semua</span>
-                    <span className="text-[10px] px-1.5 py-0.2 rounded-full bg-background/20 font-bold">
-                        {totalCount}
-                    </span>
-                </button>
+            <div className="w-full max-w-md sm:max-w-2xl mx-auto">
+                <div className="grid grid-cols-2 sm:flex sm:flex-wrap sm:justify-center gap-2 sm:gap-2.5">
+                    <button
+                        onClick={() => setActiveFilter("all")}
+                        className={cn(
+                            "col-span-2 sm:col-span-1 px-4 py-2 sm:px-4 sm:py-2 rounded-xl sm:rounded-full text-xs font-semibold tracking-wide transition-all duration-200 border flex items-center justify-between sm:justify-center gap-2",
+                            activeFilter === "all"
+                                ? "bg-foreground text-background border-foreground shadow-sm"
+                                : "bg-card/80 text-muted-foreground border-border/60 hover:bg-muted hover:text-foreground"
+                        )}
+                    >
+                        <span>Semua</span>
+                        <span className={cn(
+                            "text-[10px] px-1.5 py-0.5 rounded-full font-bold leading-none",
+                            activeFilter === "all" ? "bg-background/25 text-background" : "bg-muted text-foreground/80"
+                        )}>
+                            {totalCount}
+                        </span>
+                    </button>
 
-                {COMPETITION_SECTIONS.map((sec) => {
-                    const isActive = activeFilter === sec.id;
-                    return (
-                        <button
-                            key={sec.id}
-                            onClick={() => setActiveFilter(sec.id)}
-                            className={cn(
-                                "px-4 py-2 rounded-full text-xs font-semibold tracking-wide transition-all duration-300 border flex items-center gap-2",
-                                isActive
-                                    ? "bg-foreground text-background border-foreground shadow-sm"
-                                    : "bg-muted/40 text-muted-foreground border-border/40 hover:bg-muted/80 hover:text-foreground"
-                            )}
-                        >
-                            {getIcon(sec.iconType)}
-                            <span>{sec.label}</span>
-                            <span className="text-[10px] px-1.5 py-0.2 rounded-full bg-background/20 font-bold">
-                                {sec.items.length}
-                            </span>
-                        </button>
-                    );
-                })}
+                    {COMPETITION_SECTIONS.map((sec) => {
+                        const isActive = activeFilter === sec.id;
+                        return (
+                            <button
+                                key={sec.id}
+                                onClick={() => setActiveFilter(sec.id)}
+                                className={cn(
+                                    "px-3 py-2 sm:px-4 sm:py-2 rounded-xl sm:rounded-full text-xs font-semibold tracking-wide transition-all duration-200 border flex items-center justify-between sm:justify-center gap-1.5 sm:gap-2",
+                                    isActive
+                                        ? "bg-foreground text-background border-foreground shadow-sm"
+                                        : "bg-card/80 text-muted-foreground border-border/60 hover:bg-muted hover:text-foreground"
+                                )}
+                            >
+                                <span className="truncate text-left">{sec.label}</span>
+                                <span className={cn(
+                                    "flex-shrink-0 text-[10px] px-1.5 py-0.5 rounded-full font-bold leading-none",
+                                    isActive ? "bg-background/25 text-background" : "bg-muted text-foreground/80"
+                                )}>
+                                    {sec.items.length}
+                                </span>
+                            </button>
+                        );
+                    })}
+                </div>
             </div>
 
             {/* Sections Display */}
-            <div className="space-y-16 md:space-y-28">
+            <div className="space-y-12 sm:space-y-16 md:space-y-24">
                 {filteredSections.map((section) => (
-                    <section key={section.id} className="space-y-8">
-                        <div className="flex flex-col gap-2 border-b border-border/40 pb-4">
-                            <div className="flex items-center gap-2.5">
-                                <span className="p-2 rounded-xl bg-primary/10 border border-primary/20">
-                                    {getIcon(section.iconType)}
+                    <section key={section.id} className="space-y-5 sm:space-y-6">
+                        <div className="flex flex-col gap-1.5 border-b border-border/40 pb-3 sm:pb-4">
+                            <h2 className="text-xl sm:text-2xl font-bold tracking-tight text-foreground flex items-center gap-2">
+                                {section.label}
+                                <span className="text-xs font-mono font-medium text-muted-foreground">
+                                    ({section.items.length})
                                 </span>
-                                <div>
-                                    <h2 className="text-2xl font-bold tracking-tight text-foreground flex items-center gap-2">
-                                        {section.label}
-                                        <span className="text-xs font-mono font-normal text-muted-foreground">
-                                            ({section.items.length})
-                                        </span>
-                                    </h2>
-                                </div>
-                            </div>
-                            <p className="text-sm text-muted-foreground pl-11 max-w-2xl">
+                            </h2>
+                            <p className="text-xs sm:text-sm text-muted-foreground max-w-2xl leading-relaxed">
                                 {section.description}
                             </p>
                         </div>
 
-                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5 lg:gap-6">
                             {section.items.map((item, index) => (
                                 <article
                                     key={index}
                                     onClick={() => item.image && setSelectedItem(item)}
-                                    className="group flex flex-col space-y-4 p-3 rounded-2xl border border-transparent hover:border-border/60 hover:bg-muted/15 transition-all duration-300 cursor-pointer"
+                                    className="group flex flex-col space-y-3 p-3 sm:p-3.5 rounded-2xl border border-border/50 bg-card/60 backdrop-blur-xs shadow-xs hover:border-primary/40 hover:bg-muted/15 hover:shadow-md transition-all duration-300 cursor-pointer"
                                 >
                                     {/* Image Container */}
-                                    <div className="relative aspect-[16/10] overflow-hidden rounded-xl bg-muted/20 border border-border/40 shadow-sm transition-all duration-500 group-hover:border-primary/30 group-hover:shadow-md group-hover:-translate-y-1">
+                                    <div className="relative aspect-[16/10] overflow-hidden rounded-xl bg-muted/25 border border-border/40 shadow-xs transition-all duration-500 group-hover:border-primary/30 group-hover:shadow-sm group-hover:-translate-y-0.5">
                                         {item.image ? (
                                             <>
                                                 <Image
                                                     src={item.image}
                                                     alt={item.title}
                                                     fill
-                                                    className="object-cover grayscale-[0.15] group-hover:grayscale-0 group-hover:scale-105 transition-all duration-500"
-                                                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                                                    className="object-cover grayscale-[0.08] group-hover:grayscale-0 group-hover:scale-105 transition-all duration-500"
+                                                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                                                     quality={90}
                                                 />
                                                 {/* Zoom Hover Overlay */}
-                                                <div className="absolute inset-0 bg-background/50 backdrop-blur-[2px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-2 text-foreground font-medium text-xs">
+                                                <div className="absolute inset-0 bg-background/60 backdrop-blur-[2px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-2 text-foreground font-medium text-xs">
                                                     <ZoomIn className="h-4 w-4" />
                                                     <span>Lihat Sertifikat</span>
                                                 </div>
                                             </>
                                         ) : (
                                             <div className="absolute inset-0 flex flex-col items-center justify-center bg-muted/30 text-muted-foreground/60 gap-2">
-                                                <Trophy className="h-8 w-8 stroke-[1.5] text-muted-foreground/40" />
                                                 <span className="text-[10px] uppercase tracking-wider font-bold text-muted-foreground/50">Coming Soon</span>
                                             </div>
                                         )}
                                     </div>
 
                                     {/* Content Area */}
-                                    <div className="flex flex-col space-y-2.5 px-1">
-                                        <div className="flex items-center justify-between gap-2">
+                                    <div className="flex flex-col space-y-2 px-0.5">
+                                        <div className="flex items-center justify-between gap-2 flex-wrap">
                                             <SimpleBadge variant={item.award}>
                                                 {item.result}
                                             </SimpleBadge>
-                                            <span className="text-[10px] font-mono font-semibold tracking-wider uppercase text-muted-foreground/60 flex items-center gap-1">
+                                            <span className="text-[10px] font-mono font-semibold tracking-wider uppercase text-muted-foreground/70 flex items-center gap-1">
                                                 <Calendar className="h-3 w-3 inline" />
                                                 {item.date}
                                             </span>
                                         </div>
 
-                                        <div className="space-y-1.5">
-                                            <h3 className="text-base font-semibold tracking-tight text-foreground group-hover:text-primary transition-colors leading-snug line-clamp-2">
+                                        <div className="space-y-1">
+                                            <h3 className="text-sm sm:text-base font-semibold tracking-tight text-foreground group-hover:text-primary transition-colors leading-snug line-clamp-2">
                                                 {item.title}
                                             </h3>
                                             <p className="text-xs text-muted-foreground/80 line-clamp-2 leading-relaxed">
@@ -502,7 +482,7 @@ export function CompetitionsView() {
             {/* Lightbox / Fullscreen Modal */}
             <AnimatePresence>
                 {selectedItem && (
-                    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 md:p-8">
+                    <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-6 md:p-8">
                         {/* Backdrop */}
                         <motion.div
                             initial={{ opacity: 0 }}
@@ -518,21 +498,21 @@ export function CompetitionsView() {
                             animate={{ opacity: 1, scale: 1, y: 0 }}
                             exit={{ opacity: 0, scale: 0.95, y: 15 }}
                             transition={{ type: "spring", duration: 0.4 }}
-                            className="relative z-10 w-full max-w-4xl max-h-[90vh] flex flex-col bg-card border border-border/80 rounded-2xl shadow-2xl overflow-hidden"
+                            className="relative z-10 w-full max-w-4xl max-h-[92vh] flex flex-col bg-card border border-border/80 rounded-2xl shadow-2xl overflow-hidden"
                         >
                             {/* Modal Header */}
-                            <div className="flex items-center justify-between px-6 py-4 border-b border-border/60 bg-muted/20">
-                                <div className="flex items-center gap-3">
+                            <div className="flex items-center justify-between px-4 sm:px-6 py-3 sm:py-4 border-b border-border/60 bg-muted/20">
+                                <div className="flex items-center gap-2 sm:gap-3">
                                     <SimpleBadge variant={selectedItem.award}>
                                         {selectedItem.result}
                                     </SimpleBadge>
-                                    <span className="text-xs font-mono text-muted-foreground">
+                                    <span className="text-[11px] sm:text-xs font-mono text-muted-foreground">
                                         {selectedItem.date}
                                     </span>
                                 </div>
                                 <button
                                     onClick={() => setSelectedItem(null)}
-                                    className="p-1.5 rounded-lg text-muted-foreground hover:text-foreground hover:bg-muted transition-colors"
+                                    className="p-1.5 rounded-lg text-muted-foreground hover:text-foreground hover:bg-muted active:scale-95 transition-all"
                                     aria-label="Tutup modal"
                                 >
                                     <X className="h-5 w-5" />
@@ -540,8 +520,8 @@ export function CompetitionsView() {
                             </div>
 
                             {/* Modal Image Area */}
-                            <div className="relative flex-1 w-full bg-neutral-950 flex items-center justify-center overflow-hidden min-h-[300px] max-h-[65vh]">
-                                <div className="relative w-full h-full min-h-[320px] md:min-h-[480px]">
+                            <div className="relative flex-1 w-full bg-neutral-950 flex items-center justify-center overflow-hidden min-h-[220px] sm:min-h-[320px] max-h-[58vh]">
+                                <div className="relative w-full h-full min-h-[220px] sm:min-h-[320px] md:min-h-[480px]">
                                     <Image
                                         src={selectedItem.image}
                                         alt={selectedItem.title}
@@ -554,11 +534,11 @@ export function CompetitionsView() {
                             </div>
 
                             {/* Modal Footer Description */}
-                            <div className="p-6 bg-card border-t border-border/60 space-y-2">
-                                <h3 className="text-lg font-bold text-foreground">
+                            <div className="p-4 sm:p-6 bg-card border-t border-border/60 space-y-1.5 overflow-y-auto max-h-[30vh]">
+                                <h3 className="text-base sm:text-lg font-bold text-foreground leading-snug">
                                     {selectedItem.title}
                                 </h3>
-                                <p className="text-sm text-muted-foreground leading-relaxed">
+                                <p className="text-xs sm:text-sm text-muted-foreground leading-relaxed">
                                     {selectedItem.description}
                                 </p>
                             </div>
