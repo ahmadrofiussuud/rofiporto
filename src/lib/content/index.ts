@@ -23,6 +23,7 @@ export interface ProjectMetadata extends BaseMetadata {
     summary?: string;
     type?: "project" | "competition"; // To distinguish templates if needed
     result?: string; // For competitions
+    status?: "on-progress" | "completed" | string;
 }
 
 export interface JourneyMetadata extends BaseMetadata {

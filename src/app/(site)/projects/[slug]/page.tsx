@@ -79,14 +79,22 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
                         </div>
                     )}
 
-                    <div className="flex gap-4">
-                        {meta.demoUrl && (
+                    <div className="flex flex-wrap gap-4 items-center">
+                        {meta.demoUrl ? (
                             <Button asChild>
                                 <Link href={meta.demoUrl} target="_blank">
                                     <ExternalLink className="mr-2 h-4 w-4" /> Demo Langsung
                                 </Link>
                             </Button>
-                        )}
+                        ) : meta.status === "on-progress" ? (
+                            <Button disabled variant="outline" className="border-amber-500/30 text-amber-600 dark:text-amber-400 bg-amber-500/10 opacity-100 cursor-default font-semibold">
+                                <span className="relative flex h-2 w-2 mr-2">
+                                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75"></span>
+                                    <span className="relative inline-flex rounded-full h-2 w-2 bg-amber-500"></span>
+                                </span>
+                                On Progress (Dalam Tahap Pengembangan)
+                            </Button>
+                        ) : null}
                         {meta.repoUrl && (
                             <Button asChild variant="outline">
                                 <Link href={meta.repoUrl} target="_blank">

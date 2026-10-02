@@ -38,6 +38,16 @@ export function ProjectCard({ project }: ProjectCardProps) {
 
                 {/* Subtle Overlay on Hover */}
                 <div className="absolute inset-0 bg-gradient-to-t from-background/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+
+                {meta.status === "on-progress" && (
+                    <div className="absolute top-3 right-3 z-10 px-2.5 py-1 rounded-full bg-amber-500/95 text-white backdrop-blur-md text-[9px] font-extrabold uppercase tracking-wider shadow-md flex items-center gap-1.5">
+                        <span className="relative flex h-1.5 w-1.5">
+                            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-75"></span>
+                            <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-white"></span>
+                        </span>
+                        On Progress
+                    </div>
+                )}
             </Link>
 
             {/* Content Area */}

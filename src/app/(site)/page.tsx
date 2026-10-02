@@ -9,7 +9,10 @@ import { HeroProfile } from "@/components/hero-profile";
 
 export default function Home() {
     const allProjects = getAllProjects();
-    const featuredProjects = allProjects.slice(0, 3); // Show top 3
+    const featuredSlugs = ["website-em-ub", "bcc-website", "gestory"];
+    const featuredProjects = featuredSlugs
+        .map((slug) => allProjects.find((p) => p.slug === slug))
+        .filter((p): p is NonNullable<typeof p> => p !== undefined);
 
     return (
         <div className="flex flex-col pb-12">
