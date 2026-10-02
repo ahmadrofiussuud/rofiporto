@@ -5,6 +5,7 @@ import Image from "next/image";
 import { ZoomIn, X, Calendar } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { AnimatePresence, motion } from "framer-motion";
+import { SpotlightCard } from "@/components/ui/spotlight-card";
 
 export interface CompetitionItem {
     title: string;
@@ -421,58 +422,60 @@ export function CompetitionsView() {
 
                         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5 lg:gap-6">
                             {section.items.map((item, index) => (
-                                <article
+                                <SpotlightCard
                                     key={index}
                                     onClick={() => item.image && setSelectedItem(item)}
-                                    className="group flex flex-col space-y-3 p-3 sm:p-3.5 rounded-2xl border border-border/50 bg-card/60 backdrop-blur-xs shadow-xs hover:border-primary/40 hover:bg-muted/15 hover:shadow-md transition-all duration-300 cursor-pointer"
+                                    className="p-3 sm:p-3.5 cursor-pointer h-full"
                                 >
-                                    {/* Image Container */}
-                                    <div className="relative aspect-[16/10] overflow-hidden rounded-xl bg-muted/25 border border-border/40 shadow-xs transition-all duration-500 group-hover:border-primary/30 group-hover:shadow-sm group-hover:-translate-y-0.5">
-                                        {item.image ? (
-                                            <>
-                                                <Image
-                                                    src={item.image}
-                                                    alt={item.title}
-                                                    fill
-                                                    className="object-cover grayscale-[0.08] group-hover:grayscale-0 group-hover:scale-105 transition-all duration-500"
-                                                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                                                    quality={90}
-                                                />
-                                                {/* Zoom Hover Overlay */}
-                                                <div className="absolute inset-0 bg-background/60 backdrop-blur-[2px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-2 text-foreground font-medium text-xs">
-                                                    <ZoomIn className="h-4 w-4" />
-                                                    <span>Lihat Sertifikat</span>
+                                    <article className="group flex flex-col space-y-3 h-full justify-between">
+                                        {/* Image Container */}
+                                        <div className="relative aspect-[16/10] overflow-hidden rounded-xl bg-muted/25 border border-border/40 shadow-xs transition-all duration-500 group-hover:border-primary/30 group-hover:shadow-sm group-hover:-translate-y-0.5">
+                                            {item.image ? (
+                                                <>
+                                                    <Image
+                                                        src={item.image}
+                                                        alt={item.title}
+                                                        fill
+                                                        className="object-cover grayscale-[0.08] group-hover:grayscale-0 group-hover:scale-105 transition-all duration-500"
+                                                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                                                        quality={90}
+                                                    />
+                                                    {/* Zoom Hover Overlay */}
+                                                    <div className="absolute inset-0 bg-background/60 backdrop-blur-[2px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-2 text-foreground font-medium text-xs">
+                                                        <ZoomIn className="h-4 w-4" />
+                                                        <span>Lihat Sertifikat</span>
+                                                    </div>
+                                                </>
+                                            ) : (
+                                                <div className="absolute inset-0 flex flex-col items-center justify-center bg-muted/30 text-muted-foreground/60 gap-2">
+                                                    <span className="text-[10px] uppercase tracking-wider font-bold text-muted-foreground/50">Coming Soon</span>
                                                 </div>
-                                            </>
-                                        ) : (
-                                            <div className="absolute inset-0 flex flex-col items-center justify-center bg-muted/30 text-muted-foreground/60 gap-2">
-                                                <span className="text-[10px] uppercase tracking-wider font-bold text-muted-foreground/50">Coming Soon</span>
+                                            )}
+                                        </div>
+
+                                        {/* Content Area */}
+                                        <div className="flex flex-col space-y-2 px-0.5 flex-1 justify-between">
+                                            <div className="flex items-center justify-between gap-2 flex-wrap pt-1">
+                                                <SimpleBadge variant={item.award}>
+                                                    {item.result}
+                                                </SimpleBadge>
+                                                <span className="text-[10px] font-mono font-semibold tracking-wider uppercase text-muted-foreground/70 flex items-center gap-1">
+                                                    <Calendar className="h-3 w-3 inline" />
+                                                    {item.date}
+                                                </span>
                                             </div>
-                                        )}
-                                    </div>
 
-                                    {/* Content Area */}
-                                    <div className="flex flex-col space-y-2 px-0.5">
-                                        <div className="flex items-center justify-between gap-2 flex-wrap">
-                                            <SimpleBadge variant={item.award}>
-                                                {item.result}
-                                            </SimpleBadge>
-                                            <span className="text-[10px] font-mono font-semibold tracking-wider uppercase text-muted-foreground/70 flex items-center gap-1">
-                                                <Calendar className="h-3 w-3 inline" />
-                                                {item.date}
-                                            </span>
+                                            <div className="space-y-1">
+                                                <h3 className="text-sm sm:text-base font-semibold tracking-tight text-foreground group-hover:text-primary transition-colors leading-snug line-clamp-2">
+                                                    {item.title}
+                                                </h3>
+                                                <p className="text-xs text-muted-foreground/80 line-clamp-2 leading-relaxed">
+                                                    {item.description}
+                                                </p>
+                                            </div>
                                         </div>
-
-                                        <div className="space-y-1">
-                                            <h3 className="text-sm sm:text-base font-semibold tracking-tight text-foreground group-hover:text-primary transition-colors leading-snug line-clamp-2">
-                                                {item.title}
-                                            </h3>
-                                            <p className="text-xs text-muted-foreground/80 line-clamp-2 leading-relaxed">
-                                                {item.description}
-                                            </p>
-                                        </div>
-                                    </div>
-                                </article>
+                                    </article>
+                                </SpotlightCard>
                             ))}
                         </div>
                     </section>
