@@ -8,6 +8,7 @@ interface SpotlightCardProps extends React.HTMLAttributes<HTMLDivElement> {
     className?: string;
     spotlightColor?: string;
     spotlightSize?: number;
+    enabled?: boolean;
 }
 
 export function SpotlightCard({
@@ -15,6 +16,7 @@ export function SpotlightCard({
     className = "",
     spotlightColor = "rgba(99, 102, 241, 0.15)",
     spotlightSize = 350,
+    enabled = false,
     ...props
 }: SpotlightCardProps) {
     const divRef = useRef<HTMLDivElement>(null);
@@ -23,7 +25,7 @@ export function SpotlightCard({
     const [opacity, setOpacity] = useState(0);
 
     const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
-        if (!divRef.current || isFocused) return;
+        if (!enabled || !divRef.current || isFocused) return;
 
         const rect = divRef.current.getBoundingClientRect();
         setPosition({
@@ -33,20 +35,24 @@ export function SpotlightCard({
     };
 
     const handleFocus = () => {
+        if (!enabled) return;
         setIsFocused(true);
         setOpacity(0.6);
     };
 
     const handleBlur = () => {
+        if (!enabled) return;
         setIsFocused(false);
         setOpacity(0);
     };
 
     const handleMouseEnter = () => {
+        if (!enabled) return;
         setOpacity(1);
     };
 
     const handleMouseLeave = () => {
+        if (!enabled) return;
         setOpacity(0);
     };
 
@@ -64,23 +70,27 @@ export function SpotlightCard({
             )}
             {...props}
         >
-            {/* Spotlight Radial Glow Overlay */}
-            <div
-                className="pointer-events-none absolute -inset-px transition-opacity duration-500 rounded-2xl z-10"
-                style={{
-                    opacity,
-                    background: `radial-gradient(${spotlightSize}px circle at ${position.x}px ${position.y}px, ${spotlightColor}, transparent 80%)`,
-                }}
-            />
+            {enabled && (
+                <>
+                    {/* Spotlight Radial Glow Overlay */}
+                    <div
+                        className="pointer-events-none absolute -inset-px transition-opacity duration-500 rounded-2xl z-10"
+                        style={{
+                            opacity,
+                            background: `radial-gradient(${spotlightSize}px circle at ${position.x}px ${position.y}px, ${spotlightColor}, transparent 80%)`,
+                        }}
+                    />
 
-            {/* Spotlight Border Accent Glow */}
-            <div
-                className="pointer-events-none absolute -inset-px transition-opacity duration-500 rounded-2xl z-0"
-                style={{
-                    opacity: opacity * 0.5,
-                    background: `radial-gradient(200px circle at ${position.x}px ${position.y}px, rgba(99, 102, 241, 0.4), transparent 100%)`,
-                }}
-            />
+                    {/* Spotlight Border Accent Glow */}
+                    <div
+                        className="pointer-events-none absolute -inset-px transition-opacity duration-500 rounded-2xl z-0"
+                        style={{
+                            opacity: opacity * 0.5,
+                            background: `radial-gradient(200px circle at ${position.x}px ${position.y}px, rgba(99, 102, 241, 0.4), transparent 100%)`,
+                        }}
+                    />
+                </>
+            )}
 
             <div className="relative z-20 h-full">{children}</div>
         </div>
