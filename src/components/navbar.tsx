@@ -15,9 +15,8 @@ import "./navbar-animations.css";
 
 const NAV_ITEMS = [
     { name: "Home", href: "/" },
-    { name: "Journey", href: "/journey" },
     { name: "Projects", href: "/projects" },
-    { name: "Competitions", href: "/competitions" },
+    { name: "Honors & Awards", href: "/competitions" },
     { name: "About", href: "/about" },
 ];
 

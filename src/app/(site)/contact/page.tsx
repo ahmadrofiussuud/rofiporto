@@ -44,20 +44,6 @@ export default function ContactPage() {
                         </Link>
 
                         <Link
-                            href="https://wa.me/6282142179454"
-                            target="_blank"
-                            className="flex items-center gap-3 p-4 rounded-lg bg-card border border-border hover:border-primary/50 transition-colors group"
-                        >
-                            <div className="p-3 rounded-full bg-green-500/10 text-green-500 group-hover:bg-green-500 group-hover:text-white transition-colors">
-                                <MessageCircle className="h-5 w-5" />
-                            </div>
-                            <div>
-                                <p className="text-sm text-muted-foreground">WhatsApp</p>
-                                <p className="font-semibold">082142179454</p>
-                            </div>
-                        </Link>
-
-                        <Link
                             href="https://github.com/ahmadrofiussuud"
                             target="_blank"
                             className="flex items-center gap-3 p-4 rounded-lg bg-card border border-border hover:border-primary/50 transition-colors group"

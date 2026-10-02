@@ -17,14 +17,14 @@ export function PlasmaBackground() {
 
     if (resolvedTheme === "dark") {
         return (
-            <div className="fixed inset-0 -z-10 overflow-hidden">
+            <div className="fixed inset-0 z-0 pointer-events-none overflow-hidden">
                 <div className="absolute inset-0 bg-[#060010]" />
                 <Plasma
                     color="#A3F0EB"
-                    speed={0.5}
+                    speed={0.6}
                     scale={1.5}
-                    opacity={0.4}
-                    mouseInteractive={false}
+                    opacity={0.5}
+                    mouseInteractive={true}
                 />
             </div>
         );
@@ -32,15 +32,15 @@ export function PlasmaBackground() {
 
     // Light mode — Ribbons (mouse-following ribbon trails)
     return (
-        <div className="fixed inset-0 -z-10 overflow-hidden">
-            <div className="absolute inset-0 bg-white" />
+        <div className="fixed inset-0 z-0 pointer-events-none overflow-hidden">
+            <div className="absolute inset-0 bg-slate-50/70" />
             <Ribbons
-                baseThickness={30}
-                colors={["#5227FF"]}
-                speedMultiplier={0.5}
-                maxAge={500}
-                enableFade={false}
-                enableShaderEffect={false}
+                baseThickness={35}
+                colors={["#5227FF", "#00D2FF", "#7928CA"]}
+                speedMultiplier={0.8}
+                maxAge={700}
+                enableFade={true}
+                enableShaderEffect={true}
             />
         </div>
     );

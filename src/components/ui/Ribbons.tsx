@@ -52,6 +52,7 @@ const Ribbons = ({
         gl.canvas.style.left = '0';
         gl.canvas.style.width = '100%';
         gl.canvas.style.height = '100%';
+        gl.canvas.style.pointerEvents = 'none';
         container.appendChild(gl.canvas);
 
         const scene = new Transform();

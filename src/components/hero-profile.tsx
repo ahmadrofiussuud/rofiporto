@@ -33,13 +33,6 @@ const SOCIAL_LINKS = [
         color: "hover:text-foreground"
     },
     {
-        name: "WhatsApp",
-        href: "https://wa.me/6282142179454",
-        icon: MessageCircle,
-        label: "WhatsApp Contact",
-        color: "hover:text-[#25D366]"
-    },
-    {
         name: "Instagram",
         href: "https://www.instagram.com/ahmadrfsd_/",
         icon: Instagram,
@@ -66,11 +59,11 @@ const PROFILE_IMAGE = "/images/profile/profile.png";
 
 export function HeroProfile() {
     return (
-        <section className="relative min-h-[95vh] lg:min-h-screen flex flex-col items-center justify-center overflow-hidden bg-background pt-16 lg:pt-0">
+        <section className="relative min-h-[95vh] lg:min-h-screen flex flex-col items-center justify-center overflow-hidden bg-transparent pt-16 lg:pt-0">
             {/* Premium Background Elements */}
             <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
                 {/* Subtle Gradient Base */}
-                <div className="absolute inset-0 bg-gradient-to-b from-background via-background/95 to-background" />
+                <div className="absolute inset-0 bg-gradient-to-b from-transparent via-background/30 to-background/70" />
 
                 {/* Decorative Blobs */}
                 <div className="absolute -top-[10%] -left-[10%] w-[40%] h-[40%] rounded-full bg-primary/5 blur-[120px] animate-pulse" />

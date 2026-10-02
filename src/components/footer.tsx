@@ -13,12 +13,6 @@ import { cn } from "@/lib/utils";
 
 const SOCIAL_LINKS = [
     {
-        name: "WhatsApp",
-        href: "https://wa.me/6282142179454",
-        icon: MessageCircle,
-        label: "WhatsApp",
-    },
-    {
         name: "Instagram",
         href: "https://www.instagram.com/ahmadrfsd_/",
         icon: Instagram,

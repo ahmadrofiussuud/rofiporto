@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "MARS | Portfolio",
-  description: "Personal portfolio of MARS - Journey, Projects, and Competitions.",
+  description: "Personal portfolio of MARS - Projects, and Honors & Awards.",
 };
 
 import { ThemeProvider } from "@/components/theme-provider";
