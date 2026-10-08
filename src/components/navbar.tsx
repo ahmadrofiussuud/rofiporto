@@ -11,7 +11,6 @@ import { Button } from "@/components/ui/button";
 import { useRef } from "react";
 import { useGSAP } from "@gsap/react";
 import { gsap } from "gsap";
-import "./navbar-animations.css";
 
 const NAV_ITEMS = [
     { name: "Home", href: "/" },

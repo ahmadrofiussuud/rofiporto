@@ -2,7 +2,6 @@
 
 import { useEffect, useRef } from 'react';
 import { Renderer, Transform, Vec3, Color, Polyline } from 'ogl';
-import './Ribbons.css';
 
 interface RibbonsProps {
     colors?: string[];

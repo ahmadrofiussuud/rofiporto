@@ -3,6 +3,8 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "../globals.css";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
+import { ThemeProvider } from "@/components/theme-provider";
+import { PlasmaBackground } from "@/components/ui/plasma-background";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -18,10 +20,6 @@ export const metadata: Metadata = {
   title: "MARS | Portfolio",
   description: "Personal portfolio of MARS - Projects, and Honors & Awards.",
 };
-
-import { ThemeProvider } from "@/components/theme-provider";
-import { ThemeDebug } from "@/components/ThemeDebug";
-import { PlasmaBackground } from "@/components/ui/plasma-background";
 
 export default function RootLayout({
   children,
@@ -45,7 +43,6 @@ export default function RootLayout({
             {children}
           </main>
           <Footer />
-          <ThemeDebug />
         </ThemeProvider>
       </body>
     </html>

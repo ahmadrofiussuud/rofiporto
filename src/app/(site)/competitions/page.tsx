@@ -1,4 +1,4 @@
-import { CompetitionsView } from "./competitions-view";
+import { CompetitionsView } from "@/components/sections/competitions-view";
 
 export const metadata = {
     title: "Honors & Awards | MARS",
