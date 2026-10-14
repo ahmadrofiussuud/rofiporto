@@ -1,80 +1,14 @@
-import { Mail, Github, Linkedin, MessageCircle } from "lucide-react";
-import Link from "next/link";
+import { ArrowUpRight, Mail } from "lucide-react";
+import { CopyEmail } from "@/components/copy-email";
 
-export const metadata = {
-    title: "Kontak | MARS",
-    description: "Hubungi saya untuk peluang atau kolaborasi.",
-};
+export const metadata = { title: "Kontak — Muhammad Ahmad Rofi’us Su’ud", description: "Hubungi Muhammad Ahmad Rofi’us Su’ud untuk diskusi produk, proyek, dan kolaborasi." };
 
 export default function ContactPage() {
-    return (
-        <div className="container mx-auto px-4 pt-24 pb-8 lg:pt-40 md:pb-16 max-w-4xl">
-            <div className="text-center mb-16 space-y-4">
-                <h1 className="text-4xl md:text-5xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600">
-                    Hubungi Saya
-                </h1>
-                <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-                    Apakah Anda memiliki pertanyaan, ide proyek, atau sekadar ingin menyapa, saya selalu terbuka untuk peluang baru.
-                </p>
-            </div>
-
-            <div className="grid md:grid-cols-2 gap-12">
-                {/* Contact Info */}
-                <div className="space-y-8">
-                    <div className="space-y-4">
-                        <h2 className="text-2xl font-bold">Terhubung dengan saya</h2>
-                        <p className="text-muted-foreground">
-                            Jangan ragu untuk menghubungi saya melalui email atau terhubung di media sosial.
-                            Saya biasanya membalas dalam waktu 24 jam.
-                        </p>
-                    </div>
-
-                    <div className="flex flex-col gap-4">
-                        <Link
-                            href="mailto:ahmadrofiussuud@gmail.com"
-                            className="flex items-center gap-3 p-4 rounded-lg bg-card border border-border hover:border-primary/50 transition-colors group"
-                        >
-                            <div className="p-3 rounded-full bg-primary/10 text-primary group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
-                                <Mail className="h-5 w-5" />
-                            </div>
-                            <div>
-                                <p className="text-sm text-muted-foreground">Email</p>
-                                <p className="font-semibold">ahmadrofiussuud@gmail.com</p>
-                            </div>
-                        </Link>
-
-                        <Link
-                            href="https://github.com/ahmadrofiussuud"
-                            target="_blank"
-                            className="flex items-center gap-3 p-4 rounded-lg bg-card border border-border hover:border-primary/50 transition-colors group"
-                        >
-                            <div className="p-3 rounded-full bg-secondary/10 text-secondary group-hover:bg-secondary group-hover:text-secondary-foreground transition-colors">
-                                <Github className="h-5 w-5" />
-                            </div>
-                            <div>
-                                <p className="text-sm text-muted-foreground">GitHub</p>
-                                <p className="font-semibold">@ahmadrofiussuud</p>
-                            </div>
-                        </Link>
-
-                        <Link
-                            href="https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/"
-                            target="_blank"
-                            className="flex items-center gap-3 p-4 rounded-lg bg-card border border-border hover:border-primary/50 transition-colors group"
-                        >
-                            <div className="p-3 rounded-full bg-blue-500/10 text-blue-500 group-hover:bg-blue-500 group-hover:text-white transition-colors">
-                                <Linkedin className="h-5 w-5" />
-                            </div>
-                            <div>
-                                <p className="text-sm text-muted-foreground">LinkedIn</p>
-                                <p className="font-semibold text-sm">Muhammad Ahmad Rofi'us Su'ud</p>
-                            </div>
-                        </Link>
-                    </div>
-                </div>
-
-                {/* Contact Form Removed as per Mentor Revision ("Hapus aja klo blum bisa") */}
-            </div>
-        </div>
-    );
+ return <div className="site-shell pb-20">
+  <header className="page-intro"><p className="eyebrow mb-5">KONTAK / MULAI PERCAKAPAN</p><h1 className="page-title">Punya ide?<br />Saya ingin dengar.</h1><p className="page-summary">Untuk diskusi produk, peluang kerja, atau kolaborasi. Ceritakan konteksnya, apa yang ingin dicapai, dan bagaimana saya bisa membantu.</p></header>
+  <div className="grid md:grid-cols-[1.4fr_1fr] gap-12 md:gap-20 pt-8 border-t border-border">
+   <div><p className="eyebrow mb-5">KIRIM PESAN LEWAT EMAIL</p><a href="mailto:ahmadrofiussuud@gmail.com" className="block text-xl sm:text-3xl font-medium tracking-tight break-all hover:text-primary transition-colors">ahmadrofiussuud@gmail.com</a><div className="flex flex-wrap gap-3 mt-8 items-start"><a href="mailto:ahmadrofiussuud@gmail.com" className="action-primary">Tulis email <Mail size={17} /></a><CopyEmail /></div></div>
+   <div><p className="eyebrow mb-4">TEMUKAN SAYA JUGA DI</p>{[["LinkedIn", "Pengalaman & koneksi profesional", "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/"], ["GitHub", "Kode & eksplorasi", "https://github.com/ahmadrofiussuud"], ["Instagram", "Sisi lain keseharian saya", "https://www.instagram.com/ahmadrfsd_/"]].map(([label, description, href]) => <a key={label} href={href} target="_blank" rel="noopener noreferrer" className="group flex items-center justify-between gap-5 border-b border-border py-5"><div><span className="font-medium group-hover:text-primary transition-colors">{label}</span><p className="text-xs text-muted-foreground mt-1">{description}</p></div><ArrowUpRight size={20} className="transition-transform group-hover:translate-x-1 group-hover:-translate-y-1" /></a>)}</div>
+  </div>
+ </div>;
 }

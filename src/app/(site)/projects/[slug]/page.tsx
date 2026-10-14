@@ -43,7 +43,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
     const isCompetition = meta.type === "competition";
 
     return (
-        <div className="container mx-auto px-4 py-12 md:py-24 max-w-4xl">
+        <div className="container mx-auto px-5 pt-32 pb-16 md:pt-40 max-w-4xl">
             <Button asChild variant="ghost" className="mb-8 -ml-4 text-muted-foreground hover:text-foreground">
                 <Link href="/projects">
                     <ArrowLeft className="mr-2 h-4 w-4" /> Kembali ke Proyek
@@ -141,7 +141,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
                 </div>
             </div>
 
-            <article className="prose prose-invert prose-lg max-w-none prose-headings:font-bold prose-headings:tracking-tight prose-p:leading-relaxed prose-li:text-gray-300">
+            <article className="prose dark:prose-invert prose-lg max-w-none prose-headings:font-bold prose-headings:tracking-tight prose-p:leading-relaxed">
                 <MDXRemote source={content} components={mdxComponents} />
             </article>
 

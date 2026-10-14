@@ -1,27 +1,8 @@
 import { getAllProjects } from "@/lib/content";
 import { ProjectsGrid } from "@/components/layout/projects-grid";
 
-export const metadata = {
-    title: "Proyek | MARS",
-    description: "Koleksi proyek dan eksperimen terbaru saya.",
-};
+export const metadata = { title: "Karya — Muhammad Ahmad Rofi’us Su’ud", description: "Proyek digital, pengalaman organisasi, dan eksplorasi Muhammad Ahmad Rofi’us Su’ud." };
 
 export default function ProjectsPage() {
-    const projects = getAllProjects();
-
-    return (
-        <div className="container mx-auto px-4 pt-24 pb-20 lg:pt-40 md:pb-20 max-w-7xl">
-            <header className="mb-20 space-y-4 max-w-3xl mx-auto text-center">
-                <h1 className="text-4xl md:text-5xl font-bold tracking-tight">
-                    Proyek
-                </h1>
-                <p className="text-muted-foreground text-xl mx-auto">
-                    Kumpulan karya, eksperimen, dan kontribusi open-source saya.
-                    Filter berdasarkan kategori atau tag untuk menjelajahi domain tertentu.
-                </p>
-            </header>
-
-            <ProjectsGrid projects={projects} />
-        </div>
-    );
+ return <div className="site-shell pb-20"><header className="page-intro"><p className="eyebrow mb-5">ARSIP / KARYA & PENGALAMAN</p><h1 className="page-title">Beragam peran.<br />Satu rasa ingin tahu.</h1><p className="page-summary">Dari produk digital dan organisasi sampai hal-hal yang saya eksplorasi di luar pekerjaan. Berikut cerita dan kontribusi saya di dalamnya.</p></header><ProjectsGrid projects={getAllProjects()} /></div>;
 }

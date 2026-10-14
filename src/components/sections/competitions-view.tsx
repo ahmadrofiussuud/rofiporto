@@ -438,7 +438,7 @@ export function CompetitionsView() {
                                                         fill
                                                         className="object-cover grayscale-[0.08] group-hover:grayscale-0 group-hover:scale-105 transition-all duration-500"
                                                         sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                                                        quality={90}
+                                                        quality={75}
                                                     />
                                                     {/* Zoom Hover Overlay */}
                                                     <div className="absolute inset-0 bg-background/60 backdrop-blur-[2px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-2 text-foreground font-medium text-xs">

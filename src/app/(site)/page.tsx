@@ -1,61 +1,29 @@
 import Link from "next/link";
-import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
-import { ArrowRight, Code2, Trophy } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 import { getAllProjects } from "@/lib/content";
 import { ProjectCard } from "@/components/ui/project-card";
-
 import { HeroProfile } from "@/components/hero-profile";
 
 export default function Home() {
-    const allProjects = getAllProjects();
-    const featuredSlugs = ["website-em-ub", "bcc-website", "gestory"];
-    const featuredProjects = featuredSlugs
-        .map((slug) => allProjects.find((p) => p.slug === slug))
-        .filter((p): p is NonNullable<typeof p> => p !== undefined);
-
-    return (
-        <div className="flex flex-col pb-12">
-            {/* Hero Section */}
-            <HeroProfile />
-
-            {/* Featured Projects */}
-            <section className="container mx-auto px-4 py-16 lg:py-24 space-y-8 max-w-7xl">
-                <div className="flex justify-between items-end border-b border-border/40 pb-6 text-foreground">
-                    <div className="space-y-1">
-                        <h2 className="text-3xl font-bold tracking-tight">Featured Work</h2>
-                        <p className="text-muted-foreground">Selected projects from my portfolio.</p>
-                    </div>
-                    <Button asChild variant="ghost" className="hidden md:inline-flex">
-                        <Link href="/projects" className="group">
-                            View All <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-                        </Link>
-                    </Button>
-                </div>
-
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    {featuredProjects.map((project) => (
-                        <ProjectCard key={project.slug} project={project} />
-                    ))}
-                </div>
-
-                <div className="md:hidden text-center">
-                    <Button asChild variant="outline" className="w-full">
-                        <Link href="/projects">View All Projects</Link>
-                    </Button>
-                </div>
-            </section>
-
-            {/* Footer CTA */}
-            <section className="container mx-auto px-4 py-16 text-center space-y-8">
-                <h2 className="text-4xl md:text-5xl font-bold tracking-tight">Siap untuk membuat sesuatu yang luar biasa?</h2>
-                <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-                    Saya sedang mencari tantangan dan kolaborasi baru. Mari terhubung.
-                </p>
-                <Button asChild size="lg" className="h-14 px-10 text-lg rounded-full">
-                    <Link href="/contact">Hubungi Saya</Link>
-                </Button>
-            </section>
-        </div>
-    );
+ const projects = getAllProjects();
+ const selected = ["website-em-ub", "bcc-website", "gestory"].flatMap(slug => {
+  const project = projects.find(p => p.slug === slug);
+  return project ? [project] : [];
+ });
+ return <>
+  <HeroProfile />
+  <section id="karya" className="site-shell section-space home-work">
+   <div className="section-heading"><div><p className="eyebrow mb-4">02 / KARYA PILIHAN</p><h2 className="section-title">Dari ide menjadi karya.</h2></div><Link href="/projects" className="text-link">Semua karya <ArrowUpRight size={18} /></Link></div>
+   <div className="selected-work">{selected.map((project, index) => <ProjectCard key={project.slug} project={project} selectionNumber={String(index + 1).padStart(2, "0")} />)}</div>
+  </section>
+  <section className="approach-section"><div className="site-shell section-space process-layout">
+   <div className="process-intro"><p className="eyebrow mb-4">03 / DI BALIK PROSES</p><h2 className="section-title">Cara saya<br />mengurai masalah.</h2><p className="text-muted-foreground leading-relaxed mt-6">Menjaga hubungan antara masalah pengguna, keputusan produk, dan pekerjaan yang dijalankan tim.</p></div>
+   <div className="approach-grid">{[
+    ["01", "Apa masalahnya?", "Memahami kebutuhan pengguna dan menyusun masalah yang ingin diselesaikan sebelum menentukan fitur."],
+    ["02", "Apa yang didahulukan?", "Menerjemahkan kebutuhan menjadi prioritas, alur pengguna, dan arah kerja yang bisa dipahami tim."],
+    ["03", "Bagaimana mewujudkannya?", "Menghubungkan desain dengan pengembangan, menjaga komunikasi, dan mengevaluasi hasil bersama."]
+   ].map(([number, title, body]) => <div key={number}><span className="process-number">{number}</span><div><h3 className="text-xl font-semibold mb-3">{title}</h3><p className="text-muted-foreground text-sm leading-relaxed">{body}</p></div></div>)}</div>
+  </div></section>
+  <section className="site-shell home-contact"><div className="contact-band"><div><p className="eyebrow mb-4">04 / MARI TERHUBUNG</p><h2 className="section-title">Mulai dari percakapan.</h2><p className="text-muted-foreground mt-4 text-sm leading-relaxed">Punya ide, peluang, atau tantangan produk? Mari kita bicarakan.</p></div><Link href="/contact" className="action-primary">Hubungi saya <ArrowUpRight size={19} /></Link></div></section>
+ </>;
 }

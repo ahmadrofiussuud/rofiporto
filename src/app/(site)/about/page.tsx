@@ -1,77 +1,21 @@
-import { Button } from "@/components/ui/button";
-import { Download, Mail } from "lucide-react";
-import Link from "next/link";
 import Image from "next/image";
+import Link from "next/link";
+import { ArrowUpRight } from "lucide-react";
 
-export const metadata = {
-    title: "Tentang | MARS",
-    description: "Pelajari lebih lanjut tentang MARS, seorang software engineer dan pengembang kreatif.",
-};
+export const metadata = { title: "Tentang — Muhammad Ahmad Rofi’us Su’ud", description: "Kenali Muhammad Ahmad Rofi’us Su’ud (MARS), pengalaman product management, desain, dan pengembangan produk digital." };
 
 export default function AboutPage() {
-    return (
-        <div className="container mx-auto px-4 pt-24 pb-8 lg:pt-40 md:pb-16 max-w-4xl">
-            <div className="flex flex-col md:flex-row gap-8 md:gap-16 items-start">
-                {/* Profile Image / Avatar Placeholder */}
-                <div className="w-full md:w-1/3 flex-shrink-0">
-                    <div className="aspect-square bg-muted rounded-2xl overflow-hidden relative border border-border">
-                        <Image
-                            src="/images/profile/profile.png"
-                            alt="MARS"
-                            fill
-                            className="object-cover"
-                            priority
-                        />
-                    </div>
-                    <div className="mt-6 flex flex-col gap-4">
-                        <Button className="w-full" asChild>
-                            <Link href="mailto:contact@mars.dev">
-                                <Mail className="mr-2 h-4 w-4" /> Hubungi Saya
-                            </Link>
-                        </Button>
-                        <Button variant="outline" className="w-full">
-                            <Download className="mr-2 h-4 w-4" /> Unduh CV
-                        </Button>
-                    </div>
-                </div>
-
-                {/* Content */}
-                <div className="flex-1 space-y-8">
-                    <div>
-                        <h1 className="text-4xl font-bold tracking-tight mb-4 text-primary">Tentang Saya</h1>
-                        <p className="text-xl text-muted-foreground leading-relaxed">
-                            Halo! Saya <span className="text-foreground font-semibold">MARS</span>, seorang Product Manager yang fokus membangun produk digital yang relevan dan mudah digunakan. Saya senang menerjemahkan masalah pengguna menjadi solusi yang jelas—mulai dari riset singkat, menyusun kebutuhan, sampai memastikan eksekusinya rapi.
-                        </p>
-                    </div>
-
-                    <div className="space-y-4">
-                        <h2 className="text-2xl font-bold">Kisah Saya</h2>
-                        <div className="prose dark:prose-invert max-w-none text-muted-foreground">
-                            <p>
-                                Perjalanan saya dimulai dari ikut proyek dan lomba, lalu makin tertarik pada proses di balik produk: kenapa fitur dibuat, siapa yang paling terbantu, dan bagaimana dampaknya diukur. Saya terbiasa bekerja lintas tim, menyusun prioritas, dan menjaga arah produk tetap selaras dengan tujuan.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className="space-y-4">
-                        <h2 className="text-2xl font-bold">Keahlian & Teknologi</h2>
-                        <div className="flex flex-wrap gap-2">
-                            {[
-                                "TypeScript", "JavaScript", "React", "Next.js",
-                                "Tailwind CSS", "Node.js", "PostgreSQL", "Git",
-                                "UI/UX Design", "Figma"
-                            ].map((skill) => (
-                                <span
-                                    key={skill}
-                                    className="px-3 py-1 bg-secondary/10 text-secondary rounded-full text-sm font-medium border border-secondary/20"
-                                >
-                                    {skill}
-                                </span>
-                            ))}
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    );
+ return <div className="site-shell pb-20">
+  <header className="page-intro"><p className="eyebrow mb-5">TENTANG / MARS</p><h1 className="page-title">Di balik karya,<br />ada rasa ingin tahu.</h1></header>
+  <div className="grid md:grid-cols-[.8fr_1.2fr] gap-10 md:gap-20 items-start">
+   <div className="portrait-panel"><span className="portrait-mark" aria-hidden="true">MARS</span><Image src="/images/profile/profile-clean.png" alt="Muhammad Ahmad Rofi’us Su’ud" fill priority sizes="(max-width: 767px) 90vw, 40vw" className="object-contain object-bottom portrait-photo" /><div className="portrait-caption">Muhammad Ahmad Rofi’us Su’ud</div></div>
+   <div className="space-y-9">
+    <div><h2 className="text-2xl md:text-3xl font-semibold tracking-tight mb-5">Halo, saya Rofi.</h2><p className="text-muted-foreground leading-relaxed">Nama lengkap saya Muhammad Ahmad Rofi’us Su’ud. MARS adalah inisial yang saya pakai di portofolio ini. Saya tertarik pada proses mengubah masalah menjadi produk yang bisa digunakan: memahami kebutuhan, memilih prioritas, lalu bekerja bersama tim untuk mewujudkannya.</p></div>
+    <div><p className="eyebrow mb-4">PERTEMUAN PRODUK & TEKNOLOGI</p><p className="text-muted-foreground leading-relaxed">Perjalanan saya tumbuh lewat proyek, organisasi, dan kompetisi. Di website EM UB, saya menjalankan peran Product Manager sekaligus Ketua Pelaksana. Di BCC, saya terlibat dalam penyusunan arah dan prioritas pengembangan website komunitas.</p><p className="text-muted-foreground leading-relaxed mt-4">Saya juga mengeksplorasi desain dan pengembangan secara langsung. Pengalaman itu membantu saya memahami percakapan antara kebutuhan pengguna, keputusan desain, dan batasan teknis.</p></div>
+    <div className="border-y border-border py-6"><p className="eyebrow mb-5">AREA YANG SAYA KERJAKAN</p><div className="grid sm:grid-cols-2 gap-6"><div><h3 className="font-medium mb-2">Produk & kolaborasi</h3><p className="text-sm text-muted-foreground leading-relaxed">Prioritas fitur, roadmap, PRD, alur pengguna, dan koordinasi tim.</p></div><div><h3 className="font-medium mb-2">Desain & pengembangan</h3><p className="text-sm text-muted-foreground leading-relaxed">Figma, UI/UX, React, Next.js, TypeScript, dan Tailwind CSS.</p></div></div></div>
+    <Link href="/projects" className="text-link">Lihat penerapannya dalam karya <ArrowUpRight size={18} /></Link>
+    <div className="pt-3"><Link href="/contact" className="action-primary">Mari berkenalan <ArrowUpRight size={18} /></Link></div>
+   </div>
+  </div>
+ </div>;
 }

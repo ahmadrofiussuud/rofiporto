@@ -1,109 +1,21 @@
 "use client";
-
 import { useState } from "react";
-import { ProjectMetadata } from "@/lib/content";
+import type { ProjectMetadata } from "@/lib/content";
 import { ProjectCard } from "@/components/ui/project-card";
-import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
-import { X } from "lucide-react";
-import { cn } from "@/lib/utils";
-import { motion, AnimatePresence } from "framer-motion";
+import { Search, X } from "lucide-react";
 
-interface ProjectsGridProps {
-    projects: {
-        slug: string;
-        meta: ProjectMetadata;
-    }[];
-}
+const categories = [{ id: "", name: "Semua" }, { id: "kerja", name: "Pengalaman kerja" }, { id: "lomba", name: "Proyek digital" }, { id: "organisasi", name: "Organisasi" }, { id: "skill", name: "Sertifikasi" }, { id: "hobi", name: "Di luar pekerjaan" }];
 
-export function ProjectsGrid({ projects }: ProjectsGridProps) {
-    const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
-    const [selectedTag, setSelectedTag] = useState<string | null>(null);
-
-    const CATEGORIES = [
-        { id: null, name: "Semua Karya" },
-        { id: "kerja", name: "Kerja" },
-        { id: "lomba", name: "Proyek" },
-        { id: "organisasi", name: "Organisasi" },
-        { id: "skill", name: "Skill" },
-        { id: "hobi", name: "Hobi" },
-    ];
-
-    // Extract all unique tags for the currently selected category (or all if none)
-    const availableProjects = selectedCategory
-        ? projects.filter((p) => p.meta.category === selectedCategory)
-        : projects;
-
-    const allTags = Array.from(
-        new Set(availableProjects.flatMap((p) => p.meta.tags))
-    ).sort();
-
-    // Filter projects by both category and tag
-    const filteredProjects = availableProjects.filter((p) =>
-        selectedTag ? p.meta.tags.includes(selectedTag) : true
-    );
-
-    return (
-        <div className="space-y-12">
-            {/* Category Tabs */}
-            <div className="flex overflow-x-auto no-scrollbar max-w-full p-1 bg-muted/30 rounded-2xl w-fit mx-auto border border-border/40">
-                <div className="flex flex-nowrap min-w-max">
-                    {CATEGORIES.map((cat) => (
-                        <button
-                            key={cat.id || "all"}
-                            onClick={() => {
-                                setSelectedCategory(cat.id);
-                            }}
-                            className={cn(
-                                "relative px-6 py-2 rounded-xl text-sm font-semibold transition-all duration-300 isolate",
-                                selectedCategory === cat.id
-                                    ? "text-white"
-                                    : "text-muted-foreground hover:text-foreground"
-                            )}
-                        >
-                            {selectedCategory === cat.id && (
-                                <motion.div
-                                    layoutId="active-category"
-                                    className="absolute inset-0 bg-gradient-to-r from-blue-600 to-cyan-500 dark:from-blue-500 dark:to-cyan-400 rounded-xl -z-10 shadow-[0_0_20px_rgba(59,130,246,0.3)]"
-                                    transition={{ type: "spring", bounce: 0.25, duration: 0.5 }}
-                                />
-                            )}
-                            <span className="relative z-10">{cat.name}</span>
-                        </button>
-                    ))}
-                </div>
-            </div>
-
-            <div className="space-y-16">
-                {/* Grid */}
-                {filteredProjects.length > 0 ? (
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-                        {filteredProjects.map((project) => (
-                            <ProjectCard key={project.slug} project={project} />
-                        ))}
-                    </div>
-                ) : (
-                    <div className="text-center py-24 rounded-3xl border-2 border-dashed border-border/50">
-                        <div className="bg-muted/30 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                            <X className="text-muted-foreground w-8 h-8" />
-                        </div>
-                        <h3 className="text-xl font-semibold mb-2">Proyek tidak ditemukan</h3>
-                        <p className="text-muted-foreground max-w-xs mx-auto">
-                            Coba sesuaikan filter atau kata kunci pencarian Anda untuk menemukan yang Anda cari.
-                        </p>
-                        <Button
-                            variant="outline"
-                            className="mt-6"
-                            onClick={() => {
-                                setSelectedCategory(null);
-                                setSelectedTag(null);
-                            }}
-                        >
-                            Reset Semua Filter
-                        </Button>
-                    </div>
-                )}
-            </div>
-        </div>
-    );
+export function ProjectsGrid({ projects }: { projects: { slug: string; meta: ProjectMetadata }[] }) {
+ const [category, setCategory] = useState("");
+ const [query, setQuery] = useState("");
+ const filtered = projects.filter(({ meta }) => (!category || meta.category === category) && [meta.title, meta.description, meta.role, ...meta.tags].join(" ").toLowerCase().includes(query.trim().toLowerCase()));
+ return <div>
+  <div className="flex flex-wrap items-center justify-between gap-6 pb-7 border-b border-border">
+   <div className="flex flex-wrap gap-2" role="group" aria-label="Kategori karya">{categories.map(item => <button key={item.id} aria-pressed={category === item.id} onClick={() => setCategory(item.id)} className={`px-4 py-2.5 text-xs rounded-md border transition-colors ${category === item.id ? "bg-foreground text-background border-foreground" : "border-border text-muted-foreground hover:text-foreground hover:bg-muted"}`}>{item.name}</button>)}</div>
+   <label className="flex items-center gap-3 border border-border rounded-md px-3 py-2.5 w-full sm:w-64"><Search size={16} className="text-muted-foreground shrink-0" /><span className="sr-only">Cari karya</span><input type="search" placeholder="Cari karya atau keahlian…" value={query} onChange={event => setQuery(event.target.value)} className="bg-transparent w-full min-w-0 text-sm" /></label>
+  </div>
+  <p role="status" className="text-xs text-muted-foreground py-6">{filtered.length} karya{category ? ` · ${categories.find(item => item.id === category)?.name}` : ""}</p>
+  {filtered.length ? <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-7 gap-y-12">{filtered.map(project => <ProjectCard key={project.slug} project={project} />)}</div> : <div className="py-20 text-center border border-dashed border-border rounded-lg"><Search className="mx-auto text-muted-foreground mb-5" size={28} /><h2 className="text-xl font-medium">Belum ada karya yang cocok.</h2><p className="text-sm text-muted-foreground mt-2">Coba kata kunci lain atau tampilkan semua kategori.</p><button onClick={() => { setCategory(""); setQuery(""); }} className="action-secondary mt-6"><X size={16} />Reset pencarian</button></div>}
+ </div>;
 }
