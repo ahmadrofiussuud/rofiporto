@@ -259,6 +259,14 @@ export const COMPETITION_SECTIONS: CompetitionSection[] = [
         description: "Berbagi wawasan, memandu workshop teknologi, dan mentoring seputar product management serta pengembangan diri.",
         items: [
             {
+                title: "Mentor Mini Case Competition — 180 Degrees Consulting UB",
+                result: "Mentor",
+                award: "blue",
+                description: "Menjadi mentor dalam Mini Case Competition (MCC), kompetisi tingkat nasional yang diselenggarakan oleh 180 Degrees Consulting Universitas Brawijaya.",
+                date: "17–29 Sep 2026",
+                image: "/images/competitions/mentor-mini-case-competition-180dc-ub-2026.png"
+            },
+            {
                 title: "Pemateri Workshop #5: Product Management - BCC FILKOM UB",
                 result: "Pemateri",
                 award: "purple",
