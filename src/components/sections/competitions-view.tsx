@@ -31,6 +31,14 @@ export const COMPETITION_SECTIONS: CompetitionSection[] = [
         label: "Pencapaian Utama",
         description: "Prestasi puncak, gelar juara, dan medali emas dalam kompetisi bergengsi tingkat nasional & internasional.",
         items: [
+            {
+                title: "Mahasiswa Berprestasi (Mawapres) — FILKOM UB",
+                result: "Juara 1",
+                award: "gold",
+                description: "Meraih Juara 1 dalam pemilihan Mahasiswa Berprestasi di Fakultas Ilmu Komputer Universitas Brawijaya.",
+                date: "2026",
+                image: ""
+            },
             // 1. Juara Umum (Inter dulu, baru IPB)
             {
                 title: "Grand Champion (Winner) - 2nd Youth Project Series (YPS)",
@@ -315,6 +323,14 @@ export const COMPETITION_SECTIONS: CompetitionSection[] = [
         description: "Apresiasi atas validasi ide bisnis, perancangan proposal, dan partisipasi pada tahap final nasional.",
         items: [
             {
+                title: "Paper Ilmiah — PHIC UNAIR 2026",
+                result: "Finalis · Peringkat 4",
+                award: "blue",
+                description: "Finalis dengan peringkat 4 pada kategori paper ilmiah Public Health Innovative Competition (PHIC) 2026, Fakultas Kesehatan Masyarakat Universitas Airlangga.",
+                date: "2026",
+                image: ""
+            },
+            {
                 title: "Business Model Canvas - Finalist PHENTUSIAS UNAIR",
                 result: "Finalist",
                 award: "outline",
@@ -337,6 +353,30 @@ export const COMPETITION_SECTIONS: CompetitionSection[] = [
                 description: "Finalist in the regional Business Model Canvas competition for innovative startup planning.",
                 date: "Agu 2025",
                 image: "/images/competitions/finalis bmc.png"
+            }
+        ]
+    },
+    {
+        id: "seminars",
+        category: "Seminars & Webinars",
+        label: "Seminar & Webinar",
+        description: "Partisipasi dalam seminar dan webinar untuk memperluas wawasan lintas bidang.",
+        items: [
+            {
+                title: "Webinar PHIC 2026 — Universitas Airlangga",
+                result: "Peserta Webinar",
+                award: "outline",
+                description: "Mengikuti webinar Public Health Innovative Competition (PHIC) 2026 yang diselenggarakan oleh Fakultas Kesehatan Masyarakat Universitas Airlangga.",
+                date: "Okt 2026",
+                image: "/images/competitions/webinar-phic-unair-2026.jpg"
+            },
+            {
+                title: "DEBUG 2.0 × PERAN PUAN — FILKOM UB",
+                result: "Peserta Seminar",
+                award: "outline",
+                description: "Mengikuti seminar bertema Membangun Indonesia Digital: Perlunya Kebijakan AI Dalam Memerangi Kekerasan Seksual Berbasis Deepfake di Fakultas Ilmu Komputer Universitas Brawijaya.",
+                date: "1 Sep 2024",
+                image: "/images/competitions/seminar-debug-peran-puan-2024.png"
             }
         ]
     }
@@ -433,7 +473,7 @@ export function CompetitionsView() {
                                 <SpotlightCard
                                     key={index}
                                     onClick={() => item.image && setSelectedItem(item)}
-                                    className="p-3 sm:p-3.5 cursor-pointer h-full"
+                                    className={cn("p-3 sm:p-3.5 h-full", item.image && "cursor-pointer")}
                                 >
                                     <article className="group flex flex-col space-y-3 h-full justify-between">
                                         {/* Image Container */}
@@ -456,7 +496,7 @@ export function CompetitionsView() {
                                                 </>
                                             ) : (
                                                 <div className="absolute inset-0 flex flex-col items-center justify-center bg-muted/30 text-muted-foreground/60 gap-2">
-                                                    <span className="text-[10px] uppercase tracking-wider font-bold text-muted-foreground/50">Coming Soon</span>
+                                                    <span className="text-xs font-medium text-muted-foreground">Sertifikat belum terbit</span>
                                                 </div>
                                             )}
                                         </div>
