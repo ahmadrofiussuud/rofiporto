@@ -14,6 +14,7 @@ export interface CompetitionItem {
     description: string;
     date: string;
     image: string;
+    certificateNote?: string;
 }
 
 export interface CompetitionSection {
@@ -267,6 +268,14 @@ export const COMPETITION_SECTIONS: CompetitionSection[] = [
         description: "Berbagi wawasan, memandu workshop teknologi, dan mentoring seputar product management serta pengembangan diri.",
         items: [
             {
+                title: "Mentor Startup Academy / LKMM-TD 2025 — FILKOM UB",
+                result: "Mentor",
+                award: "blue",
+                description: "Berperan sebagai mentor pada Startup Academy 2025, subkegiatan LKMM-TD FILKOM Universitas Brawijaya. Sertifikat mencatat keterlibatan sebagai panitia.",
+                date: "28 Sep 2025",
+                image: "/images/projects/Sertif Panitia LKMMTD.png"
+            },
+            {
                 title: "Mentor Startup Academy 2026 — FILKOM UB",
                 result: "Mentor",
                 award: "blue",
@@ -369,6 +378,31 @@ export const COMPETITION_SECTIONS: CompetitionSection[] = [
                 description: "Finalist in the regional Business Model Canvas competition for innovative startup planning.",
                 date: "Agu 2025",
                 image: "/images/competitions/finalis bmc.png"
+            }
+        ]
+    },
+    {
+        id: "ambassadors",
+        category: "Brand Ambassador",
+        label: "Brand Ambassador",
+        description: "Pengalaman sebagai perwakilan brand dan program kampus.",
+        items: [
+            {
+                title: "Brand Ambassador HOLOGY — FILKOM UB",
+                result: "Brand Ambassador",
+                award: "purple",
+                description: "Brand Ambassador untuk kompetisi nasional HOLOGY FILKOM Universitas Brawijaya.",
+                date: "",
+                image: "",
+                certificateNote: "Sertifikat belum tersedia"
+            },
+            {
+                title: "Popbuddy — PopSurvey by Populix",
+                result: "Campus Ambassador",
+                award: "blue",
+                description: "Popbuddy dalam Campus Ambassador Program PopSurvey by Populix Batch 10, periode April–Juni 2026.",
+                date: "Apr–Jun 2026",
+                image: "/images/projects/brand-ambassador-populix.png"
             }
         ]
     },
@@ -512,7 +546,7 @@ export function CompetitionsView() {
                                                 </>
                                             ) : (
                                                 <div className="absolute inset-0 flex flex-col items-center justify-center bg-muted/30 text-muted-foreground/60 gap-2">
-                                                    <span className="text-xs font-medium text-muted-foreground">Sertifikat belum terbit</span>
+                                                    <span className="text-xs font-medium text-muted-foreground">{item.certificateNote || "Sertifikat belum terbit"}</span>
                                                 </div>
                                             )}
                                         </div>
@@ -523,10 +557,10 @@ export function CompetitionsView() {
                                                 <SimpleBadge variant={item.award}>
                                                     {item.result}
                                                 </SimpleBadge>
-                                                <span className="text-[10px] font-mono font-semibold tracking-wider uppercase text-muted-foreground/70 flex items-center gap-1">
+                                                {item.date && <span className="text-[10px] font-mono font-semibold tracking-wider uppercase text-muted-foreground/70 flex items-center gap-1">
                                                     <Calendar className="h-3 w-3 inline" />
                                                     {item.date}
-                                                </span>
+                                                </span>}
                                             </div>
 
                                             <div className="space-y-1">
