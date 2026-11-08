@@ -13,7 +13,7 @@ export function ProjectCard({ project, featured = false, selectionNumber }: { pr
   </Link>
   <div className="work-caption">
    {selectionNumber && <span className="work-number" aria-hidden="true">{selectionNumber}</span>}
-   <div className="flex flex-wrap items-center gap-x-3 gap-y-2 text-xs text-muted-foreground mb-3"><span>{meta.role || (meta.category === "lomba" ? "Proyek digital" : meta.category)}</span><span aria-hidden="true">/</span><span>{meta.date?.slice(0, 4)}</span>{meta.status === "on-progress" && <span className="status-label">Dalam pengembangan</span>}</div>
+   <div className="flex flex-wrap items-center gap-x-3 gap-y-2 text-xs text-muted-foreground mb-3"><span>{meta.role || (meta.category === "lomba" ? "Proyek digital" : meta.category)}</span>{meta.date && <><span aria-hidden="true">/</span><span>{meta.date.slice(0, 4)}</span></>}{meta.status === "on-progress" && <span className="status-label">Dalam pengembangan</span>}</div>
    <h3 className="text-xl md:text-2xl font-semibold tracking-tight"><Link className="hover:text-primary transition-colors" href={`/projects/${slug}`}>{meta.title}</Link></h3>
    <p className="text-sm leading-relaxed text-muted-foreground mt-3 line-clamp-3">{meta.description || meta.summary}</p>
    {selectionNumber && <Link href={`/projects/${slug}`} className="text-link work-detail-link">Cerita di balik proyek <ArrowUpRight size={17} /></Link>}

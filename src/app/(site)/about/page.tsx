@@ -6,7 +6,7 @@ import { getProjectsBySlugs } from "@/lib/content";
 export const metadata = { title: "Tentang — Muhammad Ahmad Rofi’us Su’ud", description: "Kenali Muhammad Ahmad Rofi’us Su’ud (MARS), pengalaman product management, desain, dan pengembangan produk digital." };
 
 export default function AboutPage() {
- const organizationProjects = getProjectsBySlugs(["emub-2026", "bcc-pm", "bios-2026", "bios-2025"]);
+ const organizationProjects = getProjectsBySlugs(["emub-2026", "bcc-pm", "filkom-league-2026", "bios-2026", "bios-2025"]);
  return <div className="site-shell pb-20">
   <header className="page-intro"><p className="eyebrow mb-5">TENTANG / MARS</p><h1 className="page-title">Di balik karya,<br />ada rasa ingin tahu.</h1></header>
   <div className="grid md:grid-cols-[.8fr_1.2fr] gap-10 md:gap-20 items-start">
@@ -25,6 +25,13 @@ export default function AboutPage() {
     {organizationProjects.map(({ slug, meta }) => <Link key={slug} href={`/projects/${slug}`} className="group border-t border-border py-7 flex gap-6 justify-between items-start"><div><p className="font-mono text-xs text-muted-foreground mb-3">{meta.date.slice(0, 4)} · {meta.role}</p><h3 className="text-xl font-semibold tracking-tight group-hover:text-primary transition-colors">{meta.title}</h3><p className="text-sm text-muted-foreground mt-3 leading-relaxed">{meta.description}</p></div><ArrowUpRight size={20} className="shrink-0 mt-1 transition-transform group-hover:translate-x-1 group-hover:-translate-y-1" /></Link>)}
    </div>
    <div className="flex flex-wrap gap-x-8 gap-y-4 mt-6"><Link href="/projects" className="text-link">Jelajahi pengalaman organisasi & kepanitiaan <ArrowUpRight size={17} /></Link><Link href="/competitions" className="text-link">Pengalaman sebagai mentor & pemateri <ArrowUpRight size={17} /></Link></div>
+  </section>
+  <section aria-labelledby="ambassador-heading" className="mt-14 pt-10 border-t border-border">
+   <p className="eyebrow mb-4">BRAND AMBASSADOR</p><h2 id="ambassador-heading" className="text-3xl font-semibold tracking-tight">Pengalaman mewakili brand.</h2>
+   <div className="grid md:grid-cols-2 gap-8 mt-7">
+    <Link href="/projects/brand-ambassador-hology" className="group border-t border-border pt-6"><h3 className="text-xl font-medium group-hover:text-primary transition-colors">HOLOGY — FILKOM UB <ArrowUpRight className="inline ml-2" size={18} /></h3><p className="text-sm text-muted-foreground mt-3 leading-relaxed">Brand Ambassador untuk kompetisi nasional HOLOGY FILKOM Universitas Brawijaya.</p></Link>
+    <Link href="/projects/brand-ambassador-populix" className="group border-t border-border pt-6"><h3 className="text-xl font-medium group-hover:text-primary transition-colors">Populix <ArrowUpRight className="inline ml-2" size={18} /></h3><p className="text-sm text-muted-foreground mt-3 leading-relaxed">Pengalaman sebagai Brand Ambassador Populix.</p></Link>
+   </div>
   </section>
  </div>;
 }
