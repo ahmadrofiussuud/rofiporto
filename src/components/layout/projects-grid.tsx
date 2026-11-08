@@ -4,7 +4,7 @@ import type { ProjectMetadata } from "@/lib/content";
 import { ProjectCard } from "@/components/ui/project-card";
 import { Search, X } from "lucide-react";
 
-const categories = [{ id: "", name: "Semua" }, { id: "kerja", name: "Pengalaman kerja" }, { id: "lomba", name: "Proyek digital" }, { id: "organisasi", name: "Organisasi" }, { id: "skill", name: "Sertifikasi" }, { id: "hobi", name: "Di luar pekerjaan" }];
+const categories = [{ id: "", name: "Semua" }, { id: "kerja", name: "Pengalaman kerja" }, { id: "lomba", name: "Proyek digital" }, { id: "akademik", name: "Kolaborasi Akademik" }, { id: "organisasi", name: "Organisasi" }, { id: "skill", name: "Sertifikasi" }, { id: "hobi", name: "Di luar pekerjaan" }];
 
 export function ProjectsGrid({ projects }: { projects: { slug: string; meta: ProjectMetadata }[] }) {
  const [category, setCategory] = useState("");
