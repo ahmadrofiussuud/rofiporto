@@ -29,8 +29,8 @@ export default function AboutPage() {
   <section aria-labelledby="ambassador-heading" className="mt-14 pt-10 border-t border-border">
    <p className="eyebrow mb-4">BRAND AMBASSADOR</p><h2 id="ambassador-heading" className="text-3xl font-semibold tracking-tight">Pengalaman mewakili brand.</h2>
    <div className="grid md:grid-cols-2 gap-8 mt-7">
-    <Link href="/projects/brand-ambassador-hology" className="group border-t border-border pt-6"><h3 className="text-xl font-medium group-hover:text-primary transition-colors">HOLOGY — FILKOM UB <ArrowUpRight className="inline ml-2" size={18} /></h3><p className="text-sm text-muted-foreground mt-3 leading-relaxed">Brand Ambassador untuk kompetisi nasional HOLOGY FILKOM Universitas Brawijaya.</p></Link>
-    <Link href="/projects/brand-ambassador-populix" className="group border-t border-border pt-6"><h3 className="text-xl font-medium group-hover:text-primary transition-colors">PopSurvey by Populix <ArrowUpRight className="inline ml-2" size={18} /></h3><p className="text-sm text-muted-foreground mt-3 leading-relaxed">Popbuddy pada Campus Ambassador Program Batch 10, April–Juni 2026.</p></Link>
+    <Link href="/competitions#ambassadors" className="group border-t border-border pt-6"><h3 className="text-xl font-medium group-hover:text-primary transition-colors">HOLOGY — FILKOM UB <ArrowUpRight className="inline ml-2" size={18} /></h3><p className="text-sm text-muted-foreground mt-3 leading-relaxed">Brand Ambassador untuk kompetisi nasional HOLOGY FILKOM Universitas Brawijaya.</p></Link>
+    <Link href="/competitions#ambassadors" className="group border-t border-border pt-6"><h3 className="text-xl font-medium group-hover:text-primary transition-colors">PopSurvey by Populix <ArrowUpRight className="inline ml-2" size={18} /></h3><p className="text-sm text-muted-foreground mt-3 leading-relaxed">Popbuddy pada Campus Ambassador Program Batch 10, April–Juni 2026.</p></Link>
    </div>
   </section>
  </div>;

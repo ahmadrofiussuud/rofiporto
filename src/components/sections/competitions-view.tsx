@@ -505,7 +505,7 @@ export function CompetitionsView() {
             {/* Sections Display */}
             <div className="space-y-12 sm:space-y-16 md:space-y-24">
                 {filteredSections.map((section) => (
-                    <section key={section.id} className="space-y-5 sm:space-y-6">
+                    <section key={section.id} id={section.id} className="space-y-5 sm:space-y-6">
                         <div className="flex flex-col gap-1.5 border-b border-border/40 pb-3 sm:pb-4">
                             <h2 className="text-xl sm:text-2xl font-bold tracking-tight text-foreground flex items-center gap-2">
                                 {section.label}
