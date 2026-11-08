@@ -267,6 +267,14 @@ export const COMPETITION_SECTIONS: CompetitionSection[] = [
         description: "Berbagi wawasan, memandu workshop teknologi, dan mentoring seputar product management serta pengembangan diri.",
         items: [
             {
+                title: "Pemateri Technical Meeting Sahabat Tani 2026",
+                result: "Pemateri",
+                award: "emerald",
+                description: "Menjadi pemateri dalam kegiatan Technical Meeting Sahabat Tani 2026 yang diselenggarakan oleh EKM FP Universitas Brawijaya.",
+                date: "13 Okt 2026",
+                image: "/images/competitions/pemateri-sahabat-tani-2026.jpg"
+            },
+            {
                 title: "Mentor Mini Case Competition — 180 Degrees Consulting UB",
                 result: "Mentor",
                 award: "blue",
@@ -299,11 +307,11 @@ export const COMPETITION_SECTIONS: CompetitionSection[] = [
         description: "Kontribusi langsung dalam lingkungan profesional nyata dan inkubasi kepemimpinan produk.",
         items: [
             {
-                title: "Video Operations Intern - StudiLanjut",
+                title: "Curriculum Intern - StudiLanjut",
                 result: "Internship",
                 award: "emerald",
-                description: "Menyelesaikan program magang operasional dan media, berkontribusi langsung pada workflow produksi konten digital di StudiLanjut Universe.",
-                date: "Jul 2024",
+                description: "Menjalani program magang pada bagian Curriculum di StudiLanjut Indonesia.",
+                date: "Jul 2026",
                 image: "/images/competitions/sertifikat intern studilanjut fix.png"
             },
             {
