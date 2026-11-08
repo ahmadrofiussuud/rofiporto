@@ -1,10 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
+import { getProjectsBySlugs } from "@/lib/content";
 
 export const metadata = { title: "Tentang — Muhammad Ahmad Rofi’us Su’ud", description: "Kenali Muhammad Ahmad Rofi’us Su’ud (MARS), pengalaman product management, desain, dan pengembangan produk digital." };
 
 export default function AboutPage() {
+ const organizationProjects = getProjectsBySlugs(["emub-2026", "bcc-pm", "bios-2026", "bios-2025"]);
  return <div className="site-shell pb-20">
   <header className="page-intro"><p className="eyebrow mb-5">TENTANG / MARS</p><h1 className="page-title">Di balik karya,<br />ada rasa ingin tahu.</h1></header>
   <div className="grid md:grid-cols-[.8fr_1.2fr] gap-10 md:gap-20 items-start">
@@ -17,5 +19,12 @@ export default function AboutPage() {
     <div className="pt-3"><Link href="/contact" className="action-primary">Mari berkenalan <ArrowUpRight size={18} /></Link></div>
    </div>
   </div>
+  <section aria-labelledby="organization-heading" className="mt-16 md:mt-24 pt-10 md:pt-14 border-t border-border">
+   <div className="section-heading"><div><p className="eyebrow mb-4">ORGANISASI & KEPEMIMPINAN</p><h2 id="organization-heading" className="section-title">Belajar lewat<br />tanggung jawab.</h2></div><p className="max-w-sm text-sm text-muted-foreground leading-relaxed">Dari mengelola produk dan berkolaborasi lintas tim hingga mengurus keuangan serta memimpin tim futsal.</p></div>
+   <div className="grid md:grid-cols-2 gap-x-10">
+    {organizationProjects.map(({ slug, meta }) => <Link key={slug} href={`/projects/${slug}`} className="group border-t border-border py-7 flex gap-6 justify-between items-start"><div><p className="font-mono text-xs text-muted-foreground mb-3">{meta.date.slice(0, 4)} · {meta.role}</p><h3 className="text-xl font-semibold tracking-tight group-hover:text-primary transition-colors">{meta.title}</h3><p className="text-sm text-muted-foreground mt-3 leading-relaxed">{meta.description}</p></div><ArrowUpRight size={20} className="shrink-0 mt-1 transition-transform group-hover:translate-x-1 group-hover:-translate-y-1" /></Link>)}
+   </div>
+   <div className="flex flex-wrap gap-x-8 gap-y-4 mt-6"><Link href="/projects" className="text-link">Jelajahi pengalaman organisasi & kepanitiaan <ArrowUpRight size={17} /></Link><Link href="/competitions" className="text-link">Pengalaman sebagai mentor & pemateri <ArrowUpRight size={17} /></Link></div>
+  </section>
  </div>;
 }
