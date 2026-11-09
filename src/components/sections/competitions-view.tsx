@@ -402,7 +402,7 @@ export const COMPETITION_SECTIONS: CompetitionSection[] = [
                 award: "blue",
                 description: "Popbuddy dalam Campus Ambassador Program PopSurvey by Populix Batch 10, periode April–Juni 2026.",
                 date: "Apr–Jun 2026",
-                image: "/images/projects/brand-ambassador-populix.png"
+                image: "/images/projects/brand-ambassador-populix-revisi.png"
             }
         ]
     },
