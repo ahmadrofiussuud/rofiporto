@@ -353,7 +353,7 @@ export const COMPETITION_SECTIONS: CompetitionSection[] = [
                 award: "blue",
                 description: "Finalis dengan peringkat 4 pada kategori paper ilmiah Public Health Innovative Competition (PHIC) 2026, Fakultas Kesehatan Masyarakat Universitas Airlangga.",
                 date: "2026",
-                image: ""
+                image: "/images/competitions/phic-paper-ilmiah-2026.png"
             },
             {
                 title: "Business Model Canvas - Finalist PHENTUSIAS UNAIR",
