@@ -391,10 +391,9 @@ export const COMPETITION_SECTIONS: CompetitionSection[] = [
                 title: "Brand Ambassador HOLOGY — FILKOM UB",
                 result: "Brand Ambassador",
                 award: "purple",
-                description: "Brand Ambassador untuk kompetisi nasional HOLOGY FILKOM Universitas Brawijaya.",
-                date: "",
-                image: "",
-                certificateNote: "Sertifikat belum tersedia"
+                description: "Brand Ambassador HOLOGY 9.0 FILKOM UB dengan tema “Bloom Beyond: Where Ideas Take Root and Reach Further”.",
+                date: "3 Okt 2026",
+                image: "/images/competitions/brand-ambassador-hology-9-2026.jpg"
             },
             {
                 title: "Popbuddy — PopSurvey by Populix",
