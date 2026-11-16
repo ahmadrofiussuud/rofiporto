@@ -40,25 +40,7 @@ export const COMPETITION_SECTIONS: CompetitionSection[] = [
                 date: "2027",
                 image: "/images/competitions/mawapres-filkom-2027-juara-1.png"
             },
-            // 1. Juara Umum (Inter dulu, baru IPB)
-            {
-                title: "Grand Champion (Winner) - 2nd Youth Project Series (YPS)",
-                result: "Grand Champion",
-                award: "gold",
-                description: "Juara Umum (Grand Champion & Winner) mewakili Universitas Brawijaya pada ajang internasional 2nd Youth Project Series (YPS) di Malaysia.",
-                date: "Agu 2024",
-                image: "/images/competitions/(GRAND CHAMPION) 2ndYPS.png"
-            },
-            {
-                title: "Juara Umum Essay IPB - Universitas Brawijaya",
-                result: "Juara Umum",
-                award: "gold",
-                description: "Awarded General Champion representing Universitas Brawijaya in the LDC 6 National Essay Competition.",
-                date: "Jun 2026",
-                image: "/images/competitions/Sertif Juara Umum.jpeg"
-            },
-
-            // 2. Juara Internasional (Juara 3 & Juara 4 YPS)
+            // 1. Juara Internasional (Juara 3 YPS)
             {
                 title: "2nd Winner (Juara 3) - 2nd Youth Project Series (YPS)",
                 result: "Juara 3 Inter",
@@ -67,16 +49,7 @@ export const COMPETITION_SECTIONS: CompetitionSection[] = [
                 date: "Agu 2024",
                 image: "/images/competitions/SERTIF JUARA 3 YPS.png"
             },
-            {
-                title: "1st Runner Up (Juara 4) - 2nd Youth Project Series (YPS)",
-                result: "Juara 4 Inter",
-                award: "silver",
-                description: "Meraih 1st Runner Up (Peringkat 4) dalam kategori kompetisi inovasi pada 2nd Youth Project Series (YPS).",
-                date: "Agu 2024",
-                image: "/images/competitions/SERTIF JUARA 4 YPS.png"
-            },
-
-            // 3. Juara 1 Nasional
+            // 2. Juara 1 Nasional
             {
                 title: "Juara 1 Business Plan Competition - UIN Madura",
                 result: "Juara 1",
@@ -258,6 +231,32 @@ export const COMPETITION_SECTIONS: CompetitionSection[] = [
                 description: "Recognized for the most impactful visual communication in environmental innovation.",
                 date: "Nov 2025",
                 image: "/images/competitions/fav poster neira 2.jpg"
+            },
+
+            // Temporarily grouped at the end of the main achievements list
+            {
+                title: "Grand Champion (Winner) - 2nd Youth Project Series (YPS)",
+                result: "Grand Champion",
+                award: "gold",
+                description: "Juara Umum (Grand Champion & Winner) mewakili Universitas Brawijaya pada ajang internasional 2nd Youth Project Series (YPS) di Malaysia.",
+                date: "Agu 2024",
+                image: "/images/competitions/(GRAND CHAMPION) 2ndYPS.png"
+            },
+            {
+                title: "Juara Umum Essay IPB - Universitas Brawijaya",
+                result: "Juara Umum",
+                award: "gold",
+                description: "Awarded General Champion representing Universitas Brawijaya in the LDC 6 National Essay Competition.",
+                date: "Jun 2026",
+                image: "/images/competitions/Sertif Juara Umum.jpeg"
+            },
+            {
+                title: "1st Runner Up (Juara 4) - 2nd Youth Project Series (YPS)",
+                result: "Juara 4 Inter",
+                award: "silver",
+                description: "Meraih 1st Runner Up (Peringkat 4) dalam kategori kompetisi inovasi pada 2nd Youth Project Series (YPS).",
+                date: "Agu 2024",
+                image: "/images/competitions/SERTIF JUARA 4 YPS.png"
             }
         ]
     },
