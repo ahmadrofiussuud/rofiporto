@@ -7,8 +7,8 @@ export function ProjectCard({ project, featured = false, selectionNumber }: { pr
  const { slug, meta } = project;
  const image = meta.thumbnail || meta.heroImage;
  return <article className={`work-card ${featured ? "work-featured" : ""}`}>
-  <Link href={`/projects/${slug}`} className="work-image group" aria-label={`Lihat proyek ${meta.title}`}>
-   {image ? <Image src={image} alt={meta.title} fill sizes={featured ? "(max-width: 767px) 90vw, 65vw" : "(max-width: 767px) 90vw, 40vw"} className="object-cover transition-transform duration-500 group-hover:scale-[1.025]" /> : <Code2 size={48} className="text-muted-foreground" />}
+  <Link href={`/projects/${slug}`} className={`work-image group${meta.imageFit === "contain" ? " work-image--contain" : ""}`} aria-label={`Lihat proyek ${meta.title}`}>
+   {image ? <Image src={image} alt={meta.title} fill sizes={featured ? "(max-width: 767px) 90vw, 65vw" : "(max-width: 767px) 90vw, 40vw"} className={meta.imageFit === "contain" ? "object-contain" : "object-cover transition-transform duration-500 group-hover:scale-[1.025]"} /> : <Code2 size={48} className="text-muted-foreground" />}
    <span className="work-arrow"><ArrowUpRight size={22} /></span>
   </Link>
   <div className="work-caption">

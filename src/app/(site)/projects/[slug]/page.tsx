@@ -73,7 +73,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
                                 src={meta.heroImage}
                                 alt={meta.title}
                                 fill
-                                className="object-cover"
+                                className={meta.imageFit === "contain" ? "object-contain" : "object-cover"}
                                 priority
                             />
                         </div>

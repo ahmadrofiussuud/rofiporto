@@ -17,6 +17,7 @@ export interface ProjectMetadata extends BaseMetadata {
     repoUrl?: string | null;
     thumbnail?: string;
     heroImage?: string;
+    imageFit?: "cover" | "contain";
     role?: string;
     stack?: string[]; // For web projects
     deliverables?: string[]; // For competitions
