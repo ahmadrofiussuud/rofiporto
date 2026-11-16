@@ -36,9 +36,9 @@ export const COMPETITION_SECTIONS: CompetitionSection[] = [
                 title: "Mahasiswa Berprestasi (Mawapres) — FILKOM UB",
                 result: "Juara 1",
                 award: "gold",
-                description: "Meraih Juara 1 dalam pemilihan Mahasiswa Berprestasi di Fakultas Ilmu Komputer Universitas Brawijaya.",
-                date: "2026",
-                image: ""
+                description: "Meraih Juara 1 kategori Reguler dalam pemilihan Mahasiswa Berprestasi (Mawapres) FILKOM Universitas Brawijaya 2027.",
+                date: "2027",
+                image: "/images/competitions/mawapres-filkom-2027-juara-1.png"
             },
             // 1. Juara Umum (Inter dulu, baru IPB)
             {
