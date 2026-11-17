@@ -40,6 +40,15 @@ export const COMPETITION_SECTIONS: CompetitionSection[] = [
                 date: "2027",
                 image: "/images/competitions/mawapres-filkom-2027-juara-1.png"
             },
+            {
+                title: "Finalis GEMASTIK 2026 — Divisi 8 RPL",
+                result: "Finalis",
+                award: "blue",
+                description: "Menjadi finalis Divisi 8 RPL pada GEMASTIK 2026.",
+                date: "2026",
+                image: "",
+                certificateNote: "Dokumentasi belum ditambahkan"
+            },
             // 1. Juara Umum (YPS & IPB)
             {
                 title: "Grand Champion (Winner) - 2nd Youth Project Series (YPS)",
