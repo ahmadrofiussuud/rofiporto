@@ -16,8 +16,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://rofiporto.vercel.app"),
   title: "Muhammad Ahmad Rofi’us Su’ud — MARS",
   description: "Portofolio Muhammad Ahmad Rofi’us Su’ud (MARS). Product management, desain, pengembangan produk digital, dan cerita di balik karya.",
+  applicationName: "Portofolio Muhammad Ahmad Rofi’us Su’ud",
+  creator: "Muhammad Ahmad Rofi’us Su’ud",
+  publisher: "Muhammad Ahmad Rofi’us Su’ud",
 };
 
 export default function RootLayout({

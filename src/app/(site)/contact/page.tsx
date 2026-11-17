@@ -1,7 +1,8 @@
+import type { Metadata } from "next";
 import { ArrowUpRight, Mail } from "lucide-react";
 import { CopyEmail } from "@/components/copy-email";
 
-export const metadata = { title: "Kontak — Muhammad Ahmad Rofi’us Su’ud", description: "Hubungi Muhammad Ahmad Rofi’us Su’ud untuk diskusi produk, proyek, dan kolaborasi." };
+export const metadata: Metadata = { title: "Kontak — Muhammad Ahmad Rofi’us Su’ud", description: "Hubungi Muhammad Ahmad Rofi’us Su’ud untuk diskusi produk, proyek, dan kolaborasi.", alternates: { canonical: "/contact" } };
 
 export default function ContactPage() {
  return <div className="site-shell pb-20">

@@ -1,8 +1,49 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { getAllProjects } from "@/lib/content";
 import { ProjectCard } from "@/components/ui/project-card";
 import { HeroProfile } from "@/components/hero-profile";
+
+const profileStructuredData = {
+ "@context": "https://schema.org",
+ "@type": "ProfilePage",
+ "mainEntity": {
+  "@type": "Person",
+  "@id": "https://rofiporto.vercel.app/#person",
+  name: "Muhammad Ahmad Rofi’us Su’ud",
+  alternateName: ["Muhammad Ahmad Rofi'us Su'ud", "MARS"],
+  url: "https://rofiporto.vercel.app/",
+  image: "https://rofiporto.vercel.app/images/profile/profile-clean.png",
+  description: "Mahasiswa Pendidikan Teknologi Informasi FILKOM Universitas Brawijaya yang berfokus pada product management dan pengembangan produk digital.",
+  sameAs: [
+   "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+   "https://github.com/ahmadrofiussuud",
+   "https://www.instagram.com/ahmadrfsd_/",
+  ],
+ },
+};
+
+export const metadata: Metadata = {
+ title: "Muhammad Ahmad Rofi’us Su’ud — Portofolio Resmi",
+ description: "Portofolio resmi Muhammad Ahmad Rofi’us Su’ud, mahasiswa FILKOM UB yang berfokus pada product management, kepemimpinan, dan pengembangan produk digital.",
+ alternates: { canonical: "/" },
+ openGraph: {
+  title: "Muhammad Ahmad Rofi’us Su’ud — Portofolio Resmi",
+  description: "Kenali karya, pengalaman, dan pencapaian Muhammad Ahmad Rofi’us Su’ud.",
+  url: "https://rofiporto.vercel.app/",
+  siteName: "Portofolio Muhammad Ahmad Rofi’us Su’ud",
+  locale: "id_ID",
+  type: "profile",
+  images: [{ url: "/images/profile/profile-clean.png", alt: "Muhammad Ahmad Rofi’us Su’ud" }],
+ },
+ twitter: {
+  card: "summary_large_image",
+  title: "Muhammad Ahmad Rofi’us Su’ud — Portofolio Resmi",
+  description: "Karya, pengalaman, dan pencapaian Muhammad Ahmad Rofi’us Su’ud.",
+  images: ["/images/profile/profile-clean.png"],
+ },
+};
 
 export default function Home() {
  const projects = getAllProjects();
@@ -11,6 +52,10 @@ export default function Home() {
   return project ? [project] : [];
  });
  return <>
+  <script
+   type="application/ld+json"
+   dangerouslySetInnerHTML={{ __html: JSON.stringify(profileStructuredData).replace(/</g, "\\u003c") }}
+  />
   <HeroProfile />
   <section id="karya" className="site-shell section-space home-work">
    <div className="section-heading"><div><p className="eyebrow mb-4">02 / KARYA PILIHAN</p><h2 className="section-title">Dari ide menjadi karya.</h2></div><Link href="/projects" className="text-link">Semua karya <ArrowUpRight size={18} /></Link></div>

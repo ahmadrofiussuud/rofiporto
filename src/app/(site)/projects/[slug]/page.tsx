@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { getProjectBySlug, getSlugs } from "@/lib/content";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import { Button } from "@/components/ui/button";
@@ -21,13 +22,14 @@ export async function generateStaticParams() {
     }));
 }
 
-export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
     const { slug } = await params;
     const project = getProjectBySlug(slug);
     if (!project) return { title: "Proyek Tidak Ditemukan" };
     return {
         title: `${project.meta.title} | MARS`,
         description: project.meta.description,
+        alternates: { canonical: `/projects/${slug}` },
     };
 }
 

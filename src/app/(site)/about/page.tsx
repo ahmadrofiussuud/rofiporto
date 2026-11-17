@@ -1,9 +1,10 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { getProjectsBySlugs } from "@/lib/content";
 
-export const metadata = { title: "Tentang — Muhammad Ahmad Rofi’us Su’ud", description: "Kenali Muhammad Ahmad Rofi’us Su’ud (MARS), pengalaman product management, desain, dan pengembangan produk digital." };
+export const metadata: Metadata = { title: "Tentang — Muhammad Ahmad Rofi’us Su’ud", description: "Kenali Muhammad Ahmad Rofi’us Su’ud (MARS), pengalaman product management, desain, dan pengembangan produk digital.", alternates: { canonical: "/about" } };
 
 export default function AboutPage() {
  const organizationProjects = getProjectsBySlugs(["emub-2026", "bcc-pm", "filkom-league-2026", "bios-2026", "bios-2025"]);

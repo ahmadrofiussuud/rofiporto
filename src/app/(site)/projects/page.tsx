@@ -1,7 +1,8 @@
+import type { Metadata } from "next";
 import { getAllProjects } from "@/lib/content";
 import { ProjectsGrid } from "@/components/layout/projects-grid";
 
-export const metadata = { title: "Karya — Muhammad Ahmad Rofi’us Su’ud", description: "Proyek digital, pengalaman organisasi, dan eksplorasi Muhammad Ahmad Rofi’us Su’ud." };
+export const metadata: Metadata = { title: "Karya — Muhammad Ahmad Rofi’us Su’ud", description: "Proyek digital, pengalaman organisasi, dan eksplorasi Muhammad Ahmad Rofi’us Su’ud.", alternates: { canonical: "/projects" } };
 
 export default function ProjectsPage() {
  const projects = getAllProjects();
