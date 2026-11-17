@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     const project = getProjectBySlug(slug);
     if (!project) return { title: "Proyek Tidak Ditemukan" };
     return {
-        title: `${project.meta.title} | MARS`,
+        title: `${project.meta.title} — Muhammad Ahmad Rofi’us Su’ud`,
         description: project.meta.description,
         alternates: { canonical: `/projects/${slug}` },
     };
