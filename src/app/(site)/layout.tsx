@@ -22,6 +22,9 @@ export const metadata: Metadata = {
   applicationName: "Portofolio Muhammad Ahmad Rofi’us Su’ud",
   creator: "Muhammad Ahmad Rofi’us Su’ud",
   publisher: "Muhammad Ahmad Rofi’us Su’ud",
+  verification: {
+    google: "EYNn_eOPX0mmNaCYj8XHJMIGH3kJtgDupC6_LV5HXzQ",
+  },
 };
 
 export default function RootLayout({
