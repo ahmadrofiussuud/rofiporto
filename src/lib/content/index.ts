@@ -12,7 +12,7 @@ export interface BaseMetadata {
 export interface ProjectMetadata extends BaseMetadata {
     date: string;
     tags: string[];
-    category: "kerja" | "lomba" | "organisasi" | "skill" | "hobi" | "akademik";
+    category: "kerja" | "lomba" | "organisasi" | "skill" | "akademik";
     demoUrl?: string | null;
     repoUrl?: string | null;
     thumbnail?: string;
