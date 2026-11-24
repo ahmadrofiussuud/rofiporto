@@ -1,0 +1,36 @@
+[
+  {
+    "file": "phase7-production-desktop.json",
+    "scores": {
+      "performance": 100,
+      "accessibility": 96.0,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "largest-contentful-paint": 513.794,
+      "cumulative-layout-shift": 0,
+      "total-blocking-time": 0,
+      "first-contentful-paint": 273.794,
+      "speed-index": 446.4173213314624,
+      "total-byte-weight": 471488
+    }
+  },
+  {
+    "file": "phase7-production-mobile.json",
+    "scores": {
+      "performance": 99.0,
+      "accessibility": 96.0,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "largest-contentful-paint": 2116.572,
+      "cumulative-layout-shift": 0,
+      "total-blocking-time": 32.5,
+      "first-contentful-paint": 934.072,
+      "speed-index": 1280.2878618598563,
+      "total-byte-weight": 389993
+    }
+  }
+]

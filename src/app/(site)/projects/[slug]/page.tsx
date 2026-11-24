@@ -9,6 +9,9 @@ import { Badge } from "@/components/ui/badge";
 import { MdxImage } from "@/components/MdxImage";
 import Image from "next/image";
 import { pageMetadata } from "@/lib/seo";
+import { pageGraph } from "@/lib/structured-data";
+import { StructuredData } from "@/components/structured-data";
+import { Breadcrumbs } from "@/components/breadcrumbs";
 
 export const dynamicParams = false;
 
@@ -50,11 +53,13 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
 
     return (
         <div className="container mx-auto px-5 pt-32 pb-16 md:pt-40 max-w-4xl">
+            <StructuredData data={pageGraph({ pathname: `/projects/${project.slug}`, name: meta.title, description: meta.description, project, breadcrumbs: [{ name: "Karya", pathname: "/projects" }, { name: meta.title, pathname: `/projects/${project.slug}` }] })} />
             <Button asChild variant="ghost" className="mb-8 -ml-4 text-muted-foreground hover:text-foreground">
                 <Link href="/projects">
                     <ArrowLeft className="mr-2 h-4 w-4" /> Kembali ke Proyek
                 </Link>
             </Button>
+            <Breadcrumbs items={[{ name: "Karya", pathname: "/projects" }, { name: meta.title, pathname: `/projects/${project.slug}` }]} className="text-xs text-muted-foreground mb-6" />
 
             <div className="space-y-8 mb-16">
                 {/* Header */}
@@ -79,6 +84,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
                                 src={meta.heroImage}
                                 alt={meta.title}
                                 fill
+                                sizes="(max-width: 895px) calc(100vw - 40px), 856px"
                                 className={meta.imageFit === "contain" ? "object-contain" : "object-cover"}
                                 priority
                             />

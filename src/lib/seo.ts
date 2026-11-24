@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { canonicalUrl, OWNER_NAME, PROFILE_IMAGE, SITE_NAME } from "./site-config";
+import { canonicalUrl, OWNER_NAME, SOCIAL_IMAGE, SITE_NAME } from "./site-config";
 
 interface PageMetadataOptions {
   title: string;
@@ -12,7 +12,7 @@ export function pageMetadata({
   title,
   description,
   pathname,
-  image = PROFILE_IMAGE,
+  image = SOCIAL_IMAGE,
 }: PageMetadataOptions): Metadata {
   const url = canonicalUrl(pathname);
   return {
@@ -26,7 +26,7 @@ export function pageMetadata({
       siteName: SITE_NAME,
       locale: "id_ID",
       type: "website",
-      images: [{ url: image, alt: image === PROFILE_IMAGE ? OWNER_NAME : title }],
+      images: [{ url: image, alt: image === SOCIAL_IMAGE ? OWNER_NAME : title }],
     },
     twitter: {
       card: "summary_large_image",

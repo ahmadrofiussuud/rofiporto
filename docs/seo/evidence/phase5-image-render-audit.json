@@ -1,0 +1,1364 @@
+{
+  "pages": 36,
+  "imageElements": 110,
+  "uniqueSources": 73,
+  "images": [
+    {
+      "route": "/",
+      "alt": "Muhammad Ahmad Rofi’us Su’ud",
+      "sizes": "(max-width: 767px) calc(100vw - 40px), (max-width: 1023px) calc(46.5vw - 51px), (max-width: 1279px) calc(46.5vw - 65px), 530px",
+      "loading": "eager",
+      "source": "/_next/image?url=%2Fimages%2Fprofile%2Fprofile-clean.png&w=3840&q=75"
+    },
+    {
+      "route": "/",
+      "alt": "Tampilan proyek Website Resmi EM UB 2026",
+      "sizes": "(max-width: 767px) calc(100vw - 40px), (max-width: 1279px) calc(50vw - 60px), 580px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Frajut-wijaya-em-ub-banner.png&w=3840&q=75"
+    },
+    {
+      "route": "/",
+      "alt": "Tampilan proyek Website Resmi BCC (Basic Computing Community)",
+      "sizes": "(max-width: 767px) calc(100vw - 40px), (max-width: 1279px) calc(50vw - 60px), 580px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Fbcc-website-cover.png&w=3840&q=75"
+    },
+    {
+      "route": "/",
+      "alt": "Tampilan proyek Gestory",
+      "sizes": "(max-width: 767px) calc(100vw - 40px), (max-width: 1279px) calc(50vw - 60px), 580px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Fgestory-platform-banner.png&w=3840&q=75"
+    },
+    {
+      "route": "/about",
+      "alt": "Muhammad Ahmad Rofi’us Su’ud",
+      "sizes": "(max-width: 767px) 90vw, 40vw",
+      "loading": "eager",
+      "source": "/_next/image?url=%2Fimages%2Fprofile%2Fprofile-clean.png&w=3840&q=75"
+    },
+    {
+      "route": "/projects",
+      "alt": "Tampilan proyek Akademirofi — Platform Belajar BMC, BPC, dan Essay",
+      "sizes": "(max-width: 767px) calc(100vw - 40px), (max-width: 1279px) calc(50vw - 60px), 580px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Fakademirofi-learning.png&w=3840&q=75"
+    },
+    {
+      "route": "/projects",
+      "alt": "Tampilan proyek UMKM Go",
+      "sizes": "(max-width: 767px) calc(100vw - 40px), (max-width: 1279px) calc(50vw - 60px), 580px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Fumkmgo-pasar-desa-banner.png&w=3840&q=75"
+    },
+    {
+      "route": "/projects",
+      "alt": "Tampilan proyek Amora",
+      "sizes": "(max-width: 767px) calc(100vw - 40px), (max-width: 1279px) calc(50vw - 60px), 580px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Famora-platform-banner.png&w=3840&q=75"
+    },
+    {
+      "route": "/projects",
+      "alt": "Tampilan proyek ARAH — Platform Eksplorasi Karier",
+      "sizes": "(max-width: 767px) calc(100vw - 40px), (max-width: 1279px) calc(50vw - 60px), 580px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Farah-career-path.png&w=3840&q=75"
+    },
+    {
+      "route": "/projects",
+      "alt": "Tampilan proyek Website Resmi BCC (Basic Computing Community)",
+      "sizes": "(max-width: 767px) calc(100vw - 40px), (max-width: 1279px) calc(50vw - 60px), 580px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Fbcc-website-cover.png&w=3840&q=75"
+    },
+    {
+      "route": "/projects",
+      "alt": "Tampilan proyek Gestory",
+      "sizes": "(max-width: 767px) calc(100vw - 40px), (max-width: 1279px) calc(50vw - 60px), 580px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Fgestory-platform-banner.png&w=3840&q=75"
+    },
+    {
+      "route": "/projects",
+      "alt": "Tampilan proyek Ketua Pelaksana Filkom League 2026",
+      "sizes": "(max-width: 767px) calc(100vw - 40px), (max-width: 1279px) calc(50vw - 60px), 580px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Fketua-pelaksana-filkom-league-2026.png&w=3840&q=75"
+    },
+    {
+      "route": "/projects",
+      "alt": "Tampilan proyek PahamIn",
+      "sizes": "(max-width: 767px) calc(100vw - 40px), (max-width: 1279px) calc(50vw - 60px), 580px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Fpahamin-learning-banner.png&w=3840&q=75"
+    },
+    {
+      "route": "/projects",
+      "alt": "Tampilan proyek Product Manager BCC",
+      "sizes": "(max-width: 767px) calc(100vw - 40px), (max-width: 1279px) calc(50vw - 60px), 580px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2FPM%20-%20BCC.png&w=3840&q=75"
+    },
+    {
+      "route": "/projects",
+      "alt": "Tampilan proyek Website Resmi EM UB 2026",
+      "sizes": "(max-width: 767px) calc(100vw - 40px), (max-width: 1279px) calc(50vw - 60px), 580px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Frajut-wijaya-em-ub-banner.png&w=3840&q=75"
+    },
+    {
+      "route": "/projects",
+      "alt": "Tampilan proyek Staff KOMINFO EM UB 2026",
+      "sizes": "(max-width: 767px) calc(100vw - 40px), (max-width: 1279px) calc(50vw - 60px), 580px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Fem-ub-2026.jpg&w=3840&q=75"
+    },
+    {
+      "route": "/projects",
+      "alt": "Tampilan proyek Ketua Futsal BIOS",
+      "sizes": "(max-width: 767px) calc(100vw - 40px), (max-width: 1279px) calc(50vw - 60px), 580px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Forganisasi-bios-2026.jpg&w=3840&q=75"
+    },
+    {
+      "route": "/projects",
+      "alt": "Tampilan proyek LKI AMD",
+      "sizes": "(max-width: 767px) calc(100vw - 40px), (max-width: 1279px) calc(50vw - 60px), 580px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Flki%20amd.jpg&w=3840&q=75"
+    },
+    {
+      "route": "/projects",
+      "alt": "Tampilan proyek ReBite Project",
+      "sizes": "(max-width: 767px) calc(100vw - 40px), (max-width: 1279px) calc(50vw - 60px), 580px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Frebite-food-waste-banner.png&w=3840&q=75"
+    },
+    {
+      "route": "/projects",
+      "alt": "Tampilan proyek Profil Sekolah Dasar",
+      "sizes": "(max-width: 767px) calc(100vw - 40px), (max-width: 1279px) calc(50vw - 60px), 580px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Fmisraproject-cover.jpg&w=3840&q=75"
+    },
+    {
+      "route": "/projects",
+      "alt": "Tampilan proyek Ketua Pelaksana Website EM UB 2026",
+      "sizes": "(max-width: 767px) calc(100vw - 40px), (max-width: 1279px) calc(50vw - 60px), 580px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2FKetua%20Pelaksana%20Website%20Eksekutif%20Mahasiswa%202026.png&w=3840&q=75"
+    },
+    {
+      "route": "/projects",
+      "alt": "Tampilan proyek Sertifikasi PBO",
+      "sizes": "(max-width: 767px) calc(100vw - 40px), (max-width: 1279px) calc(50vw - 60px), 580px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Fsertif%20pbo.jpg&w=3840&q=75"
+    },
+    {
+      "route": "/projects",
+      "alt": "Tampilan proyek Java Fundamental Certificate",
+      "sizes": "(max-width: 767px) calc(100vw - 40px), (max-width: 1279px) calc(50vw - 60px), 580px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Fsertif%20java.jpg&w=3840&q=75"
+    },
+    {
+      "route": "/projects",
+      "alt": "Tampilan proyek Sertifikasi Manajemen Proyek",
+      "sizes": "(max-width: 767px) calc(100vw - 40px), (max-width: 1279px) calc(50vw - 60px), 580px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Fsertif%20manajemen%20proyek.jpg&w=3840&q=75"
+    },
+    {
+      "route": "/projects",
+      "alt": "Tampilan proyek Bendahara Futsal BIOS",
+      "sizes": "(max-width: 767px) calc(100vw - 40px), (max-width: 1279px) calc(50vw - 60px), 580px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Forganasasi-bios-2025.jpg&w=3840&q=75"
+    },
+    {
+      "route": "/projects",
+      "alt": "Tampilan proyek CEKAT — Platform Kesehatan Digital",
+      "sizes": "(max-width: 767px) calc(100vw - 40px), (max-width: 1279px) calc(50vw - 60px), 580px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Fcekat-healthcare-showcase.png&w=3840&q=75"
+    },
+    {
+      "route": "/projects",
+      "alt": "Tampilan proyek Ekspedisi Nusantara — Math Adventure",
+      "sizes": "(max-width: 767px) calc(100vw - 40px), (max-width: 1279px) calc(50vw - 60px), 580px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Fekspedisi-nusantara-math-adventure.png&w=3840&q=75"
+    },
+    {
+      "route": "/projects",
+      "alt": "Tampilan proyek TehMbois — Website Brand Minuman",
+      "sizes": "(max-width: 767px) calc(100vw - 40px), (max-width: 1279px) calc(50vw - 60px), 580px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Ftehmbois-wcc-2026.png&w=3840&q=75"
+    },
+    {
+      "route": "/projects",
+      "alt": "Tampilan proyek IfhamKids — Belajar Bahasa Arab untuk Anak",
+      "sizes": "(max-width: 767px) calc(100vw - 40px), (max-width: 1279px) calc(50vw - 60px), 580px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Fifhamkids-arabic-learning.png&w=3840&q=75"
+    },
+    {
+      "route": "/projects",
+      "alt": "Tampilan proyek Kelasin — Platform Digital",
+      "sizes": "(max-width: 767px) calc(100vw - 40px), (max-width: 1279px) calc(50vw - 60px), 580px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Fkelasin-cover.png&w=3840&q=75"
+    },
+    {
+      "route": "/projects",
+      "alt": "Tampilan proyek Mandorin — Platform Pembangunan Hunian",
+      "sizes": "(max-width: 767px) calc(100vw - 40px), (max-width: 1279px) calc(50vw - 60px), 580px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Fmandorin-platform-banner.png&w=3840&q=75"
+    },
+    {
+      "route": "/projects",
+      "alt": "Tampilan proyek NgajiKidz — Belajar Mengaji dengan AI",
+      "sizes": "(max-width: 767px) calc(100vw - 40px), (max-width: 1279px) calc(50vw - 60px), 580px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Fngajikidz-ai-learning.png&w=3840&q=75"
+    },
+    {
+      "route": "/projects",
+      "alt": "Tampilan proyek Pelatihan Media Pembelajaran AR — SDN 3 Dono",
+      "sizes": "(max-width: 767px) calc(100vw - 40px), (max-width: 1279px) calc(50vw - 60px), 580px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Fpelatihan-ar-sdn-3-dono.jpg&w=3840&q=75"
+    },
+    {
+      "route": "/projects",
+      "alt": "Tampilan proyek SobatAman — Platform Pendamping Terverifikasi",
+      "sizes": "(max-width: 767px) calc(100vw - 40px), (max-width: 1279px) calc(50vw - 60px), 580px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Fsobataman-platform-banner.png&w=3840&q=75"
+    },
+    {
+      "route": "/projects",
+      "alt": "Tampilan proyek TelaahKarier — Analisis Risiko Lowongan Kerja",
+      "sizes": "(max-width: 767px) calc(100vw - 40px), (max-width: 1279px) calc(50vw - 60px), 580px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Ftelaahkarier-risk-analysis.png&w=3840&q=75"
+    },
+    {
+      "route": "/competitions",
+      "alt": "Sertifikat Mahasiswa Berprestasi (Mawapres) — FILKOM UB",
+      "sizes": "(max-width: 639px) calc(100vw - 68px), (max-width: 767px) calc(50vw - 60px), (max-width: 1023px) calc(50vw - 80px), (max-width: 1279px) calc(33vw - 72px), 356px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fcompetitions%2Fmawapres-filkom-2027-juara-1.png&w=3840&q=75"
+    },
+    {
+      "route": "/competitions",
+      "alt": "Sertifikat Grand Champion (Winner) - 2nd Youth Project Series (YPS)",
+      "sizes": "(max-width: 639px) calc(100vw - 68px), (max-width: 767px) calc(50vw - 60px), (max-width: 1023px) calc(50vw - 80px), (max-width: 1279px) calc(33vw - 72px), 356px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fcompetitions%2F(GRAND%20CHAMPION)%202ndYPS.png&w=3840&q=75"
+    },
+    {
+      "route": "/competitions",
+      "alt": "Sertifikat Juara Umum Essay IPB - Universitas Brawijaya",
+      "sizes": "(max-width: 639px) calc(100vw - 68px), (max-width: 767px) calc(50vw - 60px), (max-width: 1023px) calc(50vw - 80px), (max-width: 1279px) calc(33vw - 72px), 356px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fcompetitions%2FSertif%20Juara%20Umum.jpeg&w=3840&q=75"
+    },
+    {
+      "route": "/competitions",
+      "alt": "Sertifikat 2nd Winner (Juara 3) - 2nd Youth Project Series (YPS)",
+      "sizes": "(max-width: 639px) calc(100vw - 68px), (max-width: 767px) calc(50vw - 60px), (max-width: 1023px) calc(50vw - 80px), (max-width: 1279px) calc(33vw - 72px), 356px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fcompetitions%2FSERTIF%20JUARA%203%20YPS.png&w=3840&q=75"
+    },
+    {
+      "route": "/competitions",
+      "alt": "Sertifikat 1st Runner Up (Juara 4) - 2nd Youth Project Series (YPS)",
+      "sizes": "(max-width: 639px) calc(100vw - 68px), (max-width: 767px) calc(50vw - 60px), (max-width: 1023px) calc(50vw - 80px), (max-width: 1279px) calc(33vw - 72px), 356px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fcompetitions%2FSERTIF%20JUARA%204%20YPS.png&w=3840&q=75"
+    },
+    {
+      "route": "/competitions",
+      "alt": "Sertifikat Juara 1 Business Plan Competition - UIN Madura",
+      "sizes": "(max-width: 639px) calc(100vw - 68px), (max-width: 767px) calc(50vw - 60px), (max-width: 1023px) calc(50vw - 80px), (max-width: 1279px) calc(33vw - 72px), 356px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fcompetitions%2FJUARA%201%20BPC%20UIN%20MADURA.png&w=3840&q=75"
+    },
+    {
+      "route": "/competitions",
+      "alt": "Sertifikat Juara 1 Business Plan - Universitas Atma Jaya Jakarta",
+      "sizes": "(max-width: 639px) calc(100vw - 68px), (max-width: 767px) calc(50vw - 60px), (max-width: 1023px) calc(50vw - 80px), (max-width: 1279px) calc(33vw - 72px), 356px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fcompetitions%2Fsertif%20manex.jpg&w=3840&q=75"
+    },
+    {
+      "route": "/competitions",
+      "alt": "Sertifikat Juara 1 Web Dev WCC - Univ Islam Nahdlatul Ulama Jepara",
+      "sizes": "(max-width: 639px) calc(100vw - 68px), (max-width: 767px) calc(50vw - 60px), (max-width: 1023px) calc(50vw - 80px), (max-width: 1279px) calc(33vw - 72px), 356px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fcompetitions%2Fsertifikat-wcc-web-development.jpeg&w=3840&q=75"
+    },
+    {
+      "route": "/competitions",
+      "alt": "Sertifikat Juara 2 Mathematics Essay Contest (MEC) - UNESA",
+      "sizes": "(max-width: 639px) calc(100vw - 68px), (max-width: 767px) calc(50vw - 60px), (max-width: 1023px) calc(50vw - 80px), (max-width: 1279px) calc(33vw - 72px), 356px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fcompetitions%2F_Juara%20II%20UNESA.jpg&w=3840&q=75"
+    },
+    {
+      "route": "/competitions",
+      "alt": "Sertifikat Juara 2 Essay IPB",
+      "sizes": "(max-width: 639px) calc(100vw - 68px), (max-width: 767px) calc(50vw - 60px), (max-width: 1023px) calc(50vw - 80px), (max-width: 1279px) calc(33vw - 72px), 356px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fcompetitions%2FSertif%20Juara%202.jpeg&w=3840&q=75"
+    },
+    {
+      "route": "/competitions",
+      "alt": "Sertifikat Juara 3 - Business Plan UMSIDA",
+      "sizes": "(max-width: 639px) calc(100vw - 68px), (max-width: 767px) calc(50vw - 60px), (max-width: 1023px) calc(50vw - 80px), (max-width: 1279px) calc(33vw - 72px), 356px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fcompetitions%2Fjuara%203%20umsida.jpg&w=3840&q=75"
+    },
+    {
+      "route": "/competitions",
+      "alt": "Sertifikat The Most Marketable Business Plan - INDIGO Bandung 2025",
+      "sizes": "(max-width: 639px) calc(100vw - 68px), (max-width: 767px) calc(50vw - 60px), (max-width: 1023px) calc(50vw - 80px), (max-width: 1279px) calc(33vw - 72px), 356px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fcompetitions%2Findigo%20sertif.jpg&w=3840&q=75"
+    },
+    {
+      "route": "/competitions",
+      "alt": "Sertifikat Best Paper Essay IPB",
+      "sizes": "(max-width: 639px) calc(100vw - 68px), (max-width: 767px) calc(50vw - 60px), (max-width: 1023px) calc(50vw - 80px), (max-width: 1279px) calc(33vw - 72px), 356px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fcompetitions%2FSertif%20Best%20Paper.jpeg&w=3840&q=75"
+    },
+    {
+      "route": "/competitions",
+      "alt": "Sertifikat Best Essay Pendidikan - Mathematics Essay Contest (MEC) UNESA",
+      "sizes": "(max-width: 639px) calc(100vw - 68px), (max-width: 767px) calc(50vw - 60px), (max-width: 1023px) calc(50vw - 80px), (max-width: 1279px) calc(33vw - 72px), 356px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fcompetitions%2FBEST%20ESSAY%20Pendidikan.jpg&w=3840&q=75"
+    },
+    {
+      "route": "/competitions",
+      "alt": "Sertifikat Best Essay Lingkungan - Mathematics Essay Contest (MEC) UNESA",
+      "sizes": "(max-width: 639px) calc(100vw - 68px), (max-width: 767px) calc(50vw - 60px), (max-width: 1023px) calc(50vw - 80px), (max-width: 1279px) calc(33vw - 72px), 356px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fcompetitions%2FBEST%20ESSAY%20Lingkungan.jpg&w=3840&q=75"
+    },
+    {
+      "route": "/competitions",
+      "alt": "Sertifikat Gold Medal - 2nd Youth Project Series (YPS)",
+      "sizes": "(max-width: 639px) calc(100vw - 68px), (max-width: 767px) calc(50vw - 60px), (max-width: 1023px) calc(50vw - 80px), (max-width: 1279px) calc(33vw - 72px), 356px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fcompetitions%2FSERTIF%20GOLD%20MEDAL%20YPS.png&w=3840&q=75"
+    },
+    {
+      "route": "/competitions",
+      "alt": "Sertifikat Gold Medal Essay IPB",
+      "sizes": "(max-width: 639px) calc(100vw - 68px), (max-width: 767px) calc(50vw - 60px), (max-width: 1023px) calc(50vw - 80px), (max-width: 1279px) calc(33vw - 72px), 356px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fcompetitions%2FSertif%20Gold%20Medal.jpeg&w=3840&q=75"
+    },
+    {
+      "route": "/competitions",
+      "alt": "Sertifikat Gold Medal Essay UNY - CNF 2025",
+      "sizes": "(max-width: 639px) calc(100vw - 68px), (max-width: 767px) calc(50vw - 60px), (max-width: 1023px) calc(50vw - 80px), (max-width: 1279px) calc(33vw - 72px), 356px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fcompetitions%2Fgold%20medal%20essay%20cnf.jpg&w=3840&q=75"
+    },
+    {
+      "route": "/competitions",
+      "alt": "Sertifikat Silver Medal Business Plan - CNF",
+      "sizes": "(max-width: 639px) calc(100vw - 68px), (max-width: 767px) calc(50vw - 60px), (max-width: 1023px) calc(50vw - 80px), (max-width: 1279px) calc(33vw - 72px), 356px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fcompetitions%2Fsilver%20medal%20bp%20cnf.jpg&w=3840&q=75"
+    },
+    {
+      "route": "/competitions",
+      "alt": "Sertifikat Silver Medal - NEIRA 2025",
+      "sizes": "(max-width: 639px) calc(100vw - 68px), (max-width: 767px) calc(50vw - 60px), (max-width: 1023px) calc(50vw - 80px), (max-width: 1279px) calc(33vw - 72px), 356px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fcompetitions%2FSilver%20Medal%20NEIRA.jpg&w=3840&q=75"
+    },
+    {
+      "route": "/competitions",
+      "alt": "Sertifikat Bali Innovation Award - Silver Medal",
+      "sizes": "(max-width: 639px) calc(100vw - 68px), (max-width: 767px) calc(50vw - 60px), (max-width: 1023px) calc(50vw - 80px), (max-width: 1279px) calc(33vw - 72px), 356px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fcompetitions%2Fsertif%20silver%20bali.jpg&w=3840&q=75"
+    },
+    {
+      "route": "/competitions",
+      "alt": "Sertifikat Bronze Medal - 2nd International Student Summit",
+      "sizes": "(max-width: 639px) calc(100vw - 68px), (max-width: 767px) calc(50vw - 60px), (max-width: 1023px) calc(50vw - 80px), (max-width: 1279px) calc(33vw - 72px), 356px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fcompetitions%2Fbronze-medal-iss.png&w=3840&q=75"
+    },
+    {
+      "route": "/competitions",
+      "alt": "Sertifikat Bronze Medal Essay Capai Cita - NEIRA 2025",
+      "sizes": "(max-width: 639px) calc(100vw - 68px), (max-width: 767px) calc(50vw - 60px), (max-width: 1023px) calc(50vw - 80px), (max-width: 1279px) calc(33vw - 72px), 356px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fcompetitions%2Fbronze%20medal%20neira.jpg&w=3840&q=75"
+    },
+    {
+      "route": "/competitions",
+      "alt": "Sertifikat Favorite Poster - 2nd Youth Project Series (YPS)",
+      "sizes": "(max-width: 639px) calc(100vw - 68px), (max-width: 767px) calc(50vw - 60px), (max-width: 1023px) calc(50vw - 80px), (max-width: 1279px) calc(33vw - 72px), 356px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fcompetitions%2FSERTIF%20FAV%20POSTER%20YPS.png&w=3840&q=75"
+    },
+    {
+      "route": "/competitions",
+      "alt": "Sertifikat Favorite Poster Dhyana Pura - National Student Poster Competition",
+      "sizes": "(max-width: 639px) calc(100vw - 68px), (max-width: 767px) calc(50vw - 60px), (max-width: 1023px) calc(50vw - 80px), (max-width: 1279px) calc(33vw - 72px), 356px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fcompetitions%2Fsertif%20fav%20poster%20bali.jpg&w=3840&q=75"
+    },
+    {
+      "route": "/competitions",
+      "alt": "Sertifikat Favorite Poster Capai Cita - NEIRA 2025",
+      "sizes": "(max-width: 639px) calc(100vw - 68px), (max-width: 767px) calc(50vw - 60px), (max-width: 1023px) calc(50vw - 80px), (max-width: 1279px) calc(33vw - 72px), 356px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fcompetitions%2Ffav%20poster%20neira%202.jpg&w=3840&q=75"
+    },
+    {
+      "route": "/competitions",
+      "alt": "Sertifikat Mentor Startup Academy / LKMM-TD 2025 — FILKOM UB",
+      "sizes": "(max-width: 639px) calc(100vw - 68px), (max-width: 767px) calc(50vw - 60px), (max-width: 1023px) calc(50vw - 80px), (max-width: 1279px) calc(33vw - 72px), 356px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2FSertif%20Panitia%20LKMMTD.png&w=3840&q=75"
+    },
+    {
+      "route": "/competitions",
+      "alt": "Sertifikat Mentor Startup Academy 2026 — FILKOM UB",
+      "sizes": "(max-width: 639px) calc(100vw - 68px), (max-width: 767px) calc(50vw - 60px), (max-width: 1023px) calc(50vw - 80px), (max-width: 1279px) calc(33vw - 72px), 356px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fcompetitions%2Fmentor-pkkmb-startup-academy-2026.png&w=3840&q=75"
+    },
+    {
+      "route": "/competitions",
+      "alt": "Sertifikat Pemateri Technical Meeting Sahabat Tani 2026",
+      "sizes": "(max-width: 639px) calc(100vw - 68px), (max-width: 767px) calc(50vw - 60px), (max-width: 1023px) calc(50vw - 80px), (max-width: 1279px) calc(33vw - 72px), 356px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fcompetitions%2Fpemateri-sahabat-tani-2026.jpg&w=3840&q=75"
+    },
+    {
+      "route": "/competitions",
+      "alt": "Sertifikat Mentor Mini Case Competition — 180 Degrees Consulting UB",
+      "sizes": "(max-width: 639px) calc(100vw - 68px), (max-width: 767px) calc(50vw - 60px), (max-width: 1023px) calc(50vw - 80px), (max-width: 1279px) calc(33vw - 72px), 356px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fcompetitions%2Fmentor-mini-case-competition-180dc-ub-2026.png&w=3840&q=75"
+    },
+    {
+      "route": "/competitions",
+      "alt": "Sertifikat Pemateri Workshop #5: Product Management - BCC FILKOM UB",
+      "sizes": "(max-width: 639px) calc(100vw - 68px), (max-width: 767px) calc(50vw - 60px), (max-width: 1023px) calc(50vw - 80px), (max-width: 1279px) calc(33vw - 72px), 356px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fcompetitions%2Fpemateri-workshop-product-management-bcc.jpg&w=3840&q=75"
+    },
+    {
+      "route": "/competitions",
+      "alt": "Sertifikat Speaker - StudiLanjut Universe",
+      "sizes": "(max-width: 639px) calc(100vw - 68px), (max-width: 767px) calc(50vw - 60px), (max-width: 1023px) calc(50vw - 80px), (max-width: 1279px) calc(33vw - 72px), 356px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fcompetitions%2FSertifikat%20Pembicara%20StudiLanjut%20Universe.png&w=3840&q=75"
+    },
+    {
+      "route": "/competitions",
+      "alt": "Sertifikat Curriculum Intern - StudiLanjut",
+      "sizes": "(max-width: 639px) calc(100vw - 68px), (max-width: 767px) calc(50vw - 60px), (max-width: 1023px) calc(50vw - 80px), (max-width: 1279px) calc(33vw - 72px), 356px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fcompetitions%2Fsertifikat%20intern%20studilanjut%20fix.png&w=3840&q=75"
+    },
+    {
+      "route": "/competitions",
+      "alt": "Sertifikat Best Category of PM - Raion Academy 2025",
+      "sizes": "(max-width: 639px) calc(100vw - 68px), (max-width: 767px) calc(50vw - 60px), (max-width: 1023px) calc(50vw - 80px), (max-width: 1279px) calc(33vw - 72px), 356px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fcompetitions%2Fbest-pm-raion.png&w=3840&q=75"
+    },
+    {
+      "route": "/competitions",
+      "alt": "Sertifikat Paper Ilmiah — PHIC UNAIR 2026",
+      "sizes": "(max-width: 639px) calc(100vw - 68px), (max-width: 767px) calc(50vw - 60px), (max-width: 1023px) calc(50vw - 80px), (max-width: 1279px) calc(33vw - 72px), 356px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fcompetitions%2Fphic-paper-ilmiah-2026.png&w=3840&q=75"
+    },
+    {
+      "route": "/competitions",
+      "alt": "Sertifikat Business Model Canvas - Finalist PHENTUSIAS UNAIR",
+      "sizes": "(max-width: 639px) calc(100vw - 68px), (max-width: 767px) calc(50vw - 60px), (max-width: 1023px) calc(50vw - 80px), (max-width: 1279px) calc(33vw - 72px), 356px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fcompetitions%2Fsertif%20finalis%20unair.png&w=3840&q=75"
+    },
+    {
+      "route": "/competitions",
+      "alt": "Sertifikat Business Plan - Finalist",
+      "sizes": "(max-width: 639px) calc(100vw - 68px), (max-width: 767px) calc(50vw - 60px), (max-width: 1023px) calc(50vw - 80px), (max-width: 1279px) calc(33vw - 72px), 356px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fcompetitions%2FSertif%20finalis%20arunika%20sby.png&w=3840&q=75"
+    },
+    {
+      "route": "/competitions",
+      "alt": "Sertifikat Finalist Business Model Canvas - ULM",
+      "sizes": "(max-width: 639px) calc(100vw - 68px), (max-width: 767px) calc(50vw - 60px), (max-width: 1023px) calc(50vw - 80px), (max-width: 1279px) calc(33vw - 72px), 356px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fcompetitions%2Ffinalis%20bmc.png&w=3840&q=75"
+    },
+    {
+      "route": "/competitions",
+      "alt": "Sertifikat Brand Ambassador HOLOGY — FILKOM UB",
+      "sizes": "(max-width: 639px) calc(100vw - 68px), (max-width: 767px) calc(50vw - 60px), (max-width: 1023px) calc(50vw - 80px), (max-width: 1279px) calc(33vw - 72px), 356px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fcompetitions%2Fbrand-ambassador-hology-9-2026.jpg&w=3840&q=75"
+    },
+    {
+      "route": "/competitions",
+      "alt": "Sertifikat Popbuddy — PopSurvey by Populix",
+      "sizes": "(max-width: 639px) calc(100vw - 68px), (max-width: 767px) calc(50vw - 60px), (max-width: 1023px) calc(50vw - 80px), (max-width: 1279px) calc(33vw - 72px), 356px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Fbrand-ambassador-populix-revisi.png&w=3840&q=75"
+    },
+    {
+      "route": "/competitions",
+      "alt": "Sertifikat Webinar PHIC 2026 — Universitas Airlangga",
+      "sizes": "(max-width: 639px) calc(100vw - 68px), (max-width: 767px) calc(50vw - 60px), (max-width: 1023px) calc(50vw - 80px), (max-width: 1279px) calc(33vw - 72px), 356px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fcompetitions%2Fwebinar-phic-unair-2026.jpg&w=3840&q=75"
+    },
+    {
+      "route": "/competitions",
+      "alt": "Sertifikat DEBUG 2.0 × PERAN PUAN — FILKOM UB",
+      "sizes": "(max-width: 639px) calc(100vw - 68px), (max-width: 767px) calc(50vw - 60px), (max-width: 1023px) calc(50vw - 80px), (max-width: 1279px) calc(33vw - 72px), 356px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fcompetitions%2Fseminar-debug-peran-puan-2024.png&w=3840&q=75"
+    },
+    {
+      "route": "/projects/akademirofi",
+      "alt": "Akademirofi — Platform Belajar BMC, BPC, dan Essay",
+      "sizes": "(max-width: 895px) calc(100vw - 40px), 856px",
+      "loading": "eager",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Fakademirofi-learning.png&w=3840&q=75"
+    },
+    {
+      "route": "/projects/umkm-go",
+      "alt": "UMKM Go",
+      "sizes": "(max-width: 895px) calc(100vw - 40px), 856px",
+      "loading": "eager",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Fumkmgo-pasar-desa-banner.png&w=3840&q=75"
+    },
+    {
+      "route": "/projects/amora",
+      "alt": "Amora",
+      "sizes": "(max-width: 895px) calc(100vw - 40px), 856px",
+      "loading": "eager",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Famora-platform-banner.png&w=3840&q=75"
+    },
+    {
+      "route": "/projects/arah-career",
+      "alt": "ARAH — Platform Eksplorasi Karier",
+      "sizes": "(max-width: 895px) calc(100vw - 40px), 856px",
+      "loading": "eager",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Farah-career-path.png&w=3840&q=75"
+    },
+    {
+      "route": "/projects/bcc-website",
+      "alt": "Website Resmi BCC (Basic Computing Community)",
+      "sizes": "(max-width: 895px) calc(100vw - 40px), 856px",
+      "loading": "eager",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Fbcc-website-cover.png&w=3840&q=75"
+    },
+    {
+      "route": "/projects/gestory",
+      "alt": "Gestory",
+      "sizes": "(max-width: 895px) calc(100vw - 40px), 856px",
+      "loading": "eager",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Fgestory-platform-banner.png&w=3840&q=75"
+    },
+    {
+      "route": "/projects/filkom-league-2026",
+      "alt": "Ketua Pelaksana Filkom League 2026",
+      "sizes": "(max-width: 895px) calc(100vw - 40px), 856px",
+      "loading": "eager",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Fketua-pelaksana-filkom-league-2026.png&w=3840&q=75"
+    },
+    {
+      "route": "/projects/pahamin",
+      "alt": "PahamIn",
+      "sizes": "(max-width: 895px) calc(100vw - 40px), 856px",
+      "loading": "eager",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Fpahamin-learning-banner.png&w=3840&q=75"
+    },
+    {
+      "route": "/projects/bcc-pm",
+      "alt": "Product Manager BCC",
+      "sizes": "(max-width: 895px) calc(100vw - 40px), 856px",
+      "loading": "eager",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2FPM%20-%20BCC.png&w=3840&q=75"
+    },
+    {
+      "route": "/projects/website-em-ub",
+      "alt": "Website Resmi EM UB 2026",
+      "sizes": "(max-width: 895px) calc(100vw - 40px), 856px",
+      "loading": "eager",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Frajut-wijaya-em-ub-banner.png&w=3840&q=75"
+    },
+    {
+      "route": "/projects/emub-2026",
+      "alt": "Staff KOMINFO EM UB 2026",
+      "sizes": "(max-width: 895px) calc(100vw - 40px), 856px",
+      "loading": "eager",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Fem-ub-2026.jpg&w=3840&q=75"
+    },
+    {
+      "route": "/projects/bios-2026",
+      "alt": "Ketua Futsal BIOS",
+      "sizes": "(max-width: 895px) calc(100vw - 40px), 856px",
+      "loading": "eager",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Forganisasi-bios-2026.jpg&w=3840&q=75"
+    },
+    {
+      "route": "/projects/lki-amd",
+      "alt": "LKI AMD",
+      "sizes": "(max-width: 895px) calc(100vw - 40px), 856px",
+      "loading": "eager",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Flki%20amd.jpg&w=3840&q=75"
+    },
+    {
+      "route": "/projects/rebite",
+      "alt": "ReBite Project",
+      "sizes": "(max-width: 895px) calc(100vw - 40px), 856px",
+      "loading": "eager",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Frebite-food-waste-banner.png&w=3840&q=75"
+    },
+    {
+      "route": "/projects/misra",
+      "alt": "Profil Sekolah Dasar",
+      "sizes": "(max-width: 895px) calc(100vw - 40px), 856px",
+      "loading": "eager",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Fmisraproject-cover.jpg&w=3840&q=75"
+    },
+    {
+      "route": "/projects/em-ub-web-2026",
+      "alt": "Ketua Pelaksana Website EM UB 2026",
+      "sizes": "(max-width: 895px) calc(100vw - 40px), 856px",
+      "loading": "eager",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2FKetua%20Pelaksana%20Website%20Eksekutif%20Mahasiswa%202026.png&w=3840&q=75"
+    },
+    {
+      "route": "/projects/cert-pbo",
+      "alt": "Sertifikasi PBO",
+      "sizes": "(max-width: 895px) calc(100vw - 40px), 856px",
+      "loading": "eager",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Fsertif%20pbo.jpg&w=3840&q=75"
+    },
+    {
+      "route": "/projects/cert-pbo",
+      "alt": "Sertifikat PBO",
+      "sizes": "(max-width: 895px) calc(100vw - 40px), 856px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Fsertif%20pbo.jpg&w=3840&q=75"
+    },
+    {
+      "route": "/projects/cert-java",
+      "alt": "Java Fundamental Certificate",
+      "sizes": "(max-width: 895px) calc(100vw - 40px), 856px",
+      "loading": "eager",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Fsertif%20java.jpg&w=3840&q=75"
+    },
+    {
+      "route": "/projects/cert-java",
+      "alt": "Sertifikat Java Fundamental",
+      "sizes": "(max-width: 895px) calc(100vw - 40px), 856px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Fsertif%20java.jpg&w=3840&q=75"
+    },
+    {
+      "route": "/projects/cert-pm",
+      "alt": "Sertifikasi Manajemen Proyek",
+      "sizes": "(max-width: 895px) calc(100vw - 40px), 856px",
+      "loading": "eager",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Fsertif%20manajemen%20proyek.jpg&w=3840&q=75"
+    },
+    {
+      "route": "/projects/cert-pm",
+      "alt": "Sertifikat Project Management",
+      "sizes": "(max-width: 895px) calc(100vw - 40px), 856px",
+      "loading": "lazy",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Fsertif%20manajemen%20proyek.jpg&w=3840&q=75"
+    },
+    {
+      "route": "/projects/bios-2025",
+      "alt": "Bendahara Futsal BIOS",
+      "sizes": "(max-width: 895px) calc(100vw - 40px), 856px",
+      "loading": "eager",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Forganasasi-bios-2025.jpg&w=3840&q=75"
+    },
+    {
+      "route": "/projects/cekat",
+      "alt": "CEKAT — Platform Kesehatan Digital",
+      "sizes": "(max-width: 895px) calc(100vw - 40px), 856px",
+      "loading": "eager",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Fcekat-healthcare-showcase.png&w=3840&q=75"
+    },
+    {
+      "route": "/projects/ekspedisi-nusantara",
+      "alt": "Ekspedisi Nusantara — Math Adventure",
+      "sizes": "(max-width: 895px) calc(100vw - 40px), 856px",
+      "loading": "eager",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Fekspedisi-nusantara-math-adventure.png&w=3840&q=75"
+    },
+    {
+      "route": "/projects/ifhamkids",
+      "alt": "IfhamKids — Belajar Bahasa Arab untuk Anak",
+      "sizes": "(max-width: 895px) calc(100vw - 40px), 856px",
+      "loading": "eager",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Fifhamkids-arabic-learning.png&w=3840&q=75"
+    },
+    {
+      "route": "/projects/kelasin",
+      "alt": "Kelasin — Platform Digital",
+      "sizes": "(max-width: 895px) calc(100vw - 40px), 856px",
+      "loading": "eager",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Fkelasin-cover.png&w=3840&q=75"
+    },
+    {
+      "route": "/projects/mandorin",
+      "alt": "Mandorin — Platform Pembangunan Hunian",
+      "sizes": "(max-width: 895px) calc(100vw - 40px), 856px",
+      "loading": "eager",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Fmandorin-platform-banner.png&w=3840&q=75"
+    },
+    {
+      "route": "/projects/ngajikidz",
+      "alt": "NgajiKidz — Belajar Mengaji dengan AI",
+      "sizes": "(max-width: 895px) calc(100vw - 40px), 856px",
+      "loading": "eager",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Fngajikidz-ai-learning.png&w=3840&q=75"
+    },
+    {
+      "route": "/projects/pelatihan-ar-sdn-3-dono",
+      "alt": "Pelatihan Media Pembelajaran AR — SDN 3 Dono",
+      "sizes": "(max-width: 895px) calc(100vw - 40px), 856px",
+      "loading": "eager",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Fpelatihan-ar-sdn-3-dono.jpg&w=3840&q=75"
+    },
+    {
+      "route": "/projects/sobataman",
+      "alt": "SobatAman — Platform Pendamping Terverifikasi",
+      "sizes": "(max-width: 895px) calc(100vw - 40px), 856px",
+      "loading": "eager",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Fsobataman-platform-banner.png&w=3840&q=75"
+    },
+    {
+      "route": "/projects/tehmbois-wcc",
+      "alt": "TehMbois — Website Brand Minuman",
+      "sizes": "(max-width: 895px) calc(100vw - 40px), 856px",
+      "loading": "eager",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Ftehmbois-wcc-2026.png&w=3840&q=75"
+    },
+    {
+      "route": "/projects/telaahkarier",
+      "alt": "TelaahKarier — Analisis Risiko Lowongan Kerja",
+      "sizes": "(max-width: 895px) calc(100vw - 40px), 856px",
+      "loading": "eager",
+      "source": "/_next/image?url=%2Fimages%2Fprojects%2Ftelaahkarier-risk-analysis.png&w=3840&q=75"
+    }
+  ],
+  "requests": [
+    {
+      "source": "/images/profile/profile-clean.png",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 35136
+    },
+    {
+      "source": "/images/projects/rajut-wijaya-em-ub-banner.png",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 26492
+    },
+    {
+      "source": "/images/projects/bcc-website-cover.png",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 24100
+    },
+    {
+      "source": "/images/projects/gestory-platform-banner.png",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 25592
+    },
+    {
+      "source": "/images/projects/akademirofi-learning.png",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 26316
+    },
+    {
+      "source": "/images/projects/umkmgo-pasar-desa-banner.png",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 26656
+    },
+    {
+      "source": "/images/projects/amora-platform-banner.png",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 24142
+    },
+    {
+      "source": "/images/projects/arah-career-path.png",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 33926
+    },
+    {
+      "source": "/images/projects/ketua-pelaksana-filkom-league-2026.png",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 27050
+    },
+    {
+      "source": "/images/projects/pahamin-learning-banner.png",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 22756
+    },
+    {
+      "source": "/images/projects/PM - BCC.png",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 15246
+    },
+    {
+      "source": "/images/projects/em-ub-2026.jpg",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 59884
+    },
+    {
+      "source": "/images/projects/organisasi-bios-2026.jpg",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 43848
+    },
+    {
+      "source": "/images/projects/lki amd.jpg",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 65464
+    },
+    {
+      "source": "/images/projects/rebite-food-waste-banner.png",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 22444
+    },
+    {
+      "source": "/images/projects/misraproject-cover.jpg",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 31406
+    },
+    {
+      "source": "/images/projects/Ketua Pelaksana Website Eksekutif Mahasiswa 2026.png",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 25330
+    },
+    {
+      "source": "/images/projects/sertif pbo.jpg",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 19026
+    },
+    {
+      "source": "/images/projects/sertif java.jpg",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 15508
+    },
+    {
+      "source": "/images/projects/sertif manajemen proyek.jpg",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 15246
+    },
+    {
+      "source": "/images/projects/organasasi-bios-2025.jpg",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 43072
+    },
+    {
+      "source": "/images/projects/cekat-healthcare-showcase.png",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 24846
+    },
+    {
+      "source": "/images/projects/ekspedisi-nusantara-math-adventure.png",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 25092
+    },
+    {
+      "source": "/images/projects/tehmbois-wcc-2026.png",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 23476
+    },
+    {
+      "source": "/images/projects/ifhamkids-arabic-learning.png",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 24074
+    },
+    {
+      "source": "/images/projects/kelasin-cover.png",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 22048
+    },
+    {
+      "source": "/images/projects/mandorin-platform-banner.png",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 19778
+    },
+    {
+      "source": "/images/projects/ngajikidz-ai-learning.png",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 22808
+    },
+    {
+      "source": "/images/projects/pelatihan-ar-sdn-3-dono.jpg",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 30410
+    },
+    {
+      "source": "/images/projects/sobataman-platform-banner.png",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 21020
+    },
+    {
+      "source": "/images/projects/telaahkarier-risk-analysis.png",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 22658
+    },
+    {
+      "source": "/images/competitions/mawapres-filkom-2027-juara-1.png",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 24240
+    },
+    {
+      "source": "/images/competitions/(GRAND CHAMPION) 2ndYPS.png",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 32358
+    },
+    {
+      "source": "/images/competitions/Sertif Juara Umum.jpeg",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 31992
+    },
+    {
+      "source": "/images/competitions/SERTIF JUARA 3 YPS.png",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 33184
+    },
+    {
+      "source": "/images/competitions/SERTIF JUARA 4 YPS.png",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 33410
+    },
+    {
+      "source": "/images/competitions/JUARA 1 BPC UIN MADURA.png",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 35044
+    },
+    {
+      "source": "/images/competitions/sertif manex.jpg",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 40610
+    },
+    {
+      "source": "/images/competitions/sertifikat-wcc-web-development.jpeg",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 26870
+    },
+    {
+      "source": "/images/competitions/_Juara II UNESA.jpg",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 51592
+    },
+    {
+      "source": "/images/competitions/Sertif Juara 2.jpeg",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 31666
+    },
+    {
+      "source": "/images/competitions/juara 3 umsida.jpg",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 28652
+    },
+    {
+      "source": "/images/competitions/indigo sertif.jpg",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 29844
+    },
+    {
+      "source": "/images/competitions/Sertif Best Paper.jpeg",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 32246
+    },
+    {
+      "source": "/images/competitions/BEST ESSAY Pendidikan.jpg",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 52618
+    },
+    {
+      "source": "/images/competitions/BEST ESSAY Lingkungan.jpg",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 52662
+    },
+    {
+      "source": "/images/competitions/SERTIF GOLD MEDAL YPS.png",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 33188
+    },
+    {
+      "source": "/images/competitions/Sertif Gold Medal.jpeg",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 32306
+    },
+    {
+      "source": "/images/competitions/gold medal essay cnf.jpg",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 27906
+    },
+    {
+      "source": "/images/competitions/silver medal bp cnf.jpg",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 28534
+    },
+    {
+      "source": "/images/competitions/Silver Medal NEIRA.jpg",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 33164
+    },
+    {
+      "source": "/images/competitions/sertif silver bali.jpg",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 32018
+    },
+    {
+      "source": "/images/competitions/bronze-medal-iss.png",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 28856
+    },
+    {
+      "source": "/images/competitions/bronze medal neira.jpg",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 30304
+    },
+    {
+      "source": "/images/competitions/SERTIF FAV POSTER YPS.png",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 34032
+    },
+    {
+      "source": "/images/competitions/sertif fav poster bali.jpg",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 32346
+    },
+    {
+      "source": "/images/competitions/fav poster neira 2.jpg",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 31442
+    },
+    {
+      "source": "/images/projects/Sertif Panitia LKMMTD.png",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 36032
+    },
+    {
+      "source": "/images/competitions/mentor-pkkmb-startup-academy-2026.png",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 27690
+    },
+    {
+      "source": "/images/competitions/pemateri-sahabat-tani-2026.jpg",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 30138
+    },
+    {
+      "source": "/images/competitions/mentor-mini-case-competition-180dc-ub-2026.png",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 26386
+    },
+    {
+      "source": "/images/competitions/pemateri-workshop-product-management-bcc.jpg",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 21108
+    },
+    {
+      "source": "/images/competitions/Sertifikat Pembicara StudiLanjut Universe.png",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 50454
+    },
+    {
+      "source": "/images/competitions/sertifikat intern studilanjut fix.png",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 30068
+    },
+    {
+      "source": "/images/competitions/best-pm-raion.png",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 30110
+    },
+    {
+      "source": "/images/competitions/phic-paper-ilmiah-2026.png",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 31260
+    },
+    {
+      "source": "/images/competitions/sertif finalis unair.png",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 39948
+    },
+    {
+      "source": "/images/competitions/Sertif finalis arunika sby.png",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 25902
+    },
+    {
+      "source": "/images/competitions/finalis bmc.png",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 35680
+    },
+    {
+      "source": "/images/competitions/brand-ambassador-hology-9-2026.jpg",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 24326
+    },
+    {
+      "source": "/images/projects/brand-ambassador-populix-revisi.png",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 19238
+    },
+    {
+      "source": "/images/competitions/webinar-phic-unair-2026.jpg",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 45152
+    },
+    {
+      "source": "/images/competitions/seminar-debug-peran-puan-2024.png",
+      "status": 200,
+      "optimizedStatus": 200,
+      "optimizedType": "image/webp",
+      "cache": "public, max-age=14400, must-revalidate",
+      "bytes": 27270
+    }
+  ],
+  "passed": true
+}

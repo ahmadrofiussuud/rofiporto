@@ -1,0 +1,136 @@
+{
+  "chunks": [
+    {
+      "file": ".next\\static\\chunks\\1c7169261bc4f2b5.js",
+      "rawBytes": 11336,
+      "gzipBytes": 3416,
+      "brotliBytes": 2995
+    },
+    {
+      "file": ".next\\static\\chunks\\21868b474227ab17.js",
+      "rawBytes": 1236,
+      "gzipBytes": 737,
+      "brotliBytes": 658
+    },
+    {
+      "file": ".next\\static\\chunks\\82abf2d65f5428ae.js",
+      "rawBytes": 33299,
+      "gzipBytes": 7276,
+      "brotliBytes": 6261
+    },
+    {
+      "file": ".next\\static\\chunks\\8c583ae1bdaf44d8.js",
+      "rawBytes": 123435,
+      "gzipBytes": 40972,
+      "brotliBytes": 36296
+    },
+    {
+      "file": ".next\\static\\chunks\\a0be3db200297507.js",
+      "rawBytes": 19157,
+      "gzipBytes": 7443,
+      "brotliBytes": 6605
+    },
+    {
+      "file": ".next\\static\\chunks\\a6dad97d9634a72d.js",
+      "rawBytes": 112594,
+      "gzipBytes": 39627,
+      "brotliBytes": 35158
+    },
+    {
+      "file": ".next\\static\\chunks\\aee6c7720838f8a2.js",
+      "rawBytes": 224413,
+      "gzipBytes": 70108,
+      "brotliBytes": 59894
+    },
+    {
+      "file": ".next\\static\\chunks\\d2be314c3ece3fbe.js",
+      "rawBytes": 30681,
+      "gzipBytes": 7437,
+      "brotliBytes": 6533
+    },
+    {
+      "file": ".next\\static\\chunks\\d2fee9d2ad5103a1.js",
+      "rawBytes": 14754,
+      "gzipBytes": 5478,
+      "brotliBytes": 4855
+    },
+    {
+      "file": ".next\\static\\chunks\\d702a24e2b6c48fa.js",
+      "rawBytes": 130895,
+      "gzipBytes": 35797,
+      "brotliBytes": 30794
+    },
+    {
+      "file": ".next\\static\\chunks\\e5e610f97b1892fc.js",
+      "rawBytes": 14090,
+      "gzipBytes": 5358,
+      "brotliBytes": 4757
+    },
+    {
+      "file": ".next\\static\\chunks\\fd86b74cf88c6a1d.js",
+      "rawBytes": 19420,
+      "gzipBytes": 7229,
+      "brotliBytes": 6469
+    },
+    {
+      "file": ".next\\static\\chunks\\ff1a16fafef87110.js",
+      "rawBytes": 282,
+      "gzipBytes": 224,
+      "brotliBytes": 197
+    },
+    {
+      "file": ".next\\static\\chunks\\turbopack-b19bc4d5b8d41157.js",
+      "rawBytes": 10232,
+      "gzipBytes": 4016,
+      "brotliBytes": 3596
+    },
+    {
+      "file": ".next\\static\\uTkLXSIIMTHbbjGI4BLZ6\\_buildManifest.js",
+      "rawBytes": 219,
+      "gzipBytes": 154,
+      "brotliBytes": 133
+    },
+    {
+      "file": ".next\\static\\uTkLXSIIMTHbbjGI4BLZ6\\_ssgManifest.js",
+      "rawBytes": 108,
+      "gzipBytes": 88,
+      "brotliBytes": 77
+    }
+  ],
+  "totals": {
+    "raw": 746151,
+    "gzip": 235360,
+    "brotli": 205278
+  },
+  "headers": [
+    {
+      "url": "http://127.0.0.1:3101",
+      "status": 200,
+      "cache": "s-maxage=31536000",
+      "encoding": "gzip",
+      "vercelCache": null
+    },
+    {
+      "url": "http://127.0.0.1:3101/_next/static/chunks/82abf2d65f5428ae.js",
+      "status": 200,
+      "cache": "public, max-age=31536000, immutable",
+      "encoding": "gzip",
+      "vercelCache": null
+    },
+    {
+      "url": "https://rofiporto.vercel.app",
+      "status": 200,
+      "cache": "public, max-age=0, must-revalidate",
+      "encoding": "br",
+      "vercelCache": "HIT"
+    },
+    {
+      "url": "https://rofiporto.vercel.app/_next/static/chunks/82abf2d65f5428ae.js",
+      "status": 200,
+      "cache": "public,max-age=31536000,immutable",
+      "encoding": "br",
+      "vercelCache": "HIT"
+    }
+  ],
+  "note": "All emitted chunks are not the JavaScript loaded by a single route. Compression figures are local calculations, not observed transfer."
+}

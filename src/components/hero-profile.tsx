@@ -17,7 +17,7 @@ export function HeroProfile() {
   </div>
   <div className="portrait-panel enter" style={{ animationDelay: "120ms" }}>
    <span className="portrait-mark" aria-hidden="true">MARS</span>
-   <Image src="/images/profile/profile-clean.png" alt="Muhammad Ahmad Rofi’us Su’ud" fill priority sizes="(max-width: 767px) 90vw, 42vw" className="object-contain object-bottom portrait-photo" />
+   <Image src="/images/profile/profile-clean.png" alt="Muhammad Ahmad Rofi’us Su’ud" fill priority sizes="(max-width: 767px) calc(100vw - 40px), (max-width: 1023px) calc(46.5vw - 51px), (max-width: 1279px) calc(46.5vw - 65px), 530px" className="object-contain object-bottom portrait-photo" />
    <div className="portrait-caption"><span>Ide. Kolaborasi. Eksekusi.</span><span>↗</span></div>
   </div>
  </section>;

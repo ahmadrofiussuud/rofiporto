@@ -137,3 +137,7 @@ Proyek dengan role belum tersedia pada frontmatter saat snapshot akhir:
 Tabel metadata, hipotesis keyword dan daftar konfirmasi merupakan deliverable Phase 3. Otorisasi push setelah Phase 3 diberikan pengguna pada pesan lanjutan; hasil push dicatat di implementation log setelah benar-benar berhasil.
 
 Checkpoint lokal 01c7bb9 sudah dibuat. Push masih tertahan automatic approval review karena memicu production Vercel; diminta persetujuan eksplisit deployment. Tidak ada push yang berhasil atau deployment yang diklaim. Phase 4 belum dimulai sesuai urutan yang diminta pengguna.
+
+## Update checkpoint production — 24 November 2026
+
+Pengguna kemudian menyetujui push master dan production. Commit cd05aa6 berhasil dipush, integrasi Vercel success, dan production lulus 36 halaman/789 pemeriksaan (evidence/phase3-production-deployed.json). Catatan penolakan awal di atas adalah riwayat yang telah terselesaikan. Phase 4 kini selesai lokal, didokumentasikan pada 08–10; belum dideploy.

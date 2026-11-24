@@ -1,0 +1,20 @@
+{
+  "observedDate": "2026-11-24",
+  "method": "Authenticated browser UI already available; no credentials requested or stored",
+  "property": "https://rofiporto.vercel.app/",
+  "ownership": {"status": "Verified owner", "method": "HTML tag", "propertyAdded": "2026-11-17"},
+  "sitemap": {"path": "/sitemap.xml", "status": "Success", "submitted": "2026-11-17", "lastRead": "2026-11-24", "discoveredPages": 36, "discoveredVideos": 0, "resubmitted": false},
+  "performance28days": {"source": "phase7-gsc-28days.zip", "availableChartStart": "2026-11-16", "availableChartEnd": "2026-11-22", "clicks": 2, "impressions": 15, "ctrPercent": 13.33, "position": 5.1, "queries": []},
+  "performance90days": {"method": "UI custom date filter", "requestedStart": "2026-08-25", "requestedEnd": "2026-11-22", "availableChartStart": "2026-11-16", "availableChartEnd": "2026-11-22", "clicks": 2, "impressions": 15, "ctrPercent": 13.3, "position": 5.1, "queriesVisible": false, "exportDownloaded": false},
+  "pageIndexingReport": {"displayedLastUpdate": "2026-11-16", "indexed": 0, "notIndexed": 4, "reason": "Crawled - currently not indexed", "validation": "Not Started", "examples": ["/projects/bcc-website", "/projects/em-ub-web-2026", "/projects/cert-pbo", "/"], "exampleCrawlDates": ["2026-11-18", "2026-11-18", "2026-11-18", "2026-11-17"], "caution": "Report timestamps appear inconsistent and conflict with root URL Inspection; do not interpret aggregate zero as current site deindexing"},
+  "rootInspection": {"url": "https://rofiporto.vercel.app/", "status": "URL is on Google", "pageStatus": "Page is indexed", "lastCrawlDisplayed": "Nov 17, 2026, 8:56:17 PM", "crawler": "Googlebot smartphone", "crawlAllowed": true, "fetch": "Successful", "indexingAllowed": true, "userCanonical": "https://rofiporto.vercel.app/", "googleCanonical": "Inspected URL", "referringSitemap": "No referring sitemaps detected", "requestIndexingSubmitted": false},
+  "rootLiveTest": {"displayedTestedAt": "Nov 24, 2026, 10:47 PM", "status": "URL is available to Google", "availability": "Page can be indexed", "richResults": "Profile page: 1 valid item"},
+  "coreWebVitals": {"lastUpdate": "2026-11-23", "mobile": "Not enough usage data in the last 90 days for this device type", "desktop": "Not enough usage data in the last 90 days for this device type", "lcp": null, "inp": null, "cls": null},
+  "manualActions": "No issues detected",
+  "securityIssues": "No issues detected",
+  "links": {"externalReportedTotal": 0, "internalReportedTotal": 0, "tables": "No data", "caution": "Not proof of no links on the web; internal HTML links exist"},
+  "richResultsTest": {"url": "https://rofiporto.vercel.app/", "resultUrl": "https://search.google.com/test/rich-results/result?id=zgV2pZ0jRW9f-hOqxdIGsw", "crawlDisplayed": "Nov 24, 2026, 10:40:37 PM", "status": "1 valid item detected", "type": "Profile page", "itemName": "Muhammad Ahmad Rofi’us Su’ud"},
+  "schemaValidator": {"url": "https://rofiporto.vercel.app/", "resultUrl": "https://validator.schema.org/#url=https%3A%2F%2Frofiporto.vercel.app%2F", "type": "ProfilePage", "nestedType": "Person", "errors": 0, "warnings": 0},
+  "bing": {"url": "https://www.bing.com/webmasters/about", "observed": "Public landing page with Sign In; dashboard not accessed"},
+  "mutations": "No property added/deleted, no sitemap resubmission, no request indexing, no analytics tracking or external account setting changes"
+}

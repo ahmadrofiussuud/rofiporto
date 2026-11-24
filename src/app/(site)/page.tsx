@@ -4,45 +4,31 @@ import { ArrowUpRight } from "lucide-react";
 import { getAllProjects } from "@/lib/content";
 import { ProjectCard } from "@/components/ui/project-card";
 import { HeroProfile } from "@/components/hero-profile";
-import { SITE_URL, canonicalUrl } from "@/lib/site-config";
+import { SITE_URL, SITE_NAME, SOCIAL_IMAGE, canonicalUrl } from "@/lib/site-config";
+import { pageGraph } from "@/lib/structured-data";
+import { StructuredData } from "@/components/structured-data";
 
-const profileStructuredData = {
- "@context": "https://schema.org",
- "@type": "ProfilePage",
- "mainEntity": {
-  "@type": "Person",
-  "@id": `${SITE_URL}/#person`,
-  name: "Muhammad Ahmad Rofi’us Su’ud",
-  alternateName: ["Muhammad Ahmad Rofi'us Su'ud", "MARS"],
-  url: `${SITE_URL}/`,
-  image: `${SITE_URL}/images/profile/profile-clean.png`,
-  description: "Mahasiswa Pendidikan Teknologi Informasi FILKOM Universitas Brawijaya yang berfokus pada product management dan pengembangan produk digital.",
-  sameAs: [
-   "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
-   "https://github.com/ahmadrofiussuud",
-   "https://www.instagram.com/ahmadrfsd_/",
-  ],
- },
-};
+const homeTitle = "Muhammad Ahmad Rofi’us Su’ud — Portofolio Resmi";
+const homeDescription = "Portofolio Muhammad Ahmad Rofi’us Su’ud, mahasiswa FILKOM Universitas Brawijaya. Jelajahi karya produk digital, pengalaman product management, dan organisasi.";
 
 export const metadata: Metadata = {
- title: "Muhammad Ahmad Rofi’us Su’ud — Portofolio Resmi",
- description: "Portofolio Muhammad Ahmad Rofi’us Su’ud, mahasiswa FILKOM Universitas Brawijaya. Jelajahi karya produk digital, pengalaman product management, dan organisasi.",
+ title: homeTitle,
+ description: homeDescription,
  alternates: { canonical: canonicalUrl("/") },
  openGraph: {
-  title: "Muhammad Ahmad Rofi’us Su’ud — Portofolio Resmi",
-  description: "Portofolio Muhammad Ahmad Rofi’us Su’ud, mahasiswa FILKOM Universitas Brawijaya. Jelajahi karya produk digital, pengalaman product management, dan organisasi.",
+  title: homeTitle,
+  description: homeDescription,
   url: `${SITE_URL}/`,
-  siteName: "Portofolio Muhammad Ahmad Rofi’us Su’ud",
+  siteName: SITE_NAME,
   locale: "id_ID",
   type: "profile",
-  images: [{ url: "/images/profile/profile-clean.png", alt: "Muhammad Ahmad Rofi’us Su’ud" }],
+  images: [{ url: SOCIAL_IMAGE, width: 1200, height: 630, alt: "Muhammad Ahmad Rofi’us Su’ud — MARS" }],
  },
  twitter: {
   card: "summary_large_image",
-  title: "Muhammad Ahmad Rofi’us Su’ud — Portofolio Resmi",
-  description: "Portofolio Muhammad Ahmad Rofi’us Su’ud, mahasiswa FILKOM Universitas Brawijaya. Jelajahi karya produk digital, pengalaman product management, dan organisasi.",
-  images: ["/images/profile/profile-clean.png"],
+  title: homeTitle,
+  description: homeDescription,
+  images: [SOCIAL_IMAGE],
  },
 };
 
@@ -53,10 +39,7 @@ export default function Home() {
   return project ? [project] : [];
  });
  return <>
-  <script
-   type="application/ld+json"
-   dangerouslySetInnerHTML={{ __html: JSON.stringify(profileStructuredData).replace(/</g, "\\u003c") }}
-  />
+  <StructuredData data={pageGraph({ pathname: "/", name: homeTitle, description: homeDescription })} />
   <HeroProfile />
   <section id="karya" className="site-shell section-space home-work">
    <div className="section-heading"><div><p className="eyebrow mb-4">02 / KARYA PILIHAN</p><h2 className="section-title">Dari ide menjadi karya.</h2></div><Link href="/projects" className="text-link">Semua karya <ArrowUpRight size={18} /></Link></div>

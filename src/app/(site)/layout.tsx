@@ -4,7 +4,7 @@ import "../globals.css";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
 import { ThemeProvider } from "@/components/theme-provider";
-import { IS_NON_PRODUCTION_DEPLOYMENT, SITE_URL } from "@/lib/site-config";
+import { IS_NON_PRODUCTION_DEPLOYMENT, SITE_NAME, SITE_URL } from "@/lib/site-config";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   robots: IS_NON_PRODUCTION_DEPLOYMENT ? { index: false, follow: false } : { index: true, follow: true },
   title: "Muhammad Ahmad Rofi’us Su’ud — MARS",
   description: "Portofolio Muhammad Ahmad Rofi’us Su’ud (MARS). Product management, desain, pengembangan produk digital, dan cerita di balik karya.",
-  applicationName: "Portofolio Muhammad Ahmad Rofi’us Su’ud",
+  applicationName: SITE_NAME,
   creator: "Muhammad Ahmad Rofi’us Su’ud",
   publisher: "Muhammad Ahmad Rofi’us Su’ud",
   verification: {

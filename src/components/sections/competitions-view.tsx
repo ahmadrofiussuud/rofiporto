@@ -4,7 +4,7 @@ import { useState, useEffect, useRef, useId } from "react";
 import Image from "next/image";
 import { ZoomIn, X, Calendar } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence, LazyMotion, domAnimation, m } from "framer-motion";
 import { SpotlightCard } from "@/components/ui/spotlight-card";
 
 export interface CompetitionItem {
@@ -573,10 +573,10 @@ export function CompetitionsView() {
                                                 <>
                                                     <Image
                                                         src={item.image}
-                                                        alt={item.title}
+                                                        alt={`Sertifikat ${item.title}`}
                                                         fill
                                                         className="object-cover grayscale-[0.08] group-hover:grayscale-0 group-hover:scale-105 transition-all duration-500"
-                                                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                                                        sizes="(max-width: 639px) calc(100vw - 68px), (max-width: 767px) calc(50vw - 60px), (max-width: 1023px) calc(50vw - 80px), (max-width: 1279px) calc(33vw - 72px), 356px"
                                                         quality={75}
                                                     />
                                                     {/* Zoom Hover Overlay */}
@@ -622,11 +622,11 @@ export function CompetitionsView() {
             </div>
 
             {/* Lightbox / Fullscreen Modal */}
-            <AnimatePresence>
+            <LazyMotion features={domAnimation} strict><AnimatePresence>
                 {selectedItem && (
                     <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-6 md:p-8">
                         {/* Backdrop */}
-                        <motion.div
+                        <m.div
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
                             exit={{ opacity: 0 }}
@@ -635,7 +635,7 @@ export function CompetitionsView() {
                         />
 
                         {/* Modal Box */}
-                        <motion.div
+                        <m.div
                             ref={dialogRef}
                             role="dialog"
                             aria-modal="true"
@@ -659,7 +659,7 @@ export function CompetitionsView() {
                                 <button
                                     ref={closeButtonRef}
                                     onClick={() => setSelectedItem(null)}
-                                    className="p-1.5 rounded-lg text-muted-foreground hover:text-foreground hover:bg-muted active:scale-95 transition-all"
+                                    className="p-1.5 min-w-11 min-h-11 flex items-center justify-center rounded-lg text-muted-foreground hover:text-foreground hover:bg-muted active:scale-95 transition-all"
                                     aria-label="Tutup modal"
                                 >
                                     <X className="h-5 w-5" />
@@ -671,10 +671,10 @@ export function CompetitionsView() {
                                 <div className="relative w-full h-full min-h-[220px] sm:min-h-[320px] md:min-h-[480px]">
                                     <Image
                                         src={selectedItem.image}
-                                        alt={selectedItem.title}
+                                        alt={`Sertifikat ${selectedItem.title}`}
                                         fill
                                         className="object-contain"
-                                        sizes="(max-width: 1200px) 100vw, 1200px"
+                                        sizes="(max-width: 639px) calc(100vw - 24px), (max-width: 959px) calc(100vw - 48px), 896px"
                                         priority
                                     />
                                 </div>
@@ -689,10 +689,10 @@ export function CompetitionsView() {
                                     {selectedItem.description}
                                 </p>
                             </div>
-                        </motion.div>
+                        </m.div>
                     </div>
                 )}
-            </AnimatePresence>
+            </AnimatePresence></LazyMotion>
         </div>
     );
 }
@@ -706,11 +706,11 @@ function SimpleBadge({
 }) {
     const variants = {
         default: "bg-muted/50 text-muted-foreground border-transparent",
-        gold: "bg-amber-500/15 text-amber-600 dark:text-amber-400 border-amber-500/30",
-        silver: "bg-sky-500/15 text-sky-600 dark:text-sky-400 border-sky-500/30",
-        bronze: "bg-orange-500/15 text-orange-600 dark:text-orange-400 border-orange-500/30",
+        gold: "bg-amber-500/15 text-amber-800 dark:text-amber-400 border-amber-500/30",
+        silver: "bg-sky-500/15 text-sky-800 dark:text-sky-400 border-sky-500/30",
+        bronze: "bg-orange-500/15 text-orange-800 dark:text-orange-400 border-orange-500/30",
         purple: "bg-purple-500/15 text-purple-600 dark:text-purple-400 border-purple-500/30",
-        emerald: "bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 border-emerald-500/30",
+        emerald: "bg-emerald-500/15 text-emerald-800 dark:text-emerald-400 border-emerald-500/30",
         blue: "bg-blue-500/15 text-blue-600 dark:text-blue-400 border-blue-500/30",
         outline: "bg-transparent text-foreground/70 border-border/80",
     };

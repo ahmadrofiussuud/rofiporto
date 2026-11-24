@@ -1,5 +1,3 @@
-"use client";
-
 import Image from "next/image";
 import { cn } from "@/lib/utils";
 
@@ -37,7 +35,7 @@ export function MdxImage({
                 fill
                 className="object-cover transition-transform duration-500 hover:scale-105"
                 priority={priority}
-                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                sizes="(max-width: 895px) calc(100vw - 40px), 856px"
             />
         </div>
     );

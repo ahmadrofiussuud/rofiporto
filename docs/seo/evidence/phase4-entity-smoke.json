@@ -1,0 +1,4086 @@
+{
+  "base": "http://127.0.0.1:3101",
+  "pages": 36,
+  "checks": 469,
+  "passed": true,
+  "results": [
+    "/: one JSON-LD graph",
+    "/: schema context",
+    "/: unique IDs",
+    "/: stable owner",
+    "/: existing profiles and no private fields",
+    "/: publisher relationship",
+    "/: university reference",
+    "/: profile page scope",
+    "/: no unsupported article/application claims",
+    "/: evidenced award scope",
+    "/about: one JSON-LD graph",
+    "/about: schema context",
+    "/about: unique IDs",
+    "/about: stable owner",
+    "/about: existing profiles and no private fields",
+    "/about: publisher relationship",
+    "/about: university reference",
+    "/about: profile page scope",
+    "/about: no unsupported article/application claims",
+    "/about: canonical breadcrumb",
+    "/about: ordered breadcrumbs",
+    "/about: visible breadcrumb navigation",
+    "/about: evidenced award scope",
+    "/projects: one JSON-LD graph",
+    "/projects: schema context",
+    "/projects: unique IDs",
+    "/projects: stable owner",
+    "/projects: existing profiles and no private fields",
+    "/projects: publisher relationship",
+    "/projects: university reference",
+    "/projects: profile page scope",
+    "/projects: no unsupported article/application claims",
+    "/projects: canonical breadcrumb",
+    "/projects: ordered breadcrumbs",
+    "/projects: visible breadcrumb navigation",
+    "/projects: evidenced award scope",
+    "/competitions: one JSON-LD graph",
+    "/competitions: schema context",
+    "/competitions: unique IDs",
+    "/competitions: stable owner",
+    "/competitions: existing profiles and no private fields",
+    "/competitions: publisher relationship",
+    "/competitions: university reference",
+    "/competitions: profile page scope",
+    "/competitions: no unsupported article/application claims",
+    "/competitions: canonical breadcrumb",
+    "/competitions: ordered breadcrumbs",
+    "/competitions: visible breadcrumb navigation",
+    "/competitions: evidenced award scope",
+    "/contact: one JSON-LD graph",
+    "/contact: schema context",
+    "/contact: unique IDs",
+    "/contact: stable owner",
+    "/contact: existing profiles and no private fields",
+    "/contact: publisher relationship",
+    "/contact: university reference",
+    "/contact: profile page scope",
+    "/contact: no unsupported article/application claims",
+    "/contact: canonical breadcrumb",
+    "/contact: ordered breadcrumbs",
+    "/contact: visible breadcrumb navigation",
+    "/contact: evidenced award scope",
+    "/projects/akademirofi: one JSON-LD graph",
+    "/projects/akademirofi: schema context",
+    "/projects/akademirofi: unique IDs",
+    "/projects/akademirofi: stable owner",
+    "/projects/akademirofi: existing profiles and no private fields",
+    "/projects/akademirofi: publisher relationship",
+    "/projects/akademirofi: university reference",
+    "/projects/akademirofi: profile page scope",
+    "/projects/akademirofi: no unsupported article/application claims",
+    "/projects/akademirofi: canonical breadcrumb",
+    "/projects/akademirofi: ordered breadcrumbs",
+    "/projects/akademirofi: visible breadcrumb navigation",
+    "/projects/akademirofi: evidenced award scope",
+    "/projects/umkm-go: one JSON-LD graph",
+    "/projects/umkm-go: schema context",
+    "/projects/umkm-go: unique IDs",
+    "/projects/umkm-go: stable owner",
+    "/projects/umkm-go: existing profiles and no private fields",
+    "/projects/umkm-go: publisher relationship",
+    "/projects/umkm-go: university reference",
+    "/projects/umkm-go: profile page scope",
+    "/projects/umkm-go: no unsupported article/application claims",
+    "/projects/umkm-go: canonical breadcrumb",
+    "/projects/umkm-go: ordered breadcrumbs",
+    "/projects/umkm-go: visible breadcrumb navigation",
+    "/projects/umkm-go: evidenced award scope",
+    "/projects/amora: one JSON-LD graph",
+    "/projects/amora: schema context",
+    "/projects/amora: unique IDs",
+    "/projects/amora: stable owner",
+    "/projects/amora: existing profiles and no private fields",
+    "/projects/amora: publisher relationship",
+    "/projects/amora: university reference",
+    "/projects/amora: profile page scope",
+    "/projects/amora: no unsupported article/application claims",
+    "/projects/amora: canonical breadcrumb",
+    "/projects/amora: ordered breadcrumbs",
+    "/projects/amora: visible breadcrumb navigation",
+    "/projects/amora: evidenced award scope",
+    "/projects/arah-career: one JSON-LD graph",
+    "/projects/arah-career: schema context",
+    "/projects/arah-career: unique IDs",
+    "/projects/arah-career: stable owner",
+    "/projects/arah-career: existing profiles and no private fields",
+    "/projects/arah-career: publisher relationship",
+    "/projects/arah-career: university reference",
+    "/projects/arah-career: profile page scope",
+    "/projects/arah-career: no unsupported article/application claims",
+    "/projects/arah-career: canonical breadcrumb",
+    "/projects/arah-career: ordered breadcrumbs",
+    "/projects/arah-career: visible breadcrumb navigation",
+    "/projects/arah-career: evidenced award scope",
+    "/projects/bcc-website: one JSON-LD graph",
+    "/projects/bcc-website: schema context",
+    "/projects/bcc-website: unique IDs",
+    "/projects/bcc-website: stable owner",
+    "/projects/bcc-website: existing profiles and no private fields",
+    "/projects/bcc-website: publisher relationship",
+    "/projects/bcc-website: university reference",
+    "/projects/bcc-website: profile page scope",
+    "/projects/bcc-website: no unsupported article/application claims",
+    "/projects/bcc-website: canonical breadcrumb",
+    "/projects/bcc-website: ordered breadcrumbs",
+    "/projects/bcc-website: visible breadcrumb navigation",
+    "/projects/bcc-website: evidenced award scope",
+    "/projects/gestory: one JSON-LD graph",
+    "/projects/gestory: schema context",
+    "/projects/gestory: unique IDs",
+    "/projects/gestory: stable owner",
+    "/projects/gestory: existing profiles and no private fields",
+    "/projects/gestory: publisher relationship",
+    "/projects/gestory: university reference",
+    "/projects/gestory: profile page scope",
+    "/projects/gestory: no unsupported article/application claims",
+    "/projects/gestory: canonical breadcrumb",
+    "/projects/gestory: ordered breadcrumbs",
+    "/projects/gestory: visible breadcrumb navigation",
+    "/projects/gestory: evidenced award scope",
+    "/projects/filkom-league-2026: one JSON-LD graph",
+    "/projects/filkom-league-2026: schema context",
+    "/projects/filkom-league-2026: unique IDs",
+    "/projects/filkom-league-2026: stable owner",
+    "/projects/filkom-league-2026: existing profiles and no private fields",
+    "/projects/filkom-league-2026: publisher relationship",
+    "/projects/filkom-league-2026: university reference",
+    "/projects/filkom-league-2026: profile page scope",
+    "/projects/filkom-league-2026: no unsupported article/application claims",
+    "/projects/filkom-league-2026: canonical breadcrumb",
+    "/projects/filkom-league-2026: ordered breadcrumbs",
+    "/projects/filkom-league-2026: visible breadcrumb navigation",
+    "/projects/filkom-league-2026: evidenced award scope",
+    "/projects/pahamin: one JSON-LD graph",
+    "/projects/pahamin: schema context",
+    "/projects/pahamin: unique IDs",
+    "/projects/pahamin: stable owner",
+    "/projects/pahamin: existing profiles and no private fields",
+    "/projects/pahamin: publisher relationship",
+    "/projects/pahamin: university reference",
+    "/projects/pahamin: profile page scope",
+    "/projects/pahamin: no unsupported article/application claims",
+    "/projects/pahamin: canonical breadcrumb",
+    "/projects/pahamin: ordered breadcrumbs",
+    "/projects/pahamin: visible breadcrumb navigation",
+    "/projects/pahamin: evidenced award scope",
+    "/projects/bcc-pm: one JSON-LD graph",
+    "/projects/bcc-pm: schema context",
+    "/projects/bcc-pm: unique IDs",
+    "/projects/bcc-pm: stable owner",
+    "/projects/bcc-pm: existing profiles and no private fields",
+    "/projects/bcc-pm: publisher relationship",
+    "/projects/bcc-pm: university reference",
+    "/projects/bcc-pm: profile page scope",
+    "/projects/bcc-pm: no unsupported article/application claims",
+    "/projects/bcc-pm: canonical breadcrumb",
+    "/projects/bcc-pm: ordered breadcrumbs",
+    "/projects/bcc-pm: visible breadcrumb navigation",
+    "/projects/bcc-pm: evidenced award scope",
+    "/projects/website-em-ub: one JSON-LD graph",
+    "/projects/website-em-ub: schema context",
+    "/projects/website-em-ub: unique IDs",
+    "/projects/website-em-ub: stable owner",
+    "/projects/website-em-ub: existing profiles and no private fields",
+    "/projects/website-em-ub: publisher relationship",
+    "/projects/website-em-ub: university reference",
+    "/projects/website-em-ub: profile page scope",
+    "/projects/website-em-ub: no unsupported article/application claims",
+    "/projects/website-em-ub: canonical breadcrumb",
+    "/projects/website-em-ub: ordered breadcrumbs",
+    "/projects/website-em-ub: visible breadcrumb navigation",
+    "/projects/website-em-ub: evidenced award scope",
+    "/projects/emub-2026: one JSON-LD graph",
+    "/projects/emub-2026: schema context",
+    "/projects/emub-2026: unique IDs",
+    "/projects/emub-2026: stable owner",
+    "/projects/emub-2026: existing profiles and no private fields",
+    "/projects/emub-2026: publisher relationship",
+    "/projects/emub-2026: university reference",
+    "/projects/emub-2026: profile page scope",
+    "/projects/emub-2026: no unsupported article/application claims",
+    "/projects/emub-2026: canonical breadcrumb",
+    "/projects/emub-2026: ordered breadcrumbs",
+    "/projects/emub-2026: visible breadcrumb navigation",
+    "/projects/emub-2026: evidenced award scope",
+    "/projects/bios-2026: one JSON-LD graph",
+    "/projects/bios-2026: schema context",
+    "/projects/bios-2026: unique IDs",
+    "/projects/bios-2026: stable owner",
+    "/projects/bios-2026: existing profiles and no private fields",
+    "/projects/bios-2026: publisher relationship",
+    "/projects/bios-2026: university reference",
+    "/projects/bios-2026: profile page scope",
+    "/projects/bios-2026: no unsupported article/application claims",
+    "/projects/bios-2026: canonical breadcrumb",
+    "/projects/bios-2026: ordered breadcrumbs",
+    "/projects/bios-2026: visible breadcrumb navigation",
+    "/projects/bios-2026: evidenced award scope",
+    "/projects/lki-amd: one JSON-LD graph",
+    "/projects/lki-amd: schema context",
+    "/projects/lki-amd: unique IDs",
+    "/projects/lki-amd: stable owner",
+    "/projects/lki-amd: existing profiles and no private fields",
+    "/projects/lki-amd: publisher relationship",
+    "/projects/lki-amd: university reference",
+    "/projects/lki-amd: profile page scope",
+    "/projects/lki-amd: no unsupported article/application claims",
+    "/projects/lki-amd: canonical breadcrumb",
+    "/projects/lki-amd: ordered breadcrumbs",
+    "/projects/lki-amd: visible breadcrumb navigation",
+    "/projects/lki-amd: evidenced award scope",
+    "/projects/rebite: one JSON-LD graph",
+    "/projects/rebite: schema context",
+    "/projects/rebite: unique IDs",
+    "/projects/rebite: stable owner",
+    "/projects/rebite: existing profiles and no private fields",
+    "/projects/rebite: publisher relationship",
+    "/projects/rebite: university reference",
+    "/projects/rebite: profile page scope",
+    "/projects/rebite: no unsupported article/application claims",
+    "/projects/rebite: canonical breadcrumb",
+    "/projects/rebite: ordered breadcrumbs",
+    "/projects/rebite: visible breadcrumb navigation",
+    "/projects/rebite: evidenced award scope",
+    "/projects/misra: one JSON-LD graph",
+    "/projects/misra: schema context",
+    "/projects/misra: unique IDs",
+    "/projects/misra: stable owner",
+    "/projects/misra: existing profiles and no private fields",
+    "/projects/misra: publisher relationship",
+    "/projects/misra: university reference",
+    "/projects/misra: profile page scope",
+    "/projects/misra: no unsupported article/application claims",
+    "/projects/misra: canonical breadcrumb",
+    "/projects/misra: ordered breadcrumbs",
+    "/projects/misra: visible breadcrumb navigation",
+    "/projects/misra: evidenced award scope",
+    "/projects/em-ub-web-2026: one JSON-LD graph",
+    "/projects/em-ub-web-2026: schema context",
+    "/projects/em-ub-web-2026: unique IDs",
+    "/projects/em-ub-web-2026: stable owner",
+    "/projects/em-ub-web-2026: existing profiles and no private fields",
+    "/projects/em-ub-web-2026: publisher relationship",
+    "/projects/em-ub-web-2026: university reference",
+    "/projects/em-ub-web-2026: profile page scope",
+    "/projects/em-ub-web-2026: no unsupported article/application claims",
+    "/projects/em-ub-web-2026: canonical breadcrumb",
+    "/projects/em-ub-web-2026: ordered breadcrumbs",
+    "/projects/em-ub-web-2026: visible breadcrumb navigation",
+    "/projects/em-ub-web-2026: evidenced award scope",
+    "/projects/cert-pbo: one JSON-LD graph",
+    "/projects/cert-pbo: schema context",
+    "/projects/cert-pbo: unique IDs",
+    "/projects/cert-pbo: stable owner",
+    "/projects/cert-pbo: existing profiles and no private fields",
+    "/projects/cert-pbo: publisher relationship",
+    "/projects/cert-pbo: university reference",
+    "/projects/cert-pbo: profile page scope",
+    "/projects/cert-pbo: no unsupported article/application claims",
+    "/projects/cert-pbo: canonical breadcrumb",
+    "/projects/cert-pbo: ordered breadcrumbs",
+    "/projects/cert-pbo: visible breadcrumb navigation",
+    "/projects/cert-pbo: evidenced award scope",
+    "/projects/cert-java: one JSON-LD graph",
+    "/projects/cert-java: schema context",
+    "/projects/cert-java: unique IDs",
+    "/projects/cert-java: stable owner",
+    "/projects/cert-java: existing profiles and no private fields",
+    "/projects/cert-java: publisher relationship",
+    "/projects/cert-java: university reference",
+    "/projects/cert-java: profile page scope",
+    "/projects/cert-java: no unsupported article/application claims",
+    "/projects/cert-java: canonical breadcrumb",
+    "/projects/cert-java: ordered breadcrumbs",
+    "/projects/cert-java: visible breadcrumb navigation",
+    "/projects/cert-java: evidenced award scope",
+    "/projects/cert-pm: one JSON-LD graph",
+    "/projects/cert-pm: schema context",
+    "/projects/cert-pm: unique IDs",
+    "/projects/cert-pm: stable owner",
+    "/projects/cert-pm: existing profiles and no private fields",
+    "/projects/cert-pm: publisher relationship",
+    "/projects/cert-pm: university reference",
+    "/projects/cert-pm: profile page scope",
+    "/projects/cert-pm: no unsupported article/application claims",
+    "/projects/cert-pm: canonical breadcrumb",
+    "/projects/cert-pm: ordered breadcrumbs",
+    "/projects/cert-pm: visible breadcrumb navigation",
+    "/projects/cert-pm: evidenced award scope",
+    "/projects/bios-2025: one JSON-LD graph",
+    "/projects/bios-2025: schema context",
+    "/projects/bios-2025: unique IDs",
+    "/projects/bios-2025: stable owner",
+    "/projects/bios-2025: existing profiles and no private fields",
+    "/projects/bios-2025: publisher relationship",
+    "/projects/bios-2025: university reference",
+    "/projects/bios-2025: profile page scope",
+    "/projects/bios-2025: no unsupported article/application claims",
+    "/projects/bios-2025: canonical breadcrumb",
+    "/projects/bios-2025: ordered breadcrumbs",
+    "/projects/bios-2025: visible breadcrumb navigation",
+    "/projects/bios-2025: evidenced award scope",
+    "/projects/cekat: one JSON-LD graph",
+    "/projects/cekat: schema context",
+    "/projects/cekat: unique IDs",
+    "/projects/cekat: stable owner",
+    "/projects/cekat: existing profiles and no private fields",
+    "/projects/cekat: publisher relationship",
+    "/projects/cekat: university reference",
+    "/projects/cekat: profile page scope",
+    "/projects/cekat: no unsupported article/application claims",
+    "/projects/cekat: canonical breadcrumb",
+    "/projects/cekat: ordered breadcrumbs",
+    "/projects/cekat: visible breadcrumb navigation",
+    "/projects/cekat: evidenced award scope",
+    "/projects/ekspedisi-nusantara: one JSON-LD graph",
+    "/projects/ekspedisi-nusantara: schema context",
+    "/projects/ekspedisi-nusantara: unique IDs",
+    "/projects/ekspedisi-nusantara: stable owner",
+    "/projects/ekspedisi-nusantara: existing profiles and no private fields",
+    "/projects/ekspedisi-nusantara: publisher relationship",
+    "/projects/ekspedisi-nusantara: university reference",
+    "/projects/ekspedisi-nusantara: profile page scope",
+    "/projects/ekspedisi-nusantara: no unsupported article/application claims",
+    "/projects/ekspedisi-nusantara: canonical breadcrumb",
+    "/projects/ekspedisi-nusantara: ordered breadcrumbs",
+    "/projects/ekspedisi-nusantara: visible breadcrumb navigation",
+    "/projects/ekspedisi-nusantara: evidenced award scope",
+    "/projects/ifhamkids: one JSON-LD graph",
+    "/projects/ifhamkids: schema context",
+    "/projects/ifhamkids: unique IDs",
+    "/projects/ifhamkids: stable owner",
+    "/projects/ifhamkids: existing profiles and no private fields",
+    "/projects/ifhamkids: publisher relationship",
+    "/projects/ifhamkids: university reference",
+    "/projects/ifhamkids: profile page scope",
+    "/projects/ifhamkids: no unsupported article/application claims",
+    "/projects/ifhamkids: canonical breadcrumb",
+    "/projects/ifhamkids: ordered breadcrumbs",
+    "/projects/ifhamkids: visible breadcrumb navigation",
+    "/projects/ifhamkids: evidenced award scope",
+    "/projects/jaspel-rsud-moh-saleh: one JSON-LD graph",
+    "/projects/jaspel-rsud-moh-saleh: schema context",
+    "/projects/jaspel-rsud-moh-saleh: unique IDs",
+    "/projects/jaspel-rsud-moh-saleh: stable owner",
+    "/projects/jaspel-rsud-moh-saleh: existing profiles and no private fields",
+    "/projects/jaspel-rsud-moh-saleh: publisher relationship",
+    "/projects/jaspel-rsud-moh-saleh: university reference",
+    "/projects/jaspel-rsud-moh-saleh: profile page scope",
+    "/projects/jaspel-rsud-moh-saleh: no unsupported article/application claims",
+    "/projects/jaspel-rsud-moh-saleh: canonical breadcrumb",
+    "/projects/jaspel-rsud-moh-saleh: ordered breadcrumbs",
+    "/projects/jaspel-rsud-moh-saleh: visible breadcrumb navigation",
+    "/projects/jaspel-rsud-moh-saleh: evidenced award scope",
+    "/projects/kelasin: one JSON-LD graph",
+    "/projects/kelasin: schema context",
+    "/projects/kelasin: unique IDs",
+    "/projects/kelasin: stable owner",
+    "/projects/kelasin: existing profiles and no private fields",
+    "/projects/kelasin: publisher relationship",
+    "/projects/kelasin: university reference",
+    "/projects/kelasin: profile page scope",
+    "/projects/kelasin: no unsupported article/application claims",
+    "/projects/kelasin: canonical breadcrumb",
+    "/projects/kelasin: ordered breadcrumbs",
+    "/projects/kelasin: visible breadcrumb navigation",
+    "/projects/kelasin: evidenced award scope",
+    "/projects/mandorin: one JSON-LD graph",
+    "/projects/mandorin: schema context",
+    "/projects/mandorin: unique IDs",
+    "/projects/mandorin: stable owner",
+    "/projects/mandorin: existing profiles and no private fields",
+    "/projects/mandorin: publisher relationship",
+    "/projects/mandorin: university reference",
+    "/projects/mandorin: profile page scope",
+    "/projects/mandorin: no unsupported article/application claims",
+    "/projects/mandorin: canonical breadcrumb",
+    "/projects/mandorin: ordered breadcrumbs",
+    "/projects/mandorin: visible breadcrumb navigation",
+    "/projects/mandorin: evidenced award scope",
+    "/projects/ngajikidz: one JSON-LD graph",
+    "/projects/ngajikidz: schema context",
+    "/projects/ngajikidz: unique IDs",
+    "/projects/ngajikidz: stable owner",
+    "/projects/ngajikidz: existing profiles and no private fields",
+    "/projects/ngajikidz: publisher relationship",
+    "/projects/ngajikidz: university reference",
+    "/projects/ngajikidz: profile page scope",
+    "/projects/ngajikidz: no unsupported article/application claims",
+    "/projects/ngajikidz: canonical breadcrumb",
+    "/projects/ngajikidz: ordered breadcrumbs",
+    "/projects/ngajikidz: visible breadcrumb navigation",
+    "/projects/ngajikidz: evidenced award scope",
+    "/projects/pelatihan-ar-sdn-3-dono: one JSON-LD graph",
+    "/projects/pelatihan-ar-sdn-3-dono: schema context",
+    "/projects/pelatihan-ar-sdn-3-dono: unique IDs",
+    "/projects/pelatihan-ar-sdn-3-dono: stable owner",
+    "/projects/pelatihan-ar-sdn-3-dono: existing profiles and no private fields",
+    "/projects/pelatihan-ar-sdn-3-dono: publisher relationship",
+    "/projects/pelatihan-ar-sdn-3-dono: university reference",
+    "/projects/pelatihan-ar-sdn-3-dono: profile page scope",
+    "/projects/pelatihan-ar-sdn-3-dono: no unsupported article/application claims",
+    "/projects/pelatihan-ar-sdn-3-dono: canonical breadcrumb",
+    "/projects/pelatihan-ar-sdn-3-dono: ordered breadcrumbs",
+    "/projects/pelatihan-ar-sdn-3-dono: visible breadcrumb navigation",
+    "/projects/pelatihan-ar-sdn-3-dono: evidenced award scope",
+    "/projects/sobataman: one JSON-LD graph",
+    "/projects/sobataman: schema context",
+    "/projects/sobataman: unique IDs",
+    "/projects/sobataman: stable owner",
+    "/projects/sobataman: existing profiles and no private fields",
+    "/projects/sobataman: publisher relationship",
+    "/projects/sobataman: university reference",
+    "/projects/sobataman: profile page scope",
+    "/projects/sobataman: no unsupported article/application claims",
+    "/projects/sobataman: canonical breadcrumb",
+    "/projects/sobataman: ordered breadcrumbs",
+    "/projects/sobataman: visible breadcrumb navigation",
+    "/projects/sobataman: evidenced award scope",
+    "/projects/tehmbois-wcc: one JSON-LD graph",
+    "/projects/tehmbois-wcc: schema context",
+    "/projects/tehmbois-wcc: unique IDs",
+    "/projects/tehmbois-wcc: stable owner",
+    "/projects/tehmbois-wcc: existing profiles and no private fields",
+    "/projects/tehmbois-wcc: publisher relationship",
+    "/projects/tehmbois-wcc: university reference",
+    "/projects/tehmbois-wcc: profile page scope",
+    "/projects/tehmbois-wcc: no unsupported article/application claims",
+    "/projects/tehmbois-wcc: canonical breadcrumb",
+    "/projects/tehmbois-wcc: ordered breadcrumbs",
+    "/projects/tehmbois-wcc: visible breadcrumb navigation",
+    "/projects/tehmbois-wcc: evidenced award scope",
+    "/projects/telaahkarier: one JSON-LD graph",
+    "/projects/telaahkarier: schema context",
+    "/projects/telaahkarier: unique IDs",
+    "/projects/telaahkarier: stable owner",
+    "/projects/telaahkarier: existing profiles and no private fields",
+    "/projects/telaahkarier: publisher relationship",
+    "/projects/telaahkarier: university reference",
+    "/projects/telaahkarier: profile page scope",
+    "/projects/telaahkarier: no unsupported article/application claims",
+    "/projects/telaahkarier: canonical breadcrumb",
+    "/projects/telaahkarier: ordered breadcrumbs",
+    "/projects/telaahkarier: visible breadcrumb navigation",
+    "/projects/telaahkarier: evidenced award scope",
+    "/favicon.ico: public image 200",
+    "/apple-icon.png: public image 200",
+    "/branding/opengraph-image: public image 200",
+    "Social image dimensions 1200x630"
+  ],
+  "graphs": [
+    {
+      "url": "https://rofiporto.vercel.app",
+      "graph": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://rofiporto.vercel.app/#person",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "Muhammad Ahmad Rofi'us Su'ud",
+              "Rofi’us Su’ud",
+              "MARS"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "image": "https://rofiporto.vercel.app/images/profile/profile-clean.png",
+            "description": "Mahasiswa Pendidikan Teknologi Informasi FILKOM Universitas Brawijaya dengan minat pada product management, desain, dan pengembangan produk digital.",
+            "affiliation": {
+              "@id": "https://rofiporto.vercel.app/#universitas-brawijaya"
+            },
+            "mainEntityOfPage": {
+              "@id": "https://rofiporto.vercel.app/about#webpage"
+            },
+            "sameAs": [
+              "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+              "https://github.com/ahmadrofiussuud",
+              "https://www.instagram.com/ahmadrfsd_/"
+            ]
+          },
+          {
+            "@type": "CollegeOrUniversity",
+            "@id": "https://rofiporto.vercel.app/#universitas-brawijaya",
+            "name": "Universitas Brawijaya",
+            "url": "https://www.ub.ac.id/"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://rofiporto.vercel.app/#website",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "MARS",
+              "Portofolio Muhammad Ahmad Rofi’us Su’ud"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "inLanguage": "id-ID",
+            "publisher": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://rofiporto.vercel.app/#webpage",
+            "url": "https://rofiporto.vercel.app",
+            "name": "Muhammad Ahmad Rofi’us Su’ud — Portofolio Resmi",
+            "description": "Portofolio Muhammad Ahmad Rofi’us Su’ud, mahasiswa FILKOM Universitas Brawijaya. Jelajahi karya produk digital, pengalaman product management, dan organisasi.",
+            "inLanguage": "id-ID",
+            "isPartOf": {
+              "@id": "https://rofiporto.vercel.app/#website"
+            },
+            "about": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            },
+            "mainEntity": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://rofiporto.vercel.app/about",
+      "graph": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://rofiporto.vercel.app/#person",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "Muhammad Ahmad Rofi'us Su'ud",
+              "Rofi’us Su’ud",
+              "MARS"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "image": "https://rofiporto.vercel.app/images/profile/profile-clean.png",
+            "description": "Mahasiswa Pendidikan Teknologi Informasi FILKOM Universitas Brawijaya dengan minat pada product management, desain, dan pengembangan produk digital.",
+            "affiliation": {
+              "@id": "https://rofiporto.vercel.app/#universitas-brawijaya"
+            },
+            "mainEntityOfPage": {
+              "@id": "https://rofiporto.vercel.app/about#webpage"
+            },
+            "sameAs": [
+              "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+              "https://github.com/ahmadrofiussuud",
+              "https://www.instagram.com/ahmadrfsd_/"
+            ],
+            "knowsAbout": [
+              "Product management",
+              "UI/UX design",
+              "Pengembangan produk digital",
+              "React",
+              "Next.js"
+            ],
+            "award": [
+              "Juara 1 Web Creation Competition (WCC) UNISNU Jepara 2026"
+            ]
+          },
+          {
+            "@type": "CollegeOrUniversity",
+            "@id": "https://rofiporto.vercel.app/#universitas-brawijaya",
+            "name": "Universitas Brawijaya",
+            "url": "https://www.ub.ac.id/"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://rofiporto.vercel.app/#website",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "MARS",
+              "Portofolio Muhammad Ahmad Rofi’us Su’ud"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "inLanguage": "id-ID",
+            "publisher": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://rofiporto.vercel.app/about#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Beranda",
+                "item": "https://rofiporto.vercel.app"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Profil",
+                "item": "https://rofiporto.vercel.app/about"
+              }
+            ]
+          },
+          {
+            "@type": "ProfilePage",
+            "@id": "https://rofiporto.vercel.app/about#webpage",
+            "url": "https://rofiporto.vercel.app/about",
+            "name": "Profil Muhammad Ahmad Rofi’us Su’ud | FILKOM UB",
+            "description": "Kenali Rofi, mahasiswa Pendidikan Teknologi Informasi FILKOM Universitas Brawijaya, serta pengalamannya dalam product management, EM UB, dan BCC.",
+            "inLanguage": "id-ID",
+            "isPartOf": {
+              "@id": "https://rofiporto.vercel.app/#website"
+            },
+            "about": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            },
+            "mainEntity": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            },
+            "breadcrumb": {
+              "@id": "https://rofiporto.vercel.app/about#breadcrumb"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://rofiporto.vercel.app/projects",
+      "graph": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://rofiporto.vercel.app/#person",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "Muhammad Ahmad Rofi'us Su'ud",
+              "Rofi’us Su’ud",
+              "MARS"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "image": "https://rofiporto.vercel.app/images/profile/profile-clean.png",
+            "description": "Mahasiswa Pendidikan Teknologi Informasi FILKOM Universitas Brawijaya dengan minat pada product management, desain, dan pengembangan produk digital.",
+            "affiliation": {
+              "@id": "https://rofiporto.vercel.app/#universitas-brawijaya"
+            },
+            "mainEntityOfPage": {
+              "@id": "https://rofiporto.vercel.app/about#webpage"
+            },
+            "sameAs": [
+              "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+              "https://github.com/ahmadrofiussuud",
+              "https://www.instagram.com/ahmadrfsd_/"
+            ]
+          },
+          {
+            "@type": "CollegeOrUniversity",
+            "@id": "https://rofiporto.vercel.app/#universitas-brawijaya",
+            "name": "Universitas Brawijaya",
+            "url": "https://www.ub.ac.id/"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://rofiporto.vercel.app/#website",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "MARS",
+              "Portofolio Muhammad Ahmad Rofi’us Su’ud"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "inLanguage": "id-ID",
+            "publisher": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://rofiporto.vercel.app/projects#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Beranda",
+                "item": "https://rofiporto.vercel.app"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Karya",
+                "item": "https://rofiporto.vercel.app/projects"
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://rofiporto.vercel.app/projects#webpage",
+            "url": "https://rofiporto.vercel.app/projects",
+            "name": "Karya & Pengalaman — Muhammad Ahmad Rofi’us Su’ud",
+            "description": "Jelajahi karya digital, product management, pengalaman organisasi, dan kolaborasi akademik Rofi melalui dokumentasi proyek dan kontribusinya.",
+            "inLanguage": "id-ID",
+            "isPartOf": {
+              "@id": "https://rofiporto.vercel.app/#website"
+            },
+            "about": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            },
+            "breadcrumb": {
+              "@id": "https://rofiporto.vercel.app/projects#breadcrumb"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://rofiporto.vercel.app/competitions",
+      "graph": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://rofiporto.vercel.app/#person",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "Muhammad Ahmad Rofi'us Su'ud",
+              "Rofi’us Su’ud",
+              "MARS"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "image": "https://rofiporto.vercel.app/images/profile/profile-clean.png",
+            "description": "Mahasiswa Pendidikan Teknologi Informasi FILKOM Universitas Brawijaya dengan minat pada product management, desain, dan pengembangan produk digital.",
+            "affiliation": {
+              "@id": "https://rofiporto.vercel.app/#universitas-brawijaya"
+            },
+            "mainEntityOfPage": {
+              "@id": "https://rofiporto.vercel.app/about#webpage"
+            },
+            "sameAs": [
+              "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+              "https://github.com/ahmadrofiussuud",
+              "https://www.instagram.com/ahmadrfsd_/"
+            ]
+          },
+          {
+            "@type": "CollegeOrUniversity",
+            "@id": "https://rofiporto.vercel.app/#universitas-brawijaya",
+            "name": "Universitas Brawijaya",
+            "url": "https://www.ub.ac.id/"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://rofiporto.vercel.app/#website",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "MARS",
+              "Portofolio Muhammad Ahmad Rofi’us Su’ud"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "inLanguage": "id-ID",
+            "publisher": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://rofiporto.vercel.app/competitions#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Beranda",
+                "item": "https://rofiporto.vercel.app"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Pencapaian",
+                "item": "https://rofiporto.vercel.app/competitions"
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://rofiporto.vercel.app/competitions#webpage",
+            "url": "https://rofiporto.vercel.app/competitions",
+            "name": "Prestasi & Pengalaman Berbagi — Muhammad Ahmad Rofi’us Su’ud",
+            "description": "Catatan kompetisi, mentoring, pemateri, dan brand ambassador Rofi, mahasiswa FILKOM UB, beserta dokumentasi sertifikat yang tersedia.",
+            "inLanguage": "id-ID",
+            "isPartOf": {
+              "@id": "https://rofiporto.vercel.app/#website"
+            },
+            "about": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            },
+            "breadcrumb": {
+              "@id": "https://rofiporto.vercel.app/competitions#breadcrumb"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://rofiporto.vercel.app/contact",
+      "graph": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://rofiporto.vercel.app/#person",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "Muhammad Ahmad Rofi'us Su'ud",
+              "Rofi’us Su’ud",
+              "MARS"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "image": "https://rofiporto.vercel.app/images/profile/profile-clean.png",
+            "description": "Mahasiswa Pendidikan Teknologi Informasi FILKOM Universitas Brawijaya dengan minat pada product management, desain, dan pengembangan produk digital.",
+            "affiliation": {
+              "@id": "https://rofiporto.vercel.app/#universitas-brawijaya"
+            },
+            "mainEntityOfPage": {
+              "@id": "https://rofiporto.vercel.app/about#webpage"
+            },
+            "sameAs": [
+              "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+              "https://github.com/ahmadrofiussuud",
+              "https://www.instagram.com/ahmadrfsd_/"
+            ]
+          },
+          {
+            "@type": "CollegeOrUniversity",
+            "@id": "https://rofiporto.vercel.app/#universitas-brawijaya",
+            "name": "Universitas Brawijaya",
+            "url": "https://www.ub.ac.id/"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://rofiporto.vercel.app/#website",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "MARS",
+              "Portofolio Muhammad Ahmad Rofi’us Su’ud"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "inLanguage": "id-ID",
+            "publisher": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://rofiporto.vercel.app/contact#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Beranda",
+                "item": "https://rofiporto.vercel.app"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Kontak",
+                "item": "https://rofiporto.vercel.app/contact"
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://rofiporto.vercel.app/contact#webpage",
+            "url": "https://rofiporto.vercel.app/contact",
+            "name": "Kontak & Kolaborasi — Muhammad Ahmad Rofi’us Su’ud",
+            "description": "Hubungi Rofi untuk diskusi product management, desain, atau pengembangan produk digital melalui email dan profil profesional yang tercantum.",
+            "inLanguage": "id-ID",
+            "isPartOf": {
+              "@id": "https://rofiporto.vercel.app/#website"
+            },
+            "about": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            },
+            "breadcrumb": {
+              "@id": "https://rofiporto.vercel.app/contact#breadcrumb"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://rofiporto.vercel.app/projects/akademirofi",
+      "graph": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://rofiporto.vercel.app/#person",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "Muhammad Ahmad Rofi'us Su'ud",
+              "Rofi’us Su’ud",
+              "MARS"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "image": "https://rofiporto.vercel.app/images/profile/profile-clean.png",
+            "description": "Mahasiswa Pendidikan Teknologi Informasi FILKOM Universitas Brawijaya dengan minat pada product management, desain, dan pengembangan produk digital.",
+            "affiliation": {
+              "@id": "https://rofiporto.vercel.app/#universitas-brawijaya"
+            },
+            "mainEntityOfPage": {
+              "@id": "https://rofiporto.vercel.app/about#webpage"
+            },
+            "sameAs": [
+              "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+              "https://github.com/ahmadrofiussuud",
+              "https://www.instagram.com/ahmadrfsd_/"
+            ]
+          },
+          {
+            "@type": "CollegeOrUniversity",
+            "@id": "https://rofiporto.vercel.app/#universitas-brawijaya",
+            "name": "Universitas Brawijaya",
+            "url": "https://www.ub.ac.id/"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://rofiporto.vercel.app/#website",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "MARS",
+              "Portofolio Muhammad Ahmad Rofi’us Su’ud"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "inLanguage": "id-ID",
+            "publisher": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            }
+          },
+          {
+            "@type": "CreativeWork",
+            "@id": "https://rofiporto.vercel.app/projects/akademirofi#work",
+            "name": "Akademirofi — Platform Belajar BMC, BPC, dan Essay",
+            "description": "Platform belajar BMC, BPC, dan essay bagi rekan serta adik tingkat. Kenali konsep jalur belajar dan tampilan Akademirofi dalam dokumentasi proyek ini.",
+            "url": "https://rofiporto.vercel.app/projects/akademirofi",
+            "inLanguage": "id-ID",
+            "mainEntityOfPage": {
+              "@id": "https://rofiporto.vercel.app/projects/akademirofi#webpage"
+            },
+            "image": "https://rofiporto.vercel.app/images/projects/akademirofi-learning.png"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://rofiporto.vercel.app/projects/akademirofi#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Beranda",
+                "item": "https://rofiporto.vercel.app"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Karya",
+                "item": "https://rofiporto.vercel.app/projects"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Akademirofi — Platform Belajar BMC, BPC, dan Essay",
+                "item": "https://rofiporto.vercel.app/projects/akademirofi"
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://rofiporto.vercel.app/projects/akademirofi#webpage",
+            "url": "https://rofiporto.vercel.app/projects/akademirofi",
+            "name": "Akademirofi — Platform Belajar BMC, BPC, dan Essay",
+            "description": "Platform belajar BMC, BPC, dan essay bagi rekan serta adik tingkat. Kenali konsep jalur belajar dan tampilan Akademirofi dalam dokumentasi proyek ini.",
+            "inLanguage": "id-ID",
+            "isPartOf": {
+              "@id": "https://rofiporto.vercel.app/#website"
+            },
+            "about": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            },
+            "mainEntity": {
+              "@id": "https://rofiporto.vercel.app/projects/akademirofi#work"
+            },
+            "breadcrumb": {
+              "@id": "https://rofiporto.vercel.app/projects/akademirofi#breadcrumb"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://rofiporto.vercel.app/projects/umkm-go",
+      "graph": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://rofiporto.vercel.app/#person",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "Muhammad Ahmad Rofi'us Su'ud",
+              "Rofi’us Su’ud",
+              "MARS"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "image": "https://rofiporto.vercel.app/images/profile/profile-clean.png",
+            "description": "Mahasiswa Pendidikan Teknologi Informasi FILKOM Universitas Brawijaya dengan minat pada product management, desain, dan pengembangan produk digital.",
+            "affiliation": {
+              "@id": "https://rofiporto.vercel.app/#universitas-brawijaya"
+            },
+            "mainEntityOfPage": {
+              "@id": "https://rofiporto.vercel.app/about#webpage"
+            },
+            "sameAs": [
+              "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+              "https://github.com/ahmadrofiussuud",
+              "https://www.instagram.com/ahmadrfsd_/"
+            ]
+          },
+          {
+            "@type": "CollegeOrUniversity",
+            "@id": "https://rofiporto.vercel.app/#universitas-brawijaya",
+            "name": "Universitas Brawijaya",
+            "url": "https://www.ub.ac.id/"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://rofiporto.vercel.app/#website",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "MARS",
+              "Portofolio Muhammad Ahmad Rofi’us Su’ud"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "inLanguage": "id-ID",
+            "publisher": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            }
+          },
+          {
+            "@type": "CreativeWork",
+            "@id": "https://rofiporto.vercel.app/projects/umkm-go#work",
+            "name": "UMKM Go",
+            "description": "Website Pasar UMKM Desa Caringin untuk katalog hasil bumi dan kerajinan. Kenali fitur serta peran Rofi sebagai full stack developer dalam proyek UMKM Go.",
+            "url": "https://rofiporto.vercel.app/projects/umkm-go",
+            "inLanguage": "id-ID",
+            "mainEntityOfPage": {
+              "@id": "https://rofiporto.vercel.app/projects/umkm-go#webpage"
+            },
+            "image": "https://rofiporto.vercel.app/images/projects/umkmgo-pasar-desa-banner.png",
+            "contributor": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://rofiporto.vercel.app/projects/umkm-go#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Beranda",
+                "item": "https://rofiporto.vercel.app"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Karya",
+                "item": "https://rofiporto.vercel.app/projects"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "UMKM Go",
+                "item": "https://rofiporto.vercel.app/projects/umkm-go"
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://rofiporto.vercel.app/projects/umkm-go#webpage",
+            "url": "https://rofiporto.vercel.app/projects/umkm-go",
+            "name": "UMKM Go",
+            "description": "Website Pasar UMKM Desa Caringin untuk katalog hasil bumi dan kerajinan. Kenali fitur serta peran Rofi sebagai full stack developer dalam proyek UMKM Go.",
+            "inLanguage": "id-ID",
+            "isPartOf": {
+              "@id": "https://rofiporto.vercel.app/#website"
+            },
+            "about": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            },
+            "mainEntity": {
+              "@id": "https://rofiporto.vercel.app/projects/umkm-go#work"
+            },
+            "breadcrumb": {
+              "@id": "https://rofiporto.vercel.app/projects/umkm-go#breadcrumb"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://rofiporto.vercel.app/projects/amora",
+      "graph": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://rofiporto.vercel.app/#person",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "Muhammad Ahmad Rofi'us Su'ud",
+              "Rofi’us Su’ud",
+              "MARS"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "image": "https://rofiporto.vercel.app/images/profile/profile-clean.png",
+            "description": "Mahasiswa Pendidikan Teknologi Informasi FILKOM Universitas Brawijaya dengan minat pada product management, desain, dan pengembangan produk digital.",
+            "affiliation": {
+              "@id": "https://rofiporto.vercel.app/#universitas-brawijaya"
+            },
+            "mainEntityOfPage": {
+              "@id": "https://rofiporto.vercel.app/about#webpage"
+            },
+            "sameAs": [
+              "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+              "https://github.com/ahmadrofiussuud",
+              "https://www.instagram.com/ahmadrfsd_/"
+            ]
+          },
+          {
+            "@type": "CollegeOrUniversity",
+            "@id": "https://rofiporto.vercel.app/#universitas-brawijaya",
+            "name": "Universitas Brawijaya",
+            "url": "https://www.ub.ac.id/"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://rofiporto.vercel.app/#website",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "MARS",
+              "Portofolio Muhammad Ahmad Rofi’us Su’ud"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "inLanguage": "id-ID",
+            "publisher": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            }
+          },
+          {
+            "@type": "CreativeWork",
+            "@id": "https://rofiporto.vercel.app/projects/amora#work",
+            "name": "Amora",
+            "description": "Kenali Amora, aplikasi edukasi pernikahan, beserta fitur dan kontribusi Rofi sebagai pengembang utama dalam pengembangan produk ini.",
+            "url": "https://rofiporto.vercel.app/projects/amora",
+            "inLanguage": "id-ID",
+            "mainEntityOfPage": {
+              "@id": "https://rofiporto.vercel.app/projects/amora#webpage"
+            },
+            "image": "https://rofiporto.vercel.app/images/projects/amora-platform-banner.png",
+            "contributor": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://rofiporto.vercel.app/projects/amora#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Beranda",
+                "item": "https://rofiporto.vercel.app"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Karya",
+                "item": "https://rofiporto.vercel.app/projects"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Amora",
+                "item": "https://rofiporto.vercel.app/projects/amora"
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://rofiporto.vercel.app/projects/amora#webpage",
+            "url": "https://rofiporto.vercel.app/projects/amora",
+            "name": "Amora",
+            "description": "Kenali Amora, aplikasi edukasi pernikahan, beserta fitur dan kontribusi Rofi sebagai pengembang utama dalam pengembangan produk ini.",
+            "inLanguage": "id-ID",
+            "isPartOf": {
+              "@id": "https://rofiporto.vercel.app/#website"
+            },
+            "about": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            },
+            "mainEntity": {
+              "@id": "https://rofiporto.vercel.app/projects/amora#work"
+            },
+            "breadcrumb": {
+              "@id": "https://rofiporto.vercel.app/projects/amora#breadcrumb"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://rofiporto.vercel.app/projects/arah-career",
+      "graph": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://rofiporto.vercel.app/#person",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "Muhammad Ahmad Rofi'us Su'ud",
+              "Rofi’us Su’ud",
+              "MARS"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "image": "https://rofiporto.vercel.app/images/profile/profile-clean.png",
+            "description": "Mahasiswa Pendidikan Teknologi Informasi FILKOM Universitas Brawijaya dengan minat pada product management, desain, dan pengembangan produk digital.",
+            "affiliation": {
+              "@id": "https://rofiporto.vercel.app/#universitas-brawijaya"
+            },
+            "mainEntityOfPage": {
+              "@id": "https://rofiporto.vercel.app/about#webpage"
+            },
+            "sameAs": [
+              "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+              "https://github.com/ahmadrofiussuud",
+              "https://www.instagram.com/ahmadrfsd_/"
+            ]
+          },
+          {
+            "@type": "CollegeOrUniversity",
+            "@id": "https://rofiporto.vercel.app/#universitas-brawijaya",
+            "name": "Universitas Brawijaya",
+            "url": "https://www.ub.ac.id/"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://rofiporto.vercel.app/#website",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "MARS",
+              "Portofolio Muhammad Ahmad Rofi’us Su’ud"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "inLanguage": "id-ID",
+            "publisher": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            }
+          },
+          {
+            "@type": "CreativeWork",
+            "@id": "https://rofiporto.vercel.app/projects/arah-career#work",
+            "name": "ARAH — Platform Eksplorasi Karier",
+            "description": "Konsep platform ARAH untuk membantu mahasiswa mengenali potensi, menjelajahi peluang, dan merencanakan langkah karier. Lihat gambaran produk dan demonya.",
+            "url": "https://rofiporto.vercel.app/projects/arah-career",
+            "inLanguage": "id-ID",
+            "mainEntityOfPage": {
+              "@id": "https://rofiporto.vercel.app/projects/arah-career#webpage"
+            },
+            "image": "https://rofiporto.vercel.app/images/projects/arah-career-path.png"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://rofiporto.vercel.app/projects/arah-career#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Beranda",
+                "item": "https://rofiporto.vercel.app"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Karya",
+                "item": "https://rofiporto.vercel.app/projects"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "ARAH — Platform Eksplorasi Karier",
+                "item": "https://rofiporto.vercel.app/projects/arah-career"
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://rofiporto.vercel.app/projects/arah-career#webpage",
+            "url": "https://rofiporto.vercel.app/projects/arah-career",
+            "name": "ARAH — Platform Eksplorasi Karier",
+            "description": "Konsep platform ARAH untuk membantu mahasiswa mengenali potensi, menjelajahi peluang, dan merencanakan langkah karier. Lihat gambaran produk dan demonya.",
+            "inLanguage": "id-ID",
+            "isPartOf": {
+              "@id": "https://rofiporto.vercel.app/#website"
+            },
+            "about": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            },
+            "mainEntity": {
+              "@id": "https://rofiporto.vercel.app/projects/arah-career#work"
+            },
+            "breadcrumb": {
+              "@id": "https://rofiporto.vercel.app/projects/arah-career#breadcrumb"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://rofiporto.vercel.app/projects/bcc-website",
+      "graph": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://rofiporto.vercel.app/#person",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "Muhammad Ahmad Rofi'us Su'ud",
+              "Rofi’us Su’ud",
+              "MARS"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "image": "https://rofiporto.vercel.app/images/profile/profile-clean.png",
+            "description": "Mahasiswa Pendidikan Teknologi Informasi FILKOM Universitas Brawijaya dengan minat pada product management, desain, dan pengembangan produk digital.",
+            "affiliation": {
+              "@id": "https://rofiporto.vercel.app/#universitas-brawijaya"
+            },
+            "mainEntityOfPage": {
+              "@id": "https://rofiporto.vercel.app/about#webpage"
+            },
+            "sameAs": [
+              "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+              "https://github.com/ahmadrofiussuud",
+              "https://www.instagram.com/ahmadrfsd_/"
+            ]
+          },
+          {
+            "@type": "CollegeOrUniversity",
+            "@id": "https://rofiporto.vercel.app/#universitas-brawijaya",
+            "name": "Universitas Brawijaya",
+            "url": "https://www.ub.ac.id/"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://rofiporto.vercel.app/#website",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "MARS",
+              "Portofolio Muhammad Ahmad Rofi’us Su’ud"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "inLanguage": "id-ID",
+            "publisher": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://rofiporto.vercel.app/projects/bcc-website#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Beranda",
+                "item": "https://rofiporto.vercel.app"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Karya",
+                "item": "https://rofiporto.vercel.app/projects"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Website Resmi BCC (Basic Computing Community)",
+                "item": "https://rofiporto.vercel.app/projects/bcc-website"
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://rofiporto.vercel.app/projects/bcc-website#webpage",
+            "url": "https://rofiporto.vercel.app/projects/bcc-website",
+            "name": "Website Resmi BCC (Basic Computing Community)",
+            "description": "Pengembangan website Basic Computing Community FILKOM UB. Kenali peran Product Manager, prioritas fitur, dan informasi komunitas yang disajikan.",
+            "inLanguage": "id-ID",
+            "isPartOf": {
+              "@id": "https://rofiporto.vercel.app/#website"
+            },
+            "about": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            },
+            "breadcrumb": {
+              "@id": "https://rofiporto.vercel.app/projects/bcc-website#breadcrumb"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://rofiporto.vercel.app/projects/gestory",
+      "graph": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://rofiporto.vercel.app/#person",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "Muhammad Ahmad Rofi'us Su'ud",
+              "Rofi’us Su’ud",
+              "MARS"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "image": "https://rofiporto.vercel.app/images/profile/profile-clean.png",
+            "description": "Mahasiswa Pendidikan Teknologi Informasi FILKOM Universitas Brawijaya dengan minat pada product management, desain, dan pengembangan produk digital.",
+            "affiliation": {
+              "@id": "https://rofiporto.vercel.app/#universitas-brawijaya"
+            },
+            "mainEntityOfPage": {
+              "@id": "https://rofiporto.vercel.app/about#webpage"
+            },
+            "sameAs": [
+              "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+              "https://github.com/ahmadrofiussuud",
+              "https://www.instagram.com/ahmadrfsd_/"
+            ]
+          },
+          {
+            "@type": "CollegeOrUniversity",
+            "@id": "https://rofiporto.vercel.app/#universitas-brawijaya",
+            "name": "Universitas Brawijaya",
+            "url": "https://www.ub.ac.id/"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://rofiporto.vercel.app/#website",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "MARS",
+              "Portofolio Muhammad Ahmad Rofi’us Su’ud"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "inLanguage": "id-ID",
+            "publisher": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            }
+          },
+          {
+            "@type": "CreativeWork",
+            "@id": "https://rofiporto.vercel.app/projects/gestory#work",
+            "name": "Gestory",
+            "description": "Gestory mengeksplorasi edukasi kesehatan melalui sensor gerak dan gestur tangan. Kenali fitur serta peran Rofi sebagai pengembang utama dan UI designer.",
+            "url": "https://rofiporto.vercel.app/projects/gestory",
+            "inLanguage": "id-ID",
+            "mainEntityOfPage": {
+              "@id": "https://rofiporto.vercel.app/projects/gestory#webpage"
+            },
+            "image": "https://rofiporto.vercel.app/images/projects/gestory-platform-banner.png",
+            "contributor": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://rofiporto.vercel.app/projects/gestory#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Beranda",
+                "item": "https://rofiporto.vercel.app"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Karya",
+                "item": "https://rofiporto.vercel.app/projects"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Gestory",
+                "item": "https://rofiporto.vercel.app/projects/gestory"
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://rofiporto.vercel.app/projects/gestory#webpage",
+            "url": "https://rofiporto.vercel.app/projects/gestory",
+            "name": "Gestory",
+            "description": "Gestory mengeksplorasi edukasi kesehatan melalui sensor gerak dan gestur tangan. Kenali fitur serta peran Rofi sebagai pengembang utama dan UI designer.",
+            "inLanguage": "id-ID",
+            "isPartOf": {
+              "@id": "https://rofiporto.vercel.app/#website"
+            },
+            "about": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            },
+            "mainEntity": {
+              "@id": "https://rofiporto.vercel.app/projects/gestory#work"
+            },
+            "breadcrumb": {
+              "@id": "https://rofiporto.vercel.app/projects/gestory#breadcrumb"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://rofiporto.vercel.app/projects/filkom-league-2026",
+      "graph": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://rofiporto.vercel.app/#person",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "Muhammad Ahmad Rofi'us Su'ud",
+              "Rofi’us Su’ud",
+              "MARS"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "image": "https://rofiporto.vercel.app/images/profile/profile-clean.png",
+            "description": "Mahasiswa Pendidikan Teknologi Informasi FILKOM Universitas Brawijaya dengan minat pada product management, desain, dan pengembangan produk digital.",
+            "affiliation": {
+              "@id": "https://rofiporto.vercel.app/#universitas-brawijaya"
+            },
+            "mainEntityOfPage": {
+              "@id": "https://rofiporto.vercel.app/about#webpage"
+            },
+            "sameAs": [
+              "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+              "https://github.com/ahmadrofiussuud",
+              "https://www.instagram.com/ahmadrfsd_/"
+            ]
+          },
+          {
+            "@type": "CollegeOrUniversity",
+            "@id": "https://rofiporto.vercel.app/#universitas-brawijaya",
+            "name": "Universitas Brawijaya",
+            "url": "https://www.ub.ac.id/"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://rofiporto.vercel.app/#website",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "MARS",
+              "Portofolio Muhammad Ahmad Rofi’us Su’ud"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "inLanguage": "id-ID",
+            "publisher": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://rofiporto.vercel.app/projects/filkom-league-2026#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Beranda",
+                "item": "https://rofiporto.vercel.app"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Karya",
+                "item": "https://rofiporto.vercel.app/projects"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Ketua Pelaksana Filkom League 2026",
+                "item": "https://rofiporto.vercel.app/projects/filkom-league-2026"
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://rofiporto.vercel.app/projects/filkom-league-2026#webpage",
+            "url": "https://rofiporto.vercel.app/projects/filkom-league-2026",
+            "name": "Ketua Pelaksana Filkom League 2026",
+            "description": "Pengalaman sebagai Ketua Pelaksana Filkom League 2026 di FILKOM Universitas Brawijaya, termasuk koordinasi pelaksanaan kompetisi olahraga dan e-sports.",
+            "inLanguage": "id-ID",
+            "isPartOf": {
+              "@id": "https://rofiporto.vercel.app/#website"
+            },
+            "about": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            },
+            "breadcrumb": {
+              "@id": "https://rofiporto.vercel.app/projects/filkom-league-2026#breadcrumb"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://rofiporto.vercel.app/projects/pahamin",
+      "graph": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://rofiporto.vercel.app/#person",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "Muhammad Ahmad Rofi'us Su'ud",
+              "Rofi’us Su’ud",
+              "MARS"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "image": "https://rofiporto.vercel.app/images/profile/profile-clean.png",
+            "description": "Mahasiswa Pendidikan Teknologi Informasi FILKOM Universitas Brawijaya dengan minat pada product management, desain, dan pengembangan produk digital.",
+            "affiliation": {
+              "@id": "https://rofiporto.vercel.app/#universitas-brawijaya"
+            },
+            "mainEntityOfPage": {
+              "@id": "https://rofiporto.vercel.app/about#webpage"
+            },
+            "sameAs": [
+              "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+              "https://github.com/ahmadrofiussuud",
+              "https://www.instagram.com/ahmadrfsd_/"
+            ]
+          },
+          {
+            "@type": "CollegeOrUniversity",
+            "@id": "https://rofiporto.vercel.app/#universitas-brawijaya",
+            "name": "Universitas Brawijaya",
+            "url": "https://www.ub.ac.id/"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://rofiporto.vercel.app/#website",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "MARS",
+              "Portofolio Muhammad Ahmad Rofi’us Su’ud"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "inLanguage": "id-ID",
+            "publisher": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            }
+          },
+          {
+            "@type": "CreativeWork",
+            "@id": "https://rofiporto.vercel.app/projects/pahamin#work",
+            "name": "PahamIn",
+            "description": "PahamIn mengeksplorasi pembelajaran interaktif dengan personalisasi materi dan asisten AI. Kenali fitur serta kontribusi Rofi sebagai frontend engineer.",
+            "url": "https://rofiporto.vercel.app/projects/pahamin",
+            "inLanguage": "id-ID",
+            "mainEntityOfPage": {
+              "@id": "https://rofiporto.vercel.app/projects/pahamin#webpage"
+            },
+            "image": "https://rofiporto.vercel.app/images/projects/pahamin-learning-banner.png",
+            "contributor": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://rofiporto.vercel.app/projects/pahamin#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Beranda",
+                "item": "https://rofiporto.vercel.app"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Karya",
+                "item": "https://rofiporto.vercel.app/projects"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "PahamIn",
+                "item": "https://rofiporto.vercel.app/projects/pahamin"
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://rofiporto.vercel.app/projects/pahamin#webpage",
+            "url": "https://rofiporto.vercel.app/projects/pahamin",
+            "name": "PahamIn",
+            "description": "PahamIn mengeksplorasi pembelajaran interaktif dengan personalisasi materi dan asisten AI. Kenali fitur serta kontribusi Rofi sebagai frontend engineer.",
+            "inLanguage": "id-ID",
+            "isPartOf": {
+              "@id": "https://rofiporto.vercel.app/#website"
+            },
+            "about": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            },
+            "mainEntity": {
+              "@id": "https://rofiporto.vercel.app/projects/pahamin#work"
+            },
+            "breadcrumb": {
+              "@id": "https://rofiporto.vercel.app/projects/pahamin#breadcrumb"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://rofiporto.vercel.app/projects/bcc-pm",
+      "graph": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://rofiporto.vercel.app/#person",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "Muhammad Ahmad Rofi'us Su'ud",
+              "Rofi’us Su’ud",
+              "MARS"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "image": "https://rofiporto.vercel.app/images/profile/profile-clean.png",
+            "description": "Mahasiswa Pendidikan Teknologi Informasi FILKOM Universitas Brawijaya dengan minat pada product management, desain, dan pengembangan produk digital.",
+            "affiliation": {
+              "@id": "https://rofiporto.vercel.app/#universitas-brawijaya"
+            },
+            "mainEntityOfPage": {
+              "@id": "https://rofiporto.vercel.app/about#webpage"
+            },
+            "sameAs": [
+              "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+              "https://github.com/ahmadrofiussuud",
+              "https://www.instagram.com/ahmadrfsd_/"
+            ]
+          },
+          {
+            "@type": "CollegeOrUniversity",
+            "@id": "https://rofiporto.vercel.app/#universitas-brawijaya",
+            "name": "Universitas Brawijaya",
+            "url": "https://www.ub.ac.id/"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://rofiporto.vercel.app/#website",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "MARS",
+              "Portofolio Muhammad Ahmad Rofi’us Su’ud"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "inLanguage": "id-ID",
+            "publisher": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://rofiporto.vercel.app/projects/bcc-pm#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Beranda",
+                "item": "https://rofiporto.vercel.app"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Karya",
+                "item": "https://rofiporto.vercel.app/projects"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Product Manager BCC",
+                "item": "https://rofiporto.vercel.app/projects/bcc-pm"
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://rofiporto.vercel.app/projects/bcc-pm#webpage",
+            "url": "https://rofiporto.vercel.app/projects/bcc-pm",
+            "name": "Product Manager BCC",
+            "description": "Pengalaman Rofi sebagai Product Manager BCC FILKOM UB dalam menyusun strategi produk, roadmap, dan koordinasi pengembangan bersama tim.",
+            "inLanguage": "id-ID",
+            "isPartOf": {
+              "@id": "https://rofiporto.vercel.app/#website"
+            },
+            "about": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            },
+            "breadcrumb": {
+              "@id": "https://rofiporto.vercel.app/projects/bcc-pm#breadcrumb"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://rofiporto.vercel.app/projects/website-em-ub",
+      "graph": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://rofiporto.vercel.app/#person",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "Muhammad Ahmad Rofi'us Su'ud",
+              "Rofi’us Su’ud",
+              "MARS"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "image": "https://rofiporto.vercel.app/images/profile/profile-clean.png",
+            "description": "Mahasiswa Pendidikan Teknologi Informasi FILKOM Universitas Brawijaya dengan minat pada product management, desain, dan pengembangan produk digital.",
+            "affiliation": {
+              "@id": "https://rofiporto.vercel.app/#universitas-brawijaya"
+            },
+            "mainEntityOfPage": {
+              "@id": "https://rofiporto.vercel.app/about#webpage"
+            },
+            "sameAs": [
+              "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+              "https://github.com/ahmadrofiussuud",
+              "https://www.instagram.com/ahmadrfsd_/"
+            ]
+          },
+          {
+            "@type": "CollegeOrUniversity",
+            "@id": "https://rofiporto.vercel.app/#universitas-brawijaya",
+            "name": "Universitas Brawijaya",
+            "url": "https://www.ub.ac.id/"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://rofiporto.vercel.app/#website",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "MARS",
+              "Portofolio Muhammad Ahmad Rofi’us Su’ud"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "inLanguage": "id-ID",
+            "publisher": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            }
+          },
+          {
+            "@type": "CreativeWork",
+            "@id": "https://rofiporto.vercel.app/projects/website-em-ub#work",
+            "name": "Website Resmi EM UB 2026",
+            "description": "Website Eksekutif Mahasiswa Universitas Brawijaya 2026. Kenali kontribusi Rofi sebagai Product Manager dan Ketua Pelaksana, serta fitur portal mahasiswa.",
+            "url": "https://rofiporto.vercel.app/projects/website-em-ub",
+            "inLanguage": "id-ID",
+            "mainEntityOfPage": {
+              "@id": "https://rofiporto.vercel.app/projects/website-em-ub#webpage"
+            },
+            "image": "https://rofiporto.vercel.app/images/projects/rajut-wijaya-em-ub-banner.png",
+            "contributor": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://rofiporto.vercel.app/projects/website-em-ub#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Beranda",
+                "item": "https://rofiporto.vercel.app"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Karya",
+                "item": "https://rofiporto.vercel.app/projects"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Website Resmi EM UB 2026",
+                "item": "https://rofiporto.vercel.app/projects/website-em-ub"
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://rofiporto.vercel.app/projects/website-em-ub#webpage",
+            "url": "https://rofiporto.vercel.app/projects/website-em-ub",
+            "name": "Website Resmi EM UB 2026",
+            "description": "Website Eksekutif Mahasiswa Universitas Brawijaya 2026. Kenali kontribusi Rofi sebagai Product Manager dan Ketua Pelaksana, serta fitur portal mahasiswa.",
+            "inLanguage": "id-ID",
+            "isPartOf": {
+              "@id": "https://rofiporto.vercel.app/#website"
+            },
+            "about": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            },
+            "mainEntity": {
+              "@id": "https://rofiporto.vercel.app/projects/website-em-ub#work"
+            },
+            "breadcrumb": {
+              "@id": "https://rofiporto.vercel.app/projects/website-em-ub#breadcrumb"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://rofiporto.vercel.app/projects/emub-2026",
+      "graph": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://rofiporto.vercel.app/#person",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "Muhammad Ahmad Rofi'us Su'ud",
+              "Rofi’us Su’ud",
+              "MARS"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "image": "https://rofiporto.vercel.app/images/profile/profile-clean.png",
+            "description": "Mahasiswa Pendidikan Teknologi Informasi FILKOM Universitas Brawijaya dengan minat pada product management, desain, dan pengembangan produk digital.",
+            "affiliation": {
+              "@id": "https://rofiporto.vercel.app/#universitas-brawijaya"
+            },
+            "mainEntityOfPage": {
+              "@id": "https://rofiporto.vercel.app/about#webpage"
+            },
+            "sameAs": [
+              "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+              "https://github.com/ahmadrofiussuud",
+              "https://www.instagram.com/ahmadrfsd_/"
+            ]
+          },
+          {
+            "@type": "CollegeOrUniversity",
+            "@id": "https://rofiporto.vercel.app/#universitas-brawijaya",
+            "name": "Universitas Brawijaya",
+            "url": "https://www.ub.ac.id/"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://rofiporto.vercel.app/#website",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "MARS",
+              "Portofolio Muhammad Ahmad Rofi’us Su’ud"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "inLanguage": "id-ID",
+            "publisher": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://rofiporto.vercel.app/projects/emub-2026#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Beranda",
+                "item": "https://rofiporto.vercel.app"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Karya",
+                "item": "https://rofiporto.vercel.app/projects"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Staff KOMINFO EM UB 2026",
+                "item": "https://rofiporto.vercel.app/projects/emub-2026"
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://rofiporto.vercel.app/projects/emub-2026#webpage",
+            "url": "https://rofiporto.vercel.app/projects/emub-2026",
+            "name": "Staff KOMINFO EM UB 2026",
+            "description": "Pengalaman Rofi sebagai Staf KOMINFO EM UB 2026 dengan peran Product Manager Website, termasuk koordinasi kebutuhan departemen dan pengembangan web.",
+            "inLanguage": "id-ID",
+            "isPartOf": {
+              "@id": "https://rofiporto.vercel.app/#website"
+            },
+            "about": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            },
+            "breadcrumb": {
+              "@id": "https://rofiporto.vercel.app/projects/emub-2026#breadcrumb"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://rofiporto.vercel.app/projects/bios-2026",
+      "graph": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://rofiporto.vercel.app/#person",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "Muhammad Ahmad Rofi'us Su'ud",
+              "Rofi’us Su’ud",
+              "MARS"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "image": "https://rofiporto.vercel.app/images/profile/profile-clean.png",
+            "description": "Mahasiswa Pendidikan Teknologi Informasi FILKOM Universitas Brawijaya dengan minat pada product management, desain, dan pengembangan produk digital.",
+            "affiliation": {
+              "@id": "https://rofiporto.vercel.app/#universitas-brawijaya"
+            },
+            "mainEntityOfPage": {
+              "@id": "https://rofiporto.vercel.app/about#webpage"
+            },
+            "sameAs": [
+              "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+              "https://github.com/ahmadrofiussuud",
+              "https://www.instagram.com/ahmadrfsd_/"
+            ]
+          },
+          {
+            "@type": "CollegeOrUniversity",
+            "@id": "https://rofiporto.vercel.app/#universitas-brawijaya",
+            "name": "Universitas Brawijaya",
+            "url": "https://www.ub.ac.id/"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://rofiporto.vercel.app/#website",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "MARS",
+              "Portofolio Muhammad Ahmad Rofi’us Su’ud"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "inLanguage": "id-ID",
+            "publisher": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://rofiporto.vercel.app/projects/bios-2026#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Beranda",
+                "item": "https://rofiporto.vercel.app"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Karya",
+                "item": "https://rofiporto.vercel.app/projects"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Ketua Futsal BIOS",
+                "item": "https://rofiporto.vercel.app/projects/bios-2026"
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://rofiporto.vercel.app/projects/bios-2026#webpage",
+            "url": "https://rofiporto.vercel.app/projects/bios-2026",
+            "name": "Ketua Futsal BIOS",
+            "description": "Pengalaman Rofi sebagai Ketua Futsal BIOS dalam mengelola tim, mengoordinasikan latihan, dan menyiapkan keikutsertaan dalam turnamen.",
+            "inLanguage": "id-ID",
+            "isPartOf": {
+              "@id": "https://rofiporto.vercel.app/#website"
+            },
+            "about": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            },
+            "breadcrumb": {
+              "@id": "https://rofiporto.vercel.app/projects/bios-2026#breadcrumb"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://rofiporto.vercel.app/projects/lki-amd",
+      "graph": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://rofiporto.vercel.app/#person",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "Muhammad Ahmad Rofi'us Su'ud",
+              "Rofi’us Su’ud",
+              "MARS"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "image": "https://rofiporto.vercel.app/images/profile/profile-clean.png",
+            "description": "Mahasiswa Pendidikan Teknologi Informasi FILKOM Universitas Brawijaya dengan minat pada product management, desain, dan pengembangan produk digital.",
+            "affiliation": {
+              "@id": "https://rofiporto.vercel.app/#universitas-brawijaya"
+            },
+            "mainEntityOfPage": {
+              "@id": "https://rofiporto.vercel.app/about#webpage"
+            },
+            "sameAs": [
+              "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+              "https://github.com/ahmadrofiussuud",
+              "https://www.instagram.com/ahmadrfsd_/"
+            ]
+          },
+          {
+            "@type": "CollegeOrUniversity",
+            "@id": "https://rofiporto.vercel.app/#universitas-brawijaya",
+            "name": "Universitas Brawijaya",
+            "url": "https://www.ub.ac.id/"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://rofiporto.vercel.app/#website",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "MARS",
+              "Portofolio Muhammad Ahmad Rofi’us Su’ud"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "inLanguage": "id-ID",
+            "publisher": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://rofiporto.vercel.app/projects/lki-amd#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Beranda",
+                "item": "https://rofiporto.vercel.app"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Karya",
+                "item": "https://rofiporto.vercel.app/projects"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "LKI AMD",
+                "item": "https://rofiporto.vercel.app/projects/lki-amd"
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://rofiporto.vercel.app/projects/lki-amd#webpage",
+            "url": "https://rofiporto.vercel.app/projects/lki-amd",
+            "name": "LKI AMD",
+            "description": "Pengalaman Rofi sebagai anggota dan kontributor LKI AMD melalui kegiatan diskusi, pengabdian masyarakat, serta pengembangan akademik dan kepemimpinan.",
+            "inLanguage": "id-ID",
+            "isPartOf": {
+              "@id": "https://rofiporto.vercel.app/#website"
+            },
+            "about": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            },
+            "breadcrumb": {
+              "@id": "https://rofiporto.vercel.app/projects/lki-amd#breadcrumb"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://rofiporto.vercel.app/projects/rebite",
+      "graph": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://rofiporto.vercel.app/#person",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "Muhammad Ahmad Rofi'us Su'ud",
+              "Rofi’us Su’ud",
+              "MARS"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "image": "https://rofiporto.vercel.app/images/profile/profile-clean.png",
+            "description": "Mahasiswa Pendidikan Teknologi Informasi FILKOM Universitas Brawijaya dengan minat pada product management, desain, dan pengembangan produk digital.",
+            "affiliation": {
+              "@id": "https://rofiporto.vercel.app/#universitas-brawijaya"
+            },
+            "mainEntityOfPage": {
+              "@id": "https://rofiporto.vercel.app/about#webpage"
+            },
+            "sameAs": [
+              "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+              "https://github.com/ahmadrofiussuud",
+              "https://www.instagram.com/ahmadrfsd_/"
+            ]
+          },
+          {
+            "@type": "CollegeOrUniversity",
+            "@id": "https://rofiporto.vercel.app/#universitas-brawijaya",
+            "name": "Universitas Brawijaya",
+            "url": "https://www.ub.ac.id/"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://rofiporto.vercel.app/#website",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "MARS",
+              "Portofolio Muhammad Ahmad Rofi’us Su’ud"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "inLanguage": "id-ID",
+            "publisher": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            }
+          },
+          {
+            "@type": "CreativeWork",
+            "@id": "https://rofiporto.vercel.app/projects/rebite#work",
+            "name": "ReBite Project",
+            "description": "ReBite menghubungkan bisnis FnB dengan konsumen untuk pemanfaatan sisa makanan. Kenali fitur dan peran Rofi sebagai ketua proyek sekaligus pengembang.",
+            "url": "https://rofiporto.vercel.app/projects/rebite",
+            "inLanguage": "id-ID",
+            "mainEntityOfPage": {
+              "@id": "https://rofiporto.vercel.app/projects/rebite#webpage"
+            },
+            "image": "https://rofiporto.vercel.app/images/projects/rebite-food-waste-banner.png",
+            "contributor": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://rofiporto.vercel.app/projects/rebite#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Beranda",
+                "item": "https://rofiporto.vercel.app"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Karya",
+                "item": "https://rofiporto.vercel.app/projects"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "ReBite Project",
+                "item": "https://rofiporto.vercel.app/projects/rebite"
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://rofiporto.vercel.app/projects/rebite#webpage",
+            "url": "https://rofiporto.vercel.app/projects/rebite",
+            "name": "ReBite Project",
+            "description": "ReBite menghubungkan bisnis FnB dengan konsumen untuk pemanfaatan sisa makanan. Kenali fitur dan peran Rofi sebagai ketua proyek sekaligus pengembang.",
+            "inLanguage": "id-ID",
+            "isPartOf": {
+              "@id": "https://rofiporto.vercel.app/#website"
+            },
+            "about": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            },
+            "mainEntity": {
+              "@id": "https://rofiporto.vercel.app/projects/rebite#work"
+            },
+            "breadcrumb": {
+              "@id": "https://rofiporto.vercel.app/projects/rebite#breadcrumb"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://rofiporto.vercel.app/projects/misra",
+      "graph": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://rofiporto.vercel.app/#person",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "Muhammad Ahmad Rofi'us Su'ud",
+              "Rofi’us Su’ud",
+              "MARS"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "image": "https://rofiporto.vercel.app/images/profile/profile-clean.png",
+            "description": "Mahasiswa Pendidikan Teknologi Informasi FILKOM Universitas Brawijaya dengan minat pada product management, desain, dan pengembangan produk digital.",
+            "affiliation": {
+              "@id": "https://rofiporto.vercel.app/#universitas-brawijaya"
+            },
+            "mainEntityOfPage": {
+              "@id": "https://rofiporto.vercel.app/about#webpage"
+            },
+            "sameAs": [
+              "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+              "https://github.com/ahmadrofiussuud",
+              "https://www.instagram.com/ahmadrfsd_/"
+            ]
+          },
+          {
+            "@type": "CollegeOrUniversity",
+            "@id": "https://rofiporto.vercel.app/#universitas-brawijaya",
+            "name": "Universitas Brawijaya",
+            "url": "https://www.ub.ac.id/"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://rofiporto.vercel.app/#website",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "MARS",
+              "Portofolio Muhammad Ahmad Rofi’us Su’ud"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "inLanguage": "id-ID",
+            "publisher": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            }
+          },
+          {
+            "@type": "CreativeWork",
+            "@id": "https://rofiporto.vercel.app/projects/misra#work",
+            "name": "Profil Sekolah Dasar",
+            "description": "Pengembangan website profil sekolah dasar sebagai pusat informasi bagi siswa, wali murid, dan masyarakat. Kenali fitur dan peran Rofi sebagai web developer.",
+            "url": "https://rofiporto.vercel.app/projects/misra",
+            "inLanguage": "id-ID",
+            "mainEntityOfPage": {
+              "@id": "https://rofiporto.vercel.app/projects/misra#webpage"
+            },
+            "image": "https://rofiporto.vercel.app/images/projects/misraproject-cover.jpg",
+            "contributor": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://rofiporto.vercel.app/projects/misra#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Beranda",
+                "item": "https://rofiporto.vercel.app"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Karya",
+                "item": "https://rofiporto.vercel.app/projects"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Profil Sekolah Dasar",
+                "item": "https://rofiporto.vercel.app/projects/misra"
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://rofiporto.vercel.app/projects/misra#webpage",
+            "url": "https://rofiporto.vercel.app/projects/misra",
+            "name": "Profil Sekolah Dasar",
+            "description": "Pengembangan website profil sekolah dasar sebagai pusat informasi bagi siswa, wali murid, dan masyarakat. Kenali fitur dan peran Rofi sebagai web developer.",
+            "inLanguage": "id-ID",
+            "isPartOf": {
+              "@id": "https://rofiporto.vercel.app/#website"
+            },
+            "about": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            },
+            "mainEntity": {
+              "@id": "https://rofiporto.vercel.app/projects/misra#work"
+            },
+            "breadcrumb": {
+              "@id": "https://rofiporto.vercel.app/projects/misra#breadcrumb"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://rofiporto.vercel.app/projects/em-ub-web-2026",
+      "graph": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://rofiporto.vercel.app/#person",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "Muhammad Ahmad Rofi'us Su'ud",
+              "Rofi’us Su’ud",
+              "MARS"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "image": "https://rofiporto.vercel.app/images/profile/profile-clean.png",
+            "description": "Mahasiswa Pendidikan Teknologi Informasi FILKOM Universitas Brawijaya dengan minat pada product management, desain, dan pengembangan produk digital.",
+            "affiliation": {
+              "@id": "https://rofiporto.vercel.app/#universitas-brawijaya"
+            },
+            "mainEntityOfPage": {
+              "@id": "https://rofiporto.vercel.app/about#webpage"
+            },
+            "sameAs": [
+              "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+              "https://github.com/ahmadrofiussuud",
+              "https://www.instagram.com/ahmadrfsd_/"
+            ]
+          },
+          {
+            "@type": "CollegeOrUniversity",
+            "@id": "https://rofiporto.vercel.app/#universitas-brawijaya",
+            "name": "Universitas Brawijaya",
+            "url": "https://www.ub.ac.id/"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://rofiporto.vercel.app/#website",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "MARS",
+              "Portofolio Muhammad Ahmad Rofi’us Su’ud"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "inLanguage": "id-ID",
+            "publisher": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://rofiporto.vercel.app/projects/em-ub-web-2026#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Beranda",
+                "item": "https://rofiporto.vercel.app"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Karya",
+                "item": "https://rofiporto.vercel.app/projects"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Ketua Pelaksana Website EM UB 2026",
+                "item": "https://rofiporto.vercel.app/projects/em-ub-web-2026"
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://rofiporto.vercel.app/projects/em-ub-web-2026#webpage",
+            "url": "https://rofiporto.vercel.app/projects/em-ub-web-2026",
+            "name": "Ketua Pelaksana Website EM UB 2026",
+            "description": "Tanggung jawab Rofi sebagai Ketua Pelaksana Website EM UB 2026 dalam merencanakan pekerjaan dan mengoordinasikan tim pengembangan.",
+            "inLanguage": "id-ID",
+            "isPartOf": {
+              "@id": "https://rofiporto.vercel.app/#website"
+            },
+            "about": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            },
+            "breadcrumb": {
+              "@id": "https://rofiporto.vercel.app/projects/em-ub-web-2026#breadcrumb"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://rofiporto.vercel.app/projects/cert-pbo",
+      "graph": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://rofiporto.vercel.app/#person",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "Muhammad Ahmad Rofi'us Su'ud",
+              "Rofi’us Su’ud",
+              "MARS"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "image": "https://rofiporto.vercel.app/images/profile/profile-clean.png",
+            "description": "Mahasiswa Pendidikan Teknologi Informasi FILKOM Universitas Brawijaya dengan minat pada product management, desain, dan pengembangan produk digital.",
+            "affiliation": {
+              "@id": "https://rofiporto.vercel.app/#universitas-brawijaya"
+            },
+            "mainEntityOfPage": {
+              "@id": "https://rofiporto.vercel.app/about#webpage"
+            },
+            "sameAs": [
+              "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+              "https://github.com/ahmadrofiussuud",
+              "https://www.instagram.com/ahmadrfsd_/"
+            ]
+          },
+          {
+            "@type": "CollegeOrUniversity",
+            "@id": "https://rofiporto.vercel.app/#universitas-brawijaya",
+            "name": "Universitas Brawijaya",
+            "url": "https://www.ub.ac.id/"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://rofiporto.vercel.app/#website",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "MARS",
+              "Portofolio Muhammad Ahmad Rofi’us Su’ud"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "inLanguage": "id-ID",
+            "publisher": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://rofiporto.vercel.app/projects/cert-pbo#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Beranda",
+                "item": "https://rofiporto.vercel.app"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Karya",
+                "item": "https://rofiporto.vercel.app/projects"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Sertifikasi PBO",
+                "item": "https://rofiporto.vercel.app/projects/cert-pbo"
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://rofiporto.vercel.app/projects/cert-pbo#webpage",
+            "url": "https://rofiporto.vercel.app/projects/cert-pbo",
+            "name": "Sertifikasi PBO",
+            "description": "Dokumentasi sertifikat Pemrograman Berorientasi Objek milik Rofi. Pelajari ringkasan konsep inheritance, polymorphism, encapsulation, dan abstraction.",
+            "inLanguage": "id-ID",
+            "isPartOf": {
+              "@id": "https://rofiporto.vercel.app/#website"
+            },
+            "about": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            },
+            "breadcrumb": {
+              "@id": "https://rofiporto.vercel.app/projects/cert-pbo#breadcrumb"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://rofiporto.vercel.app/projects/cert-java",
+      "graph": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://rofiporto.vercel.app/#person",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "Muhammad Ahmad Rofi'us Su'ud",
+              "Rofi’us Su’ud",
+              "MARS"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "image": "https://rofiporto.vercel.app/images/profile/profile-clean.png",
+            "description": "Mahasiswa Pendidikan Teknologi Informasi FILKOM Universitas Brawijaya dengan minat pada product management, desain, dan pengembangan produk digital.",
+            "affiliation": {
+              "@id": "https://rofiporto.vercel.app/#universitas-brawijaya"
+            },
+            "mainEntityOfPage": {
+              "@id": "https://rofiporto.vercel.app/about#webpage"
+            },
+            "sameAs": [
+              "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+              "https://github.com/ahmadrofiussuud",
+              "https://www.instagram.com/ahmadrfsd_/"
+            ]
+          },
+          {
+            "@type": "CollegeOrUniversity",
+            "@id": "https://rofiporto.vercel.app/#universitas-brawijaya",
+            "name": "Universitas Brawijaya",
+            "url": "https://www.ub.ac.id/"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://rofiporto.vercel.app/#website",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "MARS",
+              "Portofolio Muhammad Ahmad Rofi’us Su’ud"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "inLanguage": "id-ID",
+            "publisher": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://rofiporto.vercel.app/projects/cert-java#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Beranda",
+                "item": "https://rofiporto.vercel.app"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Karya",
+                "item": "https://rofiporto.vercel.app/projects"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Java Fundamental Certificate",
+                "item": "https://rofiporto.vercel.app/projects/cert-java"
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://rofiporto.vercel.app/projects/cert-java#webpage",
+            "url": "https://rofiporto.vercel.app/projects/cert-java",
+            "name": "Java Fundamental Certificate",
+            "description": "Dokumentasi sertifikat dasar Java milik Rofi, mencakup sintaks, struktur data, dan logika pemrograman. Lihat ringkasan materi serta gambar sertifikat.",
+            "inLanguage": "id-ID",
+            "isPartOf": {
+              "@id": "https://rofiporto.vercel.app/#website"
+            },
+            "about": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            },
+            "breadcrumb": {
+              "@id": "https://rofiporto.vercel.app/projects/cert-java#breadcrumb"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://rofiporto.vercel.app/projects/cert-pm",
+      "graph": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://rofiporto.vercel.app/#person",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "Muhammad Ahmad Rofi'us Su'ud",
+              "Rofi’us Su’ud",
+              "MARS"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "image": "https://rofiporto.vercel.app/images/profile/profile-clean.png",
+            "description": "Mahasiswa Pendidikan Teknologi Informasi FILKOM Universitas Brawijaya dengan minat pada product management, desain, dan pengembangan produk digital.",
+            "affiliation": {
+              "@id": "https://rofiporto.vercel.app/#universitas-brawijaya"
+            },
+            "mainEntityOfPage": {
+              "@id": "https://rofiporto.vercel.app/about#webpage"
+            },
+            "sameAs": [
+              "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+              "https://github.com/ahmadrofiussuud",
+              "https://www.instagram.com/ahmadrfsd_/"
+            ]
+          },
+          {
+            "@type": "CollegeOrUniversity",
+            "@id": "https://rofiporto.vercel.app/#universitas-brawijaya",
+            "name": "Universitas Brawijaya",
+            "url": "https://www.ub.ac.id/"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://rofiporto.vercel.app/#website",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "MARS",
+              "Portofolio Muhammad Ahmad Rofi’us Su’ud"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "inLanguage": "id-ID",
+            "publisher": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://rofiporto.vercel.app/projects/cert-pm#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Beranda",
+                "item": "https://rofiporto.vercel.app"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Karya",
+                "item": "https://rofiporto.vercel.app/projects"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Sertifikasi Manajemen Proyek",
+                "item": "https://rofiporto.vercel.app/projects/cert-pm"
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://rofiporto.vercel.app/projects/cert-pm#webpage",
+            "url": "https://rofiporto.vercel.app/projects/cert-pm",
+            "name": "Sertifikasi Manajemen Proyek",
+            "description": "Dokumentasi sertifikat manajemen proyek milik Rofi, dengan ringkasan perencanaan, koordinasi tim, dan metodologi dasar pengelolaan proyek.",
+            "inLanguage": "id-ID",
+            "isPartOf": {
+              "@id": "https://rofiporto.vercel.app/#website"
+            },
+            "about": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            },
+            "breadcrumb": {
+              "@id": "https://rofiporto.vercel.app/projects/cert-pm#breadcrumb"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://rofiporto.vercel.app/projects/bios-2025",
+      "graph": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://rofiporto.vercel.app/#person",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "Muhammad Ahmad Rofi'us Su'ud",
+              "Rofi’us Su’ud",
+              "MARS"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "image": "https://rofiporto.vercel.app/images/profile/profile-clean.png",
+            "description": "Mahasiswa Pendidikan Teknologi Informasi FILKOM Universitas Brawijaya dengan minat pada product management, desain, dan pengembangan produk digital.",
+            "affiliation": {
+              "@id": "https://rofiporto.vercel.app/#universitas-brawijaya"
+            },
+            "mainEntityOfPage": {
+              "@id": "https://rofiporto.vercel.app/about#webpage"
+            },
+            "sameAs": [
+              "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+              "https://github.com/ahmadrofiussuud",
+              "https://www.instagram.com/ahmadrfsd_/"
+            ]
+          },
+          {
+            "@type": "CollegeOrUniversity",
+            "@id": "https://rofiporto.vercel.app/#universitas-brawijaya",
+            "name": "Universitas Brawijaya",
+            "url": "https://www.ub.ac.id/"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://rofiporto.vercel.app/#website",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "MARS",
+              "Portofolio Muhammad Ahmad Rofi’us Su’ud"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "inLanguage": "id-ID",
+            "publisher": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://rofiporto.vercel.app/projects/bios-2025#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Beranda",
+                "item": "https://rofiporto.vercel.app"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Karya",
+                "item": "https://rofiporto.vercel.app/projects"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Bendahara Futsal BIOS",
+                "item": "https://rofiporto.vercel.app/projects/bios-2025"
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://rofiporto.vercel.app/projects/bios-2025#webpage",
+            "url": "https://rofiporto.vercel.app/projects/bios-2025",
+            "name": "Bendahara Futsal BIOS",
+            "description": "Pengalaman mengelola keuangan tim futsal BIOS sebagai bendahara, mulai dari anggaran latihan dan kompetisi hingga pencatatan serta laporan keuangan.",
+            "inLanguage": "id-ID",
+            "isPartOf": {
+              "@id": "https://rofiporto.vercel.app/#website"
+            },
+            "about": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            },
+            "breadcrumb": {
+              "@id": "https://rofiporto.vercel.app/projects/bios-2025#breadcrumb"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://rofiporto.vercel.app/projects/cekat",
+      "graph": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://rofiporto.vercel.app/#person",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "Muhammad Ahmad Rofi'us Su'ud",
+              "Rofi’us Su’ud",
+              "MARS"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "image": "https://rofiporto.vercel.app/images/profile/profile-clean.png",
+            "description": "Mahasiswa Pendidikan Teknologi Informasi FILKOM Universitas Brawijaya dengan minat pada product management, desain, dan pengembangan produk digital.",
+            "affiliation": {
+              "@id": "https://rofiporto.vercel.app/#universitas-brawijaya"
+            },
+            "mainEntityOfPage": {
+              "@id": "https://rofiporto.vercel.app/about#webpage"
+            },
+            "sameAs": [
+              "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+              "https://github.com/ahmadrofiussuud",
+              "https://www.instagram.com/ahmadrfsd_/"
+            ]
+          },
+          {
+            "@type": "CollegeOrUniversity",
+            "@id": "https://rofiporto.vercel.app/#universitas-brawijaya",
+            "name": "Universitas Brawijaya",
+            "url": "https://www.ub.ac.id/"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://rofiporto.vercel.app/#website",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "MARS",
+              "Portofolio Muhammad Ahmad Rofi’us Su’ud"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "inLanguage": "id-ID",
+            "publisher": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            }
+          },
+          {
+            "@type": "CreativeWork",
+            "@id": "https://rofiporto.vercel.app/projects/cekat#work",
+            "name": "CEKAT — Platform Kesehatan Digital",
+            "description": "Konsep CEKAT menggabungkan pemeriksaan risiko penyakit tidak menular, catatan nutrisi, dan sinkronisasi data Kiosk Station. Lihat gambaran platform dan demonya.",
+            "url": "https://rofiporto.vercel.app/projects/cekat",
+            "inLanguage": "id-ID",
+            "mainEntityOfPage": {
+              "@id": "https://rofiporto.vercel.app/projects/cekat#webpage"
+            },
+            "image": "https://rofiporto.vercel.app/images/projects/cekat-healthcare-showcase.png"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://rofiporto.vercel.app/projects/cekat#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Beranda",
+                "item": "https://rofiporto.vercel.app"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Karya",
+                "item": "https://rofiporto.vercel.app/projects"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "CEKAT — Platform Kesehatan Digital",
+                "item": "https://rofiporto.vercel.app/projects/cekat"
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://rofiporto.vercel.app/projects/cekat#webpage",
+            "url": "https://rofiporto.vercel.app/projects/cekat",
+            "name": "CEKAT — Platform Kesehatan Digital",
+            "description": "Konsep CEKAT menggabungkan pemeriksaan risiko penyakit tidak menular, catatan nutrisi, dan sinkronisasi data Kiosk Station. Lihat gambaran platform dan demonya.",
+            "inLanguage": "id-ID",
+            "isPartOf": {
+              "@id": "https://rofiporto.vercel.app/#website"
+            },
+            "about": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            },
+            "mainEntity": {
+              "@id": "https://rofiporto.vercel.app/projects/cekat#work"
+            },
+            "breadcrumb": {
+              "@id": "https://rofiporto.vercel.app/projects/cekat#breadcrumb"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://rofiporto.vercel.app/projects/ekspedisi-nusantara",
+      "graph": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://rofiporto.vercel.app/#person",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "Muhammad Ahmad Rofi'us Su'ud",
+              "Rofi’us Su’ud",
+              "MARS"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "image": "https://rofiporto.vercel.app/images/profile/profile-clean.png",
+            "description": "Mahasiswa Pendidikan Teknologi Informasi FILKOM Universitas Brawijaya dengan minat pada product management, desain, dan pengembangan produk digital.",
+            "affiliation": {
+              "@id": "https://rofiporto.vercel.app/#universitas-brawijaya"
+            },
+            "mainEntityOfPage": {
+              "@id": "https://rofiporto.vercel.app/about#webpage"
+            },
+            "sameAs": [
+              "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+              "https://github.com/ahmadrofiussuud",
+              "https://www.instagram.com/ahmadrfsd_/"
+            ]
+          },
+          {
+            "@type": "CollegeOrUniversity",
+            "@id": "https://rofiporto.vercel.app/#universitas-brawijaya",
+            "name": "Universitas Brawijaya",
+            "url": "https://www.ub.ac.id/"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://rofiporto.vercel.app/#website",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "MARS",
+              "Portofolio Muhammad Ahmad Rofi’us Su’ud"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "inLanguage": "id-ID",
+            "publisher": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            }
+          },
+          {
+            "@type": "CreativeWork",
+            "@id": "https://rofiporto.vercel.app/projects/ekspedisi-nusantara#work",
+            "name": "Ekspedisi Nusantara — Math Adventure",
+            "description": "Game edukasi matematika untuk siswa SD dengan petualangan di berbagai wilayah Nusantara. Kenali konsep belajar sambil bermain dalam Ekspedisi Nusantara.",
+            "url": "https://rofiporto.vercel.app/projects/ekspedisi-nusantara",
+            "inLanguage": "id-ID",
+            "mainEntityOfPage": {
+              "@id": "https://rofiporto.vercel.app/projects/ekspedisi-nusantara#webpage"
+            },
+            "image": "https://rofiporto.vercel.app/images/projects/ekspedisi-nusantara-math-adventure.png"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://rofiporto.vercel.app/projects/ekspedisi-nusantara#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Beranda",
+                "item": "https://rofiporto.vercel.app"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Karya",
+                "item": "https://rofiporto.vercel.app/projects"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Ekspedisi Nusantara — Math Adventure",
+                "item": "https://rofiporto.vercel.app/projects/ekspedisi-nusantara"
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://rofiporto.vercel.app/projects/ekspedisi-nusantara#webpage",
+            "url": "https://rofiporto.vercel.app/projects/ekspedisi-nusantara",
+            "name": "Ekspedisi Nusantara — Math Adventure",
+            "description": "Game edukasi matematika untuk siswa SD dengan petualangan di berbagai wilayah Nusantara. Kenali konsep belajar sambil bermain dalam Ekspedisi Nusantara.",
+            "inLanguage": "id-ID",
+            "isPartOf": {
+              "@id": "https://rofiporto.vercel.app/#website"
+            },
+            "about": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            },
+            "mainEntity": {
+              "@id": "https://rofiporto.vercel.app/projects/ekspedisi-nusantara#work"
+            },
+            "breadcrumb": {
+              "@id": "https://rofiporto.vercel.app/projects/ekspedisi-nusantara#breadcrumb"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://rofiporto.vercel.app/projects/ifhamkids",
+      "graph": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://rofiporto.vercel.app/#person",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "Muhammad Ahmad Rofi'us Su'ud",
+              "Rofi’us Su’ud",
+              "MARS"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "image": "https://rofiporto.vercel.app/images/profile/profile-clean.png",
+            "description": "Mahasiswa Pendidikan Teknologi Informasi FILKOM Universitas Brawijaya dengan minat pada product management, desain, dan pengembangan produk digital.",
+            "affiliation": {
+              "@id": "https://rofiporto.vercel.app/#universitas-brawijaya"
+            },
+            "mainEntityOfPage": {
+              "@id": "https://rofiporto.vercel.app/about#webpage"
+            },
+            "sameAs": [
+              "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+              "https://github.com/ahmadrofiussuud",
+              "https://www.instagram.com/ahmadrfsd_/"
+            ]
+          },
+          {
+            "@type": "CollegeOrUniversity",
+            "@id": "https://rofiporto.vercel.app/#universitas-brawijaya",
+            "name": "Universitas Brawijaya",
+            "url": "https://www.ub.ac.id/"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://rofiporto.vercel.app/#website",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "MARS",
+              "Portofolio Muhammad Ahmad Rofi’us Su’ud"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "inLanguage": "id-ID",
+            "publisher": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            }
+          },
+          {
+            "@type": "CreativeWork",
+            "@id": "https://rofiporto.vercel.app/projects/ifhamkids#work",
+            "name": "IfhamKids — Belajar Bahasa Arab untuk Anak",
+            "description": "Konsep belajar bahasa Arab untuk siswa SD/MI melalui kosakata, pelafalan, dan kalimat sederhana. Jelajahi gambaran IfhamKids dan demo yang tersedia.",
+            "url": "https://rofiporto.vercel.app/projects/ifhamkids",
+            "inLanguage": "id-ID",
+            "mainEntityOfPage": {
+              "@id": "https://rofiporto.vercel.app/projects/ifhamkids#webpage"
+            },
+            "image": "https://rofiporto.vercel.app/images/projects/ifhamkids-arabic-learning.png"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://rofiporto.vercel.app/projects/ifhamkids#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Beranda",
+                "item": "https://rofiporto.vercel.app"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Karya",
+                "item": "https://rofiporto.vercel.app/projects"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "IfhamKids — Belajar Bahasa Arab untuk Anak",
+                "item": "https://rofiporto.vercel.app/projects/ifhamkids"
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://rofiporto.vercel.app/projects/ifhamkids#webpage",
+            "url": "https://rofiporto.vercel.app/projects/ifhamkids",
+            "name": "IfhamKids — Belajar Bahasa Arab untuk Anak",
+            "description": "Konsep belajar bahasa Arab untuk siswa SD/MI melalui kosakata, pelafalan, dan kalimat sederhana. Jelajahi gambaran IfhamKids dan demo yang tersedia.",
+            "inLanguage": "id-ID",
+            "isPartOf": {
+              "@id": "https://rofiporto.vercel.app/#website"
+            },
+            "about": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            },
+            "mainEntity": {
+              "@id": "https://rofiporto.vercel.app/projects/ifhamkids#work"
+            },
+            "breadcrumb": {
+              "@id": "https://rofiporto.vercel.app/projects/ifhamkids#breadcrumb"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://rofiporto.vercel.app/projects/jaspel-rsud-moh-saleh",
+      "graph": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://rofiporto.vercel.app/#person",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "Muhammad Ahmad Rofi'us Su'ud",
+              "Rofi’us Su’ud",
+              "MARS"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "image": "https://rofiporto.vercel.app/images/profile/profile-clean.png",
+            "description": "Mahasiswa Pendidikan Teknologi Informasi FILKOM Universitas Brawijaya dengan minat pada product management, desain, dan pengembangan produk digital.",
+            "affiliation": {
+              "@id": "https://rofiporto.vercel.app/#universitas-brawijaya"
+            },
+            "mainEntityOfPage": {
+              "@id": "https://rofiporto.vercel.app/about#webpage"
+            },
+            "sameAs": [
+              "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+              "https://github.com/ahmadrofiussuud",
+              "https://www.instagram.com/ahmadrfsd_/"
+            ]
+          },
+          {
+            "@type": "CollegeOrUniversity",
+            "@id": "https://rofiporto.vercel.app/#universitas-brawijaya",
+            "name": "Universitas Brawijaya",
+            "url": "https://www.ub.ac.id/"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://rofiporto.vercel.app/#website",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "MARS",
+              "Portofolio Muhammad Ahmad Rofi’us Su’ud"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "inLanguage": "id-ID",
+            "publisher": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://rofiporto.vercel.app/projects/jaspel-rsud-moh-saleh#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Beranda",
+                "item": "https://rofiporto.vercel.app"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Karya",
+                "item": "https://rofiporto.vercel.app/projects"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Perhitungan Jaspel — RSUD Moh. Saleh Probolinggo",
+                "item": "https://rofiporto.vercel.app/projects/jaspel-rsud-moh-saleh"
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://rofiporto.vercel.app/projects/jaspel-rsud-moh-saleh#webpage",
+            "url": "https://rofiporto.vercel.app/projects/jaspel-rsud-moh-saleh",
+            "name": "Perhitungan Jaspel — RSUD Moh. Saleh Probolinggo",
+            "description": "Kolaborasi bersama dosen untuk perhitungan jasa pelayanan RSUD Moh. Saleh Probolinggo. Rofi terlibat sebagai anggota tim IT dalam proyek ini.",
+            "inLanguage": "id-ID",
+            "isPartOf": {
+              "@id": "https://rofiporto.vercel.app/#website"
+            },
+            "about": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            },
+            "breadcrumb": {
+              "@id": "https://rofiporto.vercel.app/projects/jaspel-rsud-moh-saleh#breadcrumb"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://rofiporto.vercel.app/projects/kelasin",
+      "graph": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://rofiporto.vercel.app/#person",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "Muhammad Ahmad Rofi'us Su'ud",
+              "Rofi’us Su’ud",
+              "MARS"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "image": "https://rofiporto.vercel.app/images/profile/profile-clean.png",
+            "description": "Mahasiswa Pendidikan Teknologi Informasi FILKOM Universitas Brawijaya dengan minat pada product management, desain, dan pengembangan produk digital.",
+            "affiliation": {
+              "@id": "https://rofiporto.vercel.app/#universitas-brawijaya"
+            },
+            "mainEntityOfPage": {
+              "@id": "https://rofiporto.vercel.app/about#webpage"
+            },
+            "sameAs": [
+              "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+              "https://github.com/ahmadrofiussuud",
+              "https://www.instagram.com/ahmadrfsd_/"
+            ]
+          },
+          {
+            "@type": "CollegeOrUniversity",
+            "@id": "https://rofiporto.vercel.app/#universitas-brawijaya",
+            "name": "Universitas Brawijaya",
+            "url": "https://www.ub.ac.id/"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://rofiporto.vercel.app/#website",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "MARS",
+              "Portofolio Muhammad Ahmad Rofi’us Su’ud"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "inLanguage": "id-ID",
+            "publisher": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            }
+          },
+          {
+            "@type": "CreativeWork",
+            "@id": "https://rofiporto.vercel.app/projects/kelasin#work",
+            "name": "Kelasin — Platform Digital",
+            "description": "Kelasin membantu guru menyiapkan media pembelajaran SD dengan AI untuk TV interaktif kelas. Lihat konsep aktivitas belajar dan demo karya kompetisi ini.",
+            "url": "https://rofiporto.vercel.app/projects/kelasin",
+            "inLanguage": "id-ID",
+            "mainEntityOfPage": {
+              "@id": "https://rofiporto.vercel.app/projects/kelasin#webpage"
+            },
+            "image": "https://rofiporto.vercel.app/images/projects/kelasin-cover.png"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://rofiporto.vercel.app/projects/kelasin#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Beranda",
+                "item": "https://rofiporto.vercel.app"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Karya",
+                "item": "https://rofiporto.vercel.app/projects"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Kelasin — Platform Digital",
+                "item": "https://rofiporto.vercel.app/projects/kelasin"
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://rofiporto.vercel.app/projects/kelasin#webpage",
+            "url": "https://rofiporto.vercel.app/projects/kelasin",
+            "name": "Kelasin — Platform Digital",
+            "description": "Kelasin membantu guru menyiapkan media pembelajaran SD dengan AI untuk TV interaktif kelas. Lihat konsep aktivitas belajar dan demo karya kompetisi ini.",
+            "inLanguage": "id-ID",
+            "isPartOf": {
+              "@id": "https://rofiporto.vercel.app/#website"
+            },
+            "about": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            },
+            "mainEntity": {
+              "@id": "https://rofiporto.vercel.app/projects/kelasin#work"
+            },
+            "breadcrumb": {
+              "@id": "https://rofiporto.vercel.app/projects/kelasin#breadcrumb"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://rofiporto.vercel.app/projects/mandorin",
+      "graph": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://rofiporto.vercel.app/#person",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "Muhammad Ahmad Rofi'us Su'ud",
+              "Rofi’us Su’ud",
+              "MARS"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "image": "https://rofiporto.vercel.app/images/profile/profile-clean.png",
+            "description": "Mahasiswa Pendidikan Teknologi Informasi FILKOM Universitas Brawijaya dengan minat pada product management, desain, dan pengembangan produk digital.",
+            "affiliation": {
+              "@id": "https://rofiporto.vercel.app/#universitas-brawijaya"
+            },
+            "mainEntityOfPage": {
+              "@id": "https://rofiporto.vercel.app/about#webpage"
+            },
+            "sameAs": [
+              "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+              "https://github.com/ahmadrofiussuud",
+              "https://www.instagram.com/ahmadrfsd_/"
+            ]
+          },
+          {
+            "@type": "CollegeOrUniversity",
+            "@id": "https://rofiporto.vercel.app/#universitas-brawijaya",
+            "name": "Universitas Brawijaya",
+            "url": "https://www.ub.ac.id/"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://rofiporto.vercel.app/#website",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "MARS",
+              "Portofolio Muhammad Ahmad Rofi’us Su’ud"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "inLanguage": "id-ID",
+            "publisher": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            }
+          },
+          {
+            "@type": "CreativeWork",
+            "@id": "https://rofiporto.vercel.app/projects/mandorin#work",
+            "name": "Mandorin — Platform Pembangunan Hunian",
+            "description": "Prototipe Mandorin dikembangkan saat seleksi intern BCC, dengan alur bagi pemilik proyek dan mandor. Lihat gambaran platform serta demo yang tersedia.",
+            "url": "https://rofiporto.vercel.app/projects/mandorin",
+            "inLanguage": "id-ID",
+            "mainEntityOfPage": {
+              "@id": "https://rofiporto.vercel.app/projects/mandorin#webpage"
+            },
+            "image": "https://rofiporto.vercel.app/images/projects/mandorin-platform-banner.png",
+            "contributor": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://rofiporto.vercel.app/projects/mandorin#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Beranda",
+                "item": "https://rofiporto.vercel.app"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Karya",
+                "item": "https://rofiporto.vercel.app/projects"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Mandorin — Platform Pembangunan Hunian",
+                "item": "https://rofiporto.vercel.app/projects/mandorin"
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://rofiporto.vercel.app/projects/mandorin#webpage",
+            "url": "https://rofiporto.vercel.app/projects/mandorin",
+            "name": "Mandorin — Platform Pembangunan Hunian",
+            "description": "Prototipe Mandorin dikembangkan saat seleksi intern BCC, dengan alur bagi pemilik proyek dan mandor. Lihat gambaran platform serta demo yang tersedia.",
+            "inLanguage": "id-ID",
+            "isPartOf": {
+              "@id": "https://rofiporto.vercel.app/#website"
+            },
+            "about": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            },
+            "mainEntity": {
+              "@id": "https://rofiporto.vercel.app/projects/mandorin#work"
+            },
+            "breadcrumb": {
+              "@id": "https://rofiporto.vercel.app/projects/mandorin#breadcrumb"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://rofiporto.vercel.app/projects/ngajikidz",
+      "graph": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://rofiporto.vercel.app/#person",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "Muhammad Ahmad Rofi'us Su'ud",
+              "Rofi’us Su’ud",
+              "MARS"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "image": "https://rofiporto.vercel.app/images/profile/profile-clean.png",
+            "description": "Mahasiswa Pendidikan Teknologi Informasi FILKOM Universitas Brawijaya dengan minat pada product management, desain, dan pengembangan produk digital.",
+            "affiliation": {
+              "@id": "https://rofiporto.vercel.app/#universitas-brawijaya"
+            },
+            "mainEntityOfPage": {
+              "@id": "https://rofiporto.vercel.app/about#webpage"
+            },
+            "sameAs": [
+              "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+              "https://github.com/ahmadrofiussuud",
+              "https://www.instagram.com/ahmadrfsd_/"
+            ]
+          },
+          {
+            "@type": "CollegeOrUniversity",
+            "@id": "https://rofiporto.vercel.app/#universitas-brawijaya",
+            "name": "Universitas Brawijaya",
+            "url": "https://www.ub.ac.id/"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://rofiporto.vercel.app/#website",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "MARS",
+              "Portofolio Muhammad Ahmad Rofi’us Su’ud"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "inLanguage": "id-ID",
+            "publisher": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            }
+          },
+          {
+            "@type": "CreativeWork",
+            "@id": "https://rofiporto.vercel.app/projects/ngajikidz#work",
+            "name": "NgajiKidz — Belajar Mengaji dengan AI",
+            "description": "Konsep NgajiKidz mengeksplorasi pembelajaran Al-Qur’an untuk anak melalui AI, gamifikasi, dan bimbingan mengaji. Lihat gambaran produk serta demo.",
+            "url": "https://rofiporto.vercel.app/projects/ngajikidz",
+            "inLanguage": "id-ID",
+            "mainEntityOfPage": {
+              "@id": "https://rofiporto.vercel.app/projects/ngajikidz#webpage"
+            },
+            "image": "https://rofiporto.vercel.app/images/projects/ngajikidz-ai-learning.png"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://rofiporto.vercel.app/projects/ngajikidz#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Beranda",
+                "item": "https://rofiporto.vercel.app"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Karya",
+                "item": "https://rofiporto.vercel.app/projects"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "NgajiKidz — Belajar Mengaji dengan AI",
+                "item": "https://rofiporto.vercel.app/projects/ngajikidz"
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://rofiporto.vercel.app/projects/ngajikidz#webpage",
+            "url": "https://rofiporto.vercel.app/projects/ngajikidz",
+            "name": "NgajiKidz — Belajar Mengaji dengan AI",
+            "description": "Konsep NgajiKidz mengeksplorasi pembelajaran Al-Qur’an untuk anak melalui AI, gamifikasi, dan bimbingan mengaji. Lihat gambaran produk serta demo.",
+            "inLanguage": "id-ID",
+            "isPartOf": {
+              "@id": "https://rofiporto.vercel.app/#website"
+            },
+            "about": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            },
+            "mainEntity": {
+              "@id": "https://rofiporto.vercel.app/projects/ngajikidz#work"
+            },
+            "breadcrumb": {
+              "@id": "https://rofiporto.vercel.app/projects/ngajikidz#breadcrumb"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://rofiporto.vercel.app/projects/pelatihan-ar-sdn-3-dono",
+      "graph": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://rofiporto.vercel.app/#person",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "Muhammad Ahmad Rofi'us Su'ud",
+              "Rofi’us Su’ud",
+              "MARS"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "image": "https://rofiporto.vercel.app/images/profile/profile-clean.png",
+            "description": "Mahasiswa Pendidikan Teknologi Informasi FILKOM Universitas Brawijaya dengan minat pada product management, desain, dan pengembangan produk digital.",
+            "affiliation": {
+              "@id": "https://rofiporto.vercel.app/#universitas-brawijaya"
+            },
+            "mainEntityOfPage": {
+              "@id": "https://rofiporto.vercel.app/about#webpage"
+            },
+            "sameAs": [
+              "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+              "https://github.com/ahmadrofiussuud",
+              "https://www.instagram.com/ahmadrfsd_/"
+            ]
+          },
+          {
+            "@type": "CollegeOrUniversity",
+            "@id": "https://rofiporto.vercel.app/#universitas-brawijaya",
+            "name": "Universitas Brawijaya",
+            "url": "https://www.ub.ac.id/"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://rofiporto.vercel.app/#website",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "MARS",
+              "Portofolio Muhammad Ahmad Rofi’us Su’ud"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "inLanguage": "id-ID",
+            "publisher": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://rofiporto.vercel.app/projects/pelatihan-ar-sdn-3-dono#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Beranda",
+                "item": "https://rofiporto.vercel.app"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Karya",
+                "item": "https://rofiporto.vercel.app/projects"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Pelatihan Media Pembelajaran AR — SDN 3 Dono",
+                "item": "https://rofiporto.vercel.app/projects/pelatihan-ar-sdn-3-dono"
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://rofiporto.vercel.app/projects/pelatihan-ar-sdn-3-dono#webpage",
+            "url": "https://rofiporto.vercel.app/projects/pelatihan-ar-sdn-3-dono",
+            "name": "Pelatihan Media Pembelajaran AR — SDN 3 Dono",
+            "description": "Kolaborasi bersama dosen dalam pelatihan guru SDN 3 Dono, Tulungagung, untuk membuat media pembelajaran berbasis augmented reality. Lihat dokumentasinya.",
+            "inLanguage": "id-ID",
+            "isPartOf": {
+              "@id": "https://rofiporto.vercel.app/#website"
+            },
+            "about": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            },
+            "breadcrumb": {
+              "@id": "https://rofiporto.vercel.app/projects/pelatihan-ar-sdn-3-dono#breadcrumb"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://rofiporto.vercel.app/projects/sobataman",
+      "graph": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://rofiporto.vercel.app/#person",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "Muhammad Ahmad Rofi'us Su'ud",
+              "Rofi’us Su’ud",
+              "MARS"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "image": "https://rofiporto.vercel.app/images/profile/profile-clean.png",
+            "description": "Mahasiswa Pendidikan Teknologi Informasi FILKOM Universitas Brawijaya dengan minat pada product management, desain, dan pengembangan produk digital.",
+            "affiliation": {
+              "@id": "https://rofiporto.vercel.app/#universitas-brawijaya"
+            },
+            "mainEntityOfPage": {
+              "@id": "https://rofiporto.vercel.app/about#webpage"
+            },
+            "sameAs": [
+              "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+              "https://github.com/ahmadrofiussuud",
+              "https://www.instagram.com/ahmadrfsd_/"
+            ]
+          },
+          {
+            "@type": "CollegeOrUniversity",
+            "@id": "https://rofiporto.vercel.app/#universitas-brawijaya",
+            "name": "Universitas Brawijaya",
+            "url": "https://www.ub.ac.id/"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://rofiporto.vercel.app/#website",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "MARS",
+              "Portofolio Muhammad Ahmad Rofi’us Su’ud"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "inLanguage": "id-ID",
+            "publisher": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            }
+          },
+          {
+            "@type": "CreativeWork",
+            "@id": "https://rofiporto.vercel.app/projects/sobataman#work",
+            "name": "SobatAman — Platform Pendamping Terverifikasi",
+            "description": "Konsep SobatAman menghubungkan keluarga dengan pendamping untuk layanan on-demand. Lihat gambaran kebutuhan pengguna, konsep platform, dan demonya.",
+            "url": "https://rofiporto.vercel.app/projects/sobataman",
+            "inLanguage": "id-ID",
+            "mainEntityOfPage": {
+              "@id": "https://rofiporto.vercel.app/projects/sobataman#webpage"
+            },
+            "image": "https://rofiporto.vercel.app/images/projects/sobataman-platform-banner.png"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://rofiporto.vercel.app/projects/sobataman#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Beranda",
+                "item": "https://rofiporto.vercel.app"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Karya",
+                "item": "https://rofiporto.vercel.app/projects"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "SobatAman — Platform Pendamping Terverifikasi",
+                "item": "https://rofiporto.vercel.app/projects/sobataman"
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://rofiporto.vercel.app/projects/sobataman#webpage",
+            "url": "https://rofiporto.vercel.app/projects/sobataman",
+            "name": "SobatAman — Platform Pendamping Terverifikasi",
+            "description": "Konsep SobatAman menghubungkan keluarga dengan pendamping untuk layanan on-demand. Lihat gambaran kebutuhan pengguna, konsep platform, dan demonya.",
+            "inLanguage": "id-ID",
+            "isPartOf": {
+              "@id": "https://rofiporto.vercel.app/#website"
+            },
+            "about": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            },
+            "mainEntity": {
+              "@id": "https://rofiporto.vercel.app/projects/sobataman#work"
+            },
+            "breadcrumb": {
+              "@id": "https://rofiporto.vercel.app/projects/sobataman#breadcrumb"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://rofiporto.vercel.app/projects/tehmbois-wcc",
+      "graph": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://rofiporto.vercel.app/#person",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "Muhammad Ahmad Rofi'us Su'ud",
+              "Rofi’us Su’ud",
+              "MARS"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "image": "https://rofiporto.vercel.app/images/profile/profile-clean.png",
+            "description": "Mahasiswa Pendidikan Teknologi Informasi FILKOM Universitas Brawijaya dengan minat pada product management, desain, dan pengembangan produk digital.",
+            "affiliation": {
+              "@id": "https://rofiporto.vercel.app/#universitas-brawijaya"
+            },
+            "mainEntityOfPage": {
+              "@id": "https://rofiporto.vercel.app/about#webpage"
+            },
+            "sameAs": [
+              "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+              "https://github.com/ahmadrofiussuud",
+              "https://www.instagram.com/ahmadrfsd_/"
+            ]
+          },
+          {
+            "@type": "CollegeOrUniversity",
+            "@id": "https://rofiporto.vercel.app/#universitas-brawijaya",
+            "name": "Universitas Brawijaya",
+            "url": "https://www.ub.ac.id/"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://rofiporto.vercel.app/#website",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "MARS",
+              "Portofolio Muhammad Ahmad Rofi’us Su’ud"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "inLanguage": "id-ID",
+            "publisher": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            }
+          },
+          {
+            "@type": "CreativeWork",
+            "@id": "https://rofiporto.vercel.app/projects/tehmbois-wcc#work",
+            "name": "TehMbois — Website Brand Minuman",
+            "description": "Website brand minuman TehMbois, karya Juara 1 WCC UNISNU Jepara 2026. Lihat gambaran proyek, eksplorasi antarmuka, dan tampilan lintas perangkat.",
+            "url": "https://rofiporto.vercel.app/projects/tehmbois-wcc",
+            "inLanguage": "id-ID",
+            "mainEntityOfPage": {
+              "@id": "https://rofiporto.vercel.app/projects/tehmbois-wcc#webpage"
+            },
+            "image": "https://rofiporto.vercel.app/images/projects/tehmbois-wcc-2026.png"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://rofiporto.vercel.app/projects/tehmbois-wcc#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Beranda",
+                "item": "https://rofiporto.vercel.app"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Karya",
+                "item": "https://rofiporto.vercel.app/projects"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "TehMbois — Website Brand Minuman",
+                "item": "https://rofiporto.vercel.app/projects/tehmbois-wcc"
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://rofiporto.vercel.app/projects/tehmbois-wcc#webpage",
+            "url": "https://rofiporto.vercel.app/projects/tehmbois-wcc",
+            "name": "TehMbois — Website Brand Minuman",
+            "description": "Website brand minuman TehMbois, karya Juara 1 WCC UNISNU Jepara 2026. Lihat gambaran proyek, eksplorasi antarmuka, dan tampilan lintas perangkat.",
+            "inLanguage": "id-ID",
+            "isPartOf": {
+              "@id": "https://rofiporto.vercel.app/#website"
+            },
+            "about": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            },
+            "mainEntity": {
+              "@id": "https://rofiporto.vercel.app/projects/tehmbois-wcc#work"
+            },
+            "breadcrumb": {
+              "@id": "https://rofiporto.vercel.app/projects/tehmbois-wcc#breadcrumb"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://rofiporto.vercel.app/projects/telaahkarier",
+      "graph": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://rofiporto.vercel.app/#person",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "Muhammad Ahmad Rofi'us Su'ud",
+              "Rofi’us Su’ud",
+              "MARS"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "image": "https://rofiporto.vercel.app/images/profile/profile-clean.png",
+            "description": "Mahasiswa Pendidikan Teknologi Informasi FILKOM Universitas Brawijaya dengan minat pada product management, desain, dan pengembangan produk digital.",
+            "affiliation": {
+              "@id": "https://rofiporto.vercel.app/#universitas-brawijaya"
+            },
+            "mainEntityOfPage": {
+              "@id": "https://rofiporto.vercel.app/about#webpage"
+            },
+            "sameAs": [
+              "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+              "https://github.com/ahmadrofiussuud",
+              "https://www.instagram.com/ahmadrfsd_/"
+            ]
+          },
+          {
+            "@type": "CollegeOrUniversity",
+            "@id": "https://rofiporto.vercel.app/#universitas-brawijaya",
+            "name": "Universitas Brawijaya",
+            "url": "https://www.ub.ac.id/"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://rofiporto.vercel.app/#website",
+            "name": "Muhammad Ahmad Rofi’us Su’ud",
+            "alternateName": [
+              "MARS",
+              "Portofolio Muhammad Ahmad Rofi’us Su’ud"
+            ],
+            "url": "https://rofiporto.vercel.app/",
+            "inLanguage": "id-ID",
+            "publisher": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            }
+          },
+          {
+            "@type": "CreativeWork",
+            "@id": "https://rofiporto.vercel.app/projects/telaahkarier#work",
+            "name": "TelaahKarier — Analisis Risiko Lowongan Kerja",
+            "description": "Konsep TelaahKarier membantu meninjau risiko lowongan kerja digital sebelum melamar. Kenali alur pemeriksaan tanda bahaya dan demo platform yang tersedia.",
+            "url": "https://rofiporto.vercel.app/projects/telaahkarier",
+            "inLanguage": "id-ID",
+            "mainEntityOfPage": {
+              "@id": "https://rofiporto.vercel.app/projects/telaahkarier#webpage"
+            },
+            "image": "https://rofiporto.vercel.app/images/projects/telaahkarier-risk-analysis.png"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://rofiporto.vercel.app/projects/telaahkarier#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Beranda",
+                "item": "https://rofiporto.vercel.app"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Karya",
+                "item": "https://rofiporto.vercel.app/projects"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "TelaahKarier — Analisis Risiko Lowongan Kerja",
+                "item": "https://rofiporto.vercel.app/projects/telaahkarier"
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://rofiporto.vercel.app/projects/telaahkarier#webpage",
+            "url": "https://rofiporto.vercel.app/projects/telaahkarier",
+            "name": "TelaahKarier — Analisis Risiko Lowongan Kerja",
+            "description": "Konsep TelaahKarier membantu meninjau risiko lowongan kerja digital sebelum melamar. Kenali alur pemeriksaan tanda bahaya dan demo platform yang tersedia.",
+            "inLanguage": "id-ID",
+            "isPartOf": {
+              "@id": "https://rofiporto.vercel.app/#website"
+            },
+            "about": {
+              "@id": "https://rofiporto.vercel.app/#person"
+            },
+            "mainEntity": {
+              "@id": "https://rofiporto.vercel.app/projects/telaahkarier#work"
+            },
+            "breadcrumb": {
+              "@id": "https://rofiporto.vercel.app/projects/telaahkarier#breadcrumb"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,688 @@
+[
+  {
+    "path": "public/images/hero.jpg",
+    "bytes": 826960,
+    "width": 2670,
+    "height": 1782,
+    "format": "JPEG"
+  },
+  {
+    "path": "public/images/competitions/(GRAND CHAMPION) 2ndYPS.png",
+    "bytes": 653276,
+    "width": 2000,
+    "height": 1414,
+    "format": "PNG"
+  },
+  {
+    "path": "public/images/competitions/BEST ESSAY Lingkungan.jpg",
+    "bytes": 1240672,
+    "width": 1755,
+    "height": 1241,
+    "format": "JPEG"
+  },
+  {
+    "path": "public/images/competitions/BEST ESSAY Pendidikan.jpg",
+    "bytes": 1239279,
+    "width": 1755,
+    "height": 1241,
+    "format": "JPEG"
+  },
+  {
+    "path": "public/images/competitions/best-pm-raion.png",
+    "bytes": 16617349,
+    "width": 6000,
+    "height": 4242,
+    "format": "PNG"
+  },
+  {
+    "path": "public/images/competitions/brand-ambassador-hology-9-2026.jpg",
+    "bytes": 173006,
+    "width": 1600,
+    "height": 1131,
+    "format": "JPEG"
+  },
+  {
+    "path": "public/images/competitions/bronze medal neira.jpg",
+    "bytes": 154604,
+    "width": 997,
+    "height": 699,
+    "format": "JPEG"
+  },
+  {
+    "path": "public/images/competitions/bronze-medal-iss.png",
+    "bytes": 447481,
+    "width": 2000,
+    "height": 1414,
+    "format": "PNG"
+  },
+  {
+    "path": "public/images/competitions/fav poster neira 2.jpg",
+    "bytes": 153976,
+    "width": 993,
+    "height": 698,
+    "format": "JPEG"
+  },
+  {
+    "path": "public/images/competitions/finalis bmc.png",
+    "bytes": 954867,
+    "width": 2000,
+    "height": 1414,
+    "format": "PNG"
+  },
+  {
+    "path": "public/images/competitions/gold medal essay cnf.jpg",
+    "bytes": 164970,
+    "width": 993,
+    "height": 699,
+    "format": "JPEG"
+  },
+  {
+    "path": "public/images/competitions/indigo sertif.jpg",
+    "bytes": 93464,
+    "width": 683,
+    "height": 478,
+    "format": "JPEG"
+  },
+  {
+    "path": "public/images/competitions/JUARA 1 BPC UIN MADURA.png",
+    "bytes": 2889618,
+    "width": 6250,
+    "height": 4419,
+    "format": "PNG"
+  },
+  {
+    "path": "public/images/competitions/juara 3 umsida.jpg",
+    "bytes": 154299,
+    "width": 1157,
+    "height": 822,
+    "format": "JPEG"
+  },
+  {
+    "path": "public/images/competitions/mawapres-filkom-2027-juara-1.png",
+    "bytes": 1883893,
+    "width": 1448,
+    "height": 1086,
+    "format": "PNG"
+  },
+  {
+    "path": "public/images/competitions/mentor-mini-case-competition-180dc-ub-2026.png",
+    "bytes": 970358,
+    "width": 2000,
+    "height": 1414,
+    "format": "PNG"
+  },
+  {
+    "path": "public/images/competitions/mentor-pkkmb-startup-academy-2026.png",
+    "bytes": 839722,
+    "width": 1600,
+    "height": 1132,
+    "format": "PNG"
+  },
+  {
+    "path": "public/images/competitions/pemateri-sahabat-tani-2026.jpg",
+    "bytes": 149994,
+    "width": 1600,
+    "height": 1131,
+    "format": "JPEG"
+  },
+  {
+    "path": "public/images/competitions/pemateri-workshop-product-management-bcc.jpg",
+    "bytes": 555362,
+    "width": 1755,
+    "height": 1240,
+    "format": "JPEG"
+  },
+  {
+    "path": "public/images/competitions/phic-paper-ilmiah-2026.png",
+    "bytes": 1528605,
+    "width": 1800,
+    "height": 1266,
+    "format": "PNG"
+  },
+  {
+    "path": "public/images/competitions/seminar-debug-peran-puan-2024.png",
+    "bytes": 656266,
+    "width": 1130,
+    "height": 800,
+    "format": "PNG"
+  },
+  {
+    "path": "public/images/competitions/Sertif Best Paper.jpeg",
+    "bytes": 213407,
+    "width": 1600,
+    "height": 1131,
+    "format": "JPEG"
+  },
+  {
+    "path": "public/images/competitions/sertif fav poster bali.jpg",
+    "bytes": 177262,
+    "width": 1600,
+    "height": 1131,
+    "format": "JPEG"
+  },
+  {
+    "path": "public/images/competitions/SERTIF FAV POSTER YPS.png",
+    "bytes": 666738,
+    "width": 2000,
+    "height": 1414,
+    "format": "PNG"
+  },
+  {
+    "path": "public/images/competitions/Sertif finalis arunika sby.png",
+    "bytes": 367492,
+    "width": 2000,
+    "height": 1414,
+    "format": "PNG"
+  },
+  {
+    "path": "public/images/competitions/sertif finalis unair.png",
+    "bytes": 705110,
+    "width": 2000,
+    "height": 1414,
+    "format": "PNG"
+  },
+  {
+    "path": "public/images/competitions/SERTIF GOLD MEDAL YPS.png",
+    "bytes": 662462,
+    "width": 2000,
+    "height": 1414,
+    "format": "PNG"
+  },
+  {
+    "path": "public/images/competitions/Sertif Gold Medal.jpeg",
+    "bytes": 213657,
+    "width": 1600,
+    "height": 1131,
+    "format": "JPEG"
+  },
+  {
+    "path": "public/images/competitions/Sertif Juara 2.jpeg",
+    "bytes": 210347,
+    "width": 1600,
+    "height": 1131,
+    "format": "JPEG"
+  },
+  {
+    "path": "public/images/competitions/SERTIF JUARA 3 YPS.png",
+    "bytes": 661233,
+    "width": 2000,
+    "height": 1414,
+    "format": "PNG"
+  },
+  {
+    "path": "public/images/competitions/SERTIF JUARA 4 YPS.png",
+    "bytes": 661611,
+    "width": 2000,
+    "height": 1414,
+    "format": "PNG"
+  },
+  {
+    "path": "public/images/competitions/Sertif Juara Umum.jpeg",
+    "bytes": 211931,
+    "width": 1600,
+    "height": 1131,
+    "format": "JPEG"
+  },
+  {
+    "path": "public/images/competitions/sertif manex.jpg",
+    "bytes": 186672,
+    "width": 842,
+    "height": 599,
+    "format": "JPEG"
+  },
+  {
+    "path": "public/images/competitions/sertif silver bali.jpg",
+    "bytes": 176102,
+    "width": 1600,
+    "height": 1131,
+    "format": "JPEG"
+  },
+  {
+    "path": "public/images/competitions/sertifikat intern studilanjut fix.png",
+    "bytes": 169683,
+    "width": 1171,
+    "height": 826,
+    "format": "PNG"
+  },
+  {
+    "path": "public/images/competitions/Sertifikat Pembicara StudiLanjut Universe.png",
+    "bytes": 3811562,
+    "width": 2000,
+    "height": 1414,
+    "format": "PNG"
+  },
+  {
+    "path": "public/images/competitions/sertifikat-wcc-web-development.jpeg",
+    "bytes": 121867,
+    "width": 1280,
+    "height": 905,
+    "format": "JPEG"
+  },
+  {
+    "path": "public/images/competitions/silver medal bp cnf.jpg",
+    "bytes": 159690,
+    "width": 995,
+    "height": 705,
+    "format": "JPEG"
+  },
+  {
+    "path": "public/images/competitions/Silver Medal NEIRA.jpg",
+    "bytes": 171746,
+    "width": 992,
+    "height": 700,
+    "format": "JPEG"
+  },
+  {
+    "path": "public/images/competitions/webinar-phic-unair-2026.jpg",
+    "bytes": 1479139,
+    "width": 1753,
+    "height": 1240,
+    "format": "JPEG"
+  },
+  {
+    "path": "public/images/competitions/_Juara II UNESA.jpg",
+    "bytes": 1221279,
+    "width": 1755,
+    "height": 1241,
+    "format": "JPEG"
+  },
+  {
+    "path": "public/images/profile/mars-profile.png",
+    "bytes": 16617349,
+    "width": 6000,
+    "height": 4242,
+    "format": "PNG"
+  },
+  {
+    "path": "public/images/profile/profile-clean.png",
+    "bytes": 1617571,
+    "width": 1254,
+    "height": 1254,
+    "format": "PNG"
+  },
+  {
+    "path": "public/images/profile/profile.png",
+    "bytes": 628919,
+    "width": 1200,
+    "height": 1200,
+    "format": "PNG"
+  },
+  {
+    "path": "public/images/profile/profile.webp",
+    "bytes": 63998,
+    "width": 1200,
+    "height": 1200,
+    "format": "WEBP"
+  },
+  {
+    "path": "public/images/projects/akademirofi-learning.png",
+    "bytes": 1945472,
+    "width": 1672,
+    "height": 941,
+    "format": "PNG"
+  },
+  {
+    "path": "public/images/projects/amora-cover.jpg.png",
+    "bytes": 1568534,
+    "width": 1906,
+    "height": 1064,
+    "format": "PNG"
+  },
+  {
+    "path": "public/images/projects/amora-platform-banner.png",
+    "bytes": 1824741,
+    "width": 1671,
+    "height": 941,
+    "format": "PNG"
+  },
+  {
+    "path": "public/images/projects/arah-career-path.png",
+    "bytes": 1986767,
+    "width": 1671,
+    "height": 941,
+    "format": "PNG"
+  },
+  {
+    "path": "public/images/projects/bcc-website-cover.png",
+    "bytes": 1764418,
+    "width": 1672,
+    "height": 941,
+    "format": "PNG"
+  },
+  {
+    "path": "public/images/projects/bcc-website.png",
+    "bytes": 911068,
+    "width": 1024,
+    "height": 577,
+    "format": "PNG"
+  },
+  {
+    "path": "public/images/projects/brand-ambassador-populix-revisi.png",
+    "bytes": 154302,
+    "width": 1600,
+    "height": 900,
+    "format": "PNG"
+  },
+  {
+    "path": "public/images/projects/brand-ambassador-populix.png",
+    "bytes": 151143,
+    "width": 1600,
+    "height": 900,
+    "format": "PNG"
+  },
+  {
+    "path": "public/images/projects/bustami-cover.jpeg",
+    "bytes": 222074,
+    "width": 1600,
+    "height": 908,
+    "format": "JPEG"
+  },
+  {
+    "path": "public/images/projects/bustanuddin-cover.jpeg",
+    "bytes": 196147,
+    "width": 1600,
+    "height": 910,
+    "format": "JPEG"
+  },
+  {
+    "path": "public/images/projects/cekat-healthcare-showcase.png",
+    "bytes": 1611510,
+    "width": 1670,
+    "height": 941,
+    "format": "PNG"
+  },
+  {
+    "path": "public/images/projects/edusell-cover.jpg",
+    "bytes": 147586,
+    "width": 1600,
+    "height": 912,
+    "format": "JPEG"
+  },
+  {
+    "path": "public/images/projects/ekspedisi-nusantara-math-adventure.png",
+    "bytes": 1705045,
+    "width": 1672,
+    "height": 941,
+    "format": "PNG"
+  },
+  {
+    "path": "public/images/projects/em-ub-2026-website.png",
+    "bytes": 262031,
+    "width": 1024,
+    "height": 582,
+    "format": "PNG"
+  },
+  {
+    "path": "public/images/projects/em-ub-2026.jpg",
+    "bytes": 292809,
+    "width": 889,
+    "height": 1600,
+    "format": "JPEG"
+  },
+  {
+    "path": "public/images/projects/filkom-league-2026.jpg",
+    "bytes": 157122,
+    "width": 1024,
+    "height": 576,
+    "format": "JPEG"
+  },
+  {
+    "path": "public/images/projects/gestory-cover.jpg",
+    "bytes": 181708,
+    "width": 1600,
+    "height": 920,
+    "format": "JPEG"
+  },
+  {
+    "path": "public/images/projects/gestory-cover.png",
+    "bytes": 352257,
+    "width": 1024,
+    "height": 584,
+    "format": "PNG"
+  },
+  {
+    "path": "public/images/projects/gestory-platform-banner.png",
+    "bytes": 1693057,
+    "width": 1672,
+    "height": 941,
+    "format": "PNG"
+  },
+  {
+    "path": "public/images/projects/ifhamkids-arabic-learning.png",
+    "bytes": 1704732,
+    "width": 1671,
+    "height": 941,
+    "format": "PNG"
+  },
+  {
+    "path": "public/images/projects/kedaiduta-cover.jpg",
+    "bytes": 117690,
+    "width": 1600,
+    "height": 909,
+    "format": "JPEG"
+  },
+  {
+    "path": "public/images/projects/kelasin-cover.png",
+    "bytes": 1445107,
+    "width": 1672,
+    "height": 941,
+    "format": "PNG"
+  },
+  {
+    "path": "public/images/projects/kelasin-platform.png",
+    "bytes": 161985,
+    "width": 1910,
+    "height": 990,
+    "format": "PNG"
+  },
+  {
+    "path": "public/images/projects/Ketua Pelaksana Website Eksekutif Mahasiswa 2026.png",
+    "bytes": 1518913,
+    "width": 1920,
+    "height": 1080,
+    "format": "PNG"
+  },
+  {
+    "path": "public/images/projects/ketua-pelaksana-filkom-league-2026.png",
+    "bytes": 313524,
+    "width": 1600,
+    "height": 1132,
+    "format": "PNG"
+  },
+  {
+    "path": "public/images/projects/lki amd.jpg",
+    "bytes": 274621,
+    "width": 1200,
+    "height": 1600,
+    "format": "JPEG"
+  },
+  {
+    "path": "public/images/projects/mandorin-bcc-intern-selection.png",
+    "bytes": 728441,
+    "width": 1280,
+    "height": 832,
+    "format": "PNG"
+  },
+  {
+    "path": "public/images/projects/mandorin-platform-banner.png",
+    "bytes": 1653842,
+    "width": 1672,
+    "height": 941,
+    "format": "PNG"
+  },
+  {
+    "path": "public/images/projects/misraproject-cover.jpg",
+    "bytes": 326591,
+    "width": 1600,
+    "height": 868,
+    "format": "JPEG"
+  },
+  {
+    "path": "public/images/projects/ngajikidz-ai-learning.png",
+    "bytes": 1719857,
+    "width": 1672,
+    "height": 941,
+    "format": "PNG"
+  },
+  {
+    "path": "public/images/projects/organasasi-bios-2025.jpg",
+    "bytes": 182243,
+    "width": 1280,
+    "height": 960,
+    "format": "JPEG"
+  },
+  {
+    "path": "public/images/projects/organisasi-bios-2026.jpg",
+    "bytes": 310896,
+    "width": 1600,
+    "height": 1200,
+    "format": "JPEG"
+  },
+  {
+    "path": "public/images/projects/pahamin-cover.jpg",
+    "bytes": 147463,
+    "width": 1600,
+    "height": 919,
+    "format": "JPEG"
+  },
+  {
+    "path": "public/images/projects/pahamin-learning-banner.png",
+    "bytes": 1578792,
+    "width": 1671,
+    "height": 941,
+    "format": "PNG"
+  },
+  {
+    "path": "public/images/projects/pelatihan-ar-sdn-3-dono.jpg",
+    "bytes": 337725,
+    "width": 1600,
+    "height": 1066,
+    "format": "JPEG"
+  },
+  {
+    "path": "public/images/projects/PM - BCC.png",
+    "bytes": 1813320,
+    "width": 2880,
+    "height": 1620,
+    "format": "PNG"
+  },
+  {
+    "path": "public/images/projects/rajut-wijaya-em-ub-banner.png",
+    "bytes": 1687688,
+    "width": 1672,
+    "height": 941,
+    "format": "PNG"
+  },
+  {
+    "path": "public/images/projects/Rebite Project.jpg",
+    "bytes": 242787,
+    "width": 1600,
+    "height": 906,
+    "format": "JPEG"
+  },
+  {
+    "path": "public/images/projects/rebite-food-waste-banner.png",
+    "bytes": 1479046,
+    "width": 1671,
+    "height": 941,
+    "format": "PNG"
+  },
+  {
+    "path": "public/images/projects/semarproject-cover.jpg",
+    "bytes": 156366,
+    "width": 1600,
+    "height": 877,
+    "format": "JPEG"
+  },
+  {
+    "path": "public/images/projects/serenityhub-cover.jpg.jpg",
+    "bytes": 193091,
+    "width": 1600,
+    "height": 844,
+    "format": "JPEG"
+  },
+  {
+    "path": "public/images/projects/sertif java.jpg",
+    "bytes": 180376,
+    "width": 1404,
+    "height": 977,
+    "format": "JPEG"
+  },
+  {
+    "path": "public/images/projects/sertif manajemen proyek.jpg",
+    "bytes": 115653,
+    "width": 1048,
+    "height": 743,
+    "format": "JPEG"
+  },
+  {
+    "path": "public/images/projects/Sertif Panitia LKMMTD.png",
+    "bytes": 1172204,
+    "width": 2000,
+    "height": 1414,
+    "format": "PNG"
+  },
+  {
+    "path": "public/images/projects/sertif pbo.jpg",
+    "bytes": 187424,
+    "width": 1398,
+    "height": 981,
+    "format": "JPEG"
+  },
+  {
+    "path": "public/images/projects/Sobataman-cover.jpg",
+    "bytes": 187169,
+    "width": 1600,
+    "height": 918,
+    "format": "JPEG"
+  },
+  {
+    "path": "public/images/projects/sobataman-platform-banner.png",
+    "bytes": 1527719,
+    "width": 1672,
+    "height": 941,
+    "format": "PNG"
+  },
+  {
+    "path": "public/images/projects/tehmbois-wcc-2026.png",
+    "bytes": 550173,
+    "width": 1227,
+    "height": 687,
+    "format": "PNG"
+  },
+  {
+    "path": "public/images/projects/telaahkarier-risk-analysis.png",
+    "bytes": 1698767,
+    "width": 1671,
+    "height": 941,
+    "format": "PNG"
+  },
+  {
+    "path": "public/images/projects/tenangingproject-cover.png",
+    "bytes": 1561461,
+    "width": 1898,
+    "height": 1035,
+    "format": "PNG"
+  },
+  {
+    "path": "public/images/projects/umkmgo-cover.png",
+    "bytes": 193739,
+    "width": 1600,
+    "height": 874,
+    "format": "JPEG"
+  },
+  {
+    "path": "public/images/projects/umkmgo-pasar-desa-banner.png",
+    "bytes": 1922623,
+    "width": 1671,
+    "height": 941,
+    "format": "PNG"
+  },
+  {
+    "path": "public/images/zhero/hero.jpg",
+    "bytes": 132611,
+    "width": 682,
+    "height": 1600,
+    "format": "JPEG"
+  }
+]

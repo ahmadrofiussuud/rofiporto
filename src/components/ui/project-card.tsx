@@ -9,7 +9,7 @@ export function ProjectCard({ project, featured = false, selectionNumber, headin
  const Heading = headingLevel === 2 ? "h2" : "h3";
  return <article className={`work-card ${featured ? "work-featured" : ""}`}>
   <Link href={`/projects/${slug}`} className={`work-image group${meta.imageFit === "contain" ? " work-image--contain" : ""}`} aria-label={`Lihat proyek ${meta.title}`}>
-   {image ? <Image src={image} alt={meta.title} fill sizes={featured ? "(max-width: 767px) 90vw, 65vw" : "(max-width: 767px) 90vw, 40vw"} className={meta.imageFit === "contain" ? "object-contain" : "object-cover transition-transform duration-500 group-hover:scale-[1.025]"} /> : <Code2 size={48} className="text-muted-foreground" />}
+   {image ? <Image src={image} alt={`Tampilan proyek ${meta.title}`} fill sizes="(max-width: 767px) calc(100vw - 40px), (max-width: 1279px) calc(50vw - 60px), 580px" className={meta.imageFit === "contain" ? "object-contain" : "object-cover transition-transform duration-500 group-hover:scale-[1.025]"} /> : <Code2 size={48} className="text-muted-foreground" />}
    <span className="work-arrow"><ArrowUpRight size={22} /></span>
   </Link>
   <div className="work-caption">

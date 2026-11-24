@@ -74,3 +74,7 @@ relatedProjects: ["project-slug-1"] # Optional linkage
 -   **Styling:** Tailwind CSS + `lucide-react` icons
 -   **Content:** MDX (via `next-mdx-remote`)
 -   **Typography:** Geist Sans / Mono
+
+## SEO status (24 November 2026)
+
+Phase 1–3 deployed pada checkpoint cd05aa6 dengan persetujuan pemilik. Phase 4 entity/branding disiapkan dan diuji lokal, belum dipush/deploy. Dokumentasi lengkap pada docs/seo/08-entity-architecture.md, 09-structured-data-validation.md dan 10-personal-branding-checklist.md. Framework aktual Next.js 16.1.6 (menggantikan versi lama pada daftar Tech Stack di atas).

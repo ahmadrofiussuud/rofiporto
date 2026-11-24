@@ -1,0 +1,863 @@
+[
+  {
+    "file": "phase5-after-competitions-desktop.json",
+    "url": "http://127.0.0.1:3101/competitions",
+    "fetched": "2026-11-24T15:27:16.651Z",
+    "scores": {
+      "performance": 99.0,
+      "accessibility": 96.0,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "largest-contentful-paint": 855.9430499999999,
+      "cumulative-layout-shift": 0,
+      "total-blocking-time": 57.49999999999994,
+      "first-contentful-paint": 267.31435,
+      "speed-index": 527.6406232022446,
+      "total-byte-weight": 716669
+    },
+    "jsTransferBytes": 200743,
+    "jsDecodedBytes": 633230,
+    "images": [
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2Fmawapres-filkom-2027-juara-1.png&w=384&q=75",
+        "bytes": 13298,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2F(GRAND%20CHAMPION)%202ndYPS.png&w=384&q=75",
+        "bytes": 15589,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2FSertif%20Juara%20Umum.jpeg&w=384&q=75",
+        "bytes": 15949,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2FSERTIF%20JUARA%203%20YPS.png&w=384&q=75",
+        "bytes": 15962,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2FSERTIF%20JUARA%204%20YPS.png&w=384&q=75",
+        "bytes": 16066,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2FJUARA%201%20BPC%20UIN%20MADURA.png&w=384&q=75",
+        "bytes": 15750,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2Fsertif%20manex.jpg&w=384&q=75",
+        "bytes": 18574,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2Fsertifikat-wcc-web-development.jpeg&w=384&q=75",
+        "bytes": 12966,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2F_Juara%20II%20UNESA.jpg&w=384&q=75",
+        "bytes": 22541,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2FSertif%20Juara%202.jpeg&w=384&q=75",
+        "bytes": 15702,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2Fjuara%203%20umsida.jpg&w=384&q=75",
+        "bytes": 14512,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2Findigo%20sertif.jpg&w=384&q=75",
+        "bytes": 15533,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2FSertif%20Best%20Paper.jpeg&w=384&q=75",
+        "bytes": 15983,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2FBEST%20ESSAY%20Pendidikan.jpg&w=384&q=75",
+        "bytes": 23097,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2FBEST%20ESSAY%20Lingkungan.jpg&w=384&q=75",
+        "bytes": 23057,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2FSERTIF%20GOLD%20MEDAL%20YPS.png&w=384&q=75",
+        "bytes": 16049,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2FSertif%20Gold%20Medal.jpeg&w=384&q=75",
+        "bytes": 16027,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2Fgold%20medal%20essay%20cnf.jpg&w=384&q=75",
+        "bytes": 12524,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2Fsilver%20medal%20bp%20cnf.jpg&w=384&q=75",
+        "bytes": 12459,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2FSilver%20Medal%20NEIRA.jpg&w=384&q=75",
+        "bytes": 16752,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2Fsertif%20silver%20bali.jpg&w=384&q=75",
+        "bytes": 15240,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2Fbronze-medal-iss.png&w=384&q=75",
+        "bytes": 13672,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2Fbronze%20medal%20neira.jpg&w=384&q=75",
+        "bytes": 15712,
+        "mime": "image/webp"
+      }
+    ]
+  },
+  {
+    "file": "phase5-after-competitions-mobile.json",
+    "url": "http://127.0.0.1:3101/competitions",
+    "fetched": "2026-11-24T15:26:49.258Z",
+    "scores": {
+      "performance": 92.0,
+      "accessibility": 96.0,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "largest-contentful-paint": 3299.7469,
+      "cumulative-layout-shift": 0,
+      "total-blocking-time": 50,
+      "first-contentful-paint": 1448.5823,
+      "speed-index": 1475.9320899995992,
+      "total-byte-weight": 586589
+    },
+    "jsTransferBytes": 199611,
+    "jsDecodedBytes": 631994,
+    "images": [
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2Fmawapres-filkom-2027-juara-1.png&w=640&q=75",
+        "bytes": 24684,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2F(GRAND%20CHAMPION)%202ndYPS.png&w=640&q=75",
+        "bytes": 32797,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2FSertif%20Juara%20Umum.jpeg&w=640&q=75",
+        "bytes": 32425,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2FSERTIF%20JUARA%203%20YPS.png&w=640&q=75",
+        "bytes": 33618,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2FSERTIF%20JUARA%204%20YPS.png&w=640&q=75",
+        "bytes": 33844,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2FJUARA%201%20BPC%20UIN%20MADURA.png&w=640&q=75",
+        "bytes": 35482,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2Fsertif%20manex.jpg&w=640&q=75",
+        "bytes": 41038,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2Fsertifikat-wcc-web-development.jpeg&w=640&q=75",
+        "bytes": 27316,
+        "mime": "image/webp"
+      }
+    ]
+  },
+  {
+    "file": "phase5-after-home-desktop.json",
+    "url": "http://127.0.0.1:3101/",
+    "fetched": "2026-11-24T15:24:07.453Z",
+    "scores": {
+      "performance": 100,
+      "accessibility": 96.0,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "largest-contentful-paint": 617.7036,
+      "cumulative-layout-shift": 0,
+      "total-blocking-time": 0,
+      "first-contentful-paint": 249.80239999999998,
+      "speed-index": 332.47743933369566,
+      "total-byte-weight": 455304
+    },
+    "jsTransferBytes": 200743,
+    "jsDecodedBytes": 633230,
+    "images": [
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fprofile%2Fprofile-clean.png&w=640&q=75",
+        "bytes": 35565,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fprojects%2Frajut-wijaya-em-ub-banner.png&w=640&q=75",
+        "bytes": 26933,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fprojects%2Fbcc-website-cover.png&w=640&q=75",
+        "bytes": 24533,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fprojects%2Fgestory-platform-banner.png&w=640&q=75",
+        "bytes": 26031,
+        "mime": "image/webp"
+      }
+    ]
+  },
+  {
+    "file": "phase5-after-home-mobile-repeat2.json",
+    "url": "http://127.0.0.1:3101/",
+    "fetched": "2026-11-24T15:25:07.796Z",
+    "scores": {
+      "performance": 74.0,
+      "accessibility": 96.0,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "largest-contentful-paint": 2929.61975,
+      "cumulative-layout-shift": 0,
+      "total-blocking-time": 927.5000000000001,
+      "first-contentful-paint": 977.2478999999998,
+      "speed-index": 1469.9284139940328,
+      "total-byte-weight": 392218
+    },
+    "jsTransferBytes": 144721,
+    "jsDecodedBytes": 474385,
+    "images": [
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fprofile%2Fprofile-clean.png&w=750&q=75",
+        "bytes": 44135,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fprojects%2Frajut-wijaya-em-ub-banner.png&w=750&q=75",
+        "bytes": 32795,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fprojects%2Fbcc-website-cover.png&w=750&q=75",
+        "bytes": 30655,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fprojects%2Fgestory-platform-banner.png&w=750&q=75",
+        "bytes": 32819,
+        "mime": "image/webp"
+      }
+    ]
+  },
+  {
+    "file": "phase5-after-home-mobile-repeat3.json",
+    "url": "http://127.0.0.1:3101/",
+    "fetched": "2026-11-24T15:25:25.831Z",
+    "scores": {
+      "performance": 95.0,
+      "accessibility": 96.0,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "largest-contentful-paint": 2928.8072,
+      "cumulative-layout-shift": 0,
+      "total-blocking-time": 45,
+      "first-contentful-paint": 909.2048,
+      "speed-index": 909.2048,
+      "total-byte-weight": 392218
+    },
+    "jsTransferBytes": 144721,
+    "jsDecodedBytes": 474385,
+    "images": [
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fprofile%2Fprofile-clean.png&w=750&q=75",
+        "bytes": 44135,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fprojects%2Frajut-wijaya-em-ub-banner.png&w=750&q=75",
+        "bytes": 32795,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fprojects%2Fbcc-website-cover.png&w=750&q=75",
+        "bytes": 30655,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fprojects%2Fgestory-platform-banner.png&w=750&q=75",
+        "bytes": 32819,
+        "mime": "image/webp"
+      }
+    ]
+  },
+  {
+    "file": "phase5-after-home-mobile.json",
+    "url": "http://127.0.0.1:3101/",
+    "fetched": "2026-11-24T15:23:50.354Z",
+    "scores": {
+      "performance": 93.0,
+      "accessibility": 96.0,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "largest-contentful-paint": 2888.5908750000003,
+      "cumulative-layout-shift": 0,
+      "total-blocking-time": 165,
+      "first-contentful-paint": 919.2727,
+      "speed-index": 1585.2244920046412,
+      "total-byte-weight": 392218
+    },
+    "jsTransferBytes": 144721,
+    "jsDecodedBytes": 474385,
+    "images": [
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fprofile%2Fprofile-clean.png&w=750&q=75",
+        "bytes": 44135,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fprojects%2Frajut-wijaya-em-ub-banner.png&w=750&q=75",
+        "bytes": 32795,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fprojects%2Fbcc-website-cover.png&w=750&q=75",
+        "bytes": 30655,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fprojects%2Fgestory-platform-banner.png&w=750&q=75",
+        "bytes": 32819,
+        "mime": "image/webp"
+      }
+    ]
+  },
+  {
+    "file": "phase5-before-competitions-desktop.json",
+    "url": "http://127.0.0.1:3101/competitions",
+    "fetched": "2026-11-24T15:16:05.954Z",
+    "scores": {
+      "performance": 100,
+      "accessibility": 96.0,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "largest-contentful-paint": 698.0645,
+      "cumulative-layout-shift": 0,
+      "total-blocking-time": 0,
+      "first-contentful-paint": 254.043,
+      "speed-index": 327.013697501412,
+      "total-byte-weight": 1149192
+    },
+    "jsTransferBytes": 214385,
+    "jsDecodedBytes": 677679,
+    "images": [
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2Fmawapres-filkom-2027-juara-1.png&w=640&q=75",
+        "bytes": 24684,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2F(GRAND%20CHAMPION)%202ndYPS.png&w=640&q=75",
+        "bytes": 32797,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2FSertif%20Juara%20Umum.jpeg&w=640&q=75",
+        "bytes": 32425,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2FSERTIF%20JUARA%203%20YPS.png&w=640&q=75",
+        "bytes": 33618,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2FSERTIF%20JUARA%204%20YPS.png&w=640&q=75",
+        "bytes": 33844,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2FJUARA%201%20BPC%20UIN%20MADURA.png&w=640&q=75",
+        "bytes": 35482,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2Fsertif%20manex.jpg&w=640&q=75",
+        "bytes": 41038,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2Fsertifikat-wcc-web-development.jpeg&w=640&q=75",
+        "bytes": 27316,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2F_Juara%20II%20UNESA.jpg&w=640&q=75",
+        "bytes": 52023,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2FSertif%20Juara%202.jpeg&w=640&q=75",
+        "bytes": 32096,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2Fjuara%203%20umsida.jpg&w=640&q=75",
+        "bytes": 29082,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2Findigo%20sertif.jpg&w=640&q=75",
+        "bytes": 30273,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2FSertif%20Best%20Paper.jpeg&w=640&q=75",
+        "bytes": 32679,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2FBEST%20ESSAY%20Pendidikan.jpg&w=640&q=75",
+        "bytes": 53055,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2FBEST%20ESSAY%20Lingkungan.jpg&w=640&q=75",
+        "bytes": 53099,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2FSERTIF%20GOLD%20MEDAL%20YPS.png&w=640&q=75",
+        "bytes": 33625,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2FSertif%20Gold%20Medal.jpeg&w=640&q=75",
+        "bytes": 32739,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2Fgold%20medal%20essay%20cnf.jpg&w=640&q=75",
+        "bytes": 28342,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2Fsilver%20medal%20bp%20cnf.jpg&w=640&q=75",
+        "bytes": 28969,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2FSilver%20Medal%20NEIRA.jpg&w=640&q=75",
+        "bytes": 33598,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2Fsertif%20silver%20bali.jpg&w=640&q=75",
+        "bytes": 32452,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2Fbronze-medal-iss.png&w=640&q=75",
+        "bytes": 29288,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2Fbronze%20medal%20neira.jpg&w=640&q=75",
+        "bytes": 30738,
+        "mime": "image/webp"
+      }
+    ]
+  },
+  {
+    "file": "phase5-before-competitions-mobile.json",
+    "url": "http://127.0.0.1:3101/competitions",
+    "fetched": "2026-11-24T15:13:50.349Z",
+    "scores": {
+      "performance": 89.0,
+      "accessibility": 96.0,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "largest-contentful-paint": 3368.9648499999994,
+      "cumulative-layout-shift": 0,
+      "total-blocking-time": 205.3450499999999,
+      "first-contentful-paint": 913.3099,
+      "speed-index": 1159.914760643704,
+      "total-byte-weight": 662894
+    },
+    "jsTransferBytes": 213253,
+    "jsDecodedBytes": 676443,
+    "images": [
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2Fmawapres-filkom-2027-juara-1.png&w=750&q=75",
+        "bytes": 30349,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2F(GRAND%20CHAMPION)%202ndYPS.png&w=750&q=75",
+        "bytes": 40246,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2FSertif%20Juara%20Umum.jpeg&w=750&q=75",
+        "bytes": 39928,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2FSERTIF%20JUARA%203%20YPS.png&w=750&q=75",
+        "bytes": 41359,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2FSERTIF%20JUARA%204%20YPS.png&w=750&q=75",
+        "bytes": 41501,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2FJUARA%201%20BPC%20UIN%20MADURA.png&w=750&q=75",
+        "bytes": 44019,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2Fsertif%20manex.jpg&w=750&q=75",
+        "bytes": 53527,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2Fsertifikat-wcc-web-development.jpeg&w=750&q=75",
+        "bytes": 34315,
+        "mime": "image/webp"
+      }
+    ]
+  },
+  {
+    "file": "phase5-before-home-desktop.json",
+    "url": "http://127.0.0.1:3101/",
+    "fetched": "2026-11-24T15:15:29.004Z",
+    "scores": {
+      "performance": 100,
+      "accessibility": 96.0,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "largest-contentful-paint": 620.1501499999999,
+      "cumulative-layout-shift": 0,
+      "total-blocking-time": 0,
+      "first-contentful-paint": 250.1001,
+      "speed-index": 299.36585449998427,
+      "total-byte-weight": 474819
+    },
+    "jsTransferBytes": 220555,
+    "jsDecodedBytes": 693033,
+    "images": [
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fprofile%2Fprofile-clean.png&w=640&q=75",
+        "bytes": 35565,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fprojects%2Frajut-wijaya-em-ub-banner.png&w=640&q=75",
+        "bytes": 26933,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fprojects%2Fbcc-website-cover.png&w=640&q=75",
+        "bytes": 24533,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fprojects%2Fgestory-platform-banner.png&w=640&q=75",
+        "bytes": 26031,
+        "mime": "image/webp"
+      }
+    ]
+  },
+  {
+    "file": "phase5-before-home-mobile.json",
+    "url": "http://127.0.0.1:3101/",
+    "fetched": "2026-11-24T15:15:02.686Z",
+    "scores": {
+      "performance": 96.0,
+      "accessibility": 96.0,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "largest-contentful-paint": 2831.68075,
+      "cumulative-layout-shift": 0,
+      "total-blocking-time": 33,
+      "first-contentful-paint": 912.5446,
+      "speed-index": 912.5446,
+      "total-byte-weight": 391923
+    },
+    "jsTransferBytes": 144723,
+    "jsDecodedBytes": 474373,
+    "images": [
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fprofile%2Fprofile-clean.png&w=750&q=75",
+        "bytes": 44135,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fprojects%2Frajut-wijaya-em-ub-banner.png&w=750&q=75",
+        "bytes": 32797,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fprojects%2Fbcc-website-cover.png&w=750&q=75",
+        "bytes": 30657,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fprojects%2Fgestory-platform-banner.png&w=750&q=75",
+        "bytes": 32821,
+        "mime": "image/webp"
+      }
+    ]
+  },
+  {
+    "file": "phase5-exploratory-competitions-desktop.json",
+    "url": "http://127.0.0.1:3101/competitions",
+    "fetched": "2026-11-24T15:24:55.360Z",
+    "scores": {
+      "performance": 96.0,
+      "accessibility": 96.0,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "largest-contentful-paint": 848.2954500000001,
+      "cumulative-layout-shift": 0,
+      "total-blocking-time": 148,
+      "first-contentful-paint": 269.76515,
+      "speed-index": 961.1240490033895,
+      "total-byte-weight": 716669
+    },
+    "jsTransferBytes": 200743,
+    "jsDecodedBytes": 633230,
+    "images": [
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2Fmawapres-filkom-2027-juara-1.png&w=384&q=75",
+        "bytes": 13298,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2F(GRAND%20CHAMPION)%202ndYPS.png&w=384&q=75",
+        "bytes": 15589,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2FSertif%20Juara%20Umum.jpeg&w=384&q=75",
+        "bytes": 15949,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2FSERTIF%20JUARA%203%20YPS.png&w=384&q=75",
+        "bytes": 15962,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2FSERTIF%20JUARA%204%20YPS.png&w=384&q=75",
+        "bytes": 16066,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2FJUARA%201%20BPC%20UIN%20MADURA.png&w=384&q=75",
+        "bytes": 15750,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2Fsertif%20manex.jpg&w=384&q=75",
+        "bytes": 18574,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2Fsertifikat-wcc-web-development.jpeg&w=384&q=75",
+        "bytes": 12966,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2F_Juara%20II%20UNESA.jpg&w=384&q=75",
+        "bytes": 22541,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2FSertif%20Juara%202.jpeg&w=384&q=75",
+        "bytes": 15702,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2Fjuara%203%20umsida.jpg&w=384&q=75",
+        "bytes": 14512,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2Findigo%20sertif.jpg&w=384&q=75",
+        "bytes": 15533,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2FSertif%20Best%20Paper.jpeg&w=384&q=75",
+        "bytes": 15983,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2FBEST%20ESSAY%20Pendidikan.jpg&w=384&q=75",
+        "bytes": 23097,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2FBEST%20ESSAY%20Lingkungan.jpg&w=384&q=75",
+        "bytes": 23057,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2FSERTIF%20GOLD%20MEDAL%20YPS.png&w=384&q=75",
+        "bytes": 16049,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2FSertif%20Gold%20Medal.jpeg&w=384&q=75",
+        "bytes": 16027,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2Fgold%20medal%20essay%20cnf.jpg&w=384&q=75",
+        "bytes": 12524,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2Fsilver%20medal%20bp%20cnf.jpg&w=384&q=75",
+        "bytes": 12459,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2FSilver%20Medal%20NEIRA.jpg&w=384&q=75",
+        "bytes": 16752,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2Fsertif%20silver%20bali.jpg&w=384&q=75",
+        "bytes": 15240,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2Fbronze-medal-iss.png&w=384&q=75",
+        "bytes": 13672,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2Fbronze%20medal%20neira.jpg&w=384&q=75",
+        "bytes": 15712,
+        "mime": "image/webp"
+      }
+    ]
+  },
+  {
+    "file": "phase5-exploratory-competitions-mobile.json",
+    "url": "http://127.0.0.1:3101/competitions",
+    "fetched": "2026-11-24T15:24:22.160Z",
+    "scores": {
+      "performance": 88.0,
+      "accessibility": 96.0,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "largest-contentful-paint": 3941.313350000001,
+      "cumulative-layout-shift": 0,
+      "total-blocking-time": 31,
+      "first-contentful-paint": 912.7118,
+      "speed-index": 1503.9833199971629,
+      "total-byte-weight": 586589
+    },
+    "jsTransferBytes": 199611,
+    "jsDecodedBytes": 631994,
+    "images": [
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2Fmawapres-filkom-2027-juara-1.png&w=640&q=75",
+        "bytes": 24684,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2F(GRAND%20CHAMPION)%202ndYPS.png&w=640&q=75",
+        "bytes": 32797,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2FSertif%20Juara%20Umum.jpeg&w=640&q=75",
+        "bytes": 32425,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2FSERTIF%20JUARA%203%20YPS.png&w=640&q=75",
+        "bytes": 33618,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2FSERTIF%20JUARA%204%20YPS.png&w=640&q=75",
+        "bytes": 33844,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2FJUARA%201%20BPC%20UIN%20MADURA.png&w=640&q=75",
+        "bytes": 35482,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2Fsertif%20manex.jpg&w=640&q=75",
+        "bytes": 41038,
+        "mime": "image/webp"
+      },
+      {
+        "url": "http://127.0.0.1:3101/_next/image?url=%2Fimages%2Fcompetitions%2Fsertifikat-wcc-web-development.jpeg&w=640&q=75",
+        "bytes": 27316,
+        "mime": "image/webp"
+      }
+    ]
+  }
+]

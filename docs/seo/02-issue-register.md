@@ -259,3 +259,52 @@ Tidak ada Critical terverifikasi. SEO-18 adalah High terverifikasi. Dua High lai
 - Rekomendasi: gunakan nama aset yang aman dan pertahankan redirect legacy saat deployment disetujui.
 - Estimasi effort: 1–2 jam, telah dikerjakan lokal.
 - Metode validasi: phase2-production-smoke.json dan phase2-preview-smoke.json, masing-masing 679 pemeriksaan lulus termasuk image/redirect. Verifikasi Vercel setelah deployment masih diperlukan.
+
+## Status Phase 4 dan checkpoint production — 24 November 2026
+
+| Audit ID | Status terbaru | Bukti / sisa |
+|---|---|---|
+| SEO-01 | Implemented locally Phase 4 | WebSite/Person ID stabil pada 36 halaman; entity smoke 469 lulus; validasi resmi dan deploy Phase 4 pending |
+| SEO-02 | Implemented locally Phase 4 | Favicon monogram multiukuran dan Apple icon HTTP 200; Google recrawl/site name tidak dijamin |
+| SEO-03 | Phase 3 deployed; Phase 4 branding local | Production 789 smoke lulus pada checkpoint; gambar sosial baru lokal 1200×630 dan og:site_name diselaraskan |
+| SEO-04/05/14/15 | Pending verification / owner input | Preview Vercel, data GSC, factual confirmations dan validator eksternal tetap belum lengkap |
+| SEO-18/19 | Deployed and smoke validated | Checkpoint production Phase 3 lulus link/image/redirect checks |
+
+Baseline dan tabel phase sebelumnya dipertahankan sebagai riwayat. Lihat 08–10 untuk detail implementasi dan batasan Phase 4. Tidak ada perubahan prioritas/claim untuk isu performa yang belum diukur ulang.
+
+## Status Phase 5 — 24 November 2026
+
+| Audit ID | Status | Bukti dan tindak lanjut |
+|---|---|---|
+| SEO-06 | Improved payload; LCP target still open (Medium) | Lighthouse before/after pada build production lokal. LCP mobile masih >2.5s, CLS 0. Lihat 11-performance-report.md dan seluruh run termasuk variasinya. Profiling text/font rendering dan field data masih diperlukan; jangan mengklaim CWV passed |
+| SEO-07 | Implemented locally, validated | sizes kartu/portrait/modal/detail/MDX sesuai konteks. Semua 73 sumber lokal dan optimizer WebP 200; pengujian ukuran lintas viewport. Belum deployed |
+| SEO-08 | Audited; preserve original documents/images | 98 raster diinventaris; 110 elemen render/73 sumber diperiksa. Next Image menyajikan WebP. Tidak melakukan kompresi lossy massal atau merusak URL bukti |
+| SEO-09 | Partially improved | Kontras label penghargaan diperbaiki untuk amber/sky/orange/emerald mode terang; dekorasi work-number dan audit warna lain tetap belum seluruhnya lulus. Tidak mengklaim WCAG penuh |
+| SEO-11 | Implemented Phase 3; regression verified Phase 5 | Modal mobile, Tab trap, Escape dan focus return diuji aktual. Tombol tutup kini minimal 44px. Animasi dipertahankan memakai m/LazyMotion |
+| SEO-15 | Pending external field data | PSI HTTP 429 pada phase ini, INP tidak tersedia. TBT lab tidak dipakai sebagai INP |
+| SEO-17 | Reviewed; priority retained | Kandidat LCP mobile saat pengujian adalah teks/brand. Portrait tetap priority untuk desktop; responsive sizes diperbaiki. Tidak mem-preload semua gambar |
+
+Validasi final: build/lint/typecheck lulus, 789 SEO checks dan 469 entity checks lulus. Ukuran layar 320/390/480/768/1440 pada enam route tanpa horizontal overflow pada sampel. Tidak ada regresi fungsi yang ditemukan pada pengujian sampel; skor lab berfluktuasi sehingga tidak diklaim performance selalu meningkat. Metode dan batasan pada laporan 11. Perubahan Phase 4/5 belum dipush/deploy.
+
+## Status Phase 6 — 24 November 2026
+
+| Audit ID | Status | Bukti / pekerjaan tersisa |
+|---|---|---|
+| SEO-12 | Partial content improvements implemented locally | 13 MDX diperjelas; case study Amora/WCC/AR, sumber serta batas hasil. Riset, proses rinci dan lessons learned membutuhkan data pemilik, tidak diisi fiktif. Dokumen 12–13 |
+| SEO-13 | Intent clarified; no consolidation yet | Tiga EM UB tetap memiliki scope peran/produk berbeda dan contextual links. Query/page GSC diperlukan sebelum usul merge/redirect |
+| SEO-14 | Partially mitigated | Angka 60.000, >50 panitia dan klaim dampak tak terukur tertentu tidak lagi disajikan sebagai hasil terverifikasi. Tanggal YPS/Mawapres/IPB, bukti proses dan status tetap pending pemilik |
+| SEO-16 | Source attribution improved; external limitations remain | Berita resmi FILKOM Amora ditemukan melalui hasil terindeks, open langsung 403. Tautan sumber bukan bukti backlink masuk. Checklist manual 15 |
+| SEO-05 | Still pending GSC | Screenshot urutan hasil tidak cukup untuk diagnosis kenaikan GitHub/penurunan portfolio. Live Rofiporto 200/lang=id; GitHub 200 berisi bio Inggris. Tidak ada klaim penalty/canonical salah |
+
+Validasi Phase 6: build/lint/typecheck lulus, SEO 791 checks/36 halaman, entity 469, content 11 lulus. Sampel konten mobile/desktop diperiksa melalui CUA. Tidak mengubah akun eksternal; Phase 4–6 masih lokal, belum dipush/deploy.
+
+## Status Phase 7 — 24 November 2026
+
+| Audit ID | Status | Bukti / sisa pekerjaan |
+|---|---|---|
+| SEO-05 | Initial actual GSC baseline obtained; limited history | Existing URL-prefix verified HTML tag; 28d CSV export, exact90d custom UI, 2 clicks/15 impressions, data hanya 16–22 Nov. Queries/pembanding belum tersedia; detail 17 |
+| SEO-04 | Production accessible; preview platform still pending | Public root/robots/sitemap 200. Tidak menganggap pengujian production membuktikan preview deployment guard |
+| SEO-15 | External validation partially completed | RRT production root 1 valid Profile page, Schema Validator 0 errors/warnings, W3C 3 samples 0 errors/warnings + informational notices. Field GSC mobile/desktop insufficient; PSI API429. Local graph Phase4 tetap menunggu external validation setelah deploy |
+| SEO-06 | New production lab snapshot, not a local before/after claim | Phase7 production home Lighthouse mobile99/desktop100, CLS0. Tidak menutup gap LCP competitions lokal atau menganggap field CWV passed |
+
+Sitemap GSC Success36, last read24Nov; root Inspection indexed/canonical sesuai, Live Test available. Page Indexing lama update16Nov berbeda dari Inspection root; empat contoh membutuhkan pemeriksaan individual, bukan klaim seluruh situs deindexed. Manual actions/security no issues; Links report0/no data bukan bukti tiadanya link. Panduan 16–18 dan CSV19 selesai. Bing dashboard, Screaming Frog, analytics account setup dan data pembanding tetap manual/pending. Tidak push/deploy atau memasang tracker.

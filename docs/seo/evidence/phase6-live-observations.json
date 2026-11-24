@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://rofiporto.vercel.app/",
+    "status": 200,
+    "lang": [
+      "id"
+    ],
+    "title": [
+      "Muhammad Ahmad Rofi’us Su’ud — Portofolio Resmi"
+    ],
+    "hasWebsiteSchema": false,
+    "hasEnglishBio": false,
+    "hasPortfolioLink": true,
+    "hasIndonesianPortfolioDescription": false
+  },
+  {
+    "url": "https://github.com/ahmadrofiussuud",
+    "status": 200,
+    "lang": [
+      "en"
+    ],
+    "title": [
+      "ahmadrofiussuud (Muhammad Ahmad Rofi&#39;us Su&#39;ud) · GitHub"
+    ],
+    "hasWebsiteSchema": false,
+    "hasEnglishBio": true,
+    "hasPortfolioLink": false,
+    "hasIndonesianPortfolioDescription": false
+  }
+]

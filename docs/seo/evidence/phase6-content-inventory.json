@@ -1,0 +1,437 @@
+[
+  {
+    "slug": "akademirofi",
+    "title": "Akademirofi — Platform Belajar BMC, BPC, dan Essay",
+    "category": "lomba",
+    "role": "",
+    "date": "",
+    "words": 57,
+    "headings": [
+      "Gambaran Umum",
+      "Pengalaman Belajar"
+    ],
+    "links": []
+  },
+  {
+    "slug": "amora",
+    "title": "Amora",
+    "category": "lomba",
+    "role": "Pengembang Utama / Arsitek",
+    "date": "2026-01-24",
+    "words": 119,
+    "headings": [
+      "Gambaran Umum",
+      "Fitur Utama",
+      "Dampak"
+    ],
+    "links": []
+  },
+  {
+    "slug": "arah-career",
+    "title": "ARAH — Platform Eksplorasi Karier",
+    "category": "lomba",
+    "role": "",
+    "date": "",
+    "words": 28,
+    "headings": [
+      "Gambaran Umum"
+    ],
+    "links": []
+  },
+  {
+    "slug": "bcc-pm",
+    "title": "Product Manager BCC",
+    "category": "organisasi",
+    "role": "Product Manager",
+    "date": "2026-03-01",
+    "words": 185,
+    "headings": [
+      "Gambaran Umum",
+      "Tanggung Jawab Utama"
+    ],
+    "links": [
+      "/projects/bcc-website"
+    ]
+  },
+  {
+    "slug": "bcc-website",
+    "title": "Website Resmi BCC (Basic Computing Community)",
+    "category": "organisasi",
+    "role": "Product Manager",
+    "date": "2026-06-01",
+    "words": 188,
+    "headings": [
+      "Gambaran Umum",
+      "Peran & Tanggung Jawab",
+      "Fitur Utama Website"
+    ],
+    "links": [
+      "/projects/bcc-pm"
+    ]
+  },
+  {
+    "slug": "bios-2025",
+    "title": "Bendahara Futsal BIOS",
+    "category": "organisasi",
+    "role": "Bendahara",
+    "date": "2025-02-17",
+    "words": 127,
+    "headings": [
+      "Gambaran Umum",
+      "Tanggung Jawab Utama"
+    ],
+    "links": [
+      "/projects/bios-2026"
+    ]
+  },
+  {
+    "slug": "bios-2026",
+    "title": "Ketua Futsal BIOS",
+    "category": "organisasi",
+    "role": "Ketua",
+    "date": "2026-02-22",
+    "words": 128,
+    "headings": [
+      "Gambaran Umum",
+      "Tanggung Jawab Utama"
+    ],
+    "links": [
+      "/projects/bios-2025"
+    ]
+  },
+  {
+    "slug": "cekat",
+    "title": "CEKAT — Platform Kesehatan Digital",
+    "category": "lomba",
+    "role": "",
+    "date": "",
+    "words": 27,
+    "headings": [
+      "Gambaran Umum"
+    ],
+    "links": []
+  },
+  {
+    "slug": "cert-java",
+    "title": "Java Fundamental Certificate",
+    "category": "skill",
+    "role": "Learner",
+    "date": "2025-11-19",
+    "words": 35,
+    "headings": [
+      "Tentang Sertifikasi"
+    ],
+    "links": [
+      "/images/projects/sertif%20java.jpg",
+      "/projects/cert-pbo"
+    ]
+  },
+  {
+    "slug": "cert-pbo",
+    "title": "Sertifikasi PBO",
+    "category": "skill",
+    "role": "Learner",
+    "date": "2025-11-27",
+    "words": 30,
+    "headings": [
+      "Tentang Sertifikasi"
+    ],
+    "links": [
+      "/images/projects/sertif%20pbo.jpg",
+      "/projects/cert-java"
+    ]
+  },
+  {
+    "slug": "cert-pm",
+    "title": "Sertifikasi Manajemen Proyek",
+    "category": "skill",
+    "role": "Learner",
+    "date": "2025-11-17",
+    "words": 40,
+    "headings": [
+      "Tentang Sertifikasi"
+    ],
+    "links": [
+      "/images/projects/sertif%20manajemen%20proyek.jpg",
+      "/projects/bcc-pm"
+    ]
+  },
+  {
+    "slug": "ekspedisi-nusantara",
+    "title": "Ekspedisi Nusantara — Math Adventure",
+    "category": "lomba",
+    "role": "",
+    "date": "",
+    "words": 28,
+    "headings": [
+      "Gambaran Umum"
+    ],
+    "links": []
+  },
+  {
+    "slug": "em-ub-web-2026",
+    "title": "Ketua Pelaksana Website EM UB 2026",
+    "category": "organisasi",
+    "role": "Ketua Pelaksana Website",
+    "date": "2026-01-15",
+    "words": 173,
+    "headings": [
+      "Gambaran Umum",
+      "Tanggung Jawab Utama"
+    ],
+    "links": [
+      "/projects/website-em-ub"
+    ]
+  },
+  {
+    "slug": "emub-2026",
+    "title": "Staff KOMINFO EM UB 2026",
+    "category": "organisasi",
+    "role": "Staff KOMINFO – PM Web",
+    "date": "2026-02-23",
+    "words": 147,
+    "headings": [
+      "Gambaran Umum",
+      "Tanggung Jawab Utama"
+    ],
+    "links": [
+      "/projects/website-em-ub"
+    ]
+  },
+  {
+    "slug": "filkom-league-2026",
+    "title": "Ketua Pelaksana Filkom League 2026",
+    "category": "organisasi",
+    "role": "Ketua Pelaksana",
+    "date": "2026-05-16",
+    "words": 197,
+    "headings": [
+      "Gambaran Umum",
+      "Tanggung Jawab Utama"
+    ],
+    "links": [
+      "/projects/bios-2026"
+    ]
+  },
+  {
+    "slug": "gestory",
+    "title": "Gestory",
+    "category": "lomba",
+    "role": "Pengembang Utama & UI Designer",
+    "date": "2026-05-20",
+    "words": 159,
+    "headings": [
+      "Gambaran Umum",
+      "Fitur Utama",
+      "Dampak"
+    ],
+    "links": []
+  },
+  {
+    "slug": "ifhamkids",
+    "title": "IfhamKids — Belajar Bahasa Arab untuk Anak",
+    "category": "lomba",
+    "role": "",
+    "date": "",
+    "words": 24,
+    "headings": [
+      "Gambaran Umum"
+    ],
+    "links": []
+  },
+  {
+    "slug": "jaspel-rsud-moh-saleh",
+    "title": "Perhitungan Jaspel — RSUD Moh. Saleh Probolinggo",
+    "category": "akademik",
+    "role": "Tim IT",
+    "date": "",
+    "words": 46,
+    "headings": [
+      "Tentang Proyek",
+      "Peran Saya"
+    ],
+    "links": [
+      "/projects/pelatihan-ar-sdn-3-dono"
+    ]
+  },
+  {
+    "slug": "kelasin",
+    "title": "Kelasin — Platform Digital",
+    "category": "lomba",
+    "role": "",
+    "date": "",
+    "words": 77,
+    "headings": [
+      "Gambaran Umum",
+      "Pengalaman Belajar"
+    ],
+    "links": [
+      "/projects/pelatihan-ar-sdn-3-dono"
+    ]
+  },
+  {
+    "slug": "lki-amd",
+    "title": "LKI AMD",
+    "category": "organisasi",
+    "role": "Anggota / Kontributor",
+    "date": "2026-02-17",
+    "words": 94,
+    "headings": [
+      "Gambaran Umum",
+      "Aktivitas Utama",
+      "Dampak"
+    ],
+    "links": []
+  },
+  {
+    "slug": "mandorin",
+    "title": "Mandorin — Platform Pembangunan Hunian",
+    "category": "lomba",
+    "role": "Proyek seleksi intern BCC",
+    "date": "",
+    "words": 40,
+    "headings": [
+      "Gambaran Umum"
+    ],
+    "links": []
+  },
+  {
+    "slug": "misra",
+    "title": "Profil Sekolah Dasar",
+    "category": "kerja",
+    "role": "Web Developer",
+    "date": "2026-02-15",
+    "words": 128,
+    "headings": [
+      "Gambaran Umum",
+      "Fitur Utama",
+      "Dampak"
+    ],
+    "links": []
+  },
+  {
+    "slug": "ngajikidz",
+    "title": "NgajiKidz — Belajar Mengaji dengan AI",
+    "category": "lomba",
+    "role": "",
+    "date": "",
+    "words": 21,
+    "headings": [
+      "Gambaran Umum"
+    ],
+    "links": []
+  },
+  {
+    "slug": "pahamin",
+    "title": "PahamIn",
+    "category": "lomba",
+    "role": "Frontend Engineer",
+    "date": "2026-05-05",
+    "words": 166,
+    "headings": [
+      "Gambaran Umum",
+      "Fitur Utama",
+      "Dampak"
+    ],
+    "links": []
+  },
+  {
+    "slug": "pelatihan-ar-sdn-3-dono",
+    "title": "Pelatihan Media Pembelajaran AR — SDN 3 Dono",
+    "category": "akademik",
+    "role": "Kolaborasi bersama dosen",
+    "date": "",
+    "words": 51,
+    "headings": [
+      "Tentang Proyek",
+      "Tujuan"
+    ],
+    "links": [
+      "/projects/kelasin"
+    ]
+  },
+  {
+    "slug": "rebite",
+    "title": "ReBite Project",
+    "category": "lomba",
+    "role": "Ketua Proyek / Pengembang",
+    "date": "2026-02-17",
+    "words": 111,
+    "headings": [
+      "Gambaran Umum",
+      "Fitur Utama",
+      "Dampak"
+    ],
+    "links": []
+  },
+  {
+    "slug": "sobataman",
+    "title": "SobatAman — Platform Pendamping Terverifikasi",
+    "category": "lomba",
+    "role": "",
+    "date": "",
+    "words": 25,
+    "headings": [
+      "Gambaran Umum"
+    ],
+    "links": []
+  },
+  {
+    "slug": "tehmbois-wcc",
+    "title": "TehMbois — Website Brand Minuman",
+    "category": "lomba",
+    "role": "",
+    "date": "2026",
+    "words": 61,
+    "headings": [
+      "Gambaran Umum",
+      "Visual Proyek"
+    ],
+    "links": [
+      "/competitions#achievements"
+    ]
+  },
+  {
+    "slug": "telaahkarier",
+    "title": "TelaahKarier — Analisis Risiko Lowongan Kerja",
+    "category": "lomba",
+    "role": "",
+    "date": "",
+    "words": 34,
+    "headings": [
+      "Gambaran Umum"
+    ],
+    "links": []
+  },
+  {
+    "slug": "umkm-go",
+    "title": "UMKM Go",
+    "category": "kerja",
+    "role": "Full Stack Developer",
+    "date": "2026-07-08",
+    "words": 186,
+    "headings": [
+      "Gambaran Umum",
+      "Fitur Utama",
+      "Dampak"
+    ],
+    "links": []
+  },
+  {
+    "slug": "website-em-ub",
+    "title": "Website Resmi EM UB 2026",
+    "category": "lomba",
+    "role": "Product Manager & Ketua Pelaksana",
+    "date": "2026-03-01",
+    "words": 261,
+    "headings": [
+      "Gambaran Umum",
+      "Peran & Kontribusi Utama",
+      "Fitur Utama Website"
+    ],
+    "links": [
+      "/projects/emub-2026",
+      "/projects/em-ub-web-2026"
+    ]
+  }
+]
