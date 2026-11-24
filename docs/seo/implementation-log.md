@@ -10,6 +10,8 @@
 - Build/lint/types lulus. Regression HTTP 36 halaman/789 pemeriksaan lulus. Lighthouse accessibility 96, SEO 100.
 - UI browser regression Phase 3 belum berjalan karena automatic approval review gagal akibat usage limit. Tidak mengklaim pengujian keyboard/visual modal baru lulus.
 - Pengguna menginstruksikan push setelah Phase 3, kemudian melanjutkan Phase 4. Perubahan Phase 1–3 masih satu working tree hingga checkpoint push; SHA/status push dicatat setelah berhasil.
+- Checkpoint lokal Phase 1–3 tersimpan pada commit 01c7bb9. Push belum dieksekusi: automatic approval review menolak perintah gabungan commit/push karena master memicu deployment Vercel dan meminta persetujuan production tersendiri. Setelah penolakan, hanya staging dan commit lokal yang dilakukan.
+- Phase 4 menunggu penyelesaian checkpoint push sesuai urutan pengguna. Tidak ada implementasi Phase 4 atau perubahan akun eksternal pada checkpoint ini.
 
 ## 2026-11-24 — Persiapan dokumentasi
 
