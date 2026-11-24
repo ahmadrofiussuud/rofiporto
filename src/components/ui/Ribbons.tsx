@@ -18,6 +18,15 @@ interface RibbonsProps {
     backgroundColor?: number[];
 }
 
+interface RibbonLine {
+    spring: number;
+    friction: number;
+    mouseVelocity: Vec3;
+    mouseOffset: Vec3;
+    points: Vec3[];
+    polyline: Polyline;
+}
+
 const Ribbons = ({
     colors = ['#FC8EAC'],
     baseSpring = 0.03,
@@ -55,7 +64,7 @@ const Ribbons = ({
         container.appendChild(gl.canvas);
 
         const scene = new Transform();
-        const lines: any[] = [];
+        const lines: RibbonLine[] = [];
 
         const vertex = `
       precision highp float;
@@ -132,14 +141,11 @@ const Ribbons = ({
                 0
             );
 
-            const line: any = { spring, friction, mouseVelocity: new Vec3(), mouseOffset };
             const points: Vec3[] = [];
             for (let i = 0; i < pointCount; i++) {
                 points.push(new Vec3());
             }
-            line.points = points;
-
-            line.polyline = new Polyline(gl, {
+            const polyline = new Polyline(gl, {
                 points,
                 vertex,
                 fragment,
@@ -153,6 +159,7 @@ const Ribbons = ({
                     uEnableFade: { value: enableFade ? 1.0 : 0.0 }
                 }
             });
+            const line: RibbonLine = { spring, friction, mouseVelocity: new Vec3(), mouseOffset, points, polyline };
             line.polyline.mesh.setParent(scene);
             lines.push(line);
         });
@@ -224,9 +231,8 @@ const Ribbons = ({
             window.removeEventListener('touchstart', updateMouse as EventListener);
             window.removeEventListener('touchmove', updateMouse as EventListener);
             cancelAnimationFrame(frameId);
-            const el = containerRef.current;
-            if (el && gl.canvas && gl.canvas.parentNode === el) {
-                el.removeChild(gl.canvas);
+            if (gl.canvas.parentNode === container) {
+                container.removeChild(gl.canvas);
             }
         };
     }, [colors, baseSpring, baseFriction, baseThickness, offsetFactor, maxAge, pointCount, speedMultiplier, enableFade, enableShaderEffect, effectAmplitude, backgroundColor]);

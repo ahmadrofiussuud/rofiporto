@@ -2,12 +2,15 @@ import type { Metadata } from "next";
 import { getProjectBySlug, getSlugs } from "@/lib/content";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import { Button } from "@/components/ui/button";
-import { ArrowLeft, Github, ExternalLink, Calendar, User, Layers, Trophy, FileJson } from "lucide-react";
+import { ArrowLeft, Github, ExternalLink, User, Layers, Trophy, FileJson } from "lucide-react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Badge } from "@/components/ui/badge";
 import { MdxImage } from "@/components/MdxImage";
 import Image from "next/image";
+import { pageMetadata } from "@/lib/seo";
+
+export const dynamicParams = false;
 
 // Components mapping for MDX
 const mdxComponents = {
@@ -25,12 +28,13 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
     const { slug } = await params;
     const project = getProjectBySlug(slug);
-    if (!project) return { title: "Proyek Tidak Ditemukan" };
-    return {
-        title: `${project.meta.title} — Muhammad Ahmad Rofi’us Su’ud`,
+    if (!project) notFound();
+    return pageMetadata({
+        title: `${project.meta.seoTitle || project.meta.title} — Muhammad Ahmad Rofi’us Su’ud`,
         description: project.meta.description,
-        alternates: { canonical: `/projects/${slug}` },
-    };
+        pathname: `/projects/${project.slug}`,
+        image: project.meta.heroImage || project.meta.thumbnail,
+    });
 }
 
 export default async function ProjectPage({ params }: { params: Promise<{ slug: string }> }) {
@@ -84,7 +88,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
                     <div className="flex flex-wrap gap-4 items-center">
                         {meta.demoUrl ? (
                             <Button asChild>
-                                <Link href={meta.demoUrl} target="_blank">
+                                <Link href={meta.demoUrl} target="_blank" rel="noopener noreferrer" aria-label={`Demo langsung ${meta.title}`}>
                                     <ExternalLink className="mr-2 h-4 w-4" /> Demo Langsung
                                 </Link>
                             </Button>
@@ -99,7 +103,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
                         ) : null}
                         {meta.repoUrl && (
                             <Button asChild variant="outline">
-                                <Link href={meta.repoUrl} target="_blank">
+                                <Link href={meta.repoUrl} target="_blank" rel="noopener noreferrer" aria-label={`Lihat kode ${meta.title}`}>
                                     <Github className="mr-2 h-4 w-4" /> Lihat Kode
                                 </Link>
                             </Button>
@@ -148,14 +152,17 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
             </article>
 
             {/* Footer Navigation */}
-            <div className="mt-16 pt-8 border-t border-border/40 flex justify-between">
+            <nav aria-label="Navigasi proyek" className="mt-16 pt-8 border-t border-border/40 flex flex-wrap gap-4 justify-between">
                 <Link href="/projects" className="text-muted-foreground hover:text-foreground transition-colors">
                     ← Kembali ke Proyek
+                </Link>
+                <Link href="/about" className="text-muted-foreground hover:text-foreground transition-colors">
+                    Profil Muhammad Ahmad Rofi’us Su’ud
                 </Link>
                 <Link href="/contact" className="text-primary hover:underline">
                     Mari bekerja sama →
                 </Link>
-            </div>
+            </nav>
         </div>
     );
 }

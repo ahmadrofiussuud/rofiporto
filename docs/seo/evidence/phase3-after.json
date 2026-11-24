@@ -1,0 +1,2541 @@
+{
+  "date": "2026-11-24T10:15:18.998Z",
+  "base": "http://127.0.0.1:3101",
+  "pages": [
+    {
+      "route": "/",
+      "status": 200,
+      "title": "Muhammad Ahmad Rofi’us Su’ud — Portofolio Resmi",
+      "description": "Portofolio Muhammad Ahmad Rofi’us Su’ud, mahasiswa FILKOM Universitas Brawijaya. Jelajahi karya produk digital, pengalaman product management, dan organisasi.",
+      "ogTitle": "Muhammad Ahmad Rofi’us Su’ud — Portofolio Resmi",
+      "ogDescription": "Portofolio Muhammad Ahmad Rofi’us Su’ud, mahasiswa FILKOM Universitas Brawijaya. Jelajahi karya produk digital, pengalaman product management, dan organisasi.",
+      "twitterTitle": "Muhammad Ahmad Rofi’us Su’ud — Portofolio Resmi",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Muhammad Ahmad Rofi’us Su’ud."
+        },
+        {
+          "level": 2,
+          "text": "Dari ide menjadi karya."
+        },
+        {
+          "level": 3,
+          "text": "Website Resmi EM UB 2026"
+        },
+        {
+          "level": 3,
+          "text": "Website Resmi BCC (Basic Computing Community)"
+        },
+        {
+          "level": 3,
+          "text": "Gestory"
+        },
+        {
+          "level": 2,
+          "text": "Cara saya mengurai masalah."
+        },
+        {
+          "level": 3,
+          "text": "Apa masalahnya?"
+        },
+        {
+          "level": 3,
+          "text": "Apa yang didahulukan?"
+        },
+        {
+          "level": 3,
+          "text": "Bagaimana mewujudkannya?"
+        },
+        {
+          "level": 2,
+          "text": "Mulai dari percakapan."
+        }
+      ],
+      "links": [
+        "#main-content",
+        "/",
+        "/",
+        "/projects",
+        "/about",
+        "/competitions",
+        "/contact",
+        "#karya",
+        "/about",
+        "/projects",
+        "/projects/website-em-ub",
+        "/projects/website-em-ub",
+        "/projects/website-em-ub",
+        "/projects/bcc-website",
+        "/projects/bcc-website",
+        "/projects/bcc-website",
+        "/projects/gestory",
+        "/projects/gestory",
+        "/projects/gestory",
+        "/contact",
+        "/",
+        "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+        "https://github.com/ahmadrofiussuud",
+        "https://www.instagram.com/ahmadrfsd_/",
+        "mailto:ahmadrofiussuud@gmail.com"
+      ]
+    },
+    {
+      "route": "/about",
+      "status": 200,
+      "title": "Profil Muhammad Ahmad Rofi’us Su’ud | FILKOM UB",
+      "description": "Kenali Rofi, mahasiswa Pendidikan Teknologi Informasi FILKOM Universitas Brawijaya, serta pengalamannya dalam product management, EM UB, dan BCC.",
+      "ogTitle": "Profil Muhammad Ahmad Rofi’us Su’ud | FILKOM UB",
+      "ogDescription": "Kenali Rofi, mahasiswa Pendidikan Teknologi Informasi FILKOM Universitas Brawijaya, serta pengalamannya dalam product management, EM UB, dan BCC.",
+      "twitterTitle": "Profil Muhammad Ahmad Rofi’us Su’ud | FILKOM UB",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Tentang Rofi. Produk & kolaborasi."
+        },
+        {
+          "level": 2,
+          "text": "Halo, saya Rofi."
+        },
+        {
+          "level": 2,
+          "text": "PERTEMUAN PRODUK & TEKNOLOGI"
+        },
+        {
+          "level": 2,
+          "text": "AREA YANG SAYA KERJAKAN"
+        },
+        {
+          "level": 3,
+          "text": "Produk & kolaborasi"
+        },
+        {
+          "level": 3,
+          "text": "Desain & pengembangan"
+        },
+        {
+          "level": 2,
+          "text": "Belajar lewat tanggung jawab."
+        },
+        {
+          "level": 3,
+          "text": "Staff KOMINFO EM UB 2026"
+        },
+        {
+          "level": 3,
+          "text": "Product Manager BCC"
+        },
+        {
+          "level": 3,
+          "text": "Ketua Pelaksana Filkom League 2026"
+        },
+        {
+          "level": 3,
+          "text": "Ketua Futsal BIOS"
+        },
+        {
+          "level": 3,
+          "text": "Bendahara Futsal BIOS"
+        },
+        {
+          "level": 2,
+          "text": "Pengalaman mewakili brand."
+        },
+        {
+          "level": 3,
+          "text": "HOLOGY — FILKOM UB"
+        },
+        {
+          "level": 3,
+          "text": "PopSurvey by Populix"
+        }
+      ],
+      "links": [
+        "#main-content",
+        "/",
+        "/",
+        "/projects",
+        "/about",
+        "/competitions",
+        "/contact",
+        "/projects/website-em-ub",
+        "/projects/bcc-website",
+        "/projects",
+        "/contact",
+        "/projects/emub-2026",
+        "/projects/bcc-pm",
+        "/projects/filkom-league-2026",
+        "/projects/bios-2026",
+        "/projects/bios-2025",
+        "/projects",
+        "/competitions",
+        "/competitions#ambassadors",
+        "/competitions#ambassadors",
+        "/",
+        "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+        "https://github.com/ahmadrofiussuud",
+        "https://www.instagram.com/ahmadrfsd_/",
+        "mailto:ahmadrofiussuud@gmail.com"
+      ]
+    },
+    {
+      "route": "/projects",
+      "status": 200,
+      "title": "Karya & Pengalaman — Muhammad Ahmad Rofi’us Su’ud",
+      "description": "Jelajahi karya digital, product management, pengalaman organisasi, dan kolaborasi akademik Rofi melalui dokumentasi proyek dan kontribusinya.",
+      "ogTitle": "Karya & Pengalaman — Muhammad Ahmad Rofi’us Su’ud",
+      "ogDescription": "Jelajahi karya digital, product management, pengalaman organisasi, dan kolaborasi akademik Rofi melalui dokumentasi proyek dan kontribusinya.",
+      "twitterTitle": "Karya & Pengalaman — Muhammad Ahmad Rofi’us Su’ud",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Karya digital. Pengalaman & kolaborasi."
+        },
+        {
+          "level": 2,
+          "text": "Akademirofi — Platform Belajar BMC, BPC, dan Essay"
+        },
+        {
+          "level": 2,
+          "text": "UMKM Go"
+        },
+        {
+          "level": 2,
+          "text": "Amora"
+        },
+        {
+          "level": 2,
+          "text": "ARAH — Platform Eksplorasi Karier"
+        },
+        {
+          "level": 2,
+          "text": "Website Resmi BCC (Basic Computing Community)"
+        },
+        {
+          "level": 2,
+          "text": "Gestory"
+        },
+        {
+          "level": 2,
+          "text": "Ketua Pelaksana Filkom League 2026"
+        },
+        {
+          "level": 2,
+          "text": "PahamIn"
+        },
+        {
+          "level": 2,
+          "text": "Product Manager BCC"
+        },
+        {
+          "level": 2,
+          "text": "Website Resmi EM UB 2026"
+        },
+        {
+          "level": 2,
+          "text": "Staff KOMINFO EM UB 2026"
+        },
+        {
+          "level": 2,
+          "text": "Ketua Futsal BIOS"
+        },
+        {
+          "level": 2,
+          "text": "LKI AMD"
+        },
+        {
+          "level": 2,
+          "text": "ReBite Project"
+        },
+        {
+          "level": 2,
+          "text": "Profil Sekolah Dasar"
+        },
+        {
+          "level": 2,
+          "text": "Ketua Pelaksana Website EM UB 2026"
+        },
+        {
+          "level": 2,
+          "text": "Sertifikasi PBO"
+        },
+        {
+          "level": 2,
+          "text": "Java Fundamental Certificate"
+        },
+        {
+          "level": 2,
+          "text": "Sertifikasi Manajemen Proyek"
+        },
+        {
+          "level": 2,
+          "text": "Bendahara Futsal BIOS"
+        },
+        {
+          "level": 2,
+          "text": "CEKAT — Platform Kesehatan Digital"
+        },
+        {
+          "level": 2,
+          "text": "Ekspedisi Nusantara — Math Adventure"
+        },
+        {
+          "level": 2,
+          "text": "TehMbois — Website Brand Minuman"
+        },
+        {
+          "level": 2,
+          "text": "IfhamKids — Belajar Bahasa Arab untuk Anak"
+        },
+        {
+          "level": 2,
+          "text": "Perhitungan Jaspel — RSUD Moh. Saleh Probolinggo"
+        },
+        {
+          "level": 2,
+          "text": "Kelasin — Platform Digital"
+        },
+        {
+          "level": 2,
+          "text": "Mandorin — Platform Pembangunan Hunian"
+        },
+        {
+          "level": 2,
+          "text": "NgajiKidz — Belajar Mengaji dengan AI"
+        },
+        {
+          "level": 2,
+          "text": "Pelatihan Media Pembelajaran AR — SDN 3 Dono"
+        },
+        {
+          "level": 2,
+          "text": "SobatAman — Platform Pendamping Terverifikasi"
+        },
+        {
+          "level": 2,
+          "text": "TelaahKarier — Analisis Risiko Lowongan Kerja"
+        }
+      ],
+      "links": [
+        "#main-content",
+        "/",
+        "/",
+        "/projects",
+        "/about",
+        "/competitions",
+        "/contact",
+        "/about",
+        "/competitions",
+        "/projects/akademirofi",
+        "/projects/akademirofi",
+        "/projects/umkm-go",
+        "/projects/umkm-go",
+        "/projects/amora",
+        "/projects/amora",
+        "/projects/arah-career",
+        "/projects/arah-career",
+        "/projects/bcc-website",
+        "/projects/bcc-website",
+        "/projects/gestory",
+        "/projects/gestory",
+        "/projects/filkom-league-2026",
+        "/projects/filkom-league-2026",
+        "/projects/pahamin",
+        "/projects/pahamin",
+        "/projects/bcc-pm",
+        "/projects/bcc-pm",
+        "/projects/website-em-ub",
+        "/projects/website-em-ub",
+        "/projects/emub-2026",
+        "/projects/emub-2026",
+        "/projects/bios-2026",
+        "/projects/bios-2026",
+        "/projects/lki-amd",
+        "/projects/lki-amd",
+        "/projects/rebite",
+        "/projects/rebite",
+        "/projects/misra",
+        "/projects/misra",
+        "/projects/em-ub-web-2026",
+        "/projects/em-ub-web-2026",
+        "/projects/cert-pbo",
+        "/projects/cert-pbo",
+        "/projects/cert-java",
+        "/projects/cert-java",
+        "/projects/cert-pm",
+        "/projects/cert-pm",
+        "/projects/bios-2025",
+        "/projects/bios-2025",
+        "/projects/cekat",
+        "/projects/cekat",
+        "/projects/ekspedisi-nusantara",
+        "/projects/ekspedisi-nusantara",
+        "/projects/tehmbois-wcc",
+        "/projects/tehmbois-wcc",
+        "/projects/ifhamkids",
+        "/projects/ifhamkids",
+        "/projects/jaspel-rsud-moh-saleh",
+        "/projects/jaspel-rsud-moh-saleh",
+        "/projects/kelasin",
+        "/projects/kelasin",
+        "/projects/mandorin",
+        "/projects/mandorin",
+        "/projects/ngajikidz",
+        "/projects/ngajikidz",
+        "/projects/pelatihan-ar-sdn-3-dono",
+        "/projects/pelatihan-ar-sdn-3-dono",
+        "/projects/sobataman",
+        "/projects/sobataman",
+        "/projects/telaahkarier",
+        "/projects/telaahkarier",
+        "/",
+        "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+        "https://github.com/ahmadrofiussuud",
+        "https://www.instagram.com/ahmadrfsd_/",
+        "mailto:ahmadrofiussuud@gmail.com"
+      ]
+    },
+    {
+      "route": "/competitions",
+      "status": 200,
+      "title": "Prestasi & Pengalaman Berbagi — Muhammad Ahmad Rofi’us Su’ud",
+      "description": "Catatan kompetisi, mentoring, pemateri, dan brand ambassador Rofi, mahasiswa FILKOM UB, beserta dokumentasi sertifikat yang tersedia.",
+      "ogTitle": "Prestasi & Pengalaman Berbagi — Muhammad Ahmad Rofi’us Su’ud",
+      "ogDescription": "Catatan kompetisi, mentoring, pemateri, dan brand ambassador Rofi, mahasiswa FILKOM UB, beserta dokumentasi sertifikat yang tersedia.",
+      "twitterTitle": "Prestasi & Pengalaman Berbagi — Muhammad Ahmad Rofi’us Su’ud",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Prestasi & pengalaman berbagi."
+        },
+        {
+          "level": 2,
+          "text": "Pencapaian Utama(27)"
+        },
+        {
+          "level": 3,
+          "text": "Mahasiswa Berprestasi (Mawapres) — FILKOM UB"
+        },
+        {
+          "level": 3,
+          "text": "Finalis GEMASTIK 2026 — Divisi 8 RPL"
+        },
+        {
+          "level": 3,
+          "text": "Grand Champion (Winner) - 2nd Youth Project Series (YPS)"
+        },
+        {
+          "level": 3,
+          "text": "Juara Umum Essay IPB - Universitas Brawijaya"
+        },
+        {
+          "level": 3,
+          "text": "2nd Winner (Juara 3) - 2nd Youth Project Series (YPS)"
+        },
+        {
+          "level": 3,
+          "text": "1st Runner Up (Juara 4) - 2nd Youth Project Series (YPS)"
+        },
+        {
+          "level": 3,
+          "text": "Juara 1 Business Plan Competition - UIN Madura"
+        },
+        {
+          "level": 3,
+          "text": "Juara 1 Business Plan - Universitas Atma Jaya Jakarta"
+        },
+        {
+          "level": 3,
+          "text": "Juara 1 Web Dev WCC - Univ Islam Nahdlatul Ulama Jepara"
+        },
+        {
+          "level": 3,
+          "text": "Juara 2 Mathematics Essay Contest (MEC) - UNESA"
+        },
+        {
+          "level": 3,
+          "text": "Juara 2 Essay IPB"
+        },
+        {
+          "level": 3,
+          "text": "Juara 3 - Business Plan UMSIDA"
+        },
+        {
+          "level": 3,
+          "text": "The Most Marketable Business Plan - INDIGO Bandung 2025"
+        },
+        {
+          "level": 3,
+          "text": "Best Paper Essay IPB"
+        },
+        {
+          "level": 3,
+          "text": "Best Essay Pendidikan - Mathematics Essay Contest (MEC) UNESA"
+        },
+        {
+          "level": 3,
+          "text": "Best Essay Lingkungan - Mathematics Essay Contest (MEC) UNESA"
+        },
+        {
+          "level": 3,
+          "text": "Gold Medal - 2nd Youth Project Series (YPS)"
+        },
+        {
+          "level": 3,
+          "text": "Gold Medal Essay IPB"
+        },
+        {
+          "level": 3,
+          "text": "Gold Medal Essay UNY - CNF 2025"
+        },
+        {
+          "level": 3,
+          "text": "Silver Medal Business Plan - CNF"
+        },
+        {
+          "level": 3,
+          "text": "Silver Medal - NEIRA 2025"
+        },
+        {
+          "level": 3,
+          "text": "Bali Innovation Award - Silver Medal"
+        },
+        {
+          "level": 3,
+          "text": "Bronze Medal - 2nd International Student Summit"
+        },
+        {
+          "level": 3,
+          "text": "Bronze Medal Essay Capai Cita - NEIRA 2025"
+        },
+        {
+          "level": 3,
+          "text": "Favorite Poster - 2nd Youth Project Series (YPS)"
+        },
+        {
+          "level": 3,
+          "text": "Favorite Poster Dhyana Pura - National Student Poster Competition"
+        },
+        {
+          "level": 3,
+          "text": "Favorite Poster Capai Cita - NEIRA 2025"
+        },
+        {
+          "level": 2,
+          "text": "Pembicara & Pemateri(6)"
+        },
+        {
+          "level": 3,
+          "text": "Mentor Startup Academy / LKMM-TD 2025 — FILKOM UB"
+        },
+        {
+          "level": 3,
+          "text": "Mentor Startup Academy 2026 — FILKOM UB"
+        },
+        {
+          "level": 3,
+          "text": "Pemateri Technical Meeting Sahabat Tani 2026"
+        },
+        {
+          "level": 3,
+          "text": "Mentor Mini Case Competition — 180 Degrees Consulting UB"
+        },
+        {
+          "level": 3,
+          "text": "Pemateri Workshop #5: Product Management - BCC FILKOM UB"
+        },
+        {
+          "level": 3,
+          "text": "Speaker - StudiLanjut Universe"
+        },
+        {
+          "level": 2,
+          "text": "Pengalaman & Magang(2)"
+        },
+        {
+          "level": 3,
+          "text": "Curriculum Intern - StudiLanjut"
+        },
+        {
+          "level": 3,
+          "text": "Best Category of PM - Raion Academy 2025"
+        },
+        {
+          "level": 2,
+          "text": "Finalis & Partisipasi(4)"
+        },
+        {
+          "level": 3,
+          "text": "Paper Ilmiah — PHIC UNAIR 2026"
+        },
+        {
+          "level": 3,
+          "text": "Business Model Canvas - Finalist PHENTUSIAS UNAIR"
+        },
+        {
+          "level": 3,
+          "text": "Business Plan - Finalist"
+        },
+        {
+          "level": 3,
+          "text": "Finalist Business Model Canvas - ULM"
+        },
+        {
+          "level": 2,
+          "text": "Brand Ambassador(2)"
+        },
+        {
+          "level": 3,
+          "text": "Brand Ambassador HOLOGY — FILKOM UB"
+        },
+        {
+          "level": 3,
+          "text": "Popbuddy — PopSurvey by Populix"
+        },
+        {
+          "level": 2,
+          "text": "Seminar & Webinar(2)"
+        },
+        {
+          "level": 3,
+          "text": "Webinar PHIC 2026 — Universitas Airlangga"
+        },
+        {
+          "level": 3,
+          "text": "DEBUG 2.0 × PERAN PUAN — FILKOM UB"
+        }
+      ],
+      "links": [
+        "#main-content",
+        "/",
+        "/",
+        "/projects",
+        "/about",
+        "/competitions",
+        "/contact",
+        "/projects",
+        "/",
+        "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+        "https://github.com/ahmadrofiussuud",
+        "https://www.instagram.com/ahmadrfsd_/",
+        "mailto:ahmadrofiussuud@gmail.com"
+      ]
+    },
+    {
+      "route": "/contact",
+      "status": 200,
+      "title": "Kontak & Kolaborasi — Muhammad Ahmad Rofi’us Su’ud",
+      "description": "Hubungi Rofi untuk diskusi product management, desain, atau pengembangan produk digital melalui email dan profil profesional yang tercantum.",
+      "ogTitle": "Kontak & Kolaborasi — Muhammad Ahmad Rofi’us Su’ud",
+      "ogDescription": "Hubungi Rofi untuk diskusi product management, desain, atau pengembangan produk digital melalui email dan profil profesional yang tercantum.",
+      "twitterTitle": "Kontak & Kolaborasi — Muhammad Ahmad Rofi’us Su’ud",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Diskusi produk? Mari berkolaborasi."
+        },
+        {
+          "level": 2,
+          "text": "KIRIM PESAN LEWAT EMAIL"
+        },
+        {
+          "level": 2,
+          "text": "TEMUKAN SAYA JUGA DI"
+        }
+      ],
+      "links": [
+        "#main-content",
+        "/",
+        "/",
+        "/projects",
+        "/about",
+        "/competitions",
+        "/contact",
+        "mailto:ahmadrofiussuud@gmail.com",
+        "mailto:ahmadrofiussuud@gmail.com",
+        "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+        "https://github.com/ahmadrofiussuud",
+        "https://www.instagram.com/ahmadrfsd_/",
+        "/",
+        "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+        "https://github.com/ahmadrofiussuud",
+        "https://www.instagram.com/ahmadrfsd_/",
+        "mailto:ahmadrofiussuud@gmail.com"
+      ]
+    },
+    {
+      "route": "/projects/akademirofi",
+      "status": 200,
+      "title": "Akademirofi — Belajar BMC, BPC & Essay — Muhammad Ahmad Rofi’us Su’ud",
+      "description": "Platform belajar BMC, BPC, dan essay bagi rekan serta adik tingkat. Kenali konsep jalur belajar dan tampilan Akademirofi dalam dokumentasi proyek ini.",
+      "ogTitle": "Akademirofi — Belajar BMC, BPC & Essay — Muhammad Ahmad Rofi’us Su’ud",
+      "ogDescription": "Platform belajar BMC, BPC, dan essay bagi rekan serta adik tingkat. Kenali konsep jalur belajar dan tampilan Akademirofi dalam dokumentasi proyek ini.",
+      "twitterTitle": "Akademirofi — Belajar BMC, BPC & Essay — Muhammad Ahmad Rofi’us Su’ud",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Akademirofi — Platform Belajar BMC, BPC, dan Essay"
+        },
+        {
+          "level": 2,
+          "text": "Gambaran Umum"
+        },
+        {
+          "level": 2,
+          "text": "Pengalaman Belajar"
+        }
+      ],
+      "links": [
+        "#main-content",
+        "/",
+        "/",
+        "/projects",
+        "/about",
+        "/competitions",
+        "/contact",
+        "/projects",
+        "/projects",
+        "/about",
+        "/contact",
+        "/",
+        "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+        "https://github.com/ahmadrofiussuud",
+        "https://www.instagram.com/ahmadrfsd_/",
+        "mailto:ahmadrofiussuud@gmail.com"
+      ]
+    },
+    {
+      "route": "/projects/amora",
+      "status": 200,
+      "title": "Amora — Aplikasi Edukasi Pernikahan — Muhammad Ahmad Rofi’us Su’ud",
+      "description": "Kenali Amora, aplikasi edukasi pernikahan, beserta fitur dan kontribusi Rofi sebagai pengembang utama dalam pengembangan produk ini.",
+      "ogTitle": "Amora — Aplikasi Edukasi Pernikahan — Muhammad Ahmad Rofi’us Su’ud",
+      "ogDescription": "Kenali Amora, aplikasi edukasi pernikahan, beserta fitur dan kontribusi Rofi sebagai pengembang utama dalam pengembangan produk ini.",
+      "twitterTitle": "Amora — Aplikasi Edukasi Pernikahan — Muhammad Ahmad Rofi’us Su’ud",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Amora"
+        },
+        {
+          "level": 2,
+          "text": "Gambaran Umum"
+        },
+        {
+          "level": 2,
+          "text": "Fitur Utama"
+        },
+        {
+          "level": 2,
+          "text": "Dampak"
+        }
+      ],
+      "links": [
+        "#main-content",
+        "/",
+        "/",
+        "/projects",
+        "/about",
+        "/competitions",
+        "/contact",
+        "/projects",
+        "https://amorateam.vercel.app/",
+        "/projects",
+        "/about",
+        "/contact",
+        "/",
+        "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+        "https://github.com/ahmadrofiussuud",
+        "https://www.instagram.com/ahmadrfsd_/",
+        "mailto:ahmadrofiussuud@gmail.com"
+      ]
+    },
+    {
+      "route": "/projects/arah-career",
+      "status": 200,
+      "title": "ARAH — Platform Eksplorasi Karier — Muhammad Ahmad Rofi’us Su’ud",
+      "description": "Konsep platform ARAH untuk membantu mahasiswa mengenali potensi, menjelajahi peluang, dan merencanakan langkah karier. Lihat gambaran produk dan demonya.",
+      "ogTitle": "ARAH — Platform Eksplorasi Karier — Muhammad Ahmad Rofi’us Su’ud",
+      "ogDescription": "Konsep platform ARAH untuk membantu mahasiswa mengenali potensi, menjelajahi peluang, dan merencanakan langkah karier. Lihat gambaran produk dan demonya.",
+      "twitterTitle": "ARAH — Platform Eksplorasi Karier — Muhammad Ahmad Rofi’us Su’ud",
+      "headings": [
+        {
+          "level": 1,
+          "text": "ARAH — Platform Eksplorasi Karier"
+        },
+        {
+          "level": 2,
+          "text": "Gambaran Umum"
+        }
+      ],
+      "links": [
+        "#main-content",
+        "/",
+        "/",
+        "/projects",
+        "/about",
+        "/competitions",
+        "/contact",
+        "/projects",
+        "https://arahteam.vercel.app/",
+        "/projects",
+        "/about",
+        "/contact",
+        "/",
+        "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+        "https://github.com/ahmadrofiussuud",
+        "https://www.instagram.com/ahmadrfsd_/",
+        "mailto:ahmadrofiussuud@gmail.com"
+      ]
+    },
+    {
+      "route": "/projects/bcc-pm",
+      "status": 200,
+      "title": "Product Manager BCC — Muhammad Ahmad Rofi’us Su’ud",
+      "description": "Pengalaman Rofi sebagai Product Manager BCC FILKOM UB dalam menyusun strategi produk, roadmap, dan koordinasi pengembangan bersama tim.",
+      "ogTitle": "Product Manager BCC — Muhammad Ahmad Rofi’us Su’ud",
+      "ogDescription": "Pengalaman Rofi sebagai Product Manager BCC FILKOM UB dalam menyusun strategi produk, roadmap, dan koordinasi pengembangan bersama tim.",
+      "twitterTitle": "Product Manager BCC — Muhammad Ahmad Rofi’us Su’ud",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Product Manager BCC"
+        },
+        {
+          "level": 2,
+          "text": "Gambaran Umum"
+        },
+        {
+          "level": 2,
+          "text": "Tanggung Jawab Utama"
+        }
+      ],
+      "links": [
+        "#main-content",
+        "/",
+        "/",
+        "/projects",
+        "/about",
+        "/competitions",
+        "/contact",
+        "/projects",
+        "/projects/bcc-website",
+        "/projects",
+        "/about",
+        "/contact",
+        "/",
+        "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+        "https://github.com/ahmadrofiussuud",
+        "https://www.instagram.com/ahmadrfsd_/",
+        "mailto:ahmadrofiussuud@gmail.com"
+      ]
+    },
+    {
+      "route": "/projects/bcc-website",
+      "status": 200,
+      "title": "Website BCC FILKOM UB — Muhammad Ahmad Rofi’us Su’ud",
+      "description": "Pengembangan website Basic Computing Community FILKOM UB. Kenali peran Product Manager, prioritas fitur, dan informasi komunitas yang disajikan.",
+      "ogTitle": "Website BCC FILKOM UB — Muhammad Ahmad Rofi’us Su’ud",
+      "ogDescription": "Pengembangan website Basic Computing Community FILKOM UB. Kenali peran Product Manager, prioritas fitur, dan informasi komunitas yang disajikan.",
+      "twitterTitle": "Website BCC FILKOM UB — Muhammad Ahmad Rofi’us Su’ud",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Website Resmi BCC (Basic Computing Community)"
+        },
+        {
+          "level": 2,
+          "text": "Gambaran Umum"
+        },
+        {
+          "level": 2,
+          "text": "Peran & Tanggung Jawab"
+        },
+        {
+          "level": 2,
+          "text": "Fitur Utama Website"
+        }
+      ],
+      "links": [
+        "#main-content",
+        "/",
+        "/",
+        "/projects",
+        "/about",
+        "/competitions",
+        "/contact",
+        "/projects",
+        "https://bccfilkom.ub.ac.id/",
+        "/projects/bcc-pm",
+        "/projects",
+        "/about",
+        "/contact",
+        "/",
+        "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+        "https://github.com/ahmadrofiussuud",
+        "https://www.instagram.com/ahmadrfsd_/",
+        "mailto:ahmadrofiussuud@gmail.com"
+      ]
+    },
+    {
+      "route": "/projects/bios-2025",
+      "status": 200,
+      "title": "Bendahara Futsal BIOS — Muhammad Ahmad Rofi’us Su’ud",
+      "description": "Pengalaman mengelola keuangan tim futsal BIOS sebagai bendahara, mulai dari anggaran latihan dan kompetisi hingga pencatatan serta laporan keuangan.",
+      "ogTitle": "Bendahara Futsal BIOS — Muhammad Ahmad Rofi’us Su’ud",
+      "ogDescription": "Pengalaman mengelola keuangan tim futsal BIOS sebagai bendahara, mulai dari anggaran latihan dan kompetisi hingga pencatatan serta laporan keuangan.",
+      "twitterTitle": "Bendahara Futsal BIOS — Muhammad Ahmad Rofi’us Su’ud",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Bendahara Futsal BIOS"
+        },
+        {
+          "level": 2,
+          "text": "Gambaran Umum"
+        },
+        {
+          "level": 2,
+          "text": "Tanggung Jawab Utama"
+        }
+      ],
+      "links": [
+        "#main-content",
+        "/",
+        "/",
+        "/projects",
+        "/about",
+        "/competitions",
+        "/contact",
+        "/projects",
+        "/projects/bios-2026",
+        "/projects",
+        "/about",
+        "/contact",
+        "/",
+        "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+        "https://github.com/ahmadrofiussuud",
+        "https://www.instagram.com/ahmadrfsd_/",
+        "mailto:ahmadrofiussuud@gmail.com"
+      ]
+    },
+    {
+      "route": "/projects/bios-2026",
+      "status": 200,
+      "title": "Ketua Futsal BIOS — Muhammad Ahmad Rofi’us Su’ud",
+      "description": "Pengalaman Rofi sebagai Ketua Futsal BIOS dalam mengelola tim, mengoordinasikan latihan, dan menyiapkan keikutsertaan dalam turnamen.",
+      "ogTitle": "Ketua Futsal BIOS — Muhammad Ahmad Rofi’us Su’ud",
+      "ogDescription": "Pengalaman Rofi sebagai Ketua Futsal BIOS dalam mengelola tim, mengoordinasikan latihan, dan menyiapkan keikutsertaan dalam turnamen.",
+      "twitterTitle": "Ketua Futsal BIOS — Muhammad Ahmad Rofi’us Su’ud",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Ketua Futsal BIOS"
+        },
+        {
+          "level": 2,
+          "text": "Gambaran Umum"
+        },
+        {
+          "level": 2,
+          "text": "Tanggung Jawab Utama"
+        }
+      ],
+      "links": [
+        "#main-content",
+        "/",
+        "/",
+        "/projects",
+        "/about",
+        "/competitions",
+        "/contact",
+        "/projects",
+        "/projects/bios-2025",
+        "/projects",
+        "/about",
+        "/contact",
+        "/",
+        "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+        "https://github.com/ahmadrofiussuud",
+        "https://www.instagram.com/ahmadrfsd_/",
+        "mailto:ahmadrofiussuud@gmail.com"
+      ]
+    },
+    {
+      "route": "/projects/cekat",
+      "status": 200,
+      "title": "CEKAT — Platform Kesehatan Digital — Muhammad Ahmad Rofi’us Su’ud",
+      "description": "Konsep CEKAT menggabungkan pemeriksaan risiko penyakit tidak menular, catatan nutrisi, dan sinkronisasi data Kiosk Station. Lihat gambaran platform dan demonya.",
+      "ogTitle": "CEKAT — Platform Kesehatan Digital — Muhammad Ahmad Rofi’us Su’ud",
+      "ogDescription": "Konsep CEKAT menggabungkan pemeriksaan risiko penyakit tidak menular, catatan nutrisi, dan sinkronisasi data Kiosk Station. Lihat gambaran platform dan demonya.",
+      "twitterTitle": "CEKAT — Platform Kesehatan Digital — Muhammad Ahmad Rofi’us Su’ud",
+      "headings": [
+        {
+          "level": 1,
+          "text": "CEKAT — Platform Kesehatan Digital"
+        },
+        {
+          "level": 2,
+          "text": "Gambaran Umum"
+        }
+      ],
+      "links": [
+        "#main-content",
+        "/",
+        "/",
+        "/projects",
+        "/about",
+        "/competitions",
+        "/contact",
+        "/projects",
+        "https://ahligiziteam.vercel.app/",
+        "/projects",
+        "/about",
+        "/contact",
+        "/",
+        "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+        "https://github.com/ahmadrofiussuud",
+        "https://www.instagram.com/ahmadrfsd_/",
+        "mailto:ahmadrofiussuud@gmail.com"
+      ]
+    },
+    {
+      "route": "/projects/cert-java",
+      "status": 200,
+      "title": "Sertifikasi Dasar Java — Muhammad Ahmad Rofi’us Su’ud",
+      "description": "Dokumentasi sertifikat dasar Java milik Rofi, mencakup sintaks, struktur data, dan logika pemrograman. Lihat ringkasan materi serta gambar sertifikat.",
+      "ogTitle": "Sertifikasi Dasar Java — Muhammad Ahmad Rofi’us Su’ud",
+      "ogDescription": "Dokumentasi sertifikat dasar Java milik Rofi, mencakup sintaks, struktur data, dan logika pemrograman. Lihat ringkasan materi serta gambar sertifikat.",
+      "twitterTitle": "Sertifikasi Dasar Java — Muhammad Ahmad Rofi’us Su’ud",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Java Fundamental Certificate"
+        },
+        {
+          "level": 2,
+          "text": "Tentang Sertifikasi"
+        }
+      ],
+      "links": [
+        "#main-content",
+        "/",
+        "/",
+        "/projects",
+        "/about",
+        "/competitions",
+        "/contact",
+        "/projects",
+        "/images/projects/sertif%20java.jpg",
+        "/projects/cert-pbo",
+        "/projects",
+        "/about",
+        "/contact",
+        "/",
+        "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+        "https://github.com/ahmadrofiussuud",
+        "https://www.instagram.com/ahmadrfsd_/",
+        "mailto:ahmadrofiussuud@gmail.com"
+      ]
+    },
+    {
+      "route": "/projects/cert-pbo",
+      "status": 200,
+      "title": "Sertifikasi PBO — Muhammad Ahmad Rofi’us Su’ud",
+      "description": "Dokumentasi sertifikat Pemrograman Berorientasi Objek milik Rofi. Pelajari ringkasan konsep inheritance, polymorphism, encapsulation, dan abstraction.",
+      "ogTitle": "Sertifikasi PBO — Muhammad Ahmad Rofi’us Su’ud",
+      "ogDescription": "Dokumentasi sertifikat Pemrograman Berorientasi Objek milik Rofi. Pelajari ringkasan konsep inheritance, polymorphism, encapsulation, dan abstraction.",
+      "twitterTitle": "Sertifikasi PBO — Muhammad Ahmad Rofi’us Su’ud",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Sertifikasi PBO"
+        },
+        {
+          "level": 2,
+          "text": "Tentang Sertifikasi"
+        }
+      ],
+      "links": [
+        "#main-content",
+        "/",
+        "/",
+        "/projects",
+        "/about",
+        "/competitions",
+        "/contact",
+        "/projects",
+        "/images/projects/sertif%20pbo.jpg",
+        "/projects/cert-java",
+        "/projects",
+        "/about",
+        "/contact",
+        "/",
+        "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+        "https://github.com/ahmadrofiussuud",
+        "https://www.instagram.com/ahmadrfsd_/",
+        "mailto:ahmadrofiussuud@gmail.com"
+      ]
+    },
+    {
+      "route": "/projects/cert-pm",
+      "status": 200,
+      "title": "Sertifikasi Manajemen Proyek — Muhammad Ahmad Rofi’us Su’ud",
+      "description": "Dokumentasi sertifikat manajemen proyek milik Rofi, dengan ringkasan perencanaan, koordinasi tim, dan metodologi dasar pengelolaan proyek.",
+      "ogTitle": "Sertifikasi Manajemen Proyek — Muhammad Ahmad Rofi’us Su’ud",
+      "ogDescription": "Dokumentasi sertifikat manajemen proyek milik Rofi, dengan ringkasan perencanaan, koordinasi tim, dan metodologi dasar pengelolaan proyek.",
+      "twitterTitle": "Sertifikasi Manajemen Proyek — Muhammad Ahmad Rofi’us Su’ud",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Sertifikasi Manajemen Proyek"
+        },
+        {
+          "level": 2,
+          "text": "Tentang Sertifikasi"
+        }
+      ],
+      "links": [
+        "#main-content",
+        "/",
+        "/",
+        "/projects",
+        "/about",
+        "/competitions",
+        "/contact",
+        "/projects",
+        "/images/projects/sertif%20manajemen%20proyek.jpg",
+        "/projects/bcc-pm",
+        "/projects",
+        "/about",
+        "/contact",
+        "/",
+        "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+        "https://github.com/ahmadrofiussuud",
+        "https://www.instagram.com/ahmadrfsd_/",
+        "mailto:ahmadrofiussuud@gmail.com"
+      ]
+    },
+    {
+      "route": "/projects/ekspedisi-nusantara",
+      "status": 200,
+      "title": "Ekspedisi Nusantara — Math Adventure — Muhammad Ahmad Rofi’us Su’ud",
+      "description": "Game edukasi matematika untuk siswa SD dengan petualangan di berbagai wilayah Nusantara. Kenali konsep belajar sambil bermain dalam Ekspedisi Nusantara.",
+      "ogTitle": "Ekspedisi Nusantara — Math Adventure — Muhammad Ahmad Rofi’us Su’ud",
+      "ogDescription": "Game edukasi matematika untuk siswa SD dengan petualangan di berbagai wilayah Nusantara. Kenali konsep belajar sambil bermain dalam Ekspedisi Nusantara.",
+      "twitterTitle": "Ekspedisi Nusantara — Math Adventure — Muhammad Ahmad Rofi’us Su’ud",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Ekspedisi Nusantara — Math Adventure"
+        },
+        {
+          "level": 2,
+          "text": "Gambaran Umum"
+        }
+      ],
+      "links": [
+        "#main-content",
+        "/",
+        "/",
+        "/projects",
+        "/about",
+        "/competitions",
+        "/contact",
+        "/projects",
+        "/projects",
+        "/about",
+        "/contact",
+        "/",
+        "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+        "https://github.com/ahmadrofiussuud",
+        "https://www.instagram.com/ahmadrfsd_/",
+        "mailto:ahmadrofiussuud@gmail.com"
+      ]
+    },
+    {
+      "route": "/projects/em-ub-web-2026",
+      "status": 200,
+      "title": "Ketua Pelaksana Website EM UB 2026 — Muhammad Ahmad Rofi’us Su’ud",
+      "description": "Tanggung jawab Rofi sebagai Ketua Pelaksana Website EM UB 2026 dalam merencanakan pekerjaan dan mengoordinasikan tim pengembangan.",
+      "ogTitle": "Ketua Pelaksana Website EM UB 2026 — Muhammad Ahmad Rofi’us Su’ud",
+      "ogDescription": "Tanggung jawab Rofi sebagai Ketua Pelaksana Website EM UB 2026 dalam merencanakan pekerjaan dan mengoordinasikan tim pengembangan.",
+      "twitterTitle": "Ketua Pelaksana Website EM UB 2026 — Muhammad Ahmad Rofi’us Su’ud",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Ketua Pelaksana Website EM UB 2026"
+        },
+        {
+          "level": 2,
+          "text": "Gambaran Umum"
+        },
+        {
+          "level": 2,
+          "text": "Tanggung Jawab Utama"
+        }
+      ],
+      "links": [
+        "#main-content",
+        "/",
+        "/",
+        "/projects",
+        "/about",
+        "/competitions",
+        "/contact",
+        "/projects",
+        "/projects/website-em-ub",
+        "/projects",
+        "/about",
+        "/contact",
+        "/",
+        "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+        "https://github.com/ahmadrofiussuud",
+        "https://www.instagram.com/ahmadrfsd_/",
+        "mailto:ahmadrofiussuud@gmail.com"
+      ]
+    },
+    {
+      "route": "/projects/emub-2026",
+      "status": 200,
+      "title": "Staff KOMINFO EM UB 2026 — Muhammad Ahmad Rofi’us Su’ud",
+      "description": "Pengalaman Rofi sebagai Staf KOMINFO EM UB 2026 dengan peran Product Manager Website, termasuk koordinasi kebutuhan departemen dan pengembangan web.",
+      "ogTitle": "Staff KOMINFO EM UB 2026 — Muhammad Ahmad Rofi’us Su’ud",
+      "ogDescription": "Pengalaman Rofi sebagai Staf KOMINFO EM UB 2026 dengan peran Product Manager Website, termasuk koordinasi kebutuhan departemen dan pengembangan web.",
+      "twitterTitle": "Staff KOMINFO EM UB 2026 — Muhammad Ahmad Rofi’us Su’ud",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Staff KOMINFO EM UB 2026"
+        },
+        {
+          "level": 2,
+          "text": "Gambaran Umum"
+        },
+        {
+          "level": 2,
+          "text": "Tanggung Jawab Utama"
+        }
+      ],
+      "links": [
+        "#main-content",
+        "/",
+        "/",
+        "/projects",
+        "/about",
+        "/competitions",
+        "/contact",
+        "/projects",
+        "/projects/website-em-ub",
+        "/projects",
+        "/about",
+        "/contact",
+        "/",
+        "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+        "https://github.com/ahmadrofiussuud",
+        "https://www.instagram.com/ahmadrfsd_/",
+        "mailto:ahmadrofiussuud@gmail.com"
+      ]
+    },
+    {
+      "route": "/projects/filkom-league-2026",
+      "status": 200,
+      "title": "Ketua Pelaksana Filkom League 2026 — Muhammad Ahmad Rofi’us Su’ud",
+      "description": "Pengalaman sebagai Ketua Pelaksana Filkom League 2026 di FILKOM Universitas Brawijaya, termasuk koordinasi pelaksanaan kompetisi olahraga dan e-sports.",
+      "ogTitle": "Ketua Pelaksana Filkom League 2026 — Muhammad Ahmad Rofi’us Su’ud",
+      "ogDescription": "Pengalaman sebagai Ketua Pelaksana Filkom League 2026 di FILKOM Universitas Brawijaya, termasuk koordinasi pelaksanaan kompetisi olahraga dan e-sports.",
+      "twitterTitle": "Ketua Pelaksana Filkom League 2026 — Muhammad Ahmad Rofi’us Su’ud",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Ketua Pelaksana Filkom League 2026"
+        },
+        {
+          "level": 2,
+          "text": "Gambaran Umum"
+        },
+        {
+          "level": 2,
+          "text": "Tanggung Jawab Utama"
+        }
+      ],
+      "links": [
+        "#main-content",
+        "/",
+        "/",
+        "/projects",
+        "/about",
+        "/competitions",
+        "/contact",
+        "/projects",
+        "/projects/bios-2026",
+        "/projects",
+        "/about",
+        "/contact",
+        "/",
+        "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+        "https://github.com/ahmadrofiussuud",
+        "https://www.instagram.com/ahmadrfsd_/",
+        "mailto:ahmadrofiussuud@gmail.com"
+      ]
+    },
+    {
+      "route": "/projects/gestory",
+      "status": 200,
+      "title": "Gestory — Edukasi Kesehatan Berbasis Gestur — Muhammad Ahmad Rofi’us Su’ud",
+      "description": "Gestory mengeksplorasi edukasi kesehatan melalui sensor gerak dan gestur tangan. Kenali fitur serta peran Rofi sebagai pengembang utama dan UI designer.",
+      "ogTitle": "Gestory — Edukasi Kesehatan Berbasis Gestur — Muhammad Ahmad Rofi’us Su’ud",
+      "ogDescription": "Gestory mengeksplorasi edukasi kesehatan melalui sensor gerak dan gestur tangan. Kenali fitur serta peran Rofi sebagai pengembang utama dan UI designer.",
+      "twitterTitle": "Gestory — Edukasi Kesehatan Berbasis Gestur — Muhammad Ahmad Rofi’us Su’ud",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Gestory"
+        },
+        {
+          "level": 2,
+          "text": "Gambaran Umum"
+        },
+        {
+          "level": 2,
+          "text": "Fitur Utama"
+        },
+        {
+          "level": 2,
+          "text": "Dampak"
+        }
+      ],
+      "links": [
+        "#main-content",
+        "/",
+        "/",
+        "/projects",
+        "/about",
+        "/competitions",
+        "/contact",
+        "/projects",
+        "https://gestory-seven.vercel.app/",
+        "/projects",
+        "/about",
+        "/contact",
+        "/",
+        "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+        "https://github.com/ahmadrofiussuud",
+        "https://www.instagram.com/ahmadrfsd_/",
+        "mailto:ahmadrofiussuud@gmail.com"
+      ]
+    },
+    {
+      "route": "/projects/ifhamkids",
+      "status": 200,
+      "title": "IfhamKids — Belajar Bahasa Arab untuk Anak — Muhammad Ahmad Rofi’us Su’ud",
+      "description": "Konsep belajar bahasa Arab untuk siswa SD/MI melalui kosakata, pelafalan, dan kalimat sederhana. Jelajahi gambaran IfhamKids dan demo yang tersedia.",
+      "ogTitle": "IfhamKids — Belajar Bahasa Arab untuk Anak — Muhammad Ahmad Rofi’us Su’ud",
+      "ogDescription": "Konsep belajar bahasa Arab untuk siswa SD/MI melalui kosakata, pelafalan, dan kalimat sederhana. Jelajahi gambaran IfhamKids dan demo yang tersedia.",
+      "twitterTitle": "IfhamKids — Belajar Bahasa Arab untuk Anak — Muhammad Ahmad Rofi’us Su’ud",
+      "headings": [
+        {
+          "level": 1,
+          "text": "IfhamKids — Belajar Bahasa Arab untuk Anak"
+        },
+        {
+          "level": 2,
+          "text": "Gambaran Umum"
+        }
+      ],
+      "links": [
+        "#main-content",
+        "/",
+        "/",
+        "/projects",
+        "/about",
+        "/competitions",
+        "/contact",
+        "/projects",
+        "https://ifhamkids.vercel.app/",
+        "/projects",
+        "/about",
+        "/contact",
+        "/",
+        "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+        "https://github.com/ahmadrofiussuud",
+        "https://www.instagram.com/ahmadrfsd_/",
+        "mailto:ahmadrofiussuud@gmail.com"
+      ]
+    },
+    {
+      "route": "/projects/jaspel-rsud-moh-saleh",
+      "status": 200,
+      "title": "Jaspel RSUD Moh. Saleh Probolinggo — Muhammad Ahmad Rofi’us Su’ud",
+      "description": "Kolaborasi bersama dosen untuk perhitungan jasa pelayanan RSUD Moh. Saleh Probolinggo. Rofi terlibat sebagai anggota tim IT dalam proyek ini.",
+      "ogTitle": "Jaspel RSUD Moh. Saleh Probolinggo — Muhammad Ahmad Rofi’us Su’ud",
+      "ogDescription": "Kolaborasi bersama dosen untuk perhitungan jasa pelayanan RSUD Moh. Saleh Probolinggo. Rofi terlibat sebagai anggota tim IT dalam proyek ini.",
+      "twitterTitle": "Jaspel RSUD Moh. Saleh Probolinggo — Muhammad Ahmad Rofi’us Su’ud",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Perhitungan Jaspel — RSUD Moh. Saleh Probolinggo"
+        },
+        {
+          "level": 2,
+          "text": "Tentang Proyek"
+        },
+        {
+          "level": 2,
+          "text": "Peran Saya"
+        }
+      ],
+      "links": [
+        "#main-content",
+        "/",
+        "/",
+        "/projects",
+        "/about",
+        "/competitions",
+        "/contact",
+        "/projects",
+        "/projects/pelatihan-ar-sdn-3-dono",
+        "/projects",
+        "/about",
+        "/contact",
+        "/",
+        "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+        "https://github.com/ahmadrofiussuud",
+        "https://www.instagram.com/ahmadrfsd_/",
+        "mailto:ahmadrofiussuud@gmail.com"
+      ]
+    },
+    {
+      "route": "/projects/kelasin",
+      "status": 200,
+      "title": "Kelasin — Media Pembelajaran SD dengan AI — Muhammad Ahmad Rofi’us Su’ud",
+      "description": "Kelasin membantu guru menyiapkan media pembelajaran SD dengan AI untuk TV interaktif kelas. Lihat konsep aktivitas belajar dan demo karya kompetisi ini.",
+      "ogTitle": "Kelasin — Media Pembelajaran SD dengan AI — Muhammad Ahmad Rofi’us Su’ud",
+      "ogDescription": "Kelasin membantu guru menyiapkan media pembelajaran SD dengan AI untuk TV interaktif kelas. Lihat konsep aktivitas belajar dan demo karya kompetisi ini.",
+      "twitterTitle": "Kelasin — Media Pembelajaran SD dengan AI — Muhammad Ahmad Rofi’us Su’ud",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Kelasin — Platform Digital"
+        },
+        {
+          "level": 2,
+          "text": "Gambaran Umum"
+        },
+        {
+          "level": 2,
+          "text": "Pengalaman Belajar"
+        }
+      ],
+      "links": [
+        "#main-content",
+        "/",
+        "/",
+        "/projects",
+        "/about",
+        "/competitions",
+        "/contact",
+        "/projects",
+        "https://manifestingdapetjuara.bccdev.id/",
+        "/projects/pelatihan-ar-sdn-3-dono",
+        "/projects",
+        "/about",
+        "/contact",
+        "/",
+        "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+        "https://github.com/ahmadrofiussuud",
+        "https://www.instagram.com/ahmadrfsd_/",
+        "mailto:ahmadrofiussuud@gmail.com"
+      ]
+    },
+    {
+      "route": "/projects/lki-amd",
+      "status": 200,
+      "title": "LKI AMD — Muhammad Ahmad Rofi’us Su’ud",
+      "description": "Pengalaman Rofi sebagai anggota dan kontributor LKI AMD melalui kegiatan diskusi, pengabdian masyarakat, serta pengembangan akademik dan kepemimpinan.",
+      "ogTitle": "LKI AMD — Muhammad Ahmad Rofi’us Su’ud",
+      "ogDescription": "Pengalaman Rofi sebagai anggota dan kontributor LKI AMD melalui kegiatan diskusi, pengabdian masyarakat, serta pengembangan akademik dan kepemimpinan.",
+      "twitterTitle": "LKI AMD — Muhammad Ahmad Rofi’us Su’ud",
+      "headings": [
+        {
+          "level": 1,
+          "text": "LKI AMD"
+        },
+        {
+          "level": 2,
+          "text": "Gambaran Umum"
+        },
+        {
+          "level": 2,
+          "text": "Aktivitas Utama"
+        },
+        {
+          "level": 2,
+          "text": "Dampak"
+        }
+      ],
+      "links": [
+        "#main-content",
+        "/",
+        "/",
+        "/projects",
+        "/about",
+        "/competitions",
+        "/contact",
+        "/projects",
+        "/projects",
+        "/about",
+        "/contact",
+        "/",
+        "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+        "https://github.com/ahmadrofiussuud",
+        "https://www.instagram.com/ahmadrfsd_/",
+        "mailto:ahmadrofiussuud@gmail.com"
+      ]
+    },
+    {
+      "route": "/projects/mandorin",
+      "status": 200,
+      "title": "Mandorin — Platform Pembangunan Hunian — Muhammad Ahmad Rofi’us Su’ud",
+      "description": "Prototipe Mandorin dikembangkan saat seleksi intern BCC, dengan alur bagi pemilik proyek dan mandor. Lihat gambaran platform serta demo yang tersedia.",
+      "ogTitle": "Mandorin — Platform Pembangunan Hunian — Muhammad Ahmad Rofi’us Su’ud",
+      "ogDescription": "Prototipe Mandorin dikembangkan saat seleksi intern BCC, dengan alur bagi pemilik proyek dan mandor. Lihat gambaran platform serta demo yang tersedia.",
+      "twitterTitle": "Mandorin — Platform Pembangunan Hunian — Muhammad Ahmad Rofi’us Su’ud",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Mandorin — Platform Pembangunan Hunian"
+        },
+        {
+          "level": 2,
+          "text": "Gambaran Umum"
+        }
+      ],
+      "links": [
+        "#main-content",
+        "/",
+        "/",
+        "/projects",
+        "/about",
+        "/competitions",
+        "/contact",
+        "/projects",
+        "https://mandorin-fe.vercel.app/beranda",
+        "/projects",
+        "/about",
+        "/contact",
+        "/",
+        "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+        "https://github.com/ahmadrofiussuud",
+        "https://www.instagram.com/ahmadrfsd_/",
+        "mailto:ahmadrofiussuud@gmail.com"
+      ]
+    },
+    {
+      "route": "/projects/misra",
+      "status": 200,
+      "title": "Profil Sekolah Dasar — Muhammad Ahmad Rofi’us Su’ud",
+      "description": "Pengembangan website profil sekolah dasar sebagai pusat informasi bagi siswa, wali murid, dan masyarakat. Kenali fitur dan peran Rofi sebagai web developer.",
+      "ogTitle": "Profil Sekolah Dasar — Muhammad Ahmad Rofi’us Su’ud",
+      "ogDescription": "Pengembangan website profil sekolah dasar sebagai pusat informasi bagi siswa, wali murid, dan masyarakat. Kenali fitur dan peran Rofi sebagai web developer.",
+      "twitterTitle": "Profil Sekolah Dasar — Muhammad Ahmad Rofi’us Su’ud",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Profil Sekolah Dasar"
+        },
+        {
+          "level": 2,
+          "text": "Gambaran Umum"
+        },
+        {
+          "level": 2,
+          "text": "Fitur Utama"
+        },
+        {
+          "level": 2,
+          "text": "Dampak"
+        }
+      ],
+      "links": [
+        "#main-content",
+        "/",
+        "/",
+        "/projects",
+        "/about",
+        "/competitions",
+        "/contact",
+        "/projects",
+        "/projects",
+        "/about",
+        "/contact",
+        "/",
+        "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+        "https://github.com/ahmadrofiussuud",
+        "https://www.instagram.com/ahmadrfsd_/",
+        "mailto:ahmadrofiussuud@gmail.com"
+      ]
+    },
+    {
+      "route": "/projects/ngajikidz",
+      "status": 200,
+      "title": "NgajiKidz — Belajar Mengaji dengan AI — Muhammad Ahmad Rofi’us Su’ud",
+      "description": "Konsep NgajiKidz mengeksplorasi pembelajaran Al-Qur’an untuk anak melalui AI, gamifikasi, dan bimbingan mengaji. Lihat gambaran produk serta demo.",
+      "ogTitle": "NgajiKidz — Belajar Mengaji dengan AI — Muhammad Ahmad Rofi’us Su’ud",
+      "ogDescription": "Konsep NgajiKidz mengeksplorasi pembelajaran Al-Qur’an untuk anak melalui AI, gamifikasi, dan bimbingan mengaji. Lihat gambaran produk serta demo.",
+      "twitterTitle": "NgajiKidz — Belajar Mengaji dengan AI — Muhammad Ahmad Rofi’us Su’ud",
+      "headings": [
+        {
+          "level": 1,
+          "text": "NgajiKidz — Belajar Mengaji dengan AI"
+        },
+        {
+          "level": 2,
+          "text": "Gambaran Umum"
+        }
+      ],
+      "links": [
+        "#main-content",
+        "/",
+        "/",
+        "/projects",
+        "/about",
+        "/competitions",
+        "/contact",
+        "/projects",
+        "https://ngajikids.vercel.app/",
+        "/projects",
+        "/about",
+        "/contact",
+        "/",
+        "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+        "https://github.com/ahmadrofiussuud",
+        "https://www.instagram.com/ahmadrfsd_/",
+        "mailto:ahmadrofiussuud@gmail.com"
+      ]
+    },
+    {
+      "route": "/projects/pahamin",
+      "status": 200,
+      "title": "PahamIn — Aplikasi Belajar Interaktif — Muhammad Ahmad Rofi’us Su’ud",
+      "description": "PahamIn mengeksplorasi pembelajaran interaktif dengan personalisasi materi dan asisten AI. Kenali fitur serta kontribusi Rofi sebagai frontend engineer.",
+      "ogTitle": "PahamIn — Aplikasi Belajar Interaktif — Muhammad Ahmad Rofi’us Su’ud",
+      "ogDescription": "PahamIn mengeksplorasi pembelajaran interaktif dengan personalisasi materi dan asisten AI. Kenali fitur serta kontribusi Rofi sebagai frontend engineer.",
+      "twitterTitle": "PahamIn — Aplikasi Belajar Interaktif — Muhammad Ahmad Rofi’us Su’ud",
+      "headings": [
+        {
+          "level": 1,
+          "text": "PahamIn"
+        },
+        {
+          "level": 2,
+          "text": "Gambaran Umum"
+        },
+        {
+          "level": 2,
+          "text": "Fitur Utama"
+        },
+        {
+          "level": 2,
+          "text": "Dampak"
+        }
+      ],
+      "links": [
+        "#main-content",
+        "/",
+        "/",
+        "/projects",
+        "/about",
+        "/competitions",
+        "/contact",
+        "/projects",
+        "https://pahamin-fe.vercel.app/",
+        "/projects",
+        "/about",
+        "/contact",
+        "/",
+        "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+        "https://github.com/ahmadrofiussuud",
+        "https://www.instagram.com/ahmadrfsd_/",
+        "mailto:ahmadrofiussuud@gmail.com"
+      ]
+    },
+    {
+      "route": "/projects/pelatihan-ar-sdn-3-dono",
+      "status": 200,
+      "title": "Pelatihan AR untuk Guru SDN 3 Dono — Muhammad Ahmad Rofi’us Su’ud",
+      "description": "Kolaborasi bersama dosen dalam pelatihan guru SDN 3 Dono, Tulungagung, untuk membuat media pembelajaran berbasis augmented reality. Lihat dokumentasinya.",
+      "ogTitle": "Pelatihan AR untuk Guru SDN 3 Dono — Muhammad Ahmad Rofi’us Su’ud",
+      "ogDescription": "Kolaborasi bersama dosen dalam pelatihan guru SDN 3 Dono, Tulungagung, untuk membuat media pembelajaran berbasis augmented reality. Lihat dokumentasinya.",
+      "twitterTitle": "Pelatihan AR untuk Guru SDN 3 Dono — Muhammad Ahmad Rofi’us Su’ud",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Pelatihan Media Pembelajaran AR — SDN 3 Dono"
+        },
+        {
+          "level": 2,
+          "text": "Tentang Proyek"
+        },
+        {
+          "level": 2,
+          "text": "Tujuan"
+        }
+      ],
+      "links": [
+        "#main-content",
+        "/",
+        "/",
+        "/projects",
+        "/about",
+        "/competitions",
+        "/contact",
+        "/projects",
+        "/projects/kelasin",
+        "/projects",
+        "/about",
+        "/contact",
+        "/",
+        "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+        "https://github.com/ahmadrofiussuud",
+        "https://www.instagram.com/ahmadrfsd_/",
+        "mailto:ahmadrofiussuud@gmail.com"
+      ]
+    },
+    {
+      "route": "/projects/rebite",
+      "status": 200,
+      "title": "ReBite — Platform Pengelolaan Food Waste — Muhammad Ahmad Rofi’us Su’ud",
+      "description": "ReBite menghubungkan bisnis FnB dengan konsumen untuk pemanfaatan sisa makanan. Kenali fitur dan peran Rofi sebagai ketua proyek sekaligus pengembang.",
+      "ogTitle": "ReBite — Platform Pengelolaan Food Waste — Muhammad Ahmad Rofi’us Su’ud",
+      "ogDescription": "ReBite menghubungkan bisnis FnB dengan konsumen untuk pemanfaatan sisa makanan. Kenali fitur dan peran Rofi sebagai ketua proyek sekaligus pengembang.",
+      "twitterTitle": "ReBite — Platform Pengelolaan Food Waste — Muhammad Ahmad Rofi’us Su’ud",
+      "headings": [
+        {
+          "level": 1,
+          "text": "ReBite Project"
+        },
+        {
+          "level": 2,
+          "text": "Gambaran Umum"
+        },
+        {
+          "level": 2,
+          "text": "Fitur Utama"
+        },
+        {
+          "level": 2,
+          "text": "Dampak"
+        }
+      ],
+      "links": [
+        "#main-content",
+        "/",
+        "/",
+        "/projects",
+        "/about",
+        "/competitions",
+        "/contact",
+        "/projects",
+        "https://teamrebite.vercel.app/",
+        "/projects",
+        "/about",
+        "/contact",
+        "/",
+        "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+        "https://github.com/ahmadrofiussuud",
+        "https://www.instagram.com/ahmadrfsd_/",
+        "mailto:ahmadrofiussuud@gmail.com"
+      ]
+    },
+    {
+      "route": "/projects/sobataman",
+      "status": 200,
+      "title": "SobatAman — Platform Pendamping Terverifikasi — Muhammad Ahmad Rofi’us Su’ud",
+      "description": "Konsep SobatAman menghubungkan keluarga dengan pendamping untuk layanan on-demand. Lihat gambaran kebutuhan pengguna, konsep platform, dan demonya.",
+      "ogTitle": "SobatAman — Platform Pendamping Terverifikasi — Muhammad Ahmad Rofi’us Su’ud",
+      "ogDescription": "Konsep SobatAman menghubungkan keluarga dengan pendamping untuk layanan on-demand. Lihat gambaran kebutuhan pengguna, konsep platform, dan demonya.",
+      "twitterTitle": "SobatAman — Platform Pendamping Terverifikasi — Muhammad Ahmad Rofi’us Su’ud",
+      "headings": [
+        {
+          "level": 1,
+          "text": "SobatAman — Platform Pendamping Terverifikasi"
+        },
+        {
+          "level": 2,
+          "text": "Gambaran Umum"
+        }
+      ],
+      "links": [
+        "#main-content",
+        "/",
+        "/",
+        "/projects",
+        "/about",
+        "/competitions",
+        "/contact",
+        "/projects",
+        "https://sobataman.vercel.app/",
+        "/projects",
+        "/about",
+        "/contact",
+        "/",
+        "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+        "https://github.com/ahmadrofiussuud",
+        "https://www.instagram.com/ahmadrfsd_/",
+        "mailto:ahmadrofiussuud@gmail.com"
+      ]
+    },
+    {
+      "route": "/projects/tehmbois-wcc",
+      "status": 200,
+      "title": "TehMbois — Website Brand Minuman — Muhammad Ahmad Rofi’us Su’ud",
+      "description": "Website brand minuman TehMbois, karya Juara 1 WCC UNISNU Jepara 2026. Lihat gambaran proyek, eksplorasi antarmuka, dan tampilan lintas perangkat.",
+      "ogTitle": "TehMbois — Website Brand Minuman — Muhammad Ahmad Rofi’us Su’ud",
+      "ogDescription": "Website brand minuman TehMbois, karya Juara 1 WCC UNISNU Jepara 2026. Lihat gambaran proyek, eksplorasi antarmuka, dan tampilan lintas perangkat.",
+      "twitterTitle": "TehMbois — Website Brand Minuman — Muhammad Ahmad Rofi’us Su’ud",
+      "headings": [
+        {
+          "level": 1,
+          "text": "TehMbois — Website Brand Minuman"
+        },
+        {
+          "level": 2,
+          "text": "Gambaran Umum"
+        },
+        {
+          "level": 2,
+          "text": "Visual Proyek"
+        }
+      ],
+      "links": [
+        "#main-content",
+        "/",
+        "/",
+        "/projects",
+        "/about",
+        "/competitions",
+        "/contact",
+        "/projects",
+        "/competitions#achievements",
+        "/projects",
+        "/about",
+        "/contact",
+        "/",
+        "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+        "https://github.com/ahmadrofiussuud",
+        "https://www.instagram.com/ahmadrfsd_/",
+        "mailto:ahmadrofiussuud@gmail.com"
+      ]
+    },
+    {
+      "route": "/projects/telaahkarier",
+      "status": 200,
+      "title": "TelaahKarier — Analisis Risiko Lowongan Kerja — Muhammad Ahmad Rofi’us Su’ud",
+      "description": "Konsep TelaahKarier membantu meninjau risiko lowongan kerja digital sebelum melamar. Kenali alur pemeriksaan tanda bahaya dan demo platform yang tersedia.",
+      "ogTitle": "TelaahKarier — Analisis Risiko Lowongan Kerja — Muhammad Ahmad Rofi’us Su’ud",
+      "ogDescription": "Konsep TelaahKarier membantu meninjau risiko lowongan kerja digital sebelum melamar. Kenali alur pemeriksaan tanda bahaya dan demo platform yang tersedia.",
+      "twitterTitle": "TelaahKarier — Analisis Risiko Lowongan Kerja — Muhammad Ahmad Rofi’us Su’ud",
+      "headings": [
+        {
+          "level": 1,
+          "text": "TelaahKarier — Analisis Risiko Lowongan Kerja"
+        },
+        {
+          "level": 2,
+          "text": "Gambaran Umum"
+        }
+      ],
+      "links": [
+        "#main-content",
+        "/",
+        "/",
+        "/projects",
+        "/about",
+        "/competitions",
+        "/contact",
+        "/projects",
+        "https://telaahloker.vercel.app/",
+        "/projects",
+        "/about",
+        "/contact",
+        "/",
+        "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+        "https://github.com/ahmadrofiussuud",
+        "https://www.instagram.com/ahmadrfsd_/",
+        "mailto:ahmadrofiussuud@gmail.com"
+      ]
+    },
+    {
+      "route": "/projects/umkm-go",
+      "status": 200,
+      "title": "UMKM Go — Pasar UMKM Desa — Muhammad Ahmad Rofi’us Su’ud",
+      "description": "Website Pasar UMKM Desa Caringin untuk katalog hasil bumi dan kerajinan. Kenali fitur serta peran Rofi sebagai full stack developer dalam proyek UMKM Go.",
+      "ogTitle": "UMKM Go — Pasar UMKM Desa — Muhammad Ahmad Rofi’us Su’ud",
+      "ogDescription": "Website Pasar UMKM Desa Caringin untuk katalog hasil bumi dan kerajinan. Kenali fitur serta peran Rofi sebagai full stack developer dalam proyek UMKM Go.",
+      "twitterTitle": "UMKM Go — Pasar UMKM Desa — Muhammad Ahmad Rofi’us Su’ud",
+      "headings": [
+        {
+          "level": 1,
+          "text": "UMKM Go"
+        },
+        {
+          "level": 2,
+          "text": "Gambaran Umum"
+        },
+        {
+          "level": 2,
+          "text": "Fitur Utama"
+        },
+        {
+          "level": 2,
+          "text": "Dampak"
+        }
+      ],
+      "links": [
+        "#main-content",
+        "/",
+        "/",
+        "/projects",
+        "/about",
+        "/competitions",
+        "/contact",
+        "/projects",
+        "https://umkmgo-orpin.vercel.app/",
+        "/projects",
+        "/about",
+        "/contact",
+        "/",
+        "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+        "https://github.com/ahmadrofiussuud",
+        "https://www.instagram.com/ahmadrfsd_/",
+        "mailto:ahmadrofiussuud@gmail.com"
+      ]
+    },
+    {
+      "route": "/projects/website-em-ub",
+      "status": 200,
+      "title": "Website Resmi EM UB 2026 — Muhammad Ahmad Rofi’us Su’ud",
+      "description": "Website Eksekutif Mahasiswa Universitas Brawijaya 2026. Kenali kontribusi Rofi sebagai Product Manager dan Ketua Pelaksana, serta fitur portal mahasiswa.",
+      "ogTitle": "Website Resmi EM UB 2026 — Muhammad Ahmad Rofi’us Su’ud",
+      "ogDescription": "Website Eksekutif Mahasiswa Universitas Brawijaya 2026. Kenali kontribusi Rofi sebagai Product Manager dan Ketua Pelaksana, serta fitur portal mahasiswa.",
+      "twitterTitle": "Website Resmi EM UB 2026 — Muhammad Ahmad Rofi’us Su’ud",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Website Resmi EM UB 2026"
+        },
+        {
+          "level": 2,
+          "text": "Gambaran Umum"
+        },
+        {
+          "level": 2,
+          "text": "Peran & Kontribusi Utama"
+        },
+        {
+          "level": 2,
+          "text": "Fitur Utama Website"
+        }
+      ],
+      "links": [
+        "#main-content",
+        "/",
+        "/",
+        "/projects",
+        "/about",
+        "/competitions",
+        "/contact",
+        "/projects",
+        "https://em.ub.ac.id/",
+        "/projects/emub-2026",
+        "/projects/em-ub-web-2026",
+        "/projects",
+        "/about",
+        "/contact",
+        "/",
+        "https://www.linkedin.com/in/muhammad-ahmad-rofi-us-su-ud/",
+        "https://github.com/ahmadrofiussuud",
+        "https://www.instagram.com/ahmadrfsd_/",
+        "mailto:ahmadrofiussuud@gmail.com"
+      ]
+    }
+  ],
+  "content": [
+    {
+      "slug": "akademirofi",
+      "title": "Akademirofi — Platform Belajar BMC, BPC, dan Essay",
+      "seoTitle": "Akademirofi — Belajar BMC, BPC & Essay",
+      "description": "Platform belajar BMC, BPC, dan essay bagi rekan serta adik tingkat. Kenali konsep jalur belajar dan tampilan Akademirofi dalam dokumentasi proyek ini.",
+      "date": "",
+      "tags": [
+        "EdTech",
+        "BMC",
+        "BPC",
+        "Essay",
+        "Proyek Digital"
+      ],
+      "category": "lomba",
+      "thumbnail": "/images/projects/akademirofi-learning.png",
+      "heroImage": "/images/projects/akademirofi-learning.png",
+      "imageFit": "contain"
+    },
+    {
+      "slug": "amora",
+      "title": "Amora",
+      "seoTitle": "Amora — Aplikasi Edukasi Pernikahan",
+      "description": "Kenali Amora, aplikasi edukasi pernikahan, beserta fitur dan kontribusi Rofi sebagai pengembang utama dalam pengembangan produk ini.",
+      "date": "2026-01-24",
+      "tags": [
+        "Edukasi",
+        "Pernikahan",
+        "Kesehatan Mental",
+        "AI"
+      ],
+      "category": "lomba",
+      "thumbnail": "/images/projects/amora-platform-banner.png",
+      "heroImage": "/images/projects/amora-platform-banner.png",
+      "imageFit": "contain",
+      "demoUrl": "https://amorateam.vercel.app/",
+      "role": "Pengembang Utama / Arsitek",
+      "stack": [
+        "Next.js",
+        "Tailwind CSS",
+        "Gemini AI"
+      ]
+    },
+    {
+      "slug": "arah-career",
+      "title": "ARAH — Platform Eksplorasi Karier",
+      "description": "Konsep platform ARAH untuk membantu mahasiswa mengenali potensi, menjelajahi peluang, dan merencanakan langkah karier. Lihat gambaran produk dan demonya.",
+      "date": "",
+      "tags": [
+        "Karier",
+        "Pengembangan Diri",
+        "Mahasiswa",
+        "Proyek Digital"
+      ],
+      "category": "lomba",
+      "thumbnail": "/images/projects/arah-career-path.png",
+      "heroImage": "/images/projects/arah-career-path.png",
+      "imageFit": "contain",
+      "demoUrl": "https://arahteam.vercel.app/"
+    },
+    {
+      "slug": "bcc-pm",
+      "title": "Product Manager BCC",
+      "description": "Pengalaman Rofi sebagai Product Manager BCC FILKOM UB dalam menyusun strategi produk, roadmap, dan koordinasi pengembangan bersama tim.",
+      "date": "2026-03-01",
+      "tags": [
+        "Product Management",
+        "Teknologi",
+        "Organisasi",
+        "Leadership"
+      ],
+      "category": "organisasi",
+      "thumbnail": "/images/projects/PM - BCC.png",
+      "heroImage": "/images/projects/PM - BCC.png",
+      "role": "Product Manager"
+    },
+    {
+      "slug": "bcc-website",
+      "title": "Website Resmi BCC (Basic Computing Community)",
+      "seoTitle": "Website BCC FILKOM UB",
+      "description": "Pengembangan website Basic Computing Community FILKOM UB. Kenali peran Product Manager, prioritas fitur, dan informasi komunitas yang disajikan.",
+      "date": "2026-06-01",
+      "tags": [
+        "Web Development",
+        "Product Management",
+        "Organisasi",
+        "On Progress"
+      ],
+      "category": "organisasi",
+      "thumbnail": "/images/projects/bcc-website-cover.png",
+      "heroImage": "/images/projects/bcc-website-cover.png",
+      "imageFit": "contain",
+      "demoUrl": "https://bccfilkom.ub.ac.id/",
+      "status": "on-progress",
+      "role": "Product Manager",
+      "stack": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Framer Motion"
+      ]
+    },
+    {
+      "slug": "bios-2025",
+      "title": "Bendahara Futsal BIOS",
+      "description": "Pengalaman mengelola keuangan tim futsal BIOS sebagai bendahara, mulai dari anggaran latihan dan kompetisi hingga pencatatan serta laporan keuangan.",
+      "date": "2025-02-17",
+      "tags": [
+        "Keuangan",
+        "Bendahara",
+        "Organisasi",
+        "Olahraga"
+      ],
+      "category": "organisasi",
+      "thumbnail": "/images/projects/organasasi-bios-2025.jpg",
+      "heroImage": "/images/projects/organasasi-bios-2025.jpg",
+      "role": "Bendahara"
+    },
+    {
+      "slug": "bios-2026",
+      "title": "Ketua Futsal BIOS",
+      "description": "Pengalaman Rofi sebagai Ketua Futsal BIOS dalam mengelola tim, mengoordinasikan latihan, dan menyiapkan keikutsertaan dalam turnamen.",
+      "date": "2026-02-22",
+      "tags": [
+        "Kepemimpinan",
+        "Ketua",
+        "Organisasi",
+        "Olahraga"
+      ],
+      "category": "organisasi",
+      "thumbnail": "/images/projects/organisasi-bios-2026.jpg",
+      "heroImage": "/images/projects/organisasi-bios-2026.jpg",
+      "role": "Ketua"
+    },
+    {
+      "slug": "cekat",
+      "title": "CEKAT — Platform Kesehatan Digital",
+      "description": "Konsep CEKAT menggabungkan pemeriksaan risiko penyakit tidak menular, catatan nutrisi, dan sinkronisasi data Kiosk Station. Lihat gambaran platform dan demonya.",
+      "date": "",
+      "tags": [
+        "Digital Health",
+        "Healthcare",
+        "Nutrisi",
+        "Proyek Digital"
+      ],
+      "category": "lomba",
+      "thumbnail": "/images/projects/cekat-healthcare-showcase.png",
+      "heroImage": "/images/projects/cekat-healthcare-showcase.png",
+      "imageFit": "contain",
+      "demoUrl": "https://ahligiziteam.vercel.app/"
+    },
+    {
+      "slug": "cert-java",
+      "title": "Java Fundamental Certificate",
+      "seoTitle": "Sertifikasi Dasar Java",
+      "description": "Dokumentasi sertifikat dasar Java milik Rofi, mencakup sintaks, struktur data, dan logika pemrograman. Lihat ringkasan materi serta gambar sertifikat.",
+      "date": "2025-11-19",
+      "tags": [
+        "Java",
+        "Programming"
+      ],
+      "category": "skill",
+      "thumbnail": "/images/projects/sertif java.jpg",
+      "heroImage": "/images/projects/sertif java.jpg",
+      "role": "Learner"
+    },
+    {
+      "slug": "cert-pbo",
+      "title": "Sertifikasi PBO",
+      "description": "Dokumentasi sertifikat Pemrograman Berorientasi Objek milik Rofi. Pelajari ringkasan konsep inheritance, polymorphism, encapsulation, dan abstraction.",
+      "date": "2025-11-27",
+      "tags": [
+        "Java",
+        "OOP",
+        "PBO"
+      ],
+      "category": "skill",
+      "thumbnail": "/images/projects/sertif pbo.jpg",
+      "heroImage": "/images/projects/sertif pbo.jpg",
+      "role": "Learner"
+    },
+    {
+      "slug": "cert-pm",
+      "title": "Sertifikasi Manajemen Proyek",
+      "description": "Dokumentasi sertifikat manajemen proyek milik Rofi, dengan ringkasan perencanaan, koordinasi tim, dan metodologi dasar pengelolaan proyek.",
+      "date": "2025-11-17",
+      "tags": [
+        "Management",
+        "Project Management"
+      ],
+      "category": "skill",
+      "thumbnail": "/images/projects/sertif manajemen proyek.jpg",
+      "heroImage": "/images/projects/sertif manajemen proyek.jpg",
+      "role": "Learner"
+    },
+    {
+      "slug": "ekspedisi-nusantara",
+      "title": "Ekspedisi Nusantara — Math Adventure",
+      "description": "Game edukasi matematika untuk siswa SD dengan petualangan di berbagai wilayah Nusantara. Kenali konsep belajar sambil bermain dalam Ekspedisi Nusantara.",
+      "date": "",
+      "tags": [
+        "Game Edukasi",
+        "Matematika SD",
+        "Pendidikan",
+        "Proyek Digital"
+      ],
+      "category": "lomba",
+      "thumbnail": "/images/projects/ekspedisi-nusantara-math-adventure.png",
+      "heroImage": "/images/projects/ekspedisi-nusantara-math-adventure.png",
+      "imageFit": "contain"
+    },
+    {
+      "slug": "em-ub-web-2026",
+      "title": "Ketua Pelaksana Website EM UB 2026",
+      "description": "Tanggung jawab Rofi sebagai Ketua Pelaksana Website EM UB 2026 dalam merencanakan pekerjaan dan mengoordinasikan tim pengembangan.",
+      "date": "2026-01-15",
+      "tags": [
+        "Web Development",
+        "Kepemimpinan",
+        "Organisasi",
+        "Project Management"
+      ],
+      "category": "organisasi",
+      "thumbnail": "/images/projects/Ketua Pelaksana Website Eksekutif Mahasiswa 2026.png",
+      "heroImage": "/images/projects/Ketua Pelaksana Website Eksekutif Mahasiswa 2026.png",
+      "role": "Ketua Pelaksana Website"
+    },
+    {
+      "slug": "emub-2026",
+      "title": "Staff KOMINFO EM UB 2026",
+      "description": "Pengalaman Rofi sebagai Staf KOMINFO EM UB 2026 dengan peran Product Manager Website, termasuk koordinasi kebutuhan departemen dan pengembangan web.",
+      "date": "2026-02-23",
+      "tags": [
+        "Organisasi",
+        "Product Manager",
+        "Web",
+        "KOMINFO"
+      ],
+      "category": "organisasi",
+      "thumbnail": "/images/projects/em-ub-2026.jpg",
+      "heroImage": "/images/projects/em-ub-2026.jpg",
+      "role": "Staff KOMINFO – PM Web"
+    },
+    {
+      "slug": "filkom-league-2026",
+      "title": "Ketua Pelaksana Filkom League 2026",
+      "description": "Pengalaman sebagai Ketua Pelaksana Filkom League 2026 di FILKOM Universitas Brawijaya, termasuk koordinasi pelaksanaan kompetisi olahraga dan e-sports.",
+      "date": "2026-05-16",
+      "tags": [
+        "Leadership",
+        "Project Management",
+        "Organisasi",
+        "Event Planning"
+      ],
+      "category": "organisasi",
+      "thumbnail": "/images/projects/ketua-pelaksana-filkom-league-2026.png",
+      "heroImage": "/images/projects/ketua-pelaksana-filkom-league-2026.png",
+      "role": "Ketua Pelaksana"
+    },
+    {
+      "slug": "gestory",
+      "title": "Gestory",
+      "seoTitle": "Gestory — Edukasi Kesehatan Berbasis Gestur",
+      "description": "Gestory mengeksplorasi edukasi kesehatan melalui sensor gerak dan gestur tangan. Kenali fitur serta peran Rofi sebagai pengembang utama dan UI designer.",
+      "date": "2026-05-20",
+      "tags": [
+        "Sensor Gerak",
+        "Interaktif",
+        "Edukasi Kesehatan",
+        "EdTech"
+      ],
+      "category": "lomba",
+      "thumbnail": "/images/projects/gestory-platform-banner.png",
+      "heroImage": "/images/projects/gestory-platform-banner.png",
+      "imageFit": "contain",
+      "demoUrl": "https://gestory-seven.vercel.app/",
+      "role": "Pengembang Utama & UI Designer",
+      "stack": [
+        "Next.js",
+        "React",
+        "Gesture Control",
+        "AI Sensor",
+        "Tailwind CSS",
+        "Framer Motion"
+      ]
+    },
+    {
+      "slug": "ifhamkids",
+      "title": "IfhamKids — Belajar Bahasa Arab untuk Anak",
+      "description": "Konsep belajar bahasa Arab untuk siswa SD/MI melalui kosakata, pelafalan, dan kalimat sederhana. Jelajahi gambaran IfhamKids dan demo yang tersedia.",
+      "date": "",
+      "tags": [
+        "EdTech",
+        "Bahasa Arab",
+        "Pendidikan Anak",
+        "Proyek Digital"
+      ],
+      "category": "lomba",
+      "thumbnail": "/images/projects/ifhamkids-arabic-learning.png",
+      "heroImage": "/images/projects/ifhamkids-arabic-learning.png",
+      "imageFit": "contain",
+      "demoUrl": "https://ifhamkids.vercel.app/"
+    },
+    {
+      "slug": "jaspel-rsud-moh-saleh",
+      "title": "Perhitungan Jaspel — RSUD Moh. Saleh Probolinggo",
+      "seoTitle": "Jaspel RSUD Moh. Saleh Probolinggo",
+      "description": "Kolaborasi bersama dosen untuk perhitungan jasa pelayanan RSUD Moh. Saleh Probolinggo. Rofi terlibat sebagai anggota tim IT dalam proyek ini.",
+      "date": "",
+      "tags": [
+        "Kolaborasi Akademik",
+        "Tim IT",
+        "Jaspel",
+        "Rumah Sakit"
+      ],
+      "category": "akademik",
+      "role": "Tim IT"
+    },
+    {
+      "slug": "kelasin",
+      "title": "Kelasin — Platform Digital",
+      "seoTitle": "Kelasin — Media Pembelajaran SD dengan AI",
+      "description": "Kelasin membantu guru menyiapkan media pembelajaran SD dengan AI untuk TV interaktif kelas. Lihat konsep aktivitas belajar dan demo karya kompetisi ini.",
+      "date": "",
+      "tags": [
+        "Web Development",
+        "AI",
+        "Pendidikan",
+        "Kompetisi"
+      ],
+      "category": "lomba",
+      "thumbnail": "/images/projects/kelasin-cover.png",
+      "heroImage": "/images/projects/kelasin-cover.png",
+      "imageFit": "contain",
+      "demoUrl": "https://manifestingdapetjuara.bccdev.id/"
+    },
+    {
+      "slug": "lki-amd",
+      "title": "LKI AMD",
+      "description": "Pengalaman Rofi sebagai anggota dan kontributor LKI AMD melalui kegiatan diskusi, pengabdian masyarakat, serta pengembangan akademik dan kepemimpinan.",
+      "date": "2026-02-17",
+      "tags": [
+        "Organisasi",
+        "Religius",
+        "Kepemimpinan"
+      ],
+      "category": "organisasi",
+      "thumbnail": "/images/projects/lki amd.jpg",
+      "heroImage": "/images/projects/lki amd.jpg",
+      "role": "Anggota / Kontributor"
+    },
+    {
+      "slug": "mandorin",
+      "title": "Mandorin — Platform Pembangunan Hunian",
+      "description": "Prototipe Mandorin dikembangkan saat seleksi intern BCC, dengan alur bagi pemilik proyek dan mandor. Lihat gambaran platform serta demo yang tersedia.",
+      "date": "",
+      "tags": [
+        "Web Development",
+        "Platform Digital",
+        "Seleksi Intern BCC"
+      ],
+      "category": "lomba",
+      "thumbnail": "/images/projects/mandorin-platform-banner.png",
+      "heroImage": "/images/projects/mandorin-platform-banner.png",
+      "imageFit": "contain",
+      "demoUrl": "https://mandorin-fe.vercel.app/beranda",
+      "role": "Proyek seleksi intern BCC"
+    },
+    {
+      "slug": "misra",
+      "title": "Profil Sekolah Dasar",
+      "description": "Pengembangan website profil sekolah dasar sebagai pusat informasi bagi siswa, wali murid, dan masyarakat. Kenali fitur dan peran Rofi sebagai web developer.",
+      "date": "2026-02-15",
+      "tags": [
+        "Web Design",
+        "Edukasi",
+        "Sekolah Dasar",
+        "Sistem Informasi"
+      ],
+      "category": "kerja",
+      "thumbnail": "/images/projects/misraproject-cover.jpg",
+      "heroImage": "/images/projects/misraproject-cover.jpg",
+      "role": "Web Developer",
+      "stack": [
+        "PHP",
+        "MySQL",
+        "Bootstrap",
+        "CMS"
+      ]
+    },
+    {
+      "slug": "ngajikidz",
+      "title": "NgajiKidz — Belajar Mengaji dengan AI",
+      "description": "Konsep NgajiKidz mengeksplorasi pembelajaran Al-Qur’an untuk anak melalui AI, gamifikasi, dan bimbingan mengaji. Lihat gambaran produk serta demo.",
+      "date": "",
+      "tags": [
+        "EdTech",
+        "AI",
+        "Pendidikan Islam",
+        "Game Edukasi"
+      ],
+      "category": "lomba",
+      "thumbnail": "/images/projects/ngajikidz-ai-learning.png",
+      "heroImage": "/images/projects/ngajikidz-ai-learning.png",
+      "imageFit": "contain",
+      "demoUrl": "https://ngajikids.vercel.app/"
+    },
+    {
+      "slug": "pahamin",
+      "title": "PahamIn",
+      "seoTitle": "PahamIn — Aplikasi Belajar Interaktif",
+      "description": "PahamIn mengeksplorasi pembelajaran interaktif dengan personalisasi materi dan asisten AI. Kenali fitur serta kontribusi Rofi sebagai frontend engineer.",
+      "date": "2026-05-05",
+      "tags": [
+        "EdTech",
+        "AI Belajar",
+        "Personalisasi",
+        "K-12"
+      ],
+      "category": "lomba",
+      "thumbnail": "/images/projects/pahamin-learning-banner.png",
+      "heroImage": "/images/projects/pahamin-learning-banner.png",
+      "imageFit": "contain",
+      "demoUrl": "https://pahamin-fe.vercel.app/",
+      "role": "Frontend Engineer",
+      "stack": [
+        "React",
+        "Vite",
+        "Tailwind CSS",
+        "Gemini AI",
+        "Framer Motion"
+      ]
+    },
+    {
+      "slug": "pelatihan-ar-sdn-3-dono",
+      "title": "Pelatihan Media Pembelajaran AR — SDN 3 Dono",
+      "seoTitle": "Pelatihan AR untuk Guru SDN 3 Dono",
+      "description": "Kolaborasi bersama dosen dalam pelatihan guru SDN 3 Dono, Tulungagung, untuk membuat media pembelajaran berbasis augmented reality. Lihat dokumentasinya.",
+      "date": "",
+      "thumbnail": "/images/projects/pelatihan-ar-sdn-3-dono.jpg",
+      "heroImage": "/images/projects/pelatihan-ar-sdn-3-dono.jpg",
+      "tags": [
+        "Kolaborasi Akademik",
+        "Augmented Reality",
+        "Media Pembelajaran",
+        "Pelatihan Guru"
+      ],
+      "category": "akademik",
+      "role": "Kolaborasi bersama dosen"
+    },
+    {
+      "slug": "rebite",
+      "title": "ReBite Project",
+      "seoTitle": "ReBite — Platform Pengelolaan Food Waste",
+      "description": "ReBite menghubungkan bisnis FnB dengan konsumen untuk pemanfaatan sisa makanan. Kenali fitur dan peran Rofi sebagai ketua proyek sekaligus pengembang.",
+      "date": "2026-02-17",
+      "tags": [
+        "Food Rescue",
+        "Keberlanjutan",
+        "Zero Waste",
+        "FnB"
+      ],
+      "category": "lomba",
+      "thumbnail": "/images/projects/rebite-food-waste-banner.png",
+      "heroImage": "/images/projects/rebite-food-waste-banner.png",
+      "imageFit": "contain",
+      "demoUrl": "https://teamrebite.vercel.app/",
+      "role": "Ketua Proyek / Pengembang",
+      "stack": [
+        "React",
+        "Sustainability Tech",
+        "UI Design"
+      ]
+    },
+    {
+      "slug": "sobataman",
+      "title": "SobatAman — Platform Pendamping Terverifikasi",
+      "description": "Konsep SobatAman menghubungkan keluarga dengan pendamping untuk layanan on-demand. Lihat gambaran kebutuhan pengguna, konsep platform, dan demonya.",
+      "date": "",
+      "tags": [
+        "Care Tech",
+        "Layanan On-demand",
+        "Keamanan",
+        "Proyek Digital"
+      ],
+      "category": "lomba",
+      "thumbnail": "/images/projects/sobataman-platform-banner.png",
+      "heroImage": "/images/projects/sobataman-platform-banner.png",
+      "imageFit": "contain",
+      "demoUrl": "https://sobataman.vercel.app/"
+    },
+    {
+      "slug": "tehmbois-wcc",
+      "title": "TehMbois — Website Brand Minuman",
+      "description": "Website brand minuman TehMbois, karya Juara 1 WCC UNISNU Jepara 2026. Lihat gambaran proyek, eksplorasi antarmuka, dan tampilan lintas perangkat.",
+      "date": "2026",
+      "tags": [
+        "Web Development",
+        "UI/UX",
+        "Kompetisi",
+        "WCC 2026"
+      ],
+      "category": "lomba",
+      "thumbnail": "/images/projects/tehmbois-wcc-2026.png",
+      "heroImage": "/images/projects/tehmbois-wcc-2026.png",
+      "status": "completed"
+    },
+    {
+      "slug": "telaahkarier",
+      "title": "TelaahKarier — Analisis Risiko Lowongan Kerja",
+      "description": "Konsep TelaahKarier membantu meninjau risiko lowongan kerja digital sebelum melamar. Kenali alur pemeriksaan tanda bahaya dan demo platform yang tersedia.",
+      "date": "",
+      "tags": [
+        "Karier",
+        "Keamanan Digital",
+        "Analisis Risiko",
+        "Proyek Digital"
+      ],
+      "category": "lomba",
+      "thumbnail": "/images/projects/telaahkarier-risk-analysis.png",
+      "heroImage": "/images/projects/telaahkarier-risk-analysis.png",
+      "imageFit": "contain",
+      "demoUrl": "https://telaahloker.vercel.app/"
+    },
+    {
+      "slug": "umkm-go",
+      "title": "UMKM Go",
+      "seoTitle": "UMKM Go — Pasar UMKM Desa",
+      "description": "Website Pasar UMKM Desa Caringin untuk katalog hasil bumi dan kerajinan. Kenali fitur serta peran Rofi sebagai full stack developer dalam proyek UMKM Go.",
+      "date": "2026-07-08",
+      "tags": [
+        "E-Commerce",
+        "Web Development",
+        "UMKM",
+        "Local Products",
+        "Next.js"
+      ],
+      "category": "kerja",
+      "thumbnail": "/images/projects/umkmgo-pasar-desa-banner.png",
+      "heroImage": "/images/projects/umkmgo-pasar-desa-banner.png",
+      "imageFit": "contain",
+      "demoUrl": "https://umkmgo-orpin.vercel.app/",
+      "role": "Full Stack Developer",
+      "stack": [
+        "Next.js",
+        "React",
+        "Tailwind CSS",
+        "Framer Motion"
+      ]
+    },
+    {
+      "slug": "website-em-ub",
+      "title": "Website Resmi EM UB 2026",
+      "description": "Website Eksekutif Mahasiswa Universitas Brawijaya 2026. Kenali kontribusi Rofi sebagai Product Manager dan Ketua Pelaksana, serta fitur portal mahasiswa.",
+      "date": "2026-03-01",
+      "tags": [
+        "Web Development",
+        "Product Management",
+        "Leadership",
+        "Next.js"
+      ],
+      "category": "lomba",
+      "thumbnail": "/images/projects/rajut-wijaya-em-ub-banner.png",
+      "heroImage": "/images/projects/rajut-wijaya-em-ub-banner.png",
+      "imageFit": "contain",
+      "demoUrl": "https://em.ub.ac.id/",
+      "role": "Product Manager & Ketua Pelaksana",
+      "stack": [
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Framer Motion",
+        "GSAP"
+      ]
+    }
+  ]
+}

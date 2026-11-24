@@ -4,6 +4,7 @@ import { usePathname } from "next/navigation";
 import { useTheme } from "next-themes";
 import { useEffect, useRef, useState } from "react";
 import { Menu, Moon, Sun, X, ArrowUpRight } from "lucide-react";
+import { useHydrated } from "@/lib/use-hydrated";
 
 const links = [{ href: "/", label: "Beranda" }, { href: "/projects", label: "Karya" }, { href: "/about", label: "Tentang" }, { href: "/competitions", label: "Pencapaian" }];
 
@@ -11,9 +12,8 @@ export function Navbar() {
  const pathname = usePathname();
  const { resolvedTheme, setTheme } = useTheme();
  const [open, setOpen] = useState(false);
- const [mounted, setMounted] = useState(false);
+ const mounted = useHydrated();
  const menuButton = useRef<HTMLButtonElement>(null);
- useEffect(() => { setMounted(true); }, []);
  useEffect(() => {
   if (!open) return;
   const onKey = (event: KeyboardEvent) => { if (event.key === "Escape") { setOpen(false); menuButton.current?.focus(); } };

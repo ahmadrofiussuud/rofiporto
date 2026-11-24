@@ -1,0 +1,36 @@
+
+> portoku@0.1.0 build
+> next build
+
+▲ Next.js 16.1.6 (Turbopack)
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 2.7s
+  Running TypeScript ...
+  Collecting page data using 19 workers ...
+  Generating static pages using 19 workers (0/41) ...
+  Generating static pages using 19 workers (10/41) 
+  Generating static pages using 19 workers (20/41) 
+  Generating static pages using 19 workers (30/41) 
+✓ Generating static pages using 19 workers (41/41) in 1465.3ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ○ /about
+├ ○ /competitions
+├ ○ /contact
+├ ○ /projects
+├ ● /projects/[slug]
+│ ├ /projects/akademirofi
+│ ├ /projects/amora
+│ ├ /projects/arah-career
+│ └ [+28 more paths]
+├ ○ /robots.txt
+└ ○ /sitemap.xml
+
+
+○  (Static)  prerendered as static content
+●  (SSG)     prerendered as static HTML (uses generateStaticParams)
+

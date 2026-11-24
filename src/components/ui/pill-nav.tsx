@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useRef, useState, useLayoutEffect } from 'react';
+import React, { useRef } from 'react';
 import Link from 'next/link';
 import { gsap } from 'gsap';
 import { useGSAP } from '@gsap/react';
@@ -39,7 +39,6 @@ export default function PillNav({
     hoveredPillTextColor,
     pillTextColor,
     theme = 'dark',
-    initialLoadAnimation = true,
 }: PillNavProps) {
     const containerRef = useRef<HTMLDivElement>(null);
     const pillRef = useRef<HTMLDivElement>(null);

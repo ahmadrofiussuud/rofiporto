@@ -54,13 +54,11 @@ const SplitText = ({
     }, [onLetterAnimationComplete]);
 
     useEffect(() => {
-        if (document.fonts.status === 'loaded') {
-            setFontsLoaded(true);
-        } else {
-            document.fonts.ready.then(() => {
-                setFontsLoaded(true);
-            });
-        }
+        let active = true;
+        document.fonts.ready.then(() => {
+            if (active) setFontsLoaded(true);
+        });
+        return () => { active = false; };
     }, []);
 
     useGSAP(
@@ -72,7 +70,7 @@ const SplitText = ({
             // eslint-disable-next-line @typescript-eslint/no-explicit-any
             const elAny = el as any;
             if (elAny._rbsplitInstance) {
-                try { elAny._rbsplitInstance.revert(); } catch (_) { /* noop */ }
+                try { elAny._rbsplitInstance.revert(); } catch { /* noop */ }
                 elAny._rbsplitInstance = null;
             }
 
@@ -139,7 +137,7 @@ const SplitText = ({
                 ScrollTrigger.getAll().forEach(st => {
                     if (st.trigger === el) st.kill();
                 });
-                try { splitInstance.revert(); } catch (_) { /* noop */ }
+                try { splitInstance.revert(); } catch { /* noop */ }
                 elAny._rbsplitInstance = null;
             };
         },

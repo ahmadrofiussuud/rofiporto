@@ -7,9 +7,11 @@ const CONTENT_DIR = path.join(process.cwd(), "content");
 export interface BaseMetadata {
     title: string;
     description: string;
+    date?: string;
 }
 
 export interface ProjectMetadata extends BaseMetadata {
+    seoTitle?: string;
     date: string;
     tags: string[];
     category: "kerja" | "lomba" | "organisasi" | "skill" | "akademik";
@@ -70,9 +72,7 @@ export function getAllItems<T extends BaseMetadata>(collection: "projects" | "jo
         // Sort by date/year descending is common, but let's just return raw for now or standard sort
         // For now, let's assume raw order or sort by date if available
         .sort((a, b) => {
-            // @ts-ignore
             if (a?.meta.date && b?.meta.date) {
-                // @ts-ignore
                 return new Date(b.meta.date).getTime() - new Date(a.meta.date).getTime();
             }
             return 0;

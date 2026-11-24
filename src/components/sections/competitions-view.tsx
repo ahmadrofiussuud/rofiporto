@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef, useId } from "react";
 import Image from "next/image";
 import { ZoomIn, X, Calendar } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -30,7 +30,7 @@ export const COMPETITION_SECTIONS: CompetitionSection[] = [
         id: "achievements",
         category: "Major Achievements",
         label: "Pencapaian Utama",
-        description: "Prestasi puncak, gelar juara, dan medali emas dalam kompetisi bergengsi tingkat nasional & internasional.",
+        description: "Catatan penghargaan kompetisi nasional dan internasional beserta dokumentasi yang tersedia.",
         items: [
             {
                 title: "Mahasiswa Berprestasi (Mawapres) — FILKOM UB",
@@ -108,7 +108,7 @@ export const COMPETITION_SECTIONS: CompetitionSection[] = [
                 award: "gold",
                 description: "First place winner in the Web Creation Competition (WCC) organized by Universitas Islam Nahdlatul Ulama Jepara.",
                 date: "Apr 2026",
-                image: "/images/competitions/sertif finalis web dev'.jpeg"
+                image: "/images/competitions/sertifikat-wcc-web-development.jpeg"
             },
 
             // 4. Juara 2 Nasional
@@ -314,7 +314,7 @@ export const COMPETITION_SECTIONS: CompetitionSection[] = [
                 award: "purple",
                 description: "Dipercaya sebagai pemateri & mentor dalam Workshop #5 Product Management yang diselenggarakan oleh Basic Computing Community (BCC) FILKOM Universitas Brawijaya.",
                 date: "Mei 2024",
-                image: "/images/competitions/Pemateri WS 5 PM BCC - Muhammad Ahmad Rofi'us Su'ud_page-0001.jpg"
+                image: "/images/competitions/pemateri-workshop-product-management-bcc.jpg"
             },
             {
                 title: "Speaker - StudiLanjut Universe",
@@ -443,6 +443,37 @@ export const COMPETITION_SECTIONS: CompetitionSection[] = [
 export function CompetitionsView() {
     const [activeFilter, setActiveFilter] = useState<string>("all");
     const [selectedItem, setSelectedItem] = useState<CompetitionItem | null>(null);
+    const dialogRef = useRef<HTMLDivElement>(null);
+    const closeButtonRef = useRef<HTMLButtonElement>(null);
+    const dialogTitleId = useId();
+
+    useEffect(() => {
+        if (!selectedItem) return;
+        const trigger = document.activeElement;
+        const previousOverflow = document.body.style.overflow;
+        document.body.style.overflow = "hidden";
+        closeButtonRef.current?.focus();
+        const trapFocus = (event: KeyboardEvent) => {
+            if (event.key !== "Tab") return;
+            const controls = dialogRef.current?.querySelectorAll<HTMLElement>('button, a[href], [tabindex="0"]');
+            if (!controls?.length) return;
+            const first = controls[0];
+            const last = controls[controls.length - 1];
+            if (event.shiftKey && document.activeElement === first) {
+                event.preventDefault();
+                last.focus();
+            } else if (!event.shiftKey && document.activeElement === last) {
+                event.preventDefault();
+                first.focus();
+            }
+        };
+        document.addEventListener("keydown", trapFocus);
+        return () => {
+            document.body.style.overflow = previousOverflow;
+            document.removeEventListener("keydown", trapFocus);
+            if (trigger instanceof HTMLElement && trigger.isConnected) trigger.focus();
+        };
+    }, [selectedItem]);
 
     // Close on Escape key
     useEffect(() => {
@@ -468,6 +499,7 @@ export function CompetitionsView() {
                 <div className="grid grid-cols-2 sm:flex sm:flex-wrap sm:justify-center gap-2 sm:gap-2.5">
                     <button
                         onClick={() => setActiveFilter("all")}
+                        aria-pressed={activeFilter === "all"}
                         className={cn(
                             "col-span-2 sm:col-span-1 px-4 py-2 sm:px-4 sm:py-2 rounded-xl sm:rounded-full text-xs font-semibold tracking-wide transition-all duration-200 border flex items-center justify-between sm:justify-center gap-2",
                             activeFilter === "all"
@@ -490,6 +522,7 @@ export function CompetitionsView() {
                             <button
                                 key={sec.id}
                                 onClick={() => setActiveFilter(sec.id)}
+                                aria-pressed={isActive}
                                 className={cn(
                                     "px-3 py-2 sm:px-4 sm:py-2 rounded-xl sm:rounded-full text-xs font-semibold tracking-wide transition-all duration-200 border flex items-center justify-between sm:justify-center gap-1.5 sm:gap-2",
                                     isActive
@@ -513,9 +546,9 @@ export function CompetitionsView() {
             {/* Sections Display */}
             <div className="space-y-12 sm:space-y-16 md:space-y-24">
                 {filteredSections.map((section) => (
-                    <section key={section.id} id={section.id} className="space-y-5 sm:space-y-6">
+                    <section key={section.id} id={section.id} aria-labelledby={`${section.id}-heading`} className="space-y-5 sm:space-y-6">
                         <div className="flex flex-col gap-1.5 border-b border-border/40 pb-3 sm:pb-4">
-                            <h2 className="text-xl sm:text-2xl font-bold tracking-tight text-foreground flex items-center gap-2">
+                            <h2 id={`${section.id}-heading`} className="text-xl sm:text-2xl font-bold tracking-tight text-foreground flex items-center gap-2">
                                 {section.label}
                                 <span className="text-xs font-mono font-medium text-muted-foreground">
                                     ({section.items.length})
@@ -535,7 +568,7 @@ export function CompetitionsView() {
                                 >
                                     <article className="group flex flex-col space-y-3 h-full justify-between">
                                         {/* Image Container */}
-                                        <div className="relative aspect-[16/10] overflow-hidden rounded-xl bg-muted/25 border border-border/40 shadow-xs transition-all duration-500 group-hover:border-primary/30 group-hover:shadow-sm group-hover:-translate-y-0.5">
+                                        <button type="button" disabled={!item.image} aria-label={item.image ? `Lihat sertifikat ${item.title}` : `Dokumentasi ${item.title} belum tersedia`} className="relative w-full text-left aspect-[16/10] overflow-hidden rounded-xl bg-muted/25 border border-border/40 shadow-xs transition-all duration-500 group-hover:border-primary/30 group-hover:shadow-sm group-hover:-translate-y-0.5">
                                             {item.image ? (
                                                 <>
                                                     <Image
@@ -547,17 +580,17 @@ export function CompetitionsView() {
                                                         quality={75}
                                                     />
                                                     {/* Zoom Hover Overlay */}
-                                                    <div className="absolute inset-0 bg-background/60 backdrop-blur-[2px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-2 text-foreground font-medium text-xs">
+                                                    <span className="absolute inset-0 bg-background/60 backdrop-blur-[2px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-2 text-foreground font-medium text-xs">
                                                         <ZoomIn className="h-4 w-4" />
                                                         <span>Lihat Sertifikat</span>
-                                                    </div>
+                                                    </span>
                                                 </>
                                             ) : (
-                                                <div className="absolute inset-0 flex flex-col items-center justify-center bg-muted/30 text-muted-foreground/60 gap-2">
+                                                <span className="absolute inset-0 flex flex-col items-center justify-center bg-muted/30 text-muted-foreground/60 gap-2">
                                                     <span className="text-xs font-medium text-muted-foreground">{item.certificateNote || "Sertifikat belum terbit"}</span>
-                                                </div>
+                                                </span>
                                             )}
-                                        </div>
+                                        </button>
 
                                         {/* Content Area */}
                                         <div className="flex flex-col space-y-2 px-0.5 flex-1 justify-between">
@@ -603,6 +636,10 @@ export function CompetitionsView() {
 
                         {/* Modal Box */}
                         <motion.div
+                            ref={dialogRef}
+                            role="dialog"
+                            aria-modal="true"
+                            aria-labelledby={dialogTitleId}
                             initial={{ opacity: 0, scale: 0.95, y: 15 }}
                             animate={{ opacity: 1, scale: 1, y: 0 }}
                             exit={{ opacity: 0, scale: 0.95, y: 15 }}
@@ -620,6 +657,7 @@ export function CompetitionsView() {
                                     </span>
                                 </div>
                                 <button
+                                    ref={closeButtonRef}
                                     onClick={() => setSelectedItem(null)}
                                     className="p-1.5 rounded-lg text-muted-foreground hover:text-foreground hover:bg-muted active:scale-95 transition-all"
                                     aria-label="Tutup modal"
@@ -644,9 +682,9 @@ export function CompetitionsView() {
 
                             {/* Modal Footer Description */}
                             <div className="p-4 sm:p-6 bg-card border-t border-border/60 space-y-1.5 overflow-y-auto max-h-[30vh]">
-                                <h3 className="text-base sm:text-lg font-bold text-foreground leading-snug">
+                                <h2 id={dialogTitleId} className="text-base sm:text-lg font-bold text-foreground leading-snug">
                                     {selectedItem.title}
-                                </h3>
+                                </h2>
                                 <p className="text-xs sm:text-sm text-muted-foreground leading-relaxed">
                                     {selectedItem.description}
                                 </p>

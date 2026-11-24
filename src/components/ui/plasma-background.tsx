@@ -1,17 +1,13 @@
 "use client";
 
 import { useTheme } from "next-themes";
-import { useEffect, useState } from "react";
+import { useHydrated } from "@/lib/use-hydrated";
 import Plasma from "./plasma";
 import Ribbons from "./Ribbons";
 
 export function PlasmaBackground() {
     const { resolvedTheme } = useTheme();
-    const [mounted, setMounted] = useState(false);
-
-    useEffect(() => {
-        setMounted(true);
-    }, []);
+    const mounted = useHydrated();
 
     if (!mounted) return null;
 

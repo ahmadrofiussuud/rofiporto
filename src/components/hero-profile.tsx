@@ -8,7 +8,7 @@ export function HeroProfile() {
    <p className="eyebrow"><span className="accent-dot" /> Product management · Design · Development</p>
    <h1 className="hero-name">Muhammad Ahmad<br /><span>Rofi’us Su’ud.</span></h1>
    <p className="hero-intro">Dari memahami masalah,<br />sampai mewujudkan produknya.</p>
-   <p className="hero-description">Saya menghubungkan kebutuhan pengguna, desain, dan pengembangan. Cerita kerja saya tumbuh lewat proyek di EM UB, BCC, dan berbagai eksplorasi produk digital.</p>
+   <p className="hero-description">Saya mahasiswa Pendidikan Teknologi Informasi di FILKOM Universitas Brawijaya. Saya menghubungkan kebutuhan pengguna, desain, dan pengembangan lewat proyek di EM UB, BCC, serta eksplorasi produk digital.</p>
    <div className="flex flex-wrap gap-3 mt-8">
     <Link className="action-primary group" href="#karya">Jelajahi karya <ArrowDown size={17} className="transition-transform group-hover:translate-y-1" /></Link>
     <Link className="action-secondary group" href="/about">Kenal lebih dekat <ArrowUpRight size={17} /></Link>
