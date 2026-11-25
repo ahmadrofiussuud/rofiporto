@@ -38,5 +38,5 @@ for (const route of ['/favicon.ico', '/apple-icon.png', '/branding/opengraph-ima
   const bytes = Buffer.from(await response.arrayBuffer());
   if (route.includes('opengraph')) check(bytes.readUInt32BE(16) === 1200 && bytes.readUInt32BE(20) === 630, 'Social image dimensions 1200x630');
 }
-await writeFile('docs/seo/evidence/phase4-entity-smoke.json', JSON.stringify({ base, pages: urls.length, checks: checks.length, passed: true, results: checks, graphs }, null, 2));
+await writeFile(process.argv[3] || 'docs/seo/evidence/phase4-entity-smoke.json', JSON.stringify({ base, pages: urls.length, checks: checks.length, passed: true, results: checks, graphs }, null, 2));
 console.log(`${urls.length} pages, ${checks.length} entity checks passed`);

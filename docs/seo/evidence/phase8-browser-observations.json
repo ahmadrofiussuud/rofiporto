@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-24",
+  "deploymentCommit": "fa08c14",
+  "vercelStatus": "success",
+  "deploymentUrl": "https://vercel.com/ahmadrofiussuuds-projects/rofiporto/FGdfKugNKqedryRjt437jZjAH1rK",
+  "responsive": {"routes": ["/", "/about", "/projects", "/competitions", "/contact", "/projects/amora"], "viewportWidths": [390, 768, 1440], "scrollWidths": [375, 753, 1425], "allHadOneH1": true, "brokenCompletedImages": 0},
+  "interactions": {"searchKelasin": "1 karya", "theme": "dark and light switched", "modalTabFocus": "Tutup modal", "modalEscapeRestoredFocus": "Lihat sertifikat Brand Ambassador HOLOGY — FILKOM UB", "consoleErrorsObserved": []},
+  "visualScope": "Manual screenshot checks, not automated pixel-diff; no physical-device or screen-reader test",
+  "richResults": {"url": "https://rofiporto.vercel.app/about", "resultUrl": "https://search.google.com/test/rich-results/result?id=cXzJOVrK_l9OxAUexaeWyw", "displayedCrawl": "Nov 24, 2026, 11:02:12 PM", "validItems": 2, "types": ["Breadcrumbs", "Profile page"]},
+  "schemaValidator": {"url": "https://rofiporto.vercel.app/about", "errors": 0, "warnings": 0, "connectedTypesObserved": ["Person", "CollegeOrUniversity", "WebSite", "ProfilePage", "BreadcrumbList"]},
+  "aboutIndexInspection": {"status": "URL is not on Google", "reason": "Discovered - currently not indexed", "lastCrawl": null, "userCanonical": null, "googleCanonical": null, "sitemap": "https://rofiporto.vercel.app/sitemap.xml", "referringPages": ["https://rofiporto.vercel.app/projects", "https://rofiporto.vercel.app/"]},
+  "aboutLiveTest": {"displayedTestedAt": "Nov 24, 2026, 11:02 PM", "status": "URL is available to Google", "availability": "Page can be indexed", "validRichResultItems": 2},
+  "aboutRequestIndexing": {"attempted": true, "accepted": false, "result": "Quota Exceeded", "message": "Sorry--we couldn't process this request because you've exceeded your daily quota. Please try submitting this again tomorrow.", "retryRepeated": false},
+  "remainingIndexing": "Retry after quota resets; no requests for additional URLs used to bypass limit; indexing success not claimed",
+  "sitemapResubmitted": false
+}

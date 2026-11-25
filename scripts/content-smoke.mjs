@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import { writeFile } from 'node:fs/promises';
-const base='http://127.0.0.1:3101';
+const base=process.argv[2] || 'http://127.0.0.1:3101';
 const checks=[];
 function check(condition,label){assert.ok(condition,label);checks.push(label);}
 const amora=await(await fetch(base+'/projects/amora')).text();
@@ -16,5 +16,5 @@ for (const slug of ['gestory','pahamin','rebite','umkm-go','misra']){
 const em=await(await fetch(base+'/projects/website-em-ub')).text();
 check(!em.includes('60.000'),'EM UB unsupported reach removed');
 check(em.includes('Pekerjaan pengembangan melibatkan tim'), 'EM UB team attribution visible');
-await writeFile('docs/seo/evidence/phase6-content-smoke.json',JSON.stringify({passed:true,checks:checks.length,results:checks},null,2));
+await writeFile(process.argv[3] || 'docs/seo/evidence/phase6-content-smoke.json',JSON.stringify({base,passed:true,checks:checks.length,results:checks},null,2));
 console.log(checks.length,'content integrity checks passed');

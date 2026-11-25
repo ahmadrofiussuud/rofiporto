@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import { writeFile } from 'node:fs/promises';
-const base = 'http://127.0.0.1:3101';
+const base = process.argv[2] || 'http://127.0.0.1:3101';
 const sitemap = await (await fetch(`${base}/sitemap.xml`)).text();
 const routes = [...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)].map(m => new URL(m[1]).pathname);
 const images = [], sources = new Set();
@@ -27,5 +27,5 @@ for (const source of sources) {
   assert.equal(optimized.headers.get('content-type'), 'image/webp', source);
   requests.push({source,status:response.status, optimizedStatus:optimized.status, optimizedType:optimized.headers.get('content-type'), cache:optimized.headers.get('cache-control'), bytes:(await optimized.arrayBuffer()).byteLength});
 }
-await writeFile('docs/seo/evidence/phase5-image-render-audit.json', JSON.stringify({pages:routes.length, imageElements:images.length, uniqueSources:sources.size, images, requests, passed:true},null,2));
+await writeFile(process.argv[3] || 'docs/seo/evidence/phase5-image-render-audit.json', JSON.stringify({base,pages:routes.length, imageElements:images.length, uniqueSources:sources.size, images, requests, passed:true},null,2));
 console.log(routes.length,'pages,',images.length,'image elements,',requests.length,'local sources/optimized WebP passed');

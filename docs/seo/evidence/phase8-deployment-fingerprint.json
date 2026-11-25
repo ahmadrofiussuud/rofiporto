@@ -1,0 +1,40 @@
+{
+  "base": "https://rofiporto.vercel.app",
+  "passed": true,
+  "records": [
+    {
+      "route": "/favicon.ico",
+      "status": 200,
+      "sha256": "3ce6f79cd2ac2df9063e23bdb03c75436dd6eed9fc3e1603b4f260992c683c66",
+      "matchesRepository": true
+    },
+    {
+      "route": "/apple-icon.png",
+      "status": 200,
+      "sha256": "765c5353b1a1161286493a871b6dea7801d5dfa8e2316b44a172815ac7042b7c",
+      "matchesRepository": true
+    },
+    {
+      "route": "/about/",
+      "status": 308,
+      "location": "/about"
+    },
+    {
+      "route": "/projects/amora/",
+      "status": 308,
+      "location": "/projects/amora"
+    },
+    {
+      "route": "/branding/opengraph-image",
+      "status": 200,
+      "width": 1200,
+      "height": 630
+    },
+    {
+      "route": "/",
+      "newWebsiteSchema": true,
+      "profilePageOnlyOnAbout": true,
+      "verificationPreserved": true
+    }
+  ]
+}
